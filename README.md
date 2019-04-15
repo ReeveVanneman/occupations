@@ -60,4 +60,3 @@ python program and coding files to code jobs/positions in texts to numeric codes
 #			e.g., President = 15 (usually US President); presdient=10 (chief executive)
 #		all caps words: mess up the check for proper names (e.g., COOPER=Cooper, POTTER=Potter)
 #
-MacBook:~/Documents/content/occupations/git: 
