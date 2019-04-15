@@ -13,11 +13,14 @@ python program and coding files to code jobs/positions in texts to numeric codes
 #		jobs.json = a json file of job titles and Census 2010 codes
 #			this file can always be improved and updated.
 #				esp. jobs from 2016 Census list which often had multiple Census codes, only one of which was used.
-#			jobs.json is divided into three Python dicts: 1-word, 2-word, and 3-word job titles.
-#			3-word phrase from text will be checked first if it matches a 3-word titles (abc), then 2-word (ab, ac), then 1-word (a).
+#			jobs.py divides jobs.json into three Python dicts: 1-word, 2-word, and 3-word job titles.
+#			3-word phrase is taken from text and checked first if it matches a 3-word titles (abc), then 2-word (ab, ac), then 1-word (a).
 #				if no match, the program moves on to next 3-word phrase (bcd).
 #				texts are checked only within a sentence (i.e., abc never spans two sentences)
 #		occs2010.json = a json file of Census 2010 codes and their titles.
+#   abbreviations.json = a json file of abbreviations that will be stripped of periods 
+#     abbreviations (e.g., Dr.) with periods confuse the ntlk program to divide the text into sentences
+#     so jobs.py first strips these abbreviations of the periods and then divides the text into one sentence per line
 #		nosingularize.txt = a file of words (jobtitles) that should not be singularized in the texts
 #			but would be incorrectly singularized by inflect.singnoun (e.g., boss, waitress)
 #		prefix+files.txt (e.g., NYTfiles.txt)= a file of filenames of text files to be coded.
