@@ -13,7 +13,7 @@ e.g. python3 jobs.py NYT
 
 ## compiling jobs.py:  
 jobs.py uses python standard packages: re json sys  
-jobs.pyu also uses python packages that must be downloaded and installed: nltk inflect BeautifulSoup
+jobs.py also uses python packages that must be downloaded and installed: nltk inflect BeautifulSoup
 
 ## input files:  
 - jobs.json  
