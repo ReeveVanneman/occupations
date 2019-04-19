@@ -1,6 +1,6 @@
 # jobs.py  
 a python3 program to read a series of text files and code all words, bigrams, and trigrams that are "job" (or other position) titles.
-jobs.py codes these ~30,000 "jobtitles" into 4-digit U.S. Census 2010 codes.
+jobs.py codes these ~30,000 "jobtitles" into 4-digit coding system based on the U.S. Census 2010 codes.
 
 Several "jobtitles" that are not employment Census jobs have been added with new (non-Census codes)
 (e.g., wife-> 10312, criminal-> 9850, miiitary-> 9812)
