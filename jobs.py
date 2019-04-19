@@ -2,25 +2,31 @@
 #	e.g. python3 jobs.py NYT
 #
 # jobs.py
-#	reads text files and identifies and codes all words, bigrams, and trigrams that are job titles
-#		codes job titles into 2016 4-digit U.S. Census codes 
-#		several added codes for positions that are not jobs (e.g., wife, criminal, miiitary)
+#	reads a series of text files and identifies and codes all words, bigrams, and trigrams that are "job" (or other position) titles
+#		codes these ~30,000 "jobtitles" into 2010 3-digit U.S. Census codes 
+#		several added codes for "jobtitles" that are not employment Census jobs 
+#			(e.g., wife, criminal, miiitary)
 #			these text titles are coded into new (non-Census) codes
+#			also, some Census codes are subdivided: e.g., (CEOs: govt & pvt; 
 #	input:
-#		jobs.json = a json file of job titles and Census 2010 codes
+#		jobs.json = a json file of "job" titles and Census 2010 codes
 #			this file can always be improved and updated.
-#				esp. jobs from 2016 Census list which often had multiple Census codes, only one of which was used.
-#			jobs.json is divided into three Python dicts: 1-word, 2-word, and 3-word job titles.
-#			3-word phrase from text will be checked first if it matches a 3-word titles (abc), then 2-word (ab, ac), then 1-word (a).
+#				esp. jobs from a 2016 Census coding list that often had multiple Census codes, only one of which could be used.
+#			the jobs.py program divides jobs.json into three Python dicts: 1-word, 2-word, and 3-word "job" titles.
+#			3-word phrase from text are checked first if it matches a 3-word titles (abc), 
+#				then 2-word bigram are formed from those 3 words (ab, ac) and checked against jobs.json, 
+#				then the first word of the 3 is checked against one word titles from jobs.json (a).
 #				if no match, the program moves on to next 3-word phrase (bcd).
 #				texts are checked only within a sentence (i.e., abc never spans two sentences)
-#		occs2010.json = a json file of Census 2010 codes and their titles.
+#		occs2010.json = a json file of (the somewhat expanded) Census 2010 codes and their titles.
 #		nosingularize.txt = a file of words (jobtitles) that should not be singularized in the texts
 #			but would be incorrectly singularized by inflect.singnoun (e.g., boss, waitress)
-#		prefix+files.txt (e.g., NYTfiles.txt)= a file of filenames of text files to be coded.
+#		abbreviations.json = abbreviations whose periods would confuse the sentence algorithm.
+#		prefix+files.txt (e.g., NYTfiles.txt)= a file of filenames of text files to be read and coded.
 #		two lists initialized below in the program, but probably would be more flexible as external files:
 #			1 file of words that are coded as jobs only if lower case (e.g., potter)
 #			1 file of words that are coded as jobs only if upper case (e.g., general)
+#	to compile jobs.py:
 #		uses python standard packages: re json sys
 #		uses python packages that must be downloaded and installed: nltk inflect BeautifulSoup
 #
@@ -52,7 +58,7 @@
 #		some jobs only if the word is a noun: command, guide
 #		should some plurals be recognized as a separate code?  eg. spouses=couple spouse=individual
 #			and some plurals should not be coded: counts, royalties, Queens
-#			some words would specify jobs/positions only in the plural: academics
+#			some words would specify jobs/positions only in the plural: academics, tenders
 #		should some capitalized be separate code?  
 #			e.g., President = 15 (usually US President); presdient=10 (chief executive)
 #		all caps words: mess up the check for proper names (e.g., COOPER=Cooper, POTTER=Potter)
@@ -112,7 +118,7 @@ allUpper= ['IT', 'DA', 'DO', 'COO', 'ST']
 occs2010= open("occs2010.json").read()
 # occs2010 is a long string 
 # make occs2010 into a dict, censuslabels:
-censuslabels=json.loads(occs2010)
+censuslabels= json.loads(occs2010)
 print  ('\ncensuslabels (occs 2010 titles from Census+)= ' + str(type(censuslabels)) + ' Nlines=' + str(len(censuslabels)) )
 
 # readfile of abbreviations:
@@ -257,6 +263,7 @@ for file in textfiles:
 	# abbreviations:
 	#	separate text into words in order to recode abbreviations
 	#	U.S. xxx (e.g., U.S. Attorney) confuses the sentence tokenizer as an end of sentence:
+	#	abbreviations distinguish upper case & lower case
 	textwords= textstring.replace(" ", "\n")
 	for word in textwords:
 		if word in abbrevwords:
