@@ -11,7 +11,7 @@
 #	input:
 #		jobs.json = a json file of "job" titles and Census 2010 codes
 #			this file can always be improved and updated.
-#				esp. jobs from a 2016 Census coding list that often had multiple Census codes, only one of which could be used.
+#				esp. jobtitles based on a 2016 Census coding list that often had multiple Census codes, only one of which could be used.
 #			the jobs.py program divides jobs.json into three Python dicts: 1-word, 2-word, and 3-word "job" titles.
 #			3-word phrase from text are checked first if it matches a 3-word titles (abc), 
 #				then 2-word bigram are formed from those 3 words (ab, ac) and checked against jobs.json, 
@@ -21,16 +21,16 @@
 #		occs2010.json = a json file of (the somewhat expanded) Census 2010 codes and their titles.
 #		nosingularize.txt = a file of words (jobtitles) that should not be singularized in the texts
 #			but would be incorrectly singularized by inflect.singnoun (e.g., boss, waitress)
-#		abbreviations.json = abbreviations whose periods would confuse the sentence algorithm.
 #		prefix+files.txt (e.g., NYTfiles.txt)= a file of filenames of text files to be read and coded.
 #		two lists initialized below in the program, but probably would be more flexible as external files:
 #			1 file of words that are coded as jobs only if lower case (e.g., potter)
-#			1 file of words that are coded as jobs only if upper case (e.g., general)
+#			1 file of words that are coded as jobs only if upper case (e.g., General)
 #	to compile jobs.py:
 #		uses python standard packages: re json sys
 #		uses python packages that must be downloaded and installed: nltk inflect BeautifulSoup
 #
 # todo (maybe):
+#	python program written to get the work done, not optimized
 #	need a better program to singularize words than inflect.
 #		work around now identifies ~200  words that should not be singularized, e.g., boss, bus
 #	punctuation: 
@@ -40,6 +40,7 @@
 #	how to handle text files with non-ASCII character codes
 #	analyze headings for newspapers (multiplies "writer" etc.)?
 #		do not code lines: BYLINE
+#	edit the ridiculously long military jobtitles in jobs.json
 #	disambiguation:
 #		ambiguities, more than one possible code, mostly  coded into 9998 : 
 #			band, crew, driver, intern, officer, page, partner, team,
@@ -58,9 +59,9 @@
 #		some jobs only if the word is a noun: command, guide
 #		should some plurals be recognized as a separate code?  eg. spouses=couple spouse=individual
 #			and some plurals should not be coded: counts, royalties, Queens
-#			some words would specify jobs/positions only in the plural: academics, tenders
+#			some words would specify jobs/positions only in the plural: academics
 #		should some capitalized be separate code?  
-#			e.g., President = 15 (usually US President); presdient=10 (chief executive)
+#			e.g., President = 15 (usually US President); president=10 (chief executive)
 #		all caps words: mess up the check for proper names (e.g., COOPER=Cooper, POTTER=Potter)
 #
 
@@ -89,15 +90,15 @@ from bs4 import BeautifulSoup
 
 # to split text file into sentences
 import nltk
-from nltk import sent_tokenize
+from nltk import sent_tokenize, word_tokenize
 
 # read file of words that are incorrecctly singularized by inflect.singular_noun
 #	e.g., waitress, boss, chorus, police
 #	also includes words that will not be singularized which are titles mainly when plural (e.g., sales)
 dontsing= open("nosingularize.txt").read()
 # dontsing is a long string with many end of line characters:
-# number of 1-word lower case jobtitles not to be singularized:
 dontsing=dontsing.split('\n')
+# number of 1-word lower case jobtitles not to be singularized:
 Ndontsing=len(dontsing)
 # strip off end of file line:
 dontsing=dontsing[0:Ndontsing-1]
@@ -107,44 +108,27 @@ print ('dontsing (jobtitles not singularized)= ' + str(type(dontsing)) + ' Nline
 #notwords= [ 'ain\'t', 'aren\'t', 'can\'t', 'couldn\'t', 'didn\'t', 'doesn\'t', 'don\'t', 'hadn\'t', 'hasn\'t', 'haven\'t', 'isn\'t', 'mustn\'t', 'needn\'t', 'oughtn\'t', 'shan\'t', 'shouldn\'t', 'wasn\'t', 'weren\'t', 'won\'t', 'wouldn\'t' ]
 #
 # someday these should be external files, easier to maintain
-notUpper= ['Archer', 'Baker', 'Beller', 'Bowman', 'Butler', 'Carmen', 'Carpenter', 'Carver', 'Cook', 'Cooper', 'Diver', 'Draper', 'Driver', 'Dyer', 'Fielder', 'Fletcher', 'Gilder', 'Glazer', 'Goldsmith', 'Hammersmith', 'Hooker', 'Hooper', 'Hunter', 'Jackman', 'Linderman', 'Lumper', 'Mason', 'Miller', 'Moulder', 'Pinker', 'Pitman', 'Porter', 'Potter', 'Presser', 'Rich', 'Roper', 'Sanders', 'Sawyer', 'Shearer', 'Silversmith', 'Singer', 'Skinner', 'Springer', 'Slater', 'Smith', 'Spanner', 'Steeler', 'Stoker', 'Stringer', 'Tanner', 'Turner', 'Weaver', 'Webber', 'Wheeler', 'Whistler', 'White' ]
+notUpper= ['Archer', 'Baker', 'Beller', 'Bowman', 'Butler', 'Carmen', 'Carpenter', 'Carver', 'Cook', 'Cooper', 'Diver', 'Draper', 'Driver', 'Dyer', 'Fielder', 'Fletcher', 'Gilder', 'Glazer', 'Goldsmith', 'Hammersmith', 'Hooker', 'Hooper', 'Hunter', 'Jackman', 'Linderman', 'Lumper', 'Mason', 'Miller', 'Moulder', 'Pinker', 'Pitman', 'Polish',  'Porter', 'Potter', 'Presser', 'Rich', 'Roper', 'Sanders', 'Sawyer', 'Shearer', 'Silversmith', 'Singer', 'Skinner', 'Springer', 'Slater', 'Smith', 'Spanner', 'Steeler', 'Stoker', 'Stringer', 'Tanner', 'Turner', 'Wasp', 'Weaver', 'Webber', 'Wheeler', 'Whistler', 'White' ]
 notLower= ['count', 'dds', 'general', 'guard', 'justice', 'major', 'marine', 'private' ]
-mustbeUpper= ['it', 'count', 'da', 'do', 'coo', 'st']
-allUpper= ['IT', 'DA', 'DO', 'COO', 'ST']
+mustbeUpper= ['it', 'count', 'da', 'do', 'coo', 'st', 'us', 'usa']
+allUpper= ['IT', 'DA', 'DO', 'COO', 'ST', 'US', 'USA']
 
 ####################################
-# readfile of census titles:
-#	(from US Census)
+# readfile of occupation (& other) titles (mostly from US Census):
 occs2010= open("occs2010.json").read()
-# occs2010 is a long string 
-# make occs2010 into a dict, censuslabels:
+# occs2010 is a long string, make occs2010 into a dict, censuslabels:
 censuslabels= json.loads(occs2010)
 print  ('\ncensuslabels (occs 2010 titles from Census+)= ' + str(type(censuslabels)) + ' Nlines=' + str(len(censuslabels)) )
-
-# readfile of abbreviations:
-abbrev= open("abbreviations.json").read()
-# abbrev is a long string 
-# make abbrev into a dict, :
-abbrevwords=json.loads(abbrev)
-print  ('\nabbreviations= ' + str(type(abbrevwords)) + ' Nlines=' + str(len(abbrevwords)) )
-
-# readfile of job titles:
-#	(from US Census)
+#
+# readfile of job titles (mostly from US Census):
 jobs= open("jobs.json").read()
-# close jobs.json
-# jobs is a long string 
-#print  ("jobs=", str(type(jobs)), '  Nchars=', str(len(jobs)))
-#print  (jobs)
-
-# make jobs into a dict, joblabels:
-joblabels=json.loads(jobs)
-print  ('\njoblabels (jobtitles from Census+)= ' + str(type(joblabels)) + ' Nlines=' + str(len(joblabels)) )
-
-# 3 dicts for testing:
+# jobs is a long string, make jobs into a dict, joblabels:
+joblabels= json.loads(jobs)
+print  ('\njoblabels (jobtitles mostly from Census+)= ' + str(type(joblabels)) + ' Nlines=' + str(len(joblabels)) )
+# separate jobs.json into 3 dicts (1-word, 2-word, or 3-word jobtitles) for testing texts:
 jobs1= {}
 jobs2= {}
 jobs3= {}
-# separate jobs.json into 3 dicts for testing:
 for job in joblabels:
 	Nwords= len(job.split())
 	if Nwords==1:
@@ -162,9 +146,12 @@ print ('\njobs3 (three-word jobtitles from Census)= ' + str(type(jobs3)) + ' Nli
 #	do we really need all these outputs?
 #	maybe drop the jobfile?
 #
-# main output: after processing each text, writes one record for each occ2010 found, regardless of "job" title
+# main output: after processing each text file, writes one record for each occ2010 found, regardless of "job" title
+#	blank line at beginning of each text
+#	writes as tab delimited file for input into spreadsheet/ stats program
 censusfile= prefix + "Census.xls"	
 censusf= open(censusfile, "w")
+censusf.write ("filename" + "	" + "OccCode" + "	" + "Nocc" + "	" + "Nplurals" + "	" + "Occlabel" + "\n" )
 #
 # after processing each text, writes a count of #words, #sentences, etc., one line per text
 textsfile= prefix + "Texts.xls"	
@@ -182,12 +169,12 @@ kwic= open(kwicfile, "w")
 totalsfile= prefix + "Totals.txt"	
 totalsf= open(totalsfile, "w")
 #
-# after processing each text, writes a line for every "job" title found; probably unnecessary
+# after processing each text, writes a line for every "job" title found; probably unnecessary output file
 jobfile= prefix + "Jobs.txt"	
 jobsf= open(jobfile, "w")
 
 ####################################
-# read list of filenames of input texts with movie plots, newspaper articles, other texts...
+# read list of filenames of input texts such as files with movie plots, newspaper articles, other texts...
 infilelist= prefix + "files.txt"
 files=open(infilelist).read()
 # files is a long string with all file names:
@@ -210,7 +197,7 @@ Sumjobplurals= {}
 Ntextsjob= {}
 
 for file in textfiles:
-	# write text file name to ...census.txt file:
+	# write text file name to ...Census.txt file:
 	#censusf.write ("\n" + file + ":\n" )
 	jobsf.write ("\n" + file + ":\n" )
 	kwic.write ("\n" + file + ":\n" )
@@ -226,7 +213,9 @@ for file in textfiles:
 	# drop html:
 	text1= BeautifulSoup(text0, features="html.parser")
 	textstring= text1.get_text()
-	Nwords=textstring.count(" ")
+	Nbytes=len(textstring)
+	#print ("\n" + file + ":\n" + str(textstring))
+	#Nwords=textstring.count(" ")
 	#print ("\n" + file + ":\n" + str(textstring) + "\nNwords= " + str(Nwords))
 	#
 	# add end of paragraph marker (2 end of lines together) because the sentence tokenizer will ignore paragraphing:
@@ -238,40 +227,54 @@ for file in textfiles:
 	textstring=textstring.replace('\n', ' ')
 	#
 	# 9 Aug 2018: delete hyphens
-	#	probably meaningless only grammatical distinctions between e.g., working-class and working class
-	#	re-includes 3-word hypthenated phrases that get lost when making hyphen a separate word (e.g., child - care aide)
+	#	hyphens are probably meaningless only grammatical distinctions between e.g., working-class and working class
+	#	also will match 3-word hypthenated phrases that get lost when making hyphen a separate word (e.g., child - care aide)
 	textstring=textstring.replace('-',' ')
 	#	but a couple of exceptions:
 	textstring=textstring.replace('x ray','x-ray')
 	textstring=textstring.replace('pre k','pre-k')
-	textstring=textstring.replace('teen ager','teen-ager')
+	#textstring=textstring.replace('teen ager','teen-ager')
+	#
+	# the following abbreviations cause the sentence tokenizer to split the sentence incorrectly & are part of jobs.json
+	textstring=textstring.replace('Assn.', 'Association')
+	textstring=textstring.replace('Capt.', 'Captain')
+	textstring=textstring.replace('Comdr.', 'Commander')
+	textstring=textstring.replace('Cpl.', 'Corporal')
+	textstring=textstring.replace('Dem.', 'Democrat')
+	textstring=textstring.replace('Dept.', 'Department')
+	textstring=textstring.replace('dept.', 'department')
+	textstring=textstring.replace('Gov.', 'Governor')
+	textstring=textstring.replace('J.D.', 'JD')
+	textstring=textstring.replace('Lieut.', 'Lt')
+	textstring=textstring.replace('M.D.', 'MD')
+	textstring=textstring.replace('R.N.', 'RN')
+	textstring=textstring.replace('Repub.', 'Republican')
+	textstring=textstring.replace('Rev.', 'Reverend')
+	textstring=textstring.replace('Sgt.', 'Sergeant')
+	textstring=textstring.replace('Univ.', 'University')
+	textstring=textstring.replace('V.P.', 'VP')
+	# the following abbreviations cause the sentence tokenizer to split the sentence incorrectly
+	textstring=textstring.replace('e.g.', 'eg')
+	textstring=textstring.replace('etc.', 'etc')
+	textstring=textstring.replace('et al.', 'et al')
+	textstring=textstring.replace('i.e.', 'ie')
+	# the following abbreviations get confused with real words meaning something else:
+	textstring=textstring.replace('Md.', 'Maryland')
+	textstring=textstring.replace('Pa.', 'Pennsylvania')
 	#
 	# reduce multiple blanks to a single blank
 	textstring= re.sub(" +", " ", textstring)
 	# but no blank at start of line:
-	textstring=textstring.replace("\n ", "\n")
+	#textstring=textstring.replace("\n ", "\n")
 	# and no tab at end of line:
-	textstring=textstring.replace("	\n", "\n")
+	#textstring=textstring.replace("	\n", "\n")
 	# and no blank at end of line:
-	textstring=textstring.replace(" \n", "\n")
+	#textstring=textstring.replace(" \n", "\n")
 	# drop indentations in NYTimes:
 	textstring=textstring.replace('\xa0','')
 	#
-	Nbytes=len(textstring)
 	Nwords=textstring.count(" ")
-	#
-	# abbreviations:
-	#	separate text into words in order to recode abbreviations
-	#	U.S. xxx (e.g., U.S. Attorney) confuses the sentence tokenizer as an end of sentence:
-	#	abbreviations distinguish upper case & lower case
-	textwords= textstring.replace(" ", "\n")
-	for word in textwords:
-		if word in abbrevwords:
-			word.replace=abbrevwords[word]
-	#	recreate the file as a long string:
-	textstring= textwords.replace("\n", " ")
-	#
-	#print ("\n" + file + ":\n" + str(textstring))
+	#print ("\n" + file + ":\n" + str(textstring) + "\nNbytes=" + str(Nbytes) + " " + "Nwords= " + str(Nwords))
 	#
 	# make each sentence a new string
 	textlines= sent_tokenize(textstring)
@@ -286,20 +289,25 @@ for file in textfiles:
 		if "This is an EOP." in line0:
 			Npara=Npara+1
 		line=line0.replace('This is an EOP.', '')
+		# 
+		# these replaces are done line by line (rather than for the whole textlines file) so that the kwic file looks more like the original
+		# 
+		# periods only at tend of line kept as separate word
+		line=re.sub('\.$', ' \.', line)
+		#	otherwise periods are abbreviations that have not caused sent_tokenize to break the line:
+		#	these non-problematic abbreviations are kept in jobs.json without periods
+		line=re.sub('\.', '', line)
 		# EOL is just an extra "word" at the end of the line so that the last trigram includes a real word to test as the first (2nd to last) word
 		line=re.sub('$', ' EOL ', line)
 		line=re.sub('^ EOL $', '', line)
-		# 
-		# these replaces are done line by line (rather than for the whole textlines file) so that the kwic file looks more like the original
 		# footnotes in wikipedia plot texts:
 		line=line.replace('[',' [ ')
 		line=line.replace(']',' ] ')
 		# punctuation (except hyphens) becomes a separate word:
 		line=line.replace(',', ' , ')
+		#line=line.replace('.',' .')
 		line=line.replace('/',' / ')
 		line=line.replace('|',' | ')
-		#line=line.replace(',',' ,')
-		line=line.replace('.',' .')
 		line=line.replace('?',' ?')
 		line=line.replace('!',' !')
 		line=line.replace(';',' ;')
@@ -311,10 +319,8 @@ for file in textfiles:
 		# replace ', 's,  and "
 		line=line.replace('\"',' \" ')
 		line=line.replace('\'',' \' ')
-		line=line.replace(' \' s',' \'s ')
+		line=line.replace(' \' s ',' \'s ')
 		#
-		# create list of words for this line:
-		linelist= line.split(' ')
 		# initialize in order to create tri-grams, bigrams
 		wordnewU='X'
 		wordlastU='X'
@@ -330,6 +336,8 @@ for file in textfiles:
 		wordtriU= word2ndlastU + ' ' + wordlastU + ' ' + wordnewU
 		# skipword is a flag to note a word has already been included in trigram, bigram
 		skipword=0
+		# create list of words for this line:
+		linelist= line.split(' ')
 		for wordnewU in linelist:
 			# singular forms will be tested by just singularize the last word in trigrams or bigrams.
 			#	this will miss some pluralizatons such as Attorneys General, mothers-in-law
@@ -357,17 +365,14 @@ for file in textfiles:
 			# 
 			# form trigram and bigrams with [singularized] new word
 			wordtriU= word2ndlastU + ' ' + wordlastU + ' ' + wordnewU
-			#wordtriS= word2ndlastU + ' ' + wordlastU + ' ' + wordnewS
 			wordtriS= word2ndlastS + ' ' + wordlastS + ' ' + wordnewS
 			wordtri= wordtriS.lower()
 			#
 			wordbiU= word2ndlastU + ' ' + wordlastU
-			#wordbiS= word2ndlastU + ' ' + wordlastS
 			wordbiS= word2ndlastS + ' ' + wordlastS
 			wordbi=  wordbiS.lower()
 			#
 			wordbi2U= word2ndlastU + ' ' + wordnewU
-			#wordbi2S= word2ndlastU + ' ' + wordnewS
 			wordbi2S= word2ndlastS + ' ' + wordnewS
 			wordbi2=  wordbi2S.lower()
 			#
@@ -445,12 +450,14 @@ for file in textfiles:
 			elif skipword<1 and word2ndlast in jobs1:
 				skipword==1
 				census= jobs1[word2ndlast]
+				# don't analyze words in notLower, notUpper, etc. (maybe later count them?)
 				if word2ndlastU in notLower:
 					Nlower=1
 				elif word2ndlastU in notUpper:
 					Nupper=1
 				elif word2ndlastS.lower() in mustbeUpper and word2ndlastU not in allUpper:
 					Nallupper=1
+				# so this is a valid jobtitle:
 				else:
 					# then check whether this job has already been found for this file:
 					if word2ndlast in filejobs:

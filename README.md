@@ -10,6 +10,8 @@ Also, some Census codes are subdivided: e.g., (CEOs: government-> 35;  waitress-
 ## arguments  
 jobs.py is called with one argument, a prefix for input and output files.
 e.g. python3 jobs.py NYT
+would look for a file NYTfiles.txt listing all the text filenames to be processed.
+It would also produce output files with the prefix NYT (NYTcensus.xls, NYTtotals.txt, etc.)
 
 ## compiling jobs.py:  
 jobs.py uses python standard packages: re json sys  
@@ -38,16 +40,12 @@ Text phrases are checked only within a sentence (i.e., abc never spans two sente
 
 - nosingularize.txt   
 = a file of words (jobtitles) that should not be singularized by jobs.py.
-All "jobtitles" in jobs.json are listed in the singular.
+Almost all "jobtitles" in jobs.json are listed in the singular.
 So, jobs.py singularizes words in the text before matching them to the list of job titles.
 The program keeps a separate count of plurals (since they are often more culturally meaningful).
 Currently, jobs.py uses a routine from the python package inflect to singularize plural nouns.
 But inflect will alter many singular nouns (e.g., boss, waitress) and thus not match correctly to jobs.json. 
 The current work around (nosingular.txt) identifies ~200  words that should not be singularized by jobs.py.
-
-- abbreviations.json   
-= abbreviations whose periods would confuse the sentencing algorithm.
-(e.g., U.S.A. is replaced with USA)
 
 - prefix+files.txt (e.g., NYTfiles.txt)  
 = a file of filenames of text files to be read and coded.
@@ -58,6 +56,10 @@ In practice, output files will be more compact if the text files are in the same
 notupper= text words that are coded as jobs only if they are all lower case (e.g., potter)  
 mustbeupper= words that are coded as jobs only if the first letter is upper case (e.g., General)  
 These are now two python lists initialized in jobs.py, but they would probably be more flexible if maintained as external files.
+
+- abbreviations.json (obsolete, dropped, now incorporated into jobs.py)
+= abbreviations whose periods would confuse the sentencing algorithm.
+(e.g., U.S.A. is replaced with USA)
 
 ## output files:  
 ( "XX" below is the prefix arg, e.g., NYT )
@@ -121,5 +123,5 @@ Some plurals should not be coded: counts, royalties, Queens
 Some words would specify jobtitles only in the plural: academics
     - capitalization  
 Should some capitalized be separate code?
-e.g., President = 15 (usually US President); presdient=10 (chief executive)  
+e.g., President = 15 (usually US President); president=10 (chief executive)  
 All caps words confuse the check for proper names (e.g., COOPER=Cooper, POTTER=Potter)  
