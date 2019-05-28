@@ -1,0 +1,1653 @@
+
+movies/All_About_Eve:
+movies/All_About_Eve	10	#mentions=	1	#plurals=	0	census=	9780	assistant
+movies/All_About_Eve	3	#mentions=	1	#plurals=	0	census=	2850	author
+movies/All_About_Eve	12	#mentions=	1	#plurals=	0	census=	9999	bitter
+movies/All_About_Eve	17	#mentions=	1	#plurals=	0	census=	430	boss
+movies/All_About_Eve	4	#mentions=	1	#plurals=	0	census=	10306	boyfriend
+movies/All_About_Eve	15	#mentions=	1	#plurals=	0	census=	2700	cast
+movies/All_About_Eve	14	#mentions=	1	#plurals=	1	census=	2005	critic
+movies/All_About_Eve	5	#mentions=	1	#plurals=	0	census=	3280	director
+movies/All_About_Eve	1	#mentions=	1	#plurals=	0	census=	9782	her career
+movies/All_About_Eve	9	#mentions=	1	#plurals=	0	census=	10311	husband
+movies/All_About_Eve	6	#mentions=	1	#plurals=	0	census=	9999	junior
+movies/All_About_Eve	7	#mentions=	1	#plurals=	0	census=	4230	maid
+movies/All_About_Eve	16	#mentions=	1	#plurals=	0	census=	10303	married
+movies/All_About_Eve	8	#mentions=	1	#plurals=	0	census=	9973	poor
+movies/All_About_Eve	13	#mentions=	1	#plurals=	0	census=	2710	producer
+movies/All_About_Eve	11	#mentions=	1	#plurals=	0	census=	5700	secretary
+movies/All_About_Eve	2	#mentions=	2	#plurals=	0	census=	10312	wife
+
+movies/An_American_in_Paris_(film):
+movies/An_American_in_Paris_(film)	1	#mentions=	2	#plurals=	0	census=	13840	american
+movies/An_American_in_Paris_(film)	5	#mentions=	1	#plurals=	0	census=	9780	associate
+movies/An_American_in_Paris_(film)	21	#mentions=	1	#plurals=	0	census=	9999	audience member
+movies/An_American_in_Paris_(film)	23	#mentions=	1	#plurals=	0	census=	10841	black
+movies/An_American_in_Paris_(film)	11	#mentions=	1	#plurals=	1	census=	10330	child
+movies/An_American_in_Paris_(film)	15	#mentions=	1	#plurals=	0	census=	4950	collector
+movies/An_American_in_Paris_(film)	4	#mentions=	1	#plurals=	0	census=	2750	concert pianist
+movies/An_American_in_Paris_(film)	19	#mentions=	1	#plurals=	0	census=	2750	conductor
+movies/An_American_in_Paris_(film)	12	#mentions=	1	#plurals=	0	census=	9999	escort
+movies/An_American_in_Paris_(film)	6	#mentions=	2	#plurals=	0	census=	13250	french
+movies/An_American_in_Paris_(film)	8	#mentions=	1	#plurals=	0	census=	10307	girlfriend
+movies/An_American_in_Paris_(film)	9	#mentions=	1	#plurals=	0	census=	17	heiress
+movies/An_American_in_Paris_(film)	14	#mentions=	1	#plurals=	0	census=	9782	her work
+movies/An_American_in_Paris_(film)	10	#mentions=	2	#plurals=	1	census=	9781	his work
+movies/An_American_in_Paris_(film)	3	#mentions=	1	#plurals=	0	census=	13927	levant
+movies/An_American_in_Paris_(film)	20	#mentions=	1	#plurals=	0	census=	9999	member of
+movies/An_American_in_Paris_(film)	18	#mentions=	2	#plurals=	0	census=	2750	orchestra
+movies/An_American_in_Paris_(film)	2	#mentions=	1	#plurals=	0	census=	2600	painter
+movies/An_American_in_Paris_(film)	17	#mentions=	1	#plurals=	0	census=	9999	river
+movies/An_American_in_Paris_(film)	7	#mentions=	1	#plurals=	0	census=	2750	singer
+movies/An_American_in_Paris_(film)	13	#mentions=	1	#plurals=	0	census=	9999	sponsor
+movies/An_American_in_Paris_(film)	22	#mentions=	1	#plurals=	1	census=	10860	student
+movies/An_American_in_Paris_(film)	24	#mentions=	1	#plurals=	0	census=	10840	white
+movies/An_American_in_Paris_(film)	16	#mentions=	1	#plurals=	1	census=	9789	work
+
+movies/The_Greatest_Show_on_Earth_(film):
+movies/The_Greatest_Show_on_Earth_(film)	24	#mentions=	1	#plurals=	1	census=	2760	aerialist
+movies/The_Greatest_Show_on_Earth_(film)	26	#mentions=	7	#plurals=	0	census=	10600	angel
+movies/The_Greatest_Show_on_Earth_(film)	13	#mentions=	2	#plurals=	0	census=	2600	artist
+movies/The_Greatest_Show_on_Earth_(film)	39	#mentions=	1	#plurals=	0	census=	10841	black
+movies/The_Greatest_Show_on_Earth_(film)	7	#mentions=	1	#plurals=	1	census=	10341	bro
+movies/The_Greatest_Show_on_Earth_(film)	19	#mentions=	3	#plurals=	0	census=	2760	clown
+movies/The_Greatest_Show_on_Earth_(film)	16	#mentions=	1	#plurals=	0	census=	310	concessionaire
+movies/The_Greatest_Show_on_Earth_(film)	11	#mentions=	1	#plurals=	0	census=	9977	debonair
+movies/The_Greatest_Show_on_Earth_(film)	35	#mentions=	2	#plurals=	0	census=	3820	detective
+movies/The_Greatest_Show_on_Earth_(film)	3	#mentions=	1	#plurals=	1	census=	3280	director
+movies/The_Greatest_Show_on_Earth_(film)	22	#mentions=	5	#plurals=	0	census=	3060	doctor
+movies/The_Greatest_Show_on_Earth_(film)	4	#mentions=	1	#plurals=	0	census=	9789	employed
+movies/The_Greatest_Show_on_Earth_(film)	34	#mentions=	1	#plurals=	0	census=	15200	fbi
+movies/The_Greatest_Show_on_Earth_(film)	38	#mentions=	1	#plurals=	0	census=	3820	fbi agent
+movies/The_Greatest_Show_on_Earth_(film)	9	#mentions=	1	#plurals=	0	census=	9999	flyer
+movies/The_Greatest_Show_on_Earth_(film)	36	#mentions=	1	#plurals=	0	census=	9858	fugitive
+movies/The_Greatest_Show_on_Earth_(film)	18	#mentions=	1	#plurals=	0	census=	9857	gangster
+movies/The_Greatest_Show_on_Earth_(film)	1	#mentions=	1	#plurals=	0	census=	20	general manager
+movies/The_Greatest_Show_on_Earth_(film)	8	#mentions=	1	#plurals=	0	census=	10307	girlfriend
+movies/The_Greatest_Show_on_Earth_(film)	2	#mentions=	2	#plurals=	1	census=	9999	hand
+movies/The_Greatest_Show_on_Earth_(film)	12	#mentions=	1	#plurals=	0	census=	33	king
+movies/The_Greatest_Show_on_Earth_(film)	25	#mentions=	1	#plurals=	1	census=	10305	lover
+movies/The_Greatest_Show_on_Earth_(film)	10	#mentions=	1	#plurals=	0	census=	430	management
+movies/The_Greatest_Show_on_Earth_(film)	30	#mentions=	1	#plurals=	0	census=	9999	mate
+movies/The_Greatest_Show_on_Earth_(film)	20	#mentions=	1	#plurals=	0	census=	9999	member of
+movies/The_Greatest_Show_on_Earth_(film)	21	#mentions=	1	#plurals=	0	census=	10322	mother
+movies/The_Greatest_Show_on_Earth_(film)	5	#mentions=	2	#plurals=	2	census=	2760	performer
+movies/The_Greatest_Show_on_Earth_(film)	29	#mentions=	1	#plurals=	0	census=	3050	pharmacist
+movies/The_Greatest_Show_on_Earth_(film)	37	#mentions=	1	#plurals=	0	census=	3850	police
+movies/The_Greatest_Show_on_Earth_(film)	6	#mentions=	1	#plurals=	1	census=	6920	roustabout
+movies/The_Greatest_Show_on_Earth_(film)	14	#mentions=	4	#plurals=	0	census=	9999	second
+movies/The_Greatest_Show_on_Earth_(film)	28	#mentions=	1	#plurals=	0	census=	2750	singer
+movies/The_Greatest_Show_on_Earth_(film)	33	#mentions=	1	#plurals=	0	census=	3820	special agent
+movies/The_Greatest_Show_on_Earth_(film)	32	#mentions=	1	#plurals=	0	census=	33	sultan
+movies/The_Greatest_Show_on_Earth_(film)	31	#mentions=	1	#plurals=	0	census=	2720	trainer
+movies/The_Greatest_Show_on_Earth_(film)	27	#mentions=	1	#plurals=	0	census=	2750	vocalist
+movies/The_Greatest_Show_on_Earth_(film)	23	#mentions=	2	#plurals=	0	census=	10312	wife
+movies/The_Greatest_Show_on_Earth_(film)	17	#mentions=	2	#plurals=	2	census=	9789	work
+movies/The_Greatest_Show_on_Earth_(film)	15	#mentions=	1	#plurals=	0	census=	9789	worked
+
+movies/From_Here_to_Eternity:
+movies/From_Here_to_Eternity	23	#mentions=	1	#plurals=	0	census=	3288	aide
+movies/From_Here_to_Eternity	6	#mentions=	1	#plurals=	0	census=	2720	boxer
+movies/From_Here_to_Eternity	1	#mentions=	1	#plurals=	0	census=	2750	bugler
+movies/From_Here_to_Eternity	5	#mentions=	2	#plurals=	0	census=	9800	captain
+movies/From_Here_to_Eternity	2	#mentions=	1	#plurals=	0	census=	9789	career
+movies/From_Here_to_Eternity	21	#mentions=	3	#plurals=	0	census=	9800	commander
+movies/From_Here_to_Eternity	14	#mentions=	1	#plurals=	0	census=	3060	doctor
+movies/From_Here_to_Eternity	24	#mentions=	1	#plurals=	1	census=	9999	hand
+movies/From_Here_to_Eternity	19	#mentions=	1	#plurals=	0	census=	9999	head
+movies/From_Here_to_Eternity	28	#mentions=	1	#plurals=	0	census=	10311	husband
+movies/From_Here_to_Eternity	22	#mentions=	1	#plurals=	0	census=	35	inspector general
+movies/From_Here_to_Eternity	26	#mentions=	1	#plurals=	1	census=	13392	japanese
+movies/From_Here_to_Eternity	16	#mentions=	1	#plurals=	0	census=	9789	job
+movies/From_Here_to_Eternity	13	#mentions=	1	#plurals=	0	census=	10303	marriage
+movies/From_Here_to_Eternity	25	#mentions=	1	#plurals=	0	census=	9819	military
+movies/From_Here_to_Eternity	20	#mentions=	1	#plurals=	0	census=	9812	military police
+movies/From_Here_to_Eternity	11	#mentions=	1	#plurals=	1	census=	9810	non commissioned officer
+movies/From_Here_to_Eternity	15	#mentions=	1	#plurals=	0	census=	9997	officer
+movies/From_Here_to_Eternity	27	#mentions=	1	#plurals=	0	census=	9999	officer training
+movies/From_Here_to_Eternity	8	#mentions=	1	#plurals=	0	census=	9998	partner
+movies/From_Here_to_Eternity	29	#mentions=	1	#plurals=	0	census=	9030	pilot
+movies/From_Here_to_Eternity	4	#mentions=	2	#plurals=	0	census=	9999	private
+movies/From_Here_to_Eternity	9	#mentions=	4	#plurals=	0	census=	9810	sergeant
+movies/From_Here_to_Eternity	18	#mentions=	1	#plurals=	0	census=	10342	sister
+movies/From_Here_to_Eternity	3	#mentions=	1	#plurals=	0	census=	9812	soldier
+movies/From_Here_to_Eternity	17	#mentions=	1	#plurals=	0	census=	9810	staff sergeant
+movies/From_Here_to_Eternity	7	#mentions=	2	#plurals=	0	census=	9998	team
+movies/From_Here_to_Eternity	10	#mentions=	10	#plurals=	0	census=	3700	warden
+movies/From_Here_to_Eternity	12	#mentions=	1	#plurals=	0	census=	10312	wife
+
+movies/On_the_Waterfront:
+movies/On_the_Waterfront	1	#mentions=	1	#plurals=	0	census=	430	boss
+movies/On_the_Waterfront	6	#mentions=	1	#plurals=	0	census=	2720	boxer
+movies/On_the_Waterfront	4	#mentions=	5	#plurals=	0	census=	10341	brother
+movies/On_the_Waterfront	14	#mentions=	1	#plurals=	0	census=	9789	career
+movies/On_the_Waterfront	15	#mentions=	1	#plurals=	0	census=	32	contender
+movies/On_the_Waterfront	3	#mentions=	5	#plurals=	2	census=	9620	dockworker
+movies/On_the_Waterfront	7	#mentions=	1	#plurals=	1	census=	9857	enforcer
+movies/On_the_Waterfront	10	#mentions=	7	#plurals=	0	census=	10321	father
+movies/On_the_Waterfront	18	#mentions=	1	#plurals=	0	census=	9850	gang
+movies/On_the_Waterfront	5	#mentions=	2	#plurals=	0	census=	9999	hand
+movies/On_the_Waterfront	12	#mentions=	1	#plurals=	0	census=	9789	job
+movies/On_the_Waterfront	11	#mentions=	1	#plurals=	1	census=	9620	longshoreman
+movies/On_the_Waterfront	16	#mentions=	1	#plurals=	0	census=	9857	mob boss
+movies/On_the_Waterfront	2	#mentions=	1	#plurals=	0	census=	3850	police
+movies/On_the_Waterfront	9	#mentions=	1	#plurals=	0	census=	2040	priest
+movies/On_the_Waterfront	20	#mentions=	1	#plurals=	0	census=	9999	river
+movies/On_the_Waterfront	8	#mentions=	1	#plurals=	0	census=	10342	sister
+movies/On_the_Waterfront	17	#mentions=	1	#plurals=	1	census=	9850	thug
+movies/On_the_Waterfront	13	#mentions=	2	#plurals=	0	census=	9789	work
+movies/On_the_Waterfront	21	#mentions=	1	#plurals=	1	census=	9780	worker
+movies/On_the_Waterfront	19	#mentions=	1	#plurals=	0	census=	9789	working
+
+movies/Marty_(film):
+movies/Marty_(film)	2	#mentions=	1	#plurals=	0	census=	13840	american
+movies/Marty_(film)	14	#mentions=	1	#plurals=	0	census=	10362	aunt
+movies/Marty_(film)	7	#mentions=	1	#plurals=	1	census=	10341	brother
+movies/Marty_(film)	3	#mentions=	1	#plurals=	0	census=	7810	butcher
+movies/Marty_(film)	15	#mentions=	1	#plurals=	0	census=	2700	cast
+movies/Marty_(film)	10	#mentions=	1	#plurals=	1	census=	10330	child
+movies/Marty_(film)	6	#mentions=	1	#plurals=	0	census=	10380	family
+movies/Marty_(film)	1	#mentions=	1	#plurals=	0	census=	13380	italian
+movies/Marty_(film)	11	#mentions=	1	#plurals=	0	census=	10303	marriage
+movies/Marty_(film)	9	#mentions=	1	#plurals=	0	census=	10303	married
+movies/Marty_(film)	4	#mentions=	7	#plurals=	0	census=	10322	mother
+movies/Marty_(film)	17	#mentions=	1	#plurals=	1	census=	10320	parent
+movies/Marty_(film)	12	#mentions=	1	#plurals=	0	census=	2340	schoolteacher
+movies/Marty_(film)	8	#mentions=	1	#plurals=	1	census=	10342	sister
+movies/Marty_(film)	16	#mentions=	1	#plurals=	0	census=	16102	television
+movies/Marty_(film)	5	#mentions=	2	#plurals=	0	census=	10304	unmarried
+movies/Marty_(film)	13	#mentions=	1	#plurals=	0	census=	10301	widowed
+
+movies/Around_the_World_in_80_Days_(1956_film):
+movies/Around_the_World_in_80_Days_(1956_film)	8	#mentions=	1	#plurals=	0	census=	13825	british
+movies/Around_the_World_in_80_Days_(1956_film)	5	#mentions=	1	#plurals=	0	census=	2760	comic
+movies/Around_the_World_in_80_Days_(1956_film)	15	#mentions=	1	#plurals=	0	census=	9850	culprit
+movies/Around_the_World_in_80_Days_(1956_film)	16	#mentions=	1	#plurals=	0	census=	9999	hand
+movies/Around_the_World_in_80_Days_(1956_film)	13	#mentions=	1	#plurals=	0	census=	13344	hong kong
+movies/Around_the_World_in_80_Days_(1956_film)	12	#mentions=	1	#plurals=	0	census=	10311	husband
+movies/Around_the_World_in_80_Days_(1956_film)	9	#mentions=	1	#plurals=	0	census=	13356	india
+movies/Around_the_World_in_80_Days_(1956_film)	14	#mentions=	1	#plurals=	0	census=	3820	inspector
+movies/Around_the_World_in_80_Days_(1956_film)	1	#mentions=	1	#plurals=	0	census=	2810	journalist
+movies/Around_the_World_in_80_Days_(1956_film)	2	#mentions=	1	#plurals=	0	census=	9999	member of
+movies/Around_the_World_in_80_Days_(1956_film)	6	#mentions=	1	#plurals=	0	census=	3820	police inspector
+movies/Around_the_World_in_80_Days_(1956_film)	11	#mentions=	1	#plurals=	0	census=	33	princess
+movies/Around_the_World_in_80_Days_(1956_film)	7	#mentions=	1	#plurals=	0	census=	13828	scotland
+movies/Around_the_World_in_80_Days_(1956_film)	4	#mentions=	1	#plurals=	0	census=	13724	spain
+movies/Around_the_World_in_80_Days_(1956_film)	3	#mentions=	1	#plurals=	0	census=	4650	valet
+movies/Around_the_World_in_80_Days_(1956_film)	10	#mentions=	1	#plurals=	0	census=	10301	widow
+
+movies/The_Bridge_on_the_River_Kwai:
+movies/The_Bridge_on_the_River_Kwai	26	#mentions=	1	#plurals=	0	census=	13840	american
+movies/The_Bridge_on_the_River_Kwai	29	#mentions=	1	#plurals=	0	census=	9819	army
+movies/The_Bridge_on_the_River_Kwai	1	#mentions=	6	#plurals=	0	census=	13825	british
+movies/The_Bridge_on_the_River_Kwai	3	#mentions=	1	#plurals=	0	census=	13104	burma
+movies/The_Bridge_on_the_River_Kwai	31	#mentions=	1	#plurals=	0	census=	13124	canadian
+movies/The_Bridge_on_the_River_Kwai	21	#mentions=	1	#plurals=	0	census=	9800	captain
+movies/The_Bridge_on_the_River_Kwai	24	#mentions=	1	#plurals=	0	census=	13144	ceylon
+movies/The_Bridge_on_the_River_Kwai	33	#mentions=	1	#plurals=	0	census=	430	chief
+movies/The_Bridge_on_the_River_Kwai	5	#mentions=	3	#plurals=	0	census=	9800	colonel
+movies/The_Bridge_on_the_River_Kwai	4	#mentions=	1	#plurals=	0	census=	230	commandant
+movies/The_Bridge_on_the_River_Kwai	30	#mentions=	2	#plurals=	1	census=	9812	commando
+movies/The_Bridge_on_the_River_Kwai	8	#mentions=	2	#plurals=	0	census=	15040	construction
+movies/The_Bridge_on_the_River_Kwai	35	#mentions=	4	#plurals=	0	census=	6830	detonator
+movies/The_Bridge_on_the_River_Kwai	22	#mentions=	1	#plurals=	1	census=	1530	engineer
+movies/The_Bridge_on_the_River_Kwai	37	#mentions=	1	#plurals=	0	census=	9999	head
+movies/The_Bridge_on_the_River_Kwai	18	#mentions=	1	#plurals=	0	census=	13392	japan
+movies/The_Bridge_on_the_River_Kwai	2	#mentions=	8	#plurals=	8	census=	13392	japanese
+movies/The_Bridge_on_the_River_Kwai	20	#mentions=	1	#plurals=	0	census=	9789	job
+movies/The_Bridge_on_the_River_Kwai	32	#mentions=	1	#plurals=	0	census=	9800	lieutenant
+movies/The_Bridge_on_the_River_Kwai	12	#mentions=	1	#plurals=	0	census=	9800	lieutenant colonel
+movies/The_Bridge_on_the_River_Kwai	13	#mentions=	3	#plurals=	0	census=	9800	major
+movies/The_Bridge_on_the_River_Kwai	14	#mentions=	1	#plurals=	0	census=	350	medical officer
+movies/The_Bridge_on_the_River_Kwai	27	#mentions=	1	#plurals=	0	census=	9819	navy
+movies/The_Bridge_on_the_River_Kwai	16	#mentions=	1	#plurals=	0	census=	9800	navy commander
+movies/The_Bridge_on_the_River_Kwai	17	#mentions=	1	#plurals=	0	census=	3255	nurse
+movies/The_Bridge_on_the_River_Kwai	11	#mentions=	8	#plurals=	6	census=	9997	officer
+movies/The_Bridge_on_the_River_Kwai	36	#mentions=	1	#plurals=	0	census=	8040	plunger
+movies/The_Bridge_on_the_River_Kwai	23	#mentions=	1	#plurals=	0	census=	9973	poor
+movies/The_Bridge_on_the_River_Kwai	6	#mentions=	3	#plurals=	3	census=	9858	prisoner
+movies/The_Bridge_on_the_River_Kwai	9	#mentions=	4	#plurals=	0	census=	9999	river
+movies/The_Bridge_on_the_River_Kwai	10	#mentions=	1	#plurals=	0	census=	9999	senior
+movies/The_Bridge_on_the_River_Kwai	34	#mentions=	1	#plurals=	1	census=	9812	soldier
+movies/The_Bridge_on_the_River_Kwai	19	#mentions=	1	#plurals=	0	census=	9973	the poor
+movies/The_Bridge_on_the_River_Kwai	15	#mentions=	1	#plurals=	1	census=	13840	united state
+movies/The_Bridge_on_the_River_Kwai	28	#mentions=	1	#plurals=	1	census=	9992	volunteer
+movies/The_Bridge_on_the_River_Kwai	25	#mentions=	6	#plurals=	0	census=	3700	warden
+movies/The_Bridge_on_the_River_Kwai	7	#mentions=	4	#plurals=	0	census=	9789	work
+
+movies/Gigi_(1958_film):
+movies/Gigi_(1958_film)	7	#mentions=	3	#plurals=	0	census=	10362	aunt
+movies/Gigi_(1958_film)	9	#mentions=	1	#plurals=	0	census=	10341	brother
+movies/Gigi_(1958_film)	14	#mentions=	1	#plurals=	0	census=	10382	couple
+movies/Gigi_(1958_film)	6	#mentions=	2	#plurals=	0	census=	10380	family
+movies/Gigi_(1958_film)	5	#mentions=	1	#plurals=	0	census=	10357	granddaughter
+movies/Gigi_(1958_film)	12	#mentions=	4	#plurals=	0	census=	10352	grandmother
+movies/Gigi_(1958_film)	13	#mentions=	1	#plurals=	0	census=	9999	head
+movies/Gigi_(1958_film)	11	#mentions=	1	#plurals=	0	census=	2340	instructor
+movies/Gigi_(1958_film)	2	#mentions=	2	#plurals=	0	census=	10303	marriage
+movies/Gigi_(1958_film)	15	#mentions=	1	#plurals=	0	census=	10303	married
+movies/Gigi_(1958_film)	1	#mentions=	1	#plurals=	0	census=	9999	member of
+movies/Gigi_(1958_film)	8	#mentions=	8	#plurals=	1	census=	10305	mistress
+movies/Gigi_(1958_film)	4	#mentions=	1	#plurals=	0	census=	10334	nephew
+movies/Gigi_(1958_film)	10	#mentions=	2	#plurals=	0	census=	10361	uncle
+movies/Gigi_(1958_film)	3	#mentions=	2	#plurals=	0	census=	9976	wealthy
+
+movies/Ben-Hur_(1959_film):
+movies/Ben-Hur_(1959_film)	23	#mentions=	1	#plurals=	0	census=	13928	arab
+movies/Ben-Hur_(1959_film)	12	#mentions=	2	#plurals=	0	census=	9800	commander
+movies/Ben-Hur_(1959_film)	16	#mentions=	1	#plurals=	0	census=	35	consul
+movies/Ben-Hur_(1959_film)	10	#mentions=	2	#plurals=	0	census=	10332	daughter
+movies/Ben-Hur_(1959_film)	21	#mentions=	1	#plurals=	0	census=	33	emperor
+movies/Ben-Hur_(1959_film)	8	#mentions=	4	#plurals=	0	census=	10380	family
+movies/Ben-Hur_(1959_film)	19	#mentions=	1	#plurals=	0	census=	9814	gladiator
+movies/Ben-Hur_(1959_film)	20	#mentions=	1	#plurals=	0	census=	10605	god
+movies/Ben-Hur_(1959_film)	14	#mentions=	2	#plurals=	0	census=	15	governor
+movies/Ben-Hur_(1959_film)	15	#mentions=	1	#plurals=	0	census=	9999	heater
+movies/Ben-Hur_(1959_film)	2	#mentions=	3	#plurals=	0	census=	11835	jewish
+movies/Ben-Hur_(1959_film)	17	#mentions=	2	#plurals=	1	census=	13807	macedonian
+movies/Ben-Hur_(1959_film)	25	#mentions=	1	#plurals=	0	census=	10303	marriage
+movies/Ben-Hur_(1959_film)	4	#mentions=	2	#plurals=	0	census=	25	merchant
+movies/Ben-Hur_(1959_film)	5	#mentions=	3	#plurals=	0	census=	10322	mother
+movies/Ben-Hur_(1959_film)	18	#mentions=	1	#plurals=	1	census=	9854	pirate
+movies/Ben-Hur_(1959_film)	3	#mentions=	1	#plurals=	0	census=	33	prince
+movies/Ben-Hur_(1959_film)	13	#mentions=	1	#plurals=	1	census=	9813	rebel
+movies/Ben-Hur_(1959_film)	7	#mentions=	1	#plurals=	0	census=	4650	servant
+movies/Ben-Hur_(1959_film)	24	#mentions=	2	#plurals=	0	census=	33	sheik
+movies/Ben-Hur_(1959_film)	6	#mentions=	3	#plurals=	0	census=	10342	sister
+movies/Ben-Hur_(1959_film)	9	#mentions=	3	#plurals=	1	census=	9975	slave
+movies/Ben-Hur_(1959_film)	22	#mentions=	1	#plurals=	0	census=	10331	son
+movies/Ben-Hur_(1959_film)	11	#mentions=	1	#plurals=	0	census=	9814	tribune
+movies/Ben-Hur_(1959_film)	1	#mentions=	2	#plurals=	0	census=	9976	wealthy
+
+movies/The_Apartment:
+movies/The_Apartment	17	#mentions=	1	#plurals=	0	census=	10347	brother in law
+movies/The_Apartment	7	#mentions=	1	#plurals=	0	census=	9750	elevator operator
+movies/The_Apartment	10	#mentions=	1	#plurals=	1	census=	9780	employee
+movies/The_Apartment	5	#mentions=	1	#plurals=	0	census=	9977	exclusive
+movies/The_Apartment	16	#mentions=	3	#plurals=	2	census=	430	executive
+movies/The_Apartment	11	#mentions=	2	#plurals=	0	census=	10380	family
+movies/The_Apartment	15	#mentions=	1	#plurals=	0	census=	9999	head
+movies/The_Apartment	13	#mentions=	1	#plurals=	0	census=	9781	his job
+movies/The_Apartment	1	#mentions=	1	#plurals=	0	census=	15110	insurance
+movies/The_Apartment	19	#mentions=	1	#plurals=	0	census=	9789	job
+movies/The_Apartment	14	#mentions=	1	#plurals=	1	census=	10305	lover
+movies/The_Apartment	2	#mentions=	2	#plurals=	2	census=	430	manager
+movies/The_Apartment	18	#mentions=	1	#plurals=	0	census=	9999	packing
+movies/The_Apartment	4	#mentions=	1	#plurals=	0	census=	136	personnel director
+movies/The_Apartment	12	#mentions=	1	#plurals=	0	census=	9999	pick up
+movies/The_Apartment	9	#mentions=	1	#plurals=	0	census=	5700	secretary
+movies/The_Apartment	3	#mentions=	1	#plurals=	0	census=	6100	waterman
+movies/The_Apartment	8	#mentions=	3	#plurals=	0	census=	10312	wife
+movies/The_Apartment	6	#mentions=	1	#plurals=	0	census=	9789	work
+
+movies/West_Side_Story_(film):
+movies/West_Side_Story_(film)	2	#mentions=	1	#plurals=	0	census=	13840	american
+movies/West_Side_Story_(film)	7	#mentions=	1	#plurals=	0	census=	25	founder
+movies/West_Side_Story_(film)	3	#mentions=	7	#plurals=	4	census=	9850	gang
+movies/West_Side_Story_(film)	9	#mentions=	1	#plurals=	0	census=	10307	girlfriend
+movies/West_Side_Story_(film)	13	#mentions=	1	#plurals=	0	census=	9999	leader
+movies/West_Side_Story_(film)	5	#mentions=	1	#plurals=	0	census=	9800	lieutenant
+movies/West_Side_Story_(film)	6	#mentions=	1	#plurals=	0	census=	9997	officer
+movies/West_Side_Story_(film)	14	#mentions=	1	#plurals=	0	census=	9999	pick up
+movies/West_Side_Story_(film)	12	#mentions=	4	#plurals=	0	census=	3850	police
+movies/West_Side_Story_(film)	4	#mentions=	1	#plurals=	0	census=	13630	puerto rican
+movies/West_Side_Story_(film)	10	#mentions=	1	#plurals=	0	census=	13630	puerto rico
+movies/West_Side_Story_(film)	8	#mentions=	1	#plurals=	0	census=	10342	sister
+movies/West_Side_Story_(film)	11	#mentions=	1	#plurals=	1	census=	13840	united state
+movies/West_Side_Story_(film)	1	#mentions=	1	#plurals=	0	census=	10840	white
+
+movies/Lawrence_of_Arabia_(film):
+movies/Lawrence_of_Arabia_(film)	18	#mentions=	1	#plurals=	0	census=	13840	american
+movies/Lawrence_of_Arabia_(film)	6	#mentions=	9	#plurals=	5	census=	13928	arab
+movies/Lawrence_of_Arabia_(film)	22	#mentions=	1	#plurals=	0	census=	9819	army
+movies/Lawrence_of_Arabia_(film)	4	#mentions=	1	#plurals=	0	census=	9800	army lieutenant
+movies/Lawrence_of_Arabia_(film)	25	#mentions=	1	#plurals=	0	census=	13825	britain
+movies/Lawrence_of_Arabia_(film)	3	#mentions=	6	#plurals=	0	census=	13825	british
+movies/Lawrence_of_Arabia_(film)	10	#mentions=	2	#plurals=	0	census=	9800	colonel
+movies/Lawrence_of_Arabia_(film)	17	#mentions=	1	#plurals=	0	census=	9800	commander
+movies/Lawrence_of_Arabia_(film)	19	#mentions=	1	#plurals=	0	census=	2810	correspondent
+movies/Lawrence_of_Arabia_(film)	14	#mentions=	1	#plurals=	0	census=	9850	culprit
+movies/Lawrence_of_Arabia_(film)	5	#mentions=	3	#plurals=	0	census=	9800	general
+movies/Lawrence_of_Arabia_(film)	9	#mentions=	1	#plurals=	0	census=	9998	guide
+movies/Lawrence_of_Arabia_(film)	16	#mentions=	1	#plurals=	1	census=	9999	head
+movies/Lawrence_of_Arabia_(film)	12	#mentions=	1	#plurals=	0	census=	9999	leader
+movies/Lawrence_of_Arabia_(film)	26	#mentions=	1	#plurals=	0	census=	2720	motorcyclist
+movies/Lawrence_of_Arabia_(film)	13	#mentions=	1	#plurals=	0	census=	9856	murderer
+movies/Lawrence_of_Arabia_(film)	7	#mentions=	2	#plurals=	0	census=	33	prince
+movies/Lawrence_of_Arabia_(film)	24	#mentions=	1	#plurals=	1	census=	9858	prisoner
+movies/Lawrence_of_Arabia_(film)	2	#mentions=	1	#plurals=	0	census=	2810	reporter
+movies/Lawrence_of_Arabia_(film)	21	#mentions=	2	#plurals=	2	census=	9999	resident
+movies/Lawrence_of_Arabia_(film)	20	#mentions=	1	#plurals=	1	census=	9812	scout
+movies/Lawrence_of_Arabia_(film)	11	#mentions=	1	#plurals=	1	census=	4650	servant
+movies/Lawrence_of_Arabia_(film)	1	#mentions=	1	#plurals=	0	census=	9999	service
+movies/Lawrence_of_Arabia_(film)	23	#mentions=	1	#plurals=	1	census=	9812	soldier
+movies/Lawrence_of_Arabia_(film)	8	#mentions=	4	#plurals=	4	census=	13792	turk
+movies/Lawrence_of_Arabia_(film)	15	#mentions=	3	#plurals=	0	census=	13792	turkish
+
+movies/Tom_Jones_(1963_film):
+movies/Tom_Jones_(1963_film)	16	#mentions=	1	#plurals=	0	census=	9999	agent of
+movies/Tom_Jones_(1963_film)	5	#mentions=	1	#plurals=	0	census=	10362	aunt
+movies/Tom_Jones_(1963_film)	1	#mentions=	1	#plurals=	0	census=	4500	barber
+movies/Tom_Jones_(1963_film)	19	#mentions=	1	#plurals=	0	census=	10341	brother
+movies/Tom_Jones_(1963_film)	17	#mentions=	1	#plurals=	0	census=	10330	child
+movies/Tom_Jones_(1963_film)	4	#mentions=	3	#plurals=	0	census=	10321	father
+movies/Tom_Jones_(1963_film)	8	#mentions=	3	#plurals=	0	census=	10322	mother
+movies/Tom_Jones_(1963_film)	18	#mentions=	1	#plurals=	0	census=	10334	nephew
+movies/Tom_Jones_(1963_film)	13	#mentions=	1	#plurals=	0	census=	33	noblewoman
+movies/Tom_Jones_(1963_film)	12	#mentions=	1	#plurals=	0	census=	9997	officer
+movies/Tom_Jones_(1963_film)	14	#mentions=	1	#plurals=	0	census=	9976	rich
+movies/Tom_Jones_(1963_film)	2	#mentions=	1	#plurals=	1	census=	4650	servant
+movies/Tom_Jones_(1963_film)	15	#mentions=	1	#plurals=	1	census=	9999	service
+movies/Tom_Jones_(1963_film)	7	#mentions=	1	#plurals=	0	census=	10342	sister
+movies/Tom_Jones_(1963_film)	3	#mentions=	3	#plurals=	0	census=	10331	son
+movies/Tom_Jones_(1963_film)	10	#mentions=	1	#plurals=	1	census=	2340	tutor
+movies/Tom_Jones_(1963_film)	9	#mentions=	1	#plurals=	0	census=	10361	uncle
+movies/Tom_Jones_(1963_film)	6	#mentions=	1	#plurals=	0	census=	10301	widowed
+movies/Tom_Jones_(1963_film)	11	#mentions=	1	#plurals=	0	census=	10312	wife
+
+movies/My_Fair_Lady_(film):
+movies/My_Fair_Lady_(film)	13	#mentions=	2	#plurals=	0	census=	13840	american
+movies/My_Fair_Lady_(film)	23	#mentions=	1	#plurals=	0	census=	9780	assistant
+movies/My_Fair_Lady_(film)	8	#mentions=	1	#plurals=	0	census=	4650	attendant
+movies/My_Fair_Lady_(film)	2	#mentions=	1	#plurals=	0	census=	9800	colonel
+movies/My_Fair_Lady_(film)	11	#mentions=	2	#plurals=	0	census=	10332	daughter
+movies/My_Fair_Lady_(film)	6	#mentions=	1	#plurals=	0	census=	33	duchess
+movies/My_Fair_Lady_(film)	5	#mentions=	1	#plurals=	0	census=	33	duke
+movies/My_Fair_Lady_(film)	3	#mentions=	2	#plurals=	0	census=	2005	expert
+movies/My_Fair_Lady_(film)	10	#mentions=	2	#plurals=	0	census=	10321	father
+movies/My_Fair_Lady_(film)	16	#mentions=	2	#plurals=	1	census=	9999	hand
+movies/My_Fair_Lady_(film)	18	#mentions=	2	#plurals=	0	census=	13348	hungarian
+movies/My_Fair_Lady_(film)	4	#mentions=	1	#plurals=	0	census=	13356	india
+movies/My_Fair_Lady_(film)	20	#mentions=	1	#plurals=	0	census=	9970	middle class
+movies/My_Fair_Lady_(film)	21	#mentions=	2	#plurals=	0	census=	10322	mother
+movies/My_Fair_Lady_(film)	9	#mentions=	1	#plurals=	0	census=	9999	ordinary
+movies/My_Fair_Lady_(film)	17	#mentions=	1	#plurals=	0	census=	33	prince
+movies/My_Fair_Lady_(film)	19	#mentions=	1	#plurals=	0	census=	33	princess
+movies/My_Fair_Lady_(film)	1	#mentions=	1	#plurals=	0	census=	2200	professor
+movies/My_Fair_Lady_(film)	24	#mentions=	1	#plurals=	1	census=	9999	slipper
+movies/My_Fair_Lady_(film)	22	#mentions=	1	#plurals=	0	census=	10331	son
+movies/My_Fair_Lady_(film)	14	#mentions=	1	#plurals=	0	census=	13724	spain
+movies/My_Fair_Lady_(film)	15	#mentions=	2	#plurals=	0	census=	9977	upper class
+movies/My_Fair_Lady_(film)	12	#mentions=	2	#plurals=	0	census=	9976	wealthy
+movies/My_Fair_Lady_(film)	7	#mentions=	2	#plurals=	0	census=	9789	work
+
+movies/The_Sound_of_Music_(film):
+movies/The_Sound_of_Music_(film)	15	#mentions=	2	#plurals=	0	census=	13040	austria
+movies/The_Sound_of_Music_(film)	1	#mentions=	1	#plurals=	0	census=	13040	austrian
+movies/The_Sound_of_Music_(film)	11	#mentions=	4	#plurals=	0	census=	33	baroness
+movies/The_Sound_of_Music_(film)	5	#mentions=	18	#plurals=	0	census=	9800	captain
+movies/The_Sound_of_Music_(film)	21	#mentions=	1	#plurals=	0	census=	4250	caretaker
+movies/The_Sound_of_Music_(film)	7	#mentions=	13	#plurals=	13	census=	10330	child
+movies/The_Sound_of_Music_(film)	13	#mentions=	1	#plurals=	0	census=	9999	closer
+movies/The_Sound_of_Music_(film)	16	#mentions=	1	#plurals=	0	census=	10382	couple
+movies/The_Sound_of_Music_(film)	19	#mentions=	7	#plurals=	0	census=	10380	family
+movies/The_Sound_of_Music_(film)	14	#mentions=	1	#plurals=	0	census=	10321	father
+movies/The_Sound_of_Music_(film)	17	#mentions=	2	#plurals=	0	census=	13276	german
+movies/The_Sound_of_Music_(film)	6	#mentions=	2	#plurals=	0	census=	4600	governess
+movies/The_Sound_of_Music_(film)	10	#mentions=	1	#plurals=	0	census=	5510	messenger
+movies/The_Sound_of_Music_(film)	8	#mentions=	1	#plurals=	0	census=	9819	military
+movies/The_Sound_of_Music_(film)	3	#mentions=	3	#plurals=	0	census=	10322	mother
+movies/The_Sound_of_Music_(film)	18	#mentions=	1	#plurals=	0	census=	9819	navy
+movies/The_Sound_of_Music_(film)	2	#mentions=	3	#plurals=	2	census=	2060	nun
+movies/The_Sound_of_Music_(film)	4	#mentions=	1	#plurals=	0	census=	9997	officer
+movies/The_Sound_of_Music_(film)	22	#mentions=	1	#plurals=	1	census=	9812	soldier
+movies/The_Sound_of_Music_(film)	20	#mentions=	2	#plurals=	0	census=	13756	switzerland
+movies/The_Sound_of_Music_(film)	12	#mentions=	1	#plurals=	0	census=	9976	wealthy
+movies/The_Sound_of_Music_(film)	9	#mentions=	1	#plurals=	0	census=	10312	wife
+
+movies/A_Man_for_All_Seasons_(1966_film):
+movies/A_Man_for_All_Seasons_(1966_film)	8	#mentions=	1	#plurals=	0	census=	3288	aide
+movies/A_Man_for_All_Seasons_(1966_film)	20	#mentions=	1	#plurals=	1	census=	2040	bishop
+movies/A_Man_for_All_Seasons_(1966_film)	2	#mentions=	1	#plurals=	0	census=	2040	cardinal
+movies/A_Man_for_All_Seasons_(1966_film)	13	#mentions=	1	#plurals=	0	census=	11832	catholic
+movies/A_Man_for_All_Seasons_(1966_film)	3	#mentions=	4	#plurals=	0	census=	2040	chancellor
+movies/A_Man_for_All_Seasons_(1966_film)	11	#mentions=	1	#plurals=	0	census=	10332	daughter
+movies/A_Man_for_All_Seasons_(1966_film)	14	#mentions=	1	#plurals=	0	census=	10600	devil
+movies/A_Man_for_All_Seasons_(1966_film)	21	#mentions=	1	#plurals=	0	census=	33	duke
+movies/A_Man_for_All_Seasons_(1966_film)	22	#mentions=	1	#plurals=	0	census=	10321	father
+movies/A_Man_for_All_Seasons_(1966_film)	26	#mentions=	1	#plurals=	0	census=	10605	god
+movies/A_Man_for_All_Seasons_(1966_film)	19	#mentions=	3	#plurals=	0	census=	430	head of
+movies/A_Man_for_All_Seasons_(1966_film)	7	#mentions=	1	#plurals=	0	census=	17	heir
+movies/A_Man_for_All_Seasons_(1966_film)	9	#mentions=	1	#plurals=	0	census=	9789	job
+movies/A_Man_for_All_Seasons_(1966_film)	1	#mentions=	16	#plurals=	0	census=	33	king
+movies/A_Man_for_All_Seasons_(1966_film)	12	#mentions=	1	#plurals=	0	census=	2100	lawyer
+movies/A_Man_for_All_Seasons_(1966_film)	23	#mentions=	2	#plurals=	0	census=	10303	marriage
+movies/A_Man_for_All_Seasons_(1966_film)	4	#mentions=	1	#plurals=	0	census=	9999	member of
+movies/A_Man_for_All_Seasons_(1966_film)	15	#mentions=	1	#plurals=	0	census=	2040	minister
+movies/A_Man_for_All_Seasons_(1966_film)	27	#mentions=	1	#plurals=	0	census=	2800	narrator
+movies/A_Man_for_All_Seasons_(1966_film)	6	#mentions=	1	#plurals=	0	census=	33	queen
+movies/A_Man_for_All_Seasons_(1966_film)	18	#mentions=	2	#plurals=	1	census=	4650	servant
+movies/A_Man_for_All_Seasons_(1966_film)	24	#mentions=	1	#plurals=	0	census=	35	solicitor general
+movies/A_Man_for_All_Seasons_(1966_film)	17	#mentions=	1	#plurals=	0	census=	3825	spy
+movies/A_Man_for_All_Seasons_(1966_film)	16	#mentions=	1	#plurals=	0	census=	9999	steward
+movies/A_Man_for_All_Seasons_(1966_film)	10	#mentions=	1	#plurals=	0	census=	2340	teacher
+movies/A_Man_for_All_Seasons_(1966_film)	5	#mentions=	1	#plurals=	0	census=	13336	vatican
+movies/A_Man_for_All_Seasons_(1966_film)	25	#mentions=	1	#plurals=	0	census=	10312	wife
+
+movies/In_the_Heat_of_the_Night_(film):
+movies/In_the_Heat_of_the_Night_(film)	7	#mentions=	2	#plurals=	0	census=	10841	black
+movies/In_the_Heat_of_the_Night_(film)	5	#mentions=	2	#plurals=	0	census=	430	chief
+movies/In_the_Heat_of_the_Night_(film)	12	#mentions=	1	#plurals=	0	census=	15040	construction
+movies/In_the_Heat_of_the_Night_(film)	8	#mentions=	2	#plurals=	0	census=	9850	culprit
+movies/In_the_Heat_of_the_Night_(film)	6	#mentions=	1	#plurals=	0	census=	3060	doctor
+movies/In_the_Heat_of_the_Night_(film)	3	#mentions=	4	#plurals=	0	census=	15050	factory
+movies/In_the_Heat_of_the_Night_(film)	16	#mentions=	1	#plurals=	0	census=	9850	gang
+movies/In_the_Heat_of_the_Night_(film)	9	#mentions=	1	#plurals=	0	census=	3820	homicide detective
+movies/In_the_Heat_of_the_Night_(film)	17	#mentions=	1	#plurals=	1	census=	9850	hooligan
+movies/In_the_Heat_of_the_Night_(film)	2	#mentions=	1	#plurals=	0	census=	25	industrialist
+movies/In_the_Heat_of_the_Night_(film)	19	#mentions=	1	#plurals=	0	census=	9856	murderer
+movies/In_the_Heat_of_the_Night_(film)	15	#mentions=	1	#plurals=	0	census=	25	plantation owner
+movies/In_the_Heat_of_the_Night_(film)	11	#mentions=	1	#plurals=	0	census=	3850	police
+movies/In_the_Heat_of_the_Night_(film)	4	#mentions=	1	#plurals=	0	census=	3850	police officer
+movies/In_the_Heat_of_the_Night_(film)	13	#mentions=	1	#plurals=	1	census=	3850	policeman
+movies/In_the_Heat_of_the_Night_(film)	18	#mentions=	1	#plurals=	0	census=	10342	sister
+movies/In_the_Heat_of_the_Night_(film)	1	#mentions=	1	#plurals=	0	census=	9976	wealthy
+movies/In_the_Heat_of_the_Night_(film)	10	#mentions=	1	#plurals=	0	census=	10301	widow
+movies/In_the_Heat_of_the_Night_(film)	14	#mentions=	1	#plurals=	0	census=	9789	work
+
+movies/Oliver!_(film):
+movies/Oliver!_(film)	10	#mentions=	1	#plurals=	0	census=	8965	apprentice
+movies/Oliver!_(film)	16	#mentions=	1	#plurals=	0	census=	15010	business
+movies/Oliver!_(film)	9	#mentions=	1	#plurals=	1	census=	10330	child
+movies/Oliver!_(film)	12	#mentions=	2	#plurals=	1	census=	9999	coffin
+movies/Oliver!_(film)	24	#mentions=	1	#plurals=	0	census=	9850	criminal
+movies/Oliver!_(film)	14	#mentions=	2	#plurals=	0	census=	9850	gang
+movies/Oliver!_(film)	17	#mentions=	1	#plurals=	0	census=	10307	girlfriend
+movies/Oliver!_(film)	2	#mentions=	2	#plurals=	2	census=	15	governor
+movies/Oliver!_(film)	25	#mentions=	1	#plurals=	0	census=	4230	housekeeper
+movies/Oliver!_(film)	5	#mentions=	2	#plurals=	0	census=	9789	job
+movies/Oliver!_(film)	23	#mentions=	1	#plurals=	0	census=	10305	lover
+movies/Oliver!_(film)	20	#mentions=	1	#plurals=	0	census=	2110	magistrate
+movies/Oliver!_(film)	4	#mentions=	2	#plurals=	1	census=	9999	master
+movies/Oliver!_(film)	21	#mentions=	1	#plurals=	1	census=	25	merchant
+movies/Oliver!_(film)	11	#mentions=	2	#plurals=	0	census=	10322	mother
+movies/Oliver!_(film)	22	#mentions=	2	#plurals=	0	census=	10335	niece
+movies/Oliver!_(film)	13	#mentions=	1	#plurals=	0	census=	9854	pickpocket
+movies/Oliver!_(film)	19	#mentions=	3	#plurals=	0	census=	3850	police
+movies/Oliver!_(film)	7	#mentions=	1	#plurals=	0	census=	9999	service
+movies/Oliver!_(film)	18	#mentions=	1	#plurals=	0	census=	10342	sister
+movies/Oliver!_(film)	15	#mentions=	4	#plurals=	3	census=	9854	thief
+movies/Oliver!_(film)	8	#mentions=	1	#plurals=	0	census=	4465	undertaker
+movies/Oliver!_(film)	1	#mentions=	2	#plurals=	0	census=	9976	wealthy
+movies/Oliver!_(film)	6	#mentions=	1	#plurals=	0	census=	10301	widow
+movies/Oliver!_(film)	3	#mentions=	1	#plurals=	0	census=	9789	work
+
+movies/Midnight_Cowboy:
+movies/Midnight_Cowboy	10	#mentions=	1	#plurals=	0	census=	15010	business
+movies/Midnight_Cowboy	7	#mentions=	1	#plurals=	0	census=	9855	call girl
+movies/Midnight_Cowboy	8	#mentions=	1	#plurals=	0	census=	9852	con man
+movies/Midnight_Cowboy	20	#mentions=	2	#plurals=	0	census=	6050	cowboy
+movies/Midnight_Cowboy	2	#mentions=	1	#plurals=	0	census=	16101	dishwasher
+movies/Midnight_Cowboy	25	#mentions=	1	#plurals=	0	census=	9998	driver
+movies/Midnight_Cowboy	14	#mentions=	2	#plurals=	0	census=	10321	father
+movies/Midnight_Cowboy	21	#mentions=	1	#plurals=	0	census=	9999	flyer
+movies/Midnight_Cowboy	12	#mentions=	1	#plurals=	0	census=	10352	grandmother
+movies/Midnight_Cowboy	4	#mentions=	1	#plurals=	1	census=	9999	head
+movies/Midnight_Cowboy	23	#mentions=	1	#plurals=	0	census=	9781	his career
+movies/Midnight_Cowboy	3	#mentions=	1	#plurals=	0	census=	9781	his job
+movies/Midnight_Cowboy	11	#mentions=	1	#plurals=	1	census=	9852	hustler
+movies/Midnight_Cowboy	16	#mentions=	1	#plurals=	0	census=	10848	immigrant
+movies/Midnight_Cowboy	15	#mentions=	1	#plurals=	0	census=	13380	italian
+movies/Midnight_Cowboy	18	#mentions=	2	#plurals=	0	census=	9789	job
+movies/Midnight_Cowboy	13	#mentions=	1	#plurals=	0	census=	10322	mother
+movies/Midnight_Cowboy	24	#mentions=	1	#plurals=	0	census=	9999	pick up
+movies/Midnight_Cowboy	9	#mentions=	1	#plurals=	0	census=	9855	pimp
+movies/Midnight_Cowboy	19	#mentions=	1	#plurals=	0	census=	13616	polish
+movies/Midnight_Cowboy	22	#mentions=	1	#plurals=	0	census=	9973	poor
+movies/Midnight_Cowboy	6	#mentions=	1	#plurals=	0	census=	9977	posh
+movies/Midnight_Cowboy	5	#mentions=	1	#plurals=	0	census=	9855	prostitute
+movies/Midnight_Cowboy	17	#mentions=	1	#plurals=	0	census=	4650	shoeshiner
+movies/Midnight_Cowboy	1	#mentions=	1	#plurals=	0	census=	9789	working
+
+movies/Patton_(film):
+movies/Patton_(film)	9	#mentions=	1	#plurals=	0	census=	3288	aide
+movies/Patton_(film)	6	#mentions=	1	#plurals=	0	census=	9819	air force
+movies/Patton_(film)	2	#mentions=	7	#plurals=	1	census=	13840	american
+movies/Patton_(film)	14	#mentions=	5	#plurals=	0	census=	9819	army
+movies/Patton_(film)	10	#mentions=	1	#plurals=	0	census=	9800	captain
+movies/Patton_(film)	12	#mentions=	1	#plurals=	0	census=	9800	commander
+movies/Patton_(film)	19	#mentions=	1	#plurals=	0	census=	13910	europe
+movies/Patton_(film)	20	#mentions=	1	#plurals=	0	census=	13250	france
+movies/Patton_(film)	1	#mentions=	5	#plurals=	0	census=	9800	general
+movies/Patton_(film)	7	#mentions=	7	#plurals=	0	census=	13276	german
+movies/Patton_(film)	21	#mentions=	3	#plurals=	0	census=	13276	germany
+movies/Patton_(film)	13	#mentions=	3	#plurals=	0	census=	13380	italian
+movies/Patton_(film)	11	#mentions=	1	#plurals=	0	census=	9800	lieutenant colonel
+movies/Patton_(film)	5	#mentions=	1	#plurals=	0	census=	3850	marshal
+movies/Patton_(film)	4	#mentions=	2	#plurals=	0	census=	13944	north africa
+movies/Patton_(film)	17	#mentions=	1	#plurals=	0	census=	10600	phantom
+movies/Patton_(film)	24	#mentions=	2	#plurals=	0	census=	13643	russian
+movies/Patton_(film)	8	#mentions=	1	#plurals=	1	census=	9999	second
+movies/Patton_(film)	25	#mentions=	1	#plurals=	0	census=	9975	slave
+movies/Patton_(film)	16	#mentions=	3	#plurals=	0	census=	9812	soldier
+movies/Patton_(film)	23	#mentions=	1	#plurals=	0	census=	13810	soviet union
+movies/Patton_(film)	15	#mentions=	1	#plurals=	0	census=	9999	superior
+movies/Patton_(film)	3	#mentions=	3	#plurals=	3	census=	9812	troop
+movies/Patton_(film)	22	#mentions=	1	#plurals=	0	census=	13826	united kingdom
+movies/Patton_(film)	18	#mentions=	2	#plurals=	2	census=	13840	united state
+
+movies/The_French_Connection_(film):
+movies/The_French_Connection_(film)	25	#mentions=	1	#plurals=	0	census=	9856	assassin
+movies/The_French_Connection_(film)	17	#mentions=	2	#plurals=	0	census=	1720	chemist
+movies/The_French_Connection_(film)	12	#mentions=	1	#plurals=	0	census=	10382	couple
+movies/The_French_Connection_(film)	5	#mentions=	4	#plurals=	1	census=	9850	criminal
+movies/The_French_Connection_(film)	19	#mentions=	1	#plurals=	0	census=	9999	dc
+movies/The_French_Connection_(film)	2	#mentions=	5	#plurals=	4	census=	3820	detective
+movies/The_French_Connection_(film)	30	#mentions=	2	#plurals=	0	census=	15050	factory
+movies/The_French_Connection_(film)	32	#mentions=	1	#plurals=	0	census=	15200	federal
+movies/The_French_Connection_(film)	16	#mentions=	1	#plurals=	1	census=	3820	federal agent
+movies/The_French_Connection_(film)	18	#mentions=	4	#plurals=	0	census=	13250	france
+movies/The_French_Connection_(film)	4	#mentions=	2	#plurals=	0	census=	13250	french
+movies/The_French_Connection_(film)	7	#mentions=	1	#plurals=	0	census=	9856	hitman
+movies/The_French_Connection_(film)	26	#mentions=	2	#plurals=	0	census=	9856	killer
+movies/The_French_Connection_(film)	13	#mentions=	1	#plurals=	0	census=	2100	lawyer
+movies/The_French_Connection_(film)	28	#mentions=	1	#plurals=	0	census=	140	manufacturer
+movies/The_French_Connection_(film)	11	#mentions=	1	#plurals=	1	census=	9857	mobster
+movies/The_French_Connection_(film)	23	#mentions=	2	#plurals=	0	census=	9200	motorman
+movies/The_French_Connection_(film)	20	#mentions=	6	#plurals=	0	census=	3850	police
+movies/The_French_Connection_(film)	6	#mentions=	3	#plurals=	0	census=	3850	policeman
+movies/The_French_Connection_(film)	29	#mentions=	3	#plurals=	0	census=	9999	rocker
+movies/The_French_Connection_(film)	31	#mentions=	2	#plurals=	1	census=	9999	second
+movies/The_French_Connection_(film)	21	#mentions=	1	#plurals=	0	census=	9812	sniper
+movies/The_French_Connection_(film)	15	#mentions=	1	#plurals=	0	census=	430	supervisor
+movies/The_French_Connection_(film)	27	#mentions=	1	#plurals=	0	census=	9998	team
+movies/The_French_Connection_(film)	9	#mentions=	1	#plurals=	0	census=	2700	television personality
+movies/The_French_Connection_(film)	24	#mentions=	1	#plurals=	0	census=	9240	train conductor
+movies/The_French_Connection_(film)	1	#mentions=	1	#plurals=	0	census=	3820	undercover police
+movies/The_French_Connection_(film)	14	#mentions=	1	#plurals=	0	census=	9857	underworld
+movies/The_French_Connection_(film)	8	#mentions=	1	#plurals=	1	census=	13840	united state
+movies/The_French_Connection_(film)	3	#mentions=	1	#plurals=	0	census=	9976	wealthy
+movies/The_French_Connection_(film)	10	#mentions=	1	#plurals=	0	census=	10312	wife
+movies/The_French_Connection_(film)	22	#mentions=	1	#plurals=	1	census=	9789	work
+
+movies/The_Godfather:
+movies/The_Godfather	21	#mentions=	1	#plurals=	1	census=	9856	assassin
+movies/The_Godfather	8	#mentions=	1	#plurals=	0	census=	33	baron
+movies/The_Godfather	16	#mentions=	1	#plurals=	0	census=	3930	bodyguard
+movies/The_Godfather	20	#mentions=	1	#plurals=	0	census=	10341	brother
+movies/The_Godfather	10	#mentions=	3	#plurals=	0	census=	15010	business
+movies/The_Godfather	15	#mentions=	1	#plurals=	0	census=	9800	captain
+movies/The_Godfather	18	#mentions=	2	#plurals=	1	census=	10330	child
+movies/The_Godfather	1	#mentions=	1	#plurals=	0	census=	10332	daughter
+movies/The_Godfather	12	#mentions=	1	#plurals=	0	census=	9857	enforcer
+movies/The_Godfather	3	#mentions=	9	#plurals=	3	census=	10380	family
+movies/The_Godfather	17	#mentions=	1	#plurals=	0	census=	25	family business
+movies/The_Godfather	14	#mentions=	2	#plurals=	0	census=	10321	father
+movies/The_Godfather	5	#mentions=	1	#plurals=	0	census=	10307	girlfriend
+movies/The_Godfather	2	#mentions=	2	#plurals=	0	census=	430	head of
+movies/The_Godfather	19	#mentions=	1	#plurals=	0	census=	9781	his career
+movies/The_Godfather	22	#mentions=	1	#plurals=	0	census=	10311	husband
+movies/The_Godfather	6	#mentions=	1	#plurals=	0	census=	2750	singer
+movies/The_Godfather	4	#mentions=	2	#plurals=	1	census=	10331	son
+movies/The_Godfather	13	#mentions=	1	#plurals=	0	census=	3825	spy
+movies/The_Godfather	7	#mentions=	1	#plurals=	0	census=	2710	studio head
+movies/The_Godfather	11	#mentions=	1	#plurals=	0	census=	15080	trade
+movies/The_Godfather	9	#mentions=	1	#plurals=	0	census=	13792	turk
+
+movies/The_Sting:
+movies/The_Sting	13	#mentions=	2	#plurals=	0	census=	3820	agent
+movies/The_Sting	14	#mentions=	1	#plurals=	0	census=	9856	assassin
+movies/The_Sting	16	#mentions=	2	#plurals=	0	census=	10841	black
+movies/The_Sting	10	#mentions=	1	#plurals=	0	census=	4400	bookie
+movies/The_Sting	9	#mentions=	1	#plurals=	1	census=	9852	con artist
+movies/The_Sting	5	#mentions=	3	#plurals=	0	census=	9852	con man
+movies/The_Sting	2	#mentions=	2	#plurals=	0	census=	5510	courier
+movies/The_Sting	8	#mentions=	1	#plurals=	0	census=	9997	crew
+movies/The_Sting	3	#mentions=	1	#plurals=	0	census=	9857	crime boss
+movies/The_Sting	11	#mentions=	1	#plurals=	0	census=	9780	employee
+movies/The_Sting	6	#mentions=	1	#plurals=	0	census=	15200	fbi
+movies/The_Sting	18	#mentions=	2	#plurals=	1	census=	3820	fbi agent
+movies/The_Sting	17	#mentions=	1	#plurals=	0	census=	15100	finance
+movies/The_Sting	21	#mentions=	1	#plurals=	0	census=	9856	hired killer
+movies/The_Sting	15	#mentions=	1	#plurals=	0	census=	9789	job
+movies/The_Sting	24	#mentions=	1	#plurals=	0	census=	9800	lt
+movies/The_Sting	1	#mentions=	2	#plurals=	1	census=	9998	partner
+movies/The_Sting	4	#mentions=	1	#plurals=	0	census=	3710	police lieutenant
+movies/The_Sting	22	#mentions=	1	#plurals=	0	census=	9999	second
+movies/The_Sting	7	#mentions=	1	#plurals=	0	census=	9998	team
+movies/The_Sting	23	#mentions=	1	#plurals=	0	census=	4720	teller
+movies/The_Sting	12	#mentions=	1	#plurals=	0	census=	3910	undercover agent
+movies/The_Sting	20	#mentions=	1	#plurals=	0	census=	4111	waitress
+movies/The_Sting	19	#mentions=	1	#plurals=	0	census=	10301	widow
+
+movies/The_Godfather_Part_II:
+movies/The_Godfather_Part_II	15	#mentions=	1	#plurals=	0	census=	3930	bodyguard
+movies/The_Godfather_Part_II	5	#mentions=	4	#plurals=	1	census=	10341	brother
+movies/The_Godfather_Part_II	12	#mentions=	3	#plurals=	0	census=	15010	business
+movies/The_Godfather_Part_II	7	#mentions=	2	#plurals=	0	census=	430	business partner
+movies/The_Godfather_Part_II	25	#mentions=	2	#plurals=	2	census=	10330	child
+movies/The_Godfather_Part_II	19	#mentions=	2	#plurals=	0	census=	9850	criminal
+movies/The_Godfather_Part_II	11	#mentions=	2	#plurals=	0	census=	13192	cuban
+movies/The_Godfather_Part_II	20	#mentions=	1	#plurals=	0	census=	9999	dc
+movies/The_Godfather_Part_II	28	#mentions=	1	#plurals=	0	census=	33	emperor
+movies/The_Godfather_Part_II	1	#mentions=	8	#plurals=	0	census=	10380	family
+movies/The_Godfather_Part_II	2	#mentions=	1	#plurals=	0	census=	10321	father
+movies/The_Godfather_Part_II	27	#mentions=	1	#plurals=	1	census=	3820	federal agent
+movies/The_Godfather_Part_II	13	#mentions=	1	#plurals=	0	census=	15200	government
+movies/The_Godfather_Part_II	14	#mentions=	1	#plurals=	0	census=	9999	hand
+movies/The_Godfather_Part_II	9	#mentions=	1	#plurals=	0	census=	9781	his job
+movies/The_Godfather_Part_II	26	#mentions=	1	#plurals=	0	census=	13376	israel
+movies/The_Godfather_Part_II	22	#mentions=	1	#plurals=	0	census=	410	landlord
+movies/The_Godfather_Part_II	23	#mentions=	1	#plurals=	0	census=	2100	lawyer
+movies/The_Godfather_Part_II	3	#mentions=	1	#plurals=	0	census=	9857	mafia chieftain
+movies/The_Godfather_Part_II	10	#mentions=	3	#plurals=	3	census=	9998	partner
+movies/The_Godfather_Part_II	16	#mentions=	1	#plurals=	0	census=	3850	police
+movies/The_Godfather_Part_II	17	#mentions=	1	#plurals=	0	census=	9813	rebel
+movies/The_Godfather_Part_II	4	#mentions=	3	#plurals=	1	census=	10331	son
+movies/The_Godfather_Part_II	18	#mentions=	3	#plurals=	3	census=	13840	united state
+movies/The_Godfather_Part_II	21	#mentions=	3	#plurals=	0	census=	10301	widow
+movies/The_Godfather_Part_II	8	#mentions=	2	#plurals=	0	census=	10312	wife
+movies/The_Godfather_Part_II	6	#mentions=	1	#plurals=	0	census=	9789	work
+movies/The_Godfather_Part_II	24	#mentions=	1	#plurals=	0	census=	9789	working
+
+movies/One_Flew_Over_the_Cuckoo%27s_Nest_(film):
+movies/One_Flew_Over_the_Cuckoo%27s_Nest_(film)	3	#mentions=	8	#plurals=	0	census=	430	chief
+movies/One_Flew_Over_the_Cuckoo%27s_Nest_(film)	1	#mentions=	1	#plurals=	0	census=	9850	criminal
+movies/One_Flew_Over_the_Cuckoo%27s_Nest_(film)	6	#mentions=	1	#plurals=	0	census=	10322	mother
+movies/One_Flew_Over_the_Cuckoo%27s_Nest_(film)	4	#mentions=	1	#plurals=	0	census=	10844	native american
+movies/One_Flew_Over_the_Cuckoo%27s_Nest_(film)	2	#mentions=	1	#plurals=	0	census=	3255	nurse
+movies/One_Flew_Over_the_Cuckoo%27s_Nest_(film)	5	#mentions=	2	#plurals=	1	census=	3600	orderly
+
+movies/Rocky:
+movies/Rocky	4	#mentions=	2	#plurals=	0	census=	2720	boxer
+movies/Rocky	10	#mentions=	1	#plurals=	0	census=	10341	brother
+movies/Rocky	11	#mentions=	1	#plurals=	0	census=	15010	business
+movies/Rocky	3	#mentions=	1	#plurals=	0	census=	32	contender
+movies/Rocky	2	#mentions=	1	#plurals=	0	census=	9999	hand
+movies/Rocky	13	#mentions=	1	#plurals=	0	census=	9999	head
+movies/Rocky	5	#mentions=	2	#plurals=	0	census=	13380	italian
+movies/Rocky	7	#mentions=	1	#plurals=	1	census=	9998	partner
+movies/Rocky	6	#mentions=	1	#plurals=	0	census=	500	promoter
+movies/Rocky	15	#mentions=	1	#plurals=	1	census=	2800	sportscaster
+movies/Rocky	14	#mentions=	1	#plurals=	0	census=	9999	superior
+movies/Rocky	8	#mentions=	1	#plurals=	0	census=	2720	trainer
+movies/Rocky	12	#mentions=	1	#plurals=	0	census=	10361	uncle
+movies/Rocky	1	#mentions=	1	#plurals=	1	census=	13840	united state
+movies/Rocky	9	#mentions=	1	#plurals=	0	census=	9789	working
+
+movies/Annie_Hall:
+movies/Annie_Hall	9	#mentions=	1	#plurals=	1	census=	2200	college professor
+movies/Annie_Hall	1	#mentions=	1	#plurals=	0	census=	2760	comedian
+movies/Annie_Hall	8	#mentions=	1	#plurals=	0	census=	12812	making meal
+movies/Annie_Hall	6	#mentions=	2	#plurals=	0	census=	10303	marriage
+movies/Annie_Hall	2	#mentions=	1	#plurals=	0	census=	10322	mother
+movies/Annie_Hall	14	#mentions=	1	#plurals=	0	census=	9990	not working
+movies/Annie_Hall	15	#mentions=	1	#plurals=	0	census=	2710	producer
+movies/Annie_Hall	10	#mentions=	1	#plurals=	0	census=	33	queen
+movies/Annie_Hall	5	#mentions=	1	#plurals=	0	census=	9999	second
+movies/Annie_Hall	13	#mentions=	1	#plurals=	0	census=	16102	television
+movies/Annie_Hall	12	#mentions=	1	#plurals=	1	census=	3245	therapist
+movies/Annie_Hall	11	#mentions=	1	#plurals=	0	census=	9999	turn out
+movies/Annie_Hall	4	#mentions=	1	#plurals=	0	census=	10312	wife
+movies/Annie_Hall	3	#mentions=	1	#plurals=	0	census=	9789	work
+movies/Annie_Hall	7	#mentions=	1	#plurals=	0	census=	2850	writer
+
+movies/The_Deer_Hunter:
+movies/The_Deer_Hunter	26	#mentions=	1	#plurals=	0	census=	13840	american
+movies/The_Deer_Hunter	16	#mentions=	1	#plurals=	0	census=	9819	army
+movies/The_Deer_Hunter	4	#mentions=	1	#plurals=	0	census=	310	bar owner
+movies/The_Deer_Hunter	30	#mentions=	1	#plurals=	0	census=	9140	cab driver
+movies/The_Deer_Hunter	19	#mentions=	1	#plurals=	1	census=	2760	clown
+movies/The_Deer_Hunter	3	#mentions=	1	#plurals=	1	census=	9780	co worker
+movies/The_Deer_Hunter	11	#mentions=	2	#plurals=	0	census=	10307	girlfriend
+movies/The_Deer_Hunter	31	#mentions=	1	#plurals=	0	census=	10605	god
+movies/The_Deer_Hunter	9	#mentions=	1	#plurals=	0	census=	6050	groom
+movies/The_Deer_Hunter	23	#mentions=	4	#plurals=	4	census=	3930	guard
+movies/The_Deer_Hunter	21	#mentions=	1	#plurals=	1	census=	9811	infantryman
+movies/The_Deer_Hunter	8	#mentions=	1	#plurals=	0	census=	9999	leader
+movies/The_Deer_Hunter	6	#mentions=	1	#plurals=	0	census=	10303	marriage
+movies/The_Deer_Hunter	29	#mentions=	2	#plurals=	0	census=	9819	military
+movies/The_Deer_Hunter	7	#mentions=	1	#plurals=	0	census=	9812	military service
+movies/The_Deer_Hunter	10	#mentions=	2	#plurals=	0	census=	10322	mother
+movies/The_Deer_Hunter	18	#mentions=	1	#plurals=	0	census=	11834	orthodox
+movies/The_Deer_Hunter	24	#mentions=	1	#plurals=	1	census=	9858	prisoner
+movies/The_Deer_Hunter	22	#mentions=	1	#plurals=	0	census=	9812	prisoner of war
+movies/The_Deer_Hunter	27	#mentions=	1	#plurals=	0	census=	9999	river
+movies/The_Deer_Hunter	25	#mentions=	5	#plurals=	0	census=	13643	russian
+movies/The_Deer_Hunter	12	#mentions=	1	#plurals=	0	census=	11834	russian orthodox
+movies/The_Deer_Hunter	14	#mentions=	5	#plurals=	1	census=	9812	soldier
+movies/The_Deer_Hunter	28	#mentions=	1	#plurals=	1	census=	13866	south vietnamese
+movies/The_Deer_Hunter	20	#mentions=	1	#plurals=	0	census=	9810	staff sergeant
+movies/The_Deer_Hunter	2	#mentions=	1	#plurals=	1	census=	8040	steel worker
+movies/The_Deer_Hunter	15	#mentions=	4	#plurals=	0	census=	13840	us
+movies/The_Deer_Hunter	17	#mentions=	3	#plurals=	0	census=	13704	vietnam
+movies/The_Deer_Hunter	5	#mentions=	3	#plurals=	0	census=	13826	welsh
+movies/The_Deer_Hunter	13	#mentions=	1	#plurals=	1	census=	9789	work
+movies/The_Deer_Hunter	1	#mentions=	1	#plurals=	0	census=	9972	working class
+
+movies/Kramer_vs._Kramer:
+movies/Kramer_vs._Kramer	1	#mentions=	1	#plurals=	0	census=	40	advertising executive
+movies/Kramer_vs._Kramer	7	#mentions=	3	#plurals=	1	census=	10330	child
+movies/Kramer_vs._Kramer	11	#mentions=	1	#plurals=	0	census=	2630	designer
+movies/Kramer_vs._Kramer	5	#mentions=	1	#plurals=	0	census=	10321	father
+movies/Kramer_vs._Kramer	9	#mentions=	2	#plurals=	0	census=	10311	husband
+movies/Kramer_vs._Kramer	10	#mentions=	1	#plurals=	0	census=	9789	job
+movies/Kramer_vs._Kramer	8	#mentions=	2	#plurals=	1	census=	2100	lawyer
+movies/Kramer_vs._Kramer	13	#mentions=	1	#plurals=	0	census=	12812	make breakfast
+movies/Kramer_vs._Kramer	4	#mentions=	2	#plurals=	0	census=	10322	mother
+movies/Kramer_vs._Kramer	6	#mentions=	1	#plurals=	0	census=	10323	single parent
+movies/Kramer_vs._Kramer	3	#mentions=	3	#plurals=	0	census=	10331	son
+movies/Kramer_vs._Kramer	12	#mentions=	1	#plurals=	0	census=	9999	stand in
+movies/Kramer_vs._Kramer	15	#mentions=	1	#plurals=	0	census=	9999	tender
+movies/Kramer_vs._Kramer	14	#mentions=	1	#plurals=	0	census=	12812	to cook
+movies/Kramer_vs._Kramer	2	#mentions=	1	#plurals=	0	census=	10312	wife
+
+movies/Ordinary_People:
+movies/Ordinary_People	5	#mentions=	2	#plurals=	0	census=	10341	brother
+movies/Ordinary_People	2	#mentions=	5	#plurals=	0	census=	10380	family
+movies/Ordinary_People	6	#mentions=	1	#plurals=	0	census=	10321	father
+movies/Ordinary_People	13	#mentions=	1	#plurals=	1	census=	10350	grandparent
+movies/Ordinary_People	8	#mentions=	3	#plurals=	0	census=	10322	mother
+movies/Ordinary_People	11	#mentions=	1	#plurals=	1	census=	10320	parent
+movies/Ordinary_People	4	#mentions=	1	#plurals=	0	census=	3060	psychiatrist
+movies/Ordinary_People	12	#mentions=	1	#plurals=	0	census=	2720	referee
+movies/Ordinary_People	3	#mentions=	5	#plurals=	0	census=	10331	son
+movies/Ordinary_People	10	#mentions=	1	#plurals=	0	census=	10860	student
+movies/Ordinary_People	1	#mentions=	1	#plurals=	0	census=	9970	upper middle class
+movies/Ordinary_People	7	#mentions=	1	#plurals=	0	census=	10312	wife
+movies/Ordinary_People	9	#mentions=	1	#plurals=	1	census=	9789	work
+
+movies/Chariots_of_Fire:
+movies/Chariots_of_Fire	24	#mentions=	3	#plurals=	0	census=	13840	american
+movies/Chariots_of_Fire	15	#mentions=	1	#plurals=	1	census=	2720	athlete
+movies/Chariots_of_Fire	18	#mentions=	3	#plurals=	0	census=	13825	british
+movies/Chariots_of_Fire	2	#mentions=	5	#plurals=	0	census=	13156	china
+movies/Chariots_of_Fire	19	#mentions=	1	#plurals=	0	census=	11831	christian
+movies/Chariots_of_Fire	22	#mentions=	2	#plurals=	0	census=	2720	coach
+movies/Chariots_of_Fire	28	#mentions=	1	#plurals=	0	census=	9999	elder
+movies/Chariots_of_Fire	23	#mentions=	1	#plurals=	0	census=	10307	girlfriend
+movies/Chariots_of_Fire	8	#mentions=	4	#plurals=	0	census=	10605	god
+movies/Chariots_of_Fire	16	#mentions=	1	#plurals=	0	census=	13825	great britain
+movies/Chariots_of_Fire	25	#mentions=	1	#plurals=	1	census=	9999	hand
+movies/Chariots_of_Fire	30	#mentions=	1	#plurals=	1	census=	13392	japanese
+movies/Chariots_of_Fire	27	#mentions=	1	#plurals=	0	census=	10303	married
+movies/Chariots_of_Fire	12	#mentions=	1	#plurals=	1	census=	9999	master
+movies/Chariots_of_Fire	4	#mentions=	3	#plurals=	0	census=	2060	missionary
+movies/Chariots_of_Fire	5	#mentions=	1	#plurals=	1	census=	10320	parent
+movies/Chariots_of_Fire	17	#mentions=	1	#plurals=	0	census=	33	prince
+movies/Chariots_of_Fire	10	#mentions=	1	#plurals=	0	census=	9970	professional
+movies/Chariots_of_Fire	14	#mentions=	1	#plurals=	0	census=	2720	professional coach
+movies/Chariots_of_Fire	21	#mentions=	3	#plurals=	3	census=	9999	runner
+movies/Chariots_of_Fire	6	#mentions=	3	#plurals=	0	census=	13828	scotland
+movies/Chariots_of_Fire	3	#mentions=	1	#plurals=	0	census=	13828	scottish
+movies/Chariots_of_Fire	7	#mentions=	2	#plurals=	0	census=	10342	sister
+movies/Chariots_of_Fire	1	#mentions=	1	#plurals=	0	census=	3288	staff
+movies/Chariots_of_Fire	29	#mentions=	1	#plurals=	0	census=	35	statesman
+movies/Chariots_of_Fire	26	#mentions=	1	#plurals=	0	census=	9998	team
+movies/Chariots_of_Fire	13	#mentions=	1	#plurals=	0	census=	520	tradesman
+movies/Chariots_of_Fire	11	#mentions=	1	#plurals=	0	census=	2720	trainer
+movies/Chariots_of_Fire	20	#mentions=	1	#plurals=	1	census=	13840	united state
+movies/Chariots_of_Fire	9	#mentions=	2	#plurals=	0	census=	9789	work
+
+movies/Gandhi_(film):
+movies/Gandhi_(film)	12	#mentions=	1	#plurals=	0	census=	13050	bangladesh
+movies/Gandhi_(film)	10	#mentions=	3	#plurals=	0	census=	13825	britain
+movies/Gandhi_(film)	9	#mentions=	2	#plurals=	0	census=	13825	british
+movies/Gandhi_(film)	3	#mentions=	1	#plurals=	0	census=	10605	god
+movies/Gandhi_(film)	7	#mentions=	1	#plurals=	0	census=	15200	government
+movies/Gandhi_(film)	1	#mentions=	1	#plurals=	1	census=	4650	greeter
+movies/Gandhi_(film)	16	#mentions=	1	#plurals=	1	census=	11837	hindu
+movies/Gandhi_(film)	8	#mentions=	7	#plurals=	0	census=	13356	india
+movies/Gandhi_(film)	5	#mentions=	7	#plurals=	5	census=	13356	indian
+movies/Gandhi_(film)	13	#mentions=	3	#plurals=	3	census=	11836	muslim
+movies/Gandhi_(film)	14	#mentions=	1	#plurals=	0	census=	13586	pakistan
+movies/Gandhi_(film)	15	#mentions=	1	#plurals=	0	census=	15	prime minister
+movies/Gandhi_(film)	11	#mentions=	1	#plurals=	0	census=	9999	second
+movies/Gandhi_(film)	6	#mentions=	2	#plurals=	0	census=	13710	south africa
+movies/Gandhi_(film)	4	#mentions=	1	#plurals=	0	census=	13710	south african
+movies/Gandhi_(film)	2	#mentions=	1	#plurals=	0	census=	9999	visitor
+
+movies/Terms_of_Endearment:
+movies/Terms_of_Endearment	7	#mentions=	1	#plurals=	0	census=	9030	astronaut
+movies/Terms_of_Endearment	9	#mentions=	1	#plurals=	0	census=	9789	career
+movies/Terms_of_Endearment	5	#mentions=	4	#plurals=	4	census=	10330	child
+movies/Terms_of_Endearment	4	#mentions=	1	#plurals=	0	census=	2200	college professor
+movies/Terms_of_Endearment	2	#mentions=	1	#plurals=	0	census=	10332	daughter
+movies/Terms_of_Endearment	8	#mentions=	2	#plurals=	0	census=	10380	family
+movies/Terms_of_Endearment	10	#mentions=	1	#plurals=	0	census=	10307	girlfriend
+movies/Terms_of_Endearment	6	#mentions=	1	#plurals=	0	census=	10381	household
+movies/Terms_of_Endearment	3	#mentions=	4	#plurals=	0	census=	10322	mother
+movies/Terms_of_Endearment	1	#mentions=	1	#plurals=	0	census=	10301	widowed
+
+movies/Amadeus_(film):
+movies/Amadeus_(film)	10	#mentions=	2	#plurals=	2	census=	2005	adviser
+movies/Amadeus_(film)	9	#mentions=	1	#plurals=	0	census=	2040	archbishop
+movies/Amadeus_(film)	24	#mentions=	1	#plurals=	0	census=	10841	black
+movies/Amadeus_(film)	21	#mentions=	1	#plurals=	0	census=	9800	commander
+movies/Amadeus_(film)	4	#mentions=	3	#plurals=	0	census=	2750	composer
+movies/Amadeus_(film)	22	#mentions=	1	#plurals=	0	census=	10382	couple
+movies/Amadeus_(film)	6	#mentions=	7	#plurals=	0	census=	33	emperor
+movies/Amadeus_(film)	7	#mentions=	1	#plurals=	0	census=	430	employer
+movies/Amadeus_(film)	16	#mentions=	1	#plurals=	0	census=	10380	family
+movies/Amadeus_(film)	3	#mentions=	4	#plurals=	0	census=	10321	father
+movies/Amadeus_(film)	5	#mentions=	4	#plurals=	0	census=	10605	god
+movies/Amadeus_(film)	23	#mentions=	1	#plurals=	0	census=	9781	his work
+movies/Amadeus_(film)	11	#mentions=	1	#plurals=	0	census=	9789	job
+movies/Amadeus_(film)	17	#mentions=	1	#plurals=	0	census=	4230	maid
+movies/Amadeus_(film)	19	#mentions=	1	#plurals=	0	census=	10303	marriage
+movies/Amadeus_(film)	20	#mentions=	1	#plurals=	1	census=	5510	messenger
+movies/Amadeus_(film)	12	#mentions=	1	#plurals=	0	census=	10335	niece
+movies/Amadeus_(film)	2	#mentions=	1	#plurals=	0	census=	2040	priest
+movies/Amadeus_(film)	8	#mentions=	1	#plurals=	0	census=	33	prince
+movies/Amadeus_(film)	13	#mentions=	1	#plurals=	0	census=	33	princess
+movies/Amadeus_(film)	1	#mentions=	1	#plurals=	1	census=	4650	servant
+movies/Amadeus_(film)	15	#mentions=	2	#plurals=	0	census=	10331	son
+movies/Amadeus_(film)	14	#mentions=	3	#plurals=	0	census=	9789	work
+movies/Amadeus_(film)	18	#mentions=	1	#plurals=	0	census=	9789	working
+
+movies/Out_of_Africa_(film):
+movies/Out_of_Africa_(film)	1	#mentions=	3	#plurals=	0	census=	13940	africa
+movies/Out_of_Africa_(film)	23	#mentions=	1	#plurals=	0	census=	2850	author
+movies/Out_of_Africa_(film)	11	#mentions=	1	#plurals=	0	census=	33	baron
+movies/Out_of_Africa_(film)	15	#mentions=	1	#plurals=	0	census=	33	baroness
+movies/Out_of_Africa_(film)	8	#mentions=	1	#plurals=	0	census=	13825	british
+movies/Out_of_Africa_(film)	10	#mentions=	1	#plurals=	0	census=	10341	brother
+movies/Out_of_Africa_(film)	13	#mentions=	1	#plurals=	0	census=	10382	couple
+movies/Out_of_Africa_(film)	4	#mentions=	1	#plurals=	0	census=	13208	danish
+movies/Out_of_Africa_(film)	17	#mentions=	4	#plurals=	0	census=	13208	denmark
+movies/Out_of_Africa_(film)	14	#mentions=	1	#plurals=	0	census=	6110	game hunter
+movies/Out_of_Africa_(film)	19	#mentions=	1	#plurals=	0	census=	13404	kenya
+movies/Out_of_Africa_(film)	7	#mentions=	2	#plurals=	0	census=	10305	lover
+movies/Out_of_Africa_(film)	16	#mentions=	1	#plurals=	0	census=	430	management
+movies/Out_of_Africa_(film)	9	#mentions=	2	#plurals=	0	census=	10303	marriage
+movies/Out_of_Africa_(film)	22	#mentions=	1	#plurals=	1	census=	9999	member
+movies/Out_of_Africa_(film)	6	#mentions=	1	#plurals=	0	census=	33	nobleman
+movies/Out_of_Africa_(film)	21	#mentions=	1	#plurals=	0	census=	9999	selling
+movies/Out_of_Africa_(film)	12	#mentions=	1	#plurals=	0	census=	4650	servant
+movies/Out_of_Africa_(film)	5	#mentions=	1	#plurals=	0	census=	13752	swedish
+movies/Out_of_Africa_(film)	2	#mentions=	1	#plurals=	0	census=	10304	unmarried
+movies/Out_of_Africa_(film)	3	#mentions=	1	#plurals=	0	census=	9976	wealthy
+movies/Out_of_Africa_(film)	20	#mentions=	1	#plurals=	1	census=	9780	worker
+movies/Out_of_Africa_(film)	18	#mentions=	1	#plurals=	0	census=	9789	working
+
+movies/Platoon_(film):
+movies/Platoon_(film)	12	#mentions=	1	#plurals=	1	census=	13840	american
+movies/Platoon_(film)	2	#mentions=	2	#plurals=	0	census=	9819	army
+movies/Platoon_(film)	6	#mentions=	1	#plurals=	0	census=	13116	cambodian
+movies/Platoon_(film)	20	#mentions=	2	#plurals=	0	census=	9800	captain
+movies/Platoon_(film)	16	#mentions=	2	#plurals=	0	census=	430	chief
+movies/Platoon_(film)	19	#mentions=	1	#plurals=	0	census=	9800	company commander
+movies/Platoon_(film)	26	#mentions=	1	#plurals=	1	census=	9999	crater
+movies/Platoon_(film)	22	#mentions=	1	#plurals=	0	census=	9999	dagger
+movies/Platoon_(film)	18	#mentions=	1	#plurals=	0	census=	9850	gang
+movies/Platoon_(film)	13	#mentions=	1	#plurals=	0	census=	4250	gardener
+movies/Platoon_(film)	5	#mentions=	2	#plurals=	0	census=	9812	infantry
+movies/Platoon_(film)	7	#mentions=	2	#plurals=	0	census=	9800	lieutenant
+movies/Platoon_(film)	11	#mentions=	2	#plurals=	2	census=	13868	north vietnamese
+movies/Platoon_(film)	25	#mentions=	1	#plurals=	0	census=	9999	pick up
+movies/Platoon_(film)	23	#mentions=	1	#plurals=	0	census=	9812	sapper
+movies/Platoon_(film)	10	#mentions=	1	#plurals=	0	census=	9810	sergeant
+movies/Platoon_(film)	14	#mentions=	1	#plurals=	1	census=	9999	smoker
+movies/Platoon_(film)	8	#mentions=	7	#plurals=	6	census=	9812	soldier
+movies/Platoon_(film)	4	#mentions=	1	#plurals=	0	census=	13866	south vietnam
+movies/Platoon_(film)	9	#mentions=	1	#plurals=	0	census=	9810	staff sergeant
+movies/Platoon_(film)	24	#mentions=	1	#plurals=	0	census=	9870	suicide attack
+movies/Platoon_(film)	21	#mentions=	2	#plurals=	2	census=	9812	troop
+movies/Platoon_(film)	1	#mentions=	1	#plurals=	0	census=	13840	us
+movies/Platoon_(film)	15	#mentions=	1	#plurals=	1	census=	13704	vietnamese
+movies/Platoon_(film)	3	#mentions=	1	#plurals=	0	census=	9992	volunteer
+movies/Platoon_(film)	17	#mentions=	1	#plurals=	0	census=	10312	wife
+
+movies/The_Last_Emperor:
+movies/The_Last_Emperor	29	#mentions=	1	#plurals=	0	census=	9999	a guide
+movies/The_Last_Emperor	1	#mentions=	2	#plurals=	0	census=	9819	army
+movies/The_Last_Emperor	11	#mentions=	1	#plurals=	0	census=	10341	brother
+movies/The_Last_Emperor	22	#mentions=	2	#plurals=	1	census=	10330	child
+movies/The_Last_Emperor	3	#mentions=	2	#plurals=	0	census=	13156	china
+movies/The_Last_Emperor	17	#mentions=	1	#plurals=	0	census=	230	commandant
+movies/The_Last_Emperor	24	#mentions=	1	#plurals=	0	census=	9800	commander
+movies/The_Last_Emperor	5	#mentions=	1	#plurals=	0	census=	9850	criminal
+movies/The_Last_Emperor	23	#mentions=	1	#plurals=	1	census=	2740	dancer
+movies/The_Last_Emperor	7	#mentions=	5	#plurals=	0	census=	33	emperor
+movies/The_Last_Emperor	6	#mentions=	2	#plurals=	0	census=	33	empress
+movies/The_Last_Emperor	10	#mentions=	1	#plurals=	0	census=	10321	father
+movies/The_Last_Emperor	19	#mentions=	1	#plurals=	0	census=	4250	gardener
+movies/The_Last_Emperor	18	#mentions=	1	#plurals=	0	census=	15200	government
+movies/The_Last_Emperor	21	#mentions=	1	#plurals=	0	census=	3930	guard
+movies/The_Last_Emperor	14	#mentions=	5	#plurals=	5	census=	13392	japanese
+movies/The_Last_Emperor	8	#mentions=	1	#plurals=	1	census=	4230	maid
+movies/The_Last_Emperor	13	#mentions=	1	#plurals=	0	census=	9999	master
+movies/The_Last_Emperor	9	#mentions=	1	#plurals=	0	census=	3255	nurse
+movies/The_Last_Emperor	28	#mentions=	1	#plurals=	0	census=	430	official
+movies/The_Last_Emperor	26	#mentions=	1	#plurals=	0	census=	9999	ordinary
+movies/The_Last_Emperor	4	#mentions=	3	#plurals=	2	census=	9858	political prisoner
+movies/The_Last_Emperor	25	#mentions=	1	#plurals=	0	census=	9813	revolutionary
+movies/The_Last_Emperor	15	#mentions=	1	#plurals=	0	census=	33	ruler
+movies/The_Last_Emperor	16	#mentions=	2	#plurals=	0	census=	9999	second
+movies/The_Last_Emperor	27	#mentions=	1	#plurals=	0	census=	10331	son
+movies/The_Last_Emperor	2	#mentions=	1	#plurals=	0	census=	13810	soviet union
+movies/The_Last_Emperor	30	#mentions=	1	#plurals=	0	census=	9999	the guide
+movies/The_Last_Emperor	12	#mentions=	1	#plurals=	0	census=	2340	tutor
+movies/The_Last_Emperor	20	#mentions=	1	#plurals=	0	census=	9789	work
+
+movies/Rain_Man:
+movies/Rain_Man	13	#mentions=	1	#plurals=	1	census=	430	boss
+movies/Rain_Man	7	#mentions=	5	#plurals=	0	census=	10341	brother
+movies/Rain_Man	1	#mentions=	2	#plurals=	2	census=	530	buyer
+movies/Rain_Man	9	#mentions=	1	#plurals=	0	census=	5110	calculator
+movies/Rain_Man	8	#mentions=	1	#plurals=	0	census=	3060	doctor
+movies/Rain_Man	2	#mentions=	1	#plurals=	0	census=	9780	employee
+movies/Rain_Man	10	#mentions=	1	#plurals=	0	census=	10380	family
+movies/Rain_Man	3	#mentions=	3	#plurals=	0	census=	10321	father
+movies/Rain_Man	4	#mentions=	1	#plurals=	0	census=	10307	girlfriend
+movies/Rain_Man	11	#mentions=	1	#plurals=	0	census=	2110	judge
+movies/Rain_Man	14	#mentions=	1	#plurals=	0	census=	3060	psychiatrist
+movies/Rain_Man	5	#mentions=	1	#plurals=	0	census=	9999	roadmaster
+movies/Rain_Man	12	#mentions=	1	#plurals=	0	census=	16102	television
+movies/Rain_Man	6	#mentions=	1	#plurals=	0	census=	410	trustee
+
+movies/Driving_Miss_Daisy:
+movies/Driving_Miss_Daisy	6	#mentions=	3	#plurals=	0	census=	10841	african american
+movies/Driving_Miss_Daisy	11	#mentions=	1	#plurals=	0	census=	13840	american
+movies/Driving_Miss_Daisy	9	#mentions=	1	#plurals=	0	census=	9140	chauffeur
+movies/Driving_Miss_Daisy	10	#mentions=	1	#plurals=	0	census=	12812	do the cooking
+movies/Driving_Miss_Daisy	5	#mentions=	1	#plurals=	0	census=	13268	georgia
+movies/Driving_Miss_Daisy	7	#mentions=	2	#plurals=	0	census=	4230	housekeeper
+movies/Driving_Miss_Daisy	2	#mentions=	1	#plurals=	0	census=	11835	jewish
+movies/Driving_Miss_Daisy	12	#mentions=	1	#plurals=	0	census=	9999	martin luther king
+movies/Driving_Miss_Daisy	4	#mentions=	1	#plurals=	0	census=	2340	schoolteacher
+movies/Driving_Miss_Daisy	8	#mentions=	1	#plurals=	0	census=	10331	son
+movies/Driving_Miss_Daisy	13	#mentions=	1	#plurals=	0	census=	2340	teacher
+movies/Driving_Miss_Daisy	1	#mentions=	1	#plurals=	0	census=	9976	wealthy
+movies/Driving_Miss_Daisy	3	#mentions=	1	#plurals=	0	census=	10301	widowed
+
+movies/Dances_with_Wolves:
+movies/Dances_with_Wolves	20	#mentions=	1	#plurals=	0	census=	13840	american
+movies/Dances_with_Wolves	2	#mentions=	3	#plurals=	0	census=	9819	army
+movies/Dances_with_Wolves	14	#mentions=	1	#plurals=	0	census=	430	chief
+movies/Dances_with_Wolves	16	#mentions=	1	#plurals=	0	census=	9811	corporal
+movies/Dances_with_Wolves	8	#mentions=	1	#plurals=	0	census=	10332	daughter
+movies/Dances_with_Wolves	18	#mentions=	1	#plurals=	0	census=	9999	escort
+movies/Dances_with_Wolves	13	#mentions=	1	#plurals=	0	census=	10380	family
+movies/Dances_with_Wolves	21	#mentions=	1	#plurals=	0	census=	15200	government
+movies/Dances_with_Wolves	10	#mentions=	1	#plurals=	0	census=	10311	husband
+movies/Dances_with_Wolves	12	#mentions=	2	#plurals=	0	census=	2860	interpreter
+movies/Dances_with_Wolves	1	#mentions=	1	#plurals=	0	census=	9800	lieutenant
+movies/Dances_with_Wolves	3	#mentions=	1	#plurals=	0	census=	9800	major
+movies/Dances_with_Wolves	9	#mentions=	1	#plurals=	0	census=	3260	medicine man
+movies/Dances_with_Wolves	4	#mentions=	2	#plurals=	1	census=	9997	officer
+movies/Dances_with_Wolves	6	#mentions=	1	#plurals=	0	census=	9973	poor
+movies/Dances_with_Wolves	17	#mentions=	1	#plurals=	0	census=	9858	prisoner
+movies/Dances_with_Wolves	5	#mentions=	5	#plurals=	5	census=	9812	soldier
+movies/Dances_with_Wolves	19	#mentions=	1	#plurals=	1	census=	9812	troop
+movies/Dances_with_Wolves	15	#mentions=	2	#plurals=	0	census=	13840	us
+movies/Dances_with_Wolves	11	#mentions=	2	#plurals=	0	census=	9814	warrior
+movies/Dances_with_Wolves	7	#mentions=	4	#plurals=	0	census=	10840	white
+
+movies/The_Silence_of_the_Lambs_(film):
+movies/The_Silence_of_the_Lambs_(film)	8	#mentions=	1	#plurals=	0	census=	10332	daughter
+movies/The_Silence_of_the_Lambs_(film)	11	#mentions=	1	#plurals=	0	census=	9999	escort
+movies/The_Silence_of_the_Lambs_(film)	9	#mentions=	1	#plurals=	0	census=	10321	father
+movies/The_Silence_of_the_Lambs_(film)	1	#mentions=	3	#plurals=	0	census=	15200	fbi
+movies/The_Silence_of_the_Lambs_(film)	14	#mentions=	1	#plurals=	0	census=	3820	fbi team
+movies/The_Silence_of_the_Lambs_(film)	12	#mentions=	1	#plurals=	1	census=	3930	guard
+movies/The_Silence_of_the_Lambs_(film)	6	#mentions=	1	#plurals=	0	census=	9999	head
+movies/The_Silence_of_the_Lambs_(film)	10	#mentions=	1	#plurals=	0	census=	3850	police
+movies/The_Silence_of_the_Lambs_(film)	5	#mentions=	1	#plurals=	1	census=	9858	prisoner
+movies/The_Silence_of_the_Lambs_(film)	3	#mentions=	1	#plurals=	0	census=	3060	psychiatrist
+movies/The_Silence_of_the_Lambs_(film)	7	#mentions=	2	#plurals=	0	census=	30	senator
+movies/The_Silence_of_the_Lambs_(film)	4	#mentions=	2	#plurals=	0	census=	9856	serial killer
+movies/The_Silence_of_the_Lambs_(film)	13	#mentions=	1	#plurals=	0	census=	8350	tailor
+movies/The_Silence_of_the_Lambs_(film)	2	#mentions=	1	#plurals=	0	census=	9780	trainee
+
+movies/Unforgiven:
+movies/Unforgiven	14	#mentions=	2	#plurals=	2	census=	9856	assassin
+movies/Unforgiven	11	#mentions=	1	#plurals=	0	census=	2850	biographer
+movies/Unforgiven	10	#mentions=	1	#plurals=	0	census=	13825	british
+movies/Unforgiven	22	#mentions=	1	#plurals=	0	census=	9855	brothel
+movies/Unforgiven	4	#mentions=	1	#plurals=	0	census=	9855	brothel owner
+movies/Unforgiven	8	#mentions=	4	#plurals=	4	census=	10330	child
+movies/Unforgiven	20	#mentions=	1	#plurals=	0	census=	9999	coffin
+movies/Unforgiven	1	#mentions=	6	#plurals=	6	census=	6050	cowboy
+movies/Unforgiven	13	#mentions=	3	#plurals=	3	census=	3850	deputy
+movies/Unforgiven	9	#mentions=	3	#plurals=	0	census=	9850	gunfighter
+movies/Unforgiven	15	#mentions=	3	#plurals=	1	census=	9999	head
+movies/Unforgiven	17	#mentions=	1	#plurals=	0	census=	9856	hired gun
+movies/Unforgiven	18	#mentions=	1	#plurals=	0	census=	9789	job
+movies/Unforgiven	6	#mentions=	1	#plurals=	0	census=	9856	murderer
+movies/Unforgiven	12	#mentions=	1	#plurals=	0	census=	33	noble
+movies/Unforgiven	16	#mentions=	1	#plurals=	0	census=	3255	nurse
+movies/Unforgiven	5	#mentions=	2	#plurals=	0	census=	9850	outlaw
+movies/Unforgiven	21	#mentions=	1	#plurals=	0	census=	3288	owner
+movies/Unforgiven	2	#mentions=	6	#plurals=	5	census=	9855	prostitute
+movies/Unforgiven	3	#mentions=	2	#plurals=	0	census=	3710	sheriff
+movies/Unforgiven	7	#mentions=	1	#plurals=	0	census=	10301	widower
+movies/Unforgiven	19	#mentions=	1	#plurals=	0	census=	10312	wife
+
+movies/Schindler%27s_List:
+movies/Schindler%27s_List	34	#mentions=	1	#plurals=	1	census=	2700	actor
+movies/Schindler%27s_List	29	#mentions=	1	#plurals=	1	census=	13840	american
+movies/Schindler%27s_List	6	#mentions=	1	#plurals=	1	census=	9819	armed force
+movies/Schindler%27s_List	25	#mentions=	1	#plurals=	0	census=	9819	army
+movies/Schindler%27s_List	11	#mentions=	1	#plurals=	1	census=	9853	black marketeer
+movies/Schindler%27s_List	9	#mentions=	3	#plurals=	1	census=	15010	business
+movies/Schindler%27s_List	19	#mentions=	1	#plurals=	1	census=	10330	child
+movies/Schindler%27s_List	20	#mentions=	1	#plurals=	0	census=	230	commandant
+movies/Schindler%27s_List	16	#mentions=	1	#plurals=	0	census=	15040	construction
+movies/Schindler%27s_List	4	#mentions=	1	#plurals=	0	census=	13200	czechoslovakia
+movies/Schindler%27s_List	3	#mentions=	1	#plurals=	0	census=	10847	ethnic
+movies/Schindler%27s_List	23	#mentions=	1	#plurals=	0	census=	13910	europe
+movies/Schindler%27s_List	8	#mentions=	9	#plurals=	0	census=	15050	factory
+movies/Schindler%27s_List	26	#mentions=	1	#plurals=	1	census=	10380	family
+movies/Schindler%27s_List	1	#mentions=	5	#plurals=	2	census=	13276	german
+movies/Schindler%27s_List	22	#mentions=	1	#plurals=	0	census=	13276	germany
+movies/Schindler%27s_List	28	#mentions=	1	#plurals=	0	census=	9999	head
+movies/Schindler%27s_List	2	#mentions=	4	#plurals=	4	census=	11835	jew
+movies/Schindler%27s_List	12	#mentions=	7	#plurals=	0	census=	11835	jewish
+movies/Schindler%27s_List	15	#mentions=	1	#plurals=	0	census=	9800	lieutenant
+movies/Schindler%27s_List	10	#mentions=	1	#plurals=	0	census=	35	local official
+movies/Schindler%27s_List	17	#mentions=	1	#plurals=	0	census=	4230	maid
+movies/Schindler%27s_List	35	#mentions=	2	#plurals=	0	census=	9999	marker
+movies/Schindler%27s_List	33	#mentions=	1	#plurals=	0	census=	10303	marriage
+movies/Schindler%27s_List	5	#mentions=	1	#plurals=	0	census=	9999	member of
+movies/Schindler%27s_List	27	#mentions=	1	#plurals=	1	census=	9856	murderer
+movies/Schindler%27s_List	7	#mentions=	2	#plurals=	2	census=	430	official
+movies/Schindler%27s_List	24	#mentions=	1	#plurals=	0	census=	32	party member
+movies/Schindler%27s_List	18	#mentions=	1	#plurals=	1	census=	9858	prisoner
+movies/Schindler%27s_List	14	#mentions=	1	#plurals=	0	census=	9999	second
+movies/Schindler%27s_List	32	#mentions=	1	#plurals=	0	census=	9812	soldier
+movies/Schindler%27s_List	31	#mentions=	1	#plurals=	0	census=	13810	soviet
+movies/Schindler%27s_List	21	#mentions=	2	#plurals=	2	census=	9811	ss guard
+movies/Schindler%27s_List	36	#mentions=	1	#plurals=	0	census=	9999	visitor
+movies/Schindler%27s_List	30	#mentions=	1	#plurals=	0	census=	10312	wife
+movies/Schindler%27s_List	13	#mentions=	6	#plurals=	6	census=	9780	worker
+
+movies/Forrest_Gump:
+movies/Forrest_Gump	9	#mentions=	1	#plurals=	0	census=	13840	american
+movies/Forrest_Gump	13	#mentions=	1	#plurals=	0	census=	9819	army
+movies/Forrest_Gump	15	#mentions=	1	#plurals=	0	census=	15010	business
+movies/Forrest_Gump	2	#mentions=	1	#plurals=	1	census=	10330	child
+movies/Forrest_Gump	19	#mentions=	1	#plurals=	1	census=	13156	chinese
+movies/Forrest_Gump	23	#mentions=	1	#plurals=	0	census=	16103	computer
+movies/Forrest_Gump	20	#mentions=	1	#plurals=	0	census=	9999	dc
+movies/Forrest_Gump	24	#mentions=	1	#plurals=	0	census=	10380	family
+movies/Forrest_Gump	1	#mentions=	1	#plurals=	0	census=	13268	georgia
+movies/Forrest_Gump	6	#mentions=	1	#plurals=	0	census=	9800	intelligence
+movies/Forrest_Gump	17	#mentions=	1	#plurals=	0	census=	9800	lieutenant
+movies/Forrest_Gump	22	#mentions=	1	#plurals=	0	census=	9800	lt
+movies/Forrest_Gump	18	#mentions=	1	#plurals=	1	census=	9999	mate
+movies/Forrest_Gump	4	#mentions=	2	#plurals=	0	census=	10322	mother
+movies/Forrest_Gump	11	#mentions=	1	#plurals=	0	census=	15	president
+movies/Forrest_Gump	21	#mentions=	1	#plurals=	0	census=	14	president nixon
+movies/Forrest_Gump	7	#mentions=	1	#plurals=	0	census=	9999	runner
+movies/Forrest_Gump	8	#mentions=	1	#plurals=	0	census=	2720	running back
+movies/Forrest_Gump	14	#mentions=	1	#plurals=	0	census=	9812	soldier
+movies/Forrest_Gump	26	#mentions=	2	#plurals=	0	census=	10331	son
+movies/Forrest_Gump	10	#mentions=	2	#plurals=	1	census=	9998	team
+movies/Forrest_Gump	25	#mentions=	1	#plurals=	0	census=	16102	television
+movies/Forrest_Gump	3	#mentions=	2	#plurals=	0	census=	9130	truck driver
+movies/Forrest_Gump	5	#mentions=	1	#plurals=	0	census=	9999	turn out
+movies/Forrest_Gump	12	#mentions=	1	#plurals=	0	census=	13840	us
+movies/Forrest_Gump	16	#mentions=	1	#plurals=	0	census=	13704	vietnam
+
+movies/Braveheart:
+movies/Braveheart	15	#mentions=	4	#plurals=	0	census=	9819	army
+movies/Braveheart	5	#mentions=	1	#plurals=	0	census=	10341	brother
+movies/Braveheart	27	#mentions=	1	#plurals=	0	census=	10330	child
+movies/Braveheart	19	#mentions=	1	#plurals=	0	census=	32	contender
+movies/Braveheart	24	#mentions=	1	#plurals=	0	census=	9999	counter
+movies/Braveheart	18	#mentions=	1	#plurals=	0	census=	9999	elder
+movies/Braveheart	6	#mentions=	1	#plurals=	0	census=	13910	europe
+movies/Braveheart	4	#mentions=	4	#plurals=	0	census=	10321	father
+movies/Braveheart	22	#mentions=	1	#plurals=	0	census=	13250	france
+movies/Braveheart	26	#mentions=	1	#plurals=	0	census=	9999	hand
+movies/Braveheart	17	#mentions=	1	#plurals=	0	census=	9999	head
+movies/Braveheart	3	#mentions=	1	#plurals=	0	census=	17	heir
+movies/Braveheart	29	#mentions=	1	#plurals=	0	census=	2110	judge
+movies/Braveheart	1	#mentions=	5	#plurals=	0	census=	33	king
+movies/Braveheart	28	#mentions=	2	#plurals=	0	census=	2110	magistrate
+movies/Braveheart	16	#mentions=	1	#plurals=	0	census=	10334	nephew
+movies/Braveheart	23	#mentions=	1	#plurals=	0	census=	33	nobility
+movies/Braveheart	25	#mentions=	1	#plurals=	1	census=	33	noble
+movies/Braveheart	8	#mentions=	3	#plurals=	2	census=	33	nobleman
+movies/Braveheart	12	#mentions=	1	#plurals=	0	census=	33	prince
+movies/Braveheart	13	#mentions=	1	#plurals=	1	census=	9813	rebel
+movies/Braveheart	14	#mentions=	3	#plurals=	3	census=	13828	scot
+movies/Braveheart	2	#mentions=	6	#plurals=	0	census=	13828	scotland
+movies/Braveheart	20	#mentions=	3	#plurals=	0	census=	13828	scottish
+movies/Braveheart	10	#mentions=	1	#plurals=	0	census=	9999	second
+movies/Braveheart	9	#mentions=	1	#plurals=	1	census=	9812	soldier
+movies/Braveheart	11	#mentions=	4	#plurals=	0	census=	10331	son
+movies/Braveheart	30	#mentions=	1	#plurals=	1	census=	9812	troop
+movies/Braveheart	7	#mentions=	1	#plurals=	0	census=	10361	uncle
+movies/Braveheart	21	#mentions=	1	#plurals=	0	census=	10312	wife
+
+movies/The_English_Patient_(film):
+movies/The_English_Patient_(film)	5	#mentions=	4	#plurals=	0	census=	9819	army
+movies/The_English_Patient_(film)	21	#mentions=	1	#plurals=	0	census=	13825	britain
+movies/The_English_Patient_(film)	8	#mentions=	3	#plurals=	0	census=	13825	british
+movies/The_English_Patient_(film)	3	#mentions=	3	#plurals=	0	census=	13124	canadian
+movies/The_English_Patient_(film)	15	#mentions=	1	#plurals=	0	census=	1310	cartographer
+movies/The_English_Patient_(film)	18	#mentions=	1	#plurals=	0	census=	10382	couple
+movies/The_English_Patient_(film)	16	#mentions=	1	#plurals=	0	census=	13818	egypt
+movies/The_English_Patient_(film)	12	#mentions=	1	#plurals=	0	census=	13818	egyptian
+movies/The_English_Patient_(film)	2	#mentions=	1	#plurals=	0	census=	13250	french
+movies/The_English_Patient_(film)	11	#mentions=	4	#plurals=	0	census=	13276	german
+movies/The_English_Patient_(film)	14	#mentions=	1	#plurals=	0	census=	13348	hungarian
+movies/The_English_Patient_(film)	20	#mentions=	1	#plurals=	0	census=	10311	husband
+movies/The_English_Patient_(film)	10	#mentions=	1	#plurals=	1	census=	9812	intelligence corps
+movies/The_English_Patient_(film)	1	#mentions=	2	#plurals=	0	census=	13380	italian
+movies/The_English_Patient_(film)	24	#mentions=	1	#plurals=	0	census=	13380	italy
+movies/The_English_Patient_(film)	17	#mentions=	1	#plurals=	0	census=	13434	libya
+movies/The_English_Patient_(film)	13	#mentions=	1	#plurals=	0	census=	13434	libyan
+movies/The_English_Patient_(film)	4	#mentions=	1	#plurals=	0	census=	3255	nurse
+movies/The_English_Patient_(film)	22	#mentions=	1	#plurals=	0	census=	9999	packing
+movies/The_English_Patient_(film)	25	#mentions=	1	#plurals=	0	census=	9999	relief
+movies/The_English_Patient_(film)	7	#mentions=	1	#plurals=	0	census=	9812	sapper
+movies/The_English_Patient_(film)	9	#mentions=	1	#plurals=	0	census=	9810	sergeant
+movies/The_English_Patient_(film)	6	#mentions=	1	#plurals=	0	census=	11839	sikh
+movies/The_English_Patient_(film)	23	#mentions=	1	#plurals=	0	census=	3825	spy
+movies/The_English_Patient_(film)	19	#mentions=	2	#plurals=	2	census=	2720	swimmer
+
+movies/Titanic_(1997_film):
+movies/Titanic_(1997_film)	7	#mentions=	1	#plurals=	0	census=	2600	artist
+movies/Titanic_(1997_film)	8	#mentions=	2	#plurals=	0	census=	3930	bodyguard
+movies/Titanic_(1997_film)	12	#mentions=	1	#plurals=	0	census=	10330	child
+movies/Titanic_(1997_film)	10	#mentions=	1	#plurals=	0	census=	2630	designer
+movies/Titanic_(1997_film)	14	#mentions=	1	#plurals=	0	census=	9999	dresser
+movies/Titanic_(1997_film)	6	#mentions=	1	#plurals=	0	census=	10380	family
+movies/Titanic_(1997_film)	1	#mentions=	1	#plurals=	0	census=	6110	hunter
+movies/Titanic_(1997_film)	5	#mentions=	1	#plurals=	0	census=	10303	marriage
+movies/Titanic_(1997_film)	11	#mentions=	1	#plurals=	0	census=	9300	master at arms
+movies/Titanic_(1997_film)	4	#mentions=	2	#plurals=	0	census=	10322	mother
+movies/Titanic_(1997_film)	9	#mentions=	1	#plurals=	1	census=	9997	officer
+movies/Titanic_(1997_film)	3	#mentions=	1	#plurals=	0	census=	9999	research
+movies/Titanic_(1997_film)	2	#mentions=	1	#plurals=	0	census=	9998	team
+movies/Titanic_(1997_film)	13	#mentions=	1	#plurals=	0	census=	9999	warm in
+
+movies/Shakespeare_in_Love:
+movies/Shakespeare_in_Love	13	#mentions=	3	#plurals=	2	census=	2700	actor
+movies/Shakespeare_in_Love	20	#mentions=	1	#plurals=	0	census=	10343	cousin
+movies/Shakespeare_in_Love	7	#mentions=	2	#plurals=	0	census=	10332	daughter
+movies/Shakespeare_in_Love	14	#mentions=	1	#plurals=	0	census=	3060	doctor
+movies/Shakespeare_in_Love	26	#mentions=	1	#plurals=	0	census=	10600	ghost
+movies/Shakespeare_in_Love	18	#mentions=	1	#plurals=	0	census=	9973	impoverished
+movies/Shakespeare_in_Love	22	#mentions=	1	#plurals=	0	census=	2110	judge
+movies/Shakespeare_in_Love	25	#mentions=	1	#plurals=	0	census=	10305	lover
+movies/Shakespeare_in_Love	19	#mentions=	2	#plurals=	0	census=	10303	marriage
+movies/Shakespeare_in_Love	23	#mentions=	1	#plurals=	0	census=	10303	married
+movies/Shakespeare_in_Love	10	#mentions=	2	#plurals=	0	census=	9999	master
+movies/Shakespeare_in_Love	12	#mentions=	1	#plurals=	0	census=	25	merchant
+movies/Shakespeare_in_Love	16	#mentions=	1	#plurals=	1	census=	2700	minstrel
+movies/Shakespeare_in_Love	9	#mentions=	1	#plurals=	0	census=	10305	mistress
+movies/Shakespeare_in_Love	15	#mentions=	2	#plurals=	0	census=	3255	nurse
+movies/Shakespeare_in_Love	4	#mentions=	2	#plurals=	0	census=	3288	owner
+movies/Shakespeare_in_Love	17	#mentions=	1	#plurals=	1	census=	10320	parent
+movies/Shakespeare_in_Love	6	#mentions=	1	#plurals=	0	census=	9854	pirate
+movies/Shakespeare_in_Love	1	#mentions=	1	#plurals=	0	census=	2720	player
+movies/Shakespeare_in_Love	3	#mentions=	2	#plurals=	0	census=	2850	playwright
+movies/Shakespeare_in_Love	2	#mentions=	1	#plurals=	0	census=	9973	poor
+movies/Shakespeare_in_Love	21	#mentions=	4	#plurals=	0	census=	33	queen
+movies/Shakespeare_in_Love	27	#mentions=	1	#plurals=	1	census=	3825	spy
+movies/Shakespeare_in_Love	11	#mentions=	1	#plurals=	0	census=	9976	wealthy
+movies/Shakespeare_in_Love	24	#mentions=	1	#plurals=	0	census=	10312	wife
+movies/Shakespeare_in_Love	5	#mentions=	1	#plurals=	0	census=	9789	working
+movies/Shakespeare_in_Love	8	#mentions=	1	#plurals=	0	census=	2850	writer
+
+movies/American_Beauty_(1999_film):
+movies/American_Beauty_(1999_film)	1	#mentions=	1	#plurals=	0	census=	2700	actor
+movies/American_Beauty_(1999_film)	12	#mentions=	1	#plurals=	0	census=	40	advertising executive
+movies/American_Beauty_(1999_film)	28	#mentions=	2	#plurals=	0	census=	430	boss
+movies/American_Beauty_(1999_film)	39	#mentions=	1	#plurals=	1	census=	9999	boy scout
+movies/American_Beauty_(1999_film)	27	#mentions=	1	#plurals=	0	census=	430	business rival
+movies/American_Beauty_(1999_film)	21	#mentions=	1	#plurals=	0	census=	4010	caterer
+movies/American_Beauty_(1999_film)	25	#mentions=	1	#plurals=	0	census=	2720	cheerleader
+movies/American_Beauty_(1999_film)	34	#mentions=	1	#plurals=	0	census=	9800	colonel
+movies/American_Beauty_(1999_film)	24	#mentions=	1	#plurals=	0	census=	10382	couple
+movies/American_Beauty_(1999_film)	32	#mentions=	3	#plurals=	0	census=	10321	dad
+movies/American_Beauty_(1999_film)	5	#mentions=	4	#plurals=	0	census=	10332	daughter
+movies/American_Beauty_(1999_film)	29	#mentions=	1	#plurals=	0	census=	1430	efficiency expert
+movies/American_Beauty_(1999_film)	2	#mentions=	1	#plurals=	0	census=	430	executive
+movies/American_Beauty_(1999_film)	10	#mentions=	3	#plurals=	0	census=	10380	family
+movies/American_Beauty_(1999_film)	23	#mentions=	2	#plurals=	0	census=	10321	father
+movies/American_Beauty_(1999_film)	35	#mentions=	2	#plurals=	0	census=	9999	head
+movies/American_Beauty_(1999_film)	11	#mentions=	1	#plurals=	0	census=	9781	his job
+movies/American_Beauty_(1999_film)	7	#mentions=	1	#plurals=	0	census=	12802	housewife
+movies/American_Beauty_(1999_film)	37	#mentions=	1	#plurals=	0	census=	10311	husband
+movies/American_Beauty_(1999_film)	20	#mentions=	2	#plurals=	1	census=	9789	job
+movies/American_Beauty_(1999_film)	30	#mentions=	1	#plurals=	0	census=	9990	laid off
+movies/American_Beauty_(1999_film)	13	#mentions=	1	#plurals=	0	census=	2850	magazine writer
+movies/American_Beauty_(1999_film)	18	#mentions=	1	#plurals=	0	census=	9800	marine corps colonel
+movies/American_Beauty_(1999_film)	26	#mentions=	1	#plurals=	0	census=	10303	married
+movies/American_Beauty_(1999_film)	14	#mentions=	1	#plurals=	0	census=	10303	married to
+movies/American_Beauty_(1999_film)	8	#mentions=	2	#plurals=	0	census=	9819	military
+movies/American_Beauty_(1999_film)	33	#mentions=	2	#plurals=	0	census=	9999	ordinary
+movies/American_Beauty_(1999_film)	16	#mentions=	1	#plurals=	1	census=	10320	parent
+movies/American_Beauty_(1999_film)	6	#mentions=	1	#plurals=	0	census=	15120	real estate
+movies/American_Beauty_(1999_film)	4	#mentions=	1	#plurals=	0	census=	4920	real estate agent
+movies/American_Beauty_(1999_film)	15	#mentions=	1	#plurals=	0	census=	4920	real estate broker
+movies/American_Beauty_(1999_film)	19	#mentions=	5	#plurals=	0	census=	10331	son
+movies/American_Beauty_(1999_film)	36	#mentions=	1	#plurals=	0	census=	9999	stand in
+movies/American_Beauty_(1999_film)	9	#mentions=	1	#plurals=	0	census=	9999	superior
+movies/American_Beauty_(1999_film)	17	#mentions=	1	#plurals=	0	census=	13840	us
+movies/American_Beauty_(1999_film)	22	#mentions=	1	#plurals=	0	census=	4110	waiter
+movies/American_Beauty_(1999_film)	38	#mentions=	1	#plurals=	0	census=	10840	white
+movies/American_Beauty_(1999_film)	3	#mentions=	5	#plurals=	0	census=	10312	wife
+movies/American_Beauty_(1999_film)	31	#mentions=	1	#plurals=	0	census=	9789	work
+
+movies/Gladiator_(2000_film):
+movies/Gladiator_(2000_film)	2	#mentions=	1	#plurals=	0	census=	9819	army
+movies/Gladiator_(2000_film)	3	#mentions=	2	#plurals=	0	census=	33	emperor
+movies/Gladiator_(2000_film)	7	#mentions=	3	#plurals=	0	census=	10380	family
+movies/Gladiator_(2000_film)	5	#mentions=	1	#plurals=	0	census=	10321	father
+movies/Gladiator_(2000_film)	1	#mentions=	1	#plurals=	0	census=	9800	general
+movies/Gladiator_(2000_film)	11	#mentions=	1	#plurals=	0	census=	13276	german
+movies/Gladiator_(2000_film)	9	#mentions=	10	#plurals=	6	census=	9814	gladiator
+movies/Gladiator_(2000_film)	6	#mentions=	4	#plurals=	2	census=	3930	guard
+movies/Gladiator_(2000_film)	18	#mentions=	1	#plurals=	0	census=	9999	hand
+movies/Gladiator_(2000_film)	13	#mentions=	1	#plurals=	0	census=	9999	leader
+movies/Gladiator_(2000_film)	12	#mentions=	1	#plurals=	0	census=	9819	military
+movies/Gladiator_(2000_film)	14	#mentions=	1	#plurals=	0	census=	3600	orderly
+movies/Gladiator_(2000_film)	16	#mentions=	2	#plurals=	0	census=	30	senator
+movies/Gladiator_(2000_film)	15	#mentions=	1	#plurals=	0	census=	10342	sister
+movies/Gladiator_(2000_film)	17	#mentions=	2	#plurals=	1	census=	9812	soldier
+movies/Gladiator_(2000_film)	4	#mentions=	3	#plurals=	0	census=	10331	son
+movies/Gladiator_(2000_film)	10	#mentions=	1	#plurals=	0	census=	2720	trainer
+movies/Gladiator_(2000_film)	8	#mentions=	2	#plurals=	0	census=	10312	wife
+
+movies/A_Beautiful_Mind_(film):
+movies/A_Beautiful_Mind_(film)	3	#mentions=	1	#plurals=	1	census=	9999	advocate
+movies/A_Beautiful_Mind_(film)	1	#mentions=	2	#plurals=	2	census=	10866	graduate student
+movies/A_Beautiful_Mind_(film)	11	#mentions=	1	#plurals=	0	census=	430	head of
+movies/A_Beautiful_Mind_(film)	13	#mentions=	1	#plurals=	0	census=	9781	his work
+movies/A_Beautiful_Mind_(film)	6	#mentions=	1	#plurals=	0	census=	9789	job
+movies/A_Beautiful_Mind_(film)	8	#mentions=	1	#plurals=	0	census=	10335	niece
+movies/A_Beautiful_Mind_(film)	14	#mentions=	1	#plurals=	1	census=	2200	professor
+movies/A_Beautiful_Mind_(film)	15	#mentions=	1	#plurals=	0	census=	10331	son
+movies/A_Beautiful_Mind_(film)	7	#mentions=	3	#plurals=	2	census=	13810	soviet
+movies/A_Beautiful_Mind_(film)	9	#mentions=	2	#plurals=	2	census=	3825	soviet agent
+movies/A_Beautiful_Mind_(film)	2	#mentions=	2	#plurals=	0	census=	10860	student
+movies/A_Beautiful_Mind_(film)	4	#mentions=	1	#plurals=	0	census=	430	supervisor
+movies/A_Beautiful_Mind_(film)	5	#mentions=	1	#plurals=	1	census=	13840	united state
+movies/A_Beautiful_Mind_(film)	12	#mentions=	1	#plurals=	0	census=	9789	work
+movies/A_Beautiful_Mind_(film)	10	#mentions=	1	#plurals=	0	census=	9789	working
+
+movies/Chicago_(2002_film):
+movies/Chicago_(2002_film)	4	#mentions=	1	#plurals=	0	census=	9854	burglar
+movies/Chicago_(2002_film)	15	#mentions=	2	#plurals=	0	census=	10330	child
+movies/Chicago_(2002_film)	7	#mentions=	2	#plurals=	0	census=	9999	cook county
+movies/Chicago_(2002_film)	5	#mentions=	2	#plurals=	0	census=	3820	detective
+movies/Chicago_(2002_film)	6	#mentions=	2	#plurals=	0	census=	35	district attorney
+movies/Chicago_(2002_film)	19	#mentions=	1	#plurals=	0	census=	10321	father
+movies/Chicago_(2002_film)	13	#mentions=	1	#plurals=	0	census=	17	heiress
+movies/Chicago_(2002_film)	16	#mentions=	1	#plurals=	0	census=	13348	hungarian
+movies/Chicago_(2002_film)	2	#mentions=	5	#plurals=	0	census=	10311	husband
+movies/Chicago_(2002_film)	17	#mentions=	1	#plurals=	0	census=	9858	inmate
+movies/Chicago_(2002_film)	10	#mentions=	2	#plurals=	0	census=	2100	lawyer
+movies/Chicago_(2002_film)	14	#mentions=	1	#plurals=	1	census=	10305	lover
+movies/Chicago_(2002_film)	9	#mentions=	2	#plurals=	0	census=	10322	mama
+movies/Chicago_(2002_film)	1	#mentions=	1	#plurals=	0	census=	430	manager
+movies/Chicago_(2002_film)	8	#mentions=	1	#plurals=	0	census=	3800	matron
+movies/Chicago_(2002_film)	21	#mentions=	1	#plurals=	1	census=	9856	murderer
+movies/Chicago_(2002_film)	18	#mentions=	1	#plurals=	1	census=	2810	newspaper reporter
+movies/Chicago_(2002_film)	20	#mentions=	1	#plurals=	0	census=	2760	performer
+movies/Chicago_(2002_film)	3	#mentions=	2	#plurals=	0	census=	10342	sister
+movies/Chicago_(2002_film)	12	#mentions=	1	#plurals=	0	census=	9976	wealthy
+movies/Chicago_(2002_film)	11	#mentions=	1	#plurals=	0	census=	9789	working
+
+movies/The_Lord_of_the_Rings:_The_Return_of_the_King:
+movies/The_Lord_of_the_Rings:_The_Return_of_the_King	5	#mentions=	7	#plurals=	0	census=	9819	army
+movies/The_Lord_of_the_Rings:_The_Return_of_the_King	11	#mentions=	1	#plurals=	0	census=	10841	black
+movies/The_Lord_of_the_Rings:_The_Return_of_the_King	16	#mentions=	1	#plurals=	1	census=	10330	child
+movies/The_Lord_of_the_Rings:_The_Return_of_the_King	15	#mentions=	1	#plurals=	1	census=	10600	elf
+movies/The_Lord_of_the_Rings:_The_Return_of_the_King	1	#mentions=	5	#plurals=	5	census=	10601	hobbit
+movies/The_Lord_of_the_Rings:_The_Return_of_the_King	3	#mentions=	4	#plurals=	0	census=	33	king
+movies/The_Lord_of_the_Rings:_The_Return_of_the_King	12	#mentions=	1	#plurals=	1	census=	9999	member
+movies/The_Lord_of_the_Rings:_The_Return_of_the_King	8	#mentions=	1	#plurals=	0	census=	10334	nephew
+movies/The_Lord_of_the_Rings:_The_Return_of_the_King	10	#mentions=	1	#plurals=	0	census=	10335	niece
+movies/The_Lord_of_the_Rings:_The_Return_of_the_King	6	#mentions=	4	#plurals=	3	census=	10601	orc
+movies/The_Lord_of_the_Rings:_The_Return_of_the_King	13	#mentions=	1	#plurals=	0	census=	33	queen
+movies/The_Lord_of_the_Rings:_The_Return_of_the_King	2	#mentions=	1	#plurals=	0	census=	9999	river
+movies/The_Lord_of_the_Rings:_The_Return_of_the_King	7	#mentions=	2	#plurals=	0	census=	10331	son
+movies/The_Lord_of_the_Rings:_The_Return_of_the_King	4	#mentions=	1	#plurals=	0	census=	9999	steward
+movies/The_Lord_of_the_Rings:_The_Return_of_the_King	14	#mentions=	1	#plurals=	0	census=	10361	uncle
+movies/The_Lord_of_the_Rings:_The_Return_of_the_King	9	#mentions=	2	#plurals=	0	census=	10603	witch
+
+movies/Million_Dollar_Baby:
+movies/Million_Dollar_Baby	21	#mentions=	1	#plurals=	0	census=	9780	assistant
+movies/Million_Dollar_Baby	25	#mentions=	1	#plurals=	0	census=	2100	attorney
+movies/Million_Dollar_Baby	3	#mentions=	1	#plurals=	0	census=	2720	boxing trainer
+movies/Million_Dollar_Baby	5	#mentions=	1	#plurals=	0	census=	9789	career
+movies/Million_Dollar_Baby	10	#mentions=	1	#plurals=	1	census=	2720	coach
+movies/Million_Dollar_Baby	30	#mentions=	1	#plurals=	0	census=	9999	counter
+movies/Million_Dollar_Baby	14	#mentions=	2	#plurals=	0	census=	10332	daughter
+movies/Million_Dollar_Baby	22	#mentions=	1	#plurals=	1	census=	3060	doctor
+movies/Million_Dollar_Baby	7	#mentions=	1	#plurals=	1	census=	9780	employee
+movies/Million_Dollar_Baby	16	#mentions=	1	#plurals=	0	census=	13910	europe
+movies/Million_Dollar_Baby	24	#mentions=	1	#plurals=	0	census=	10380	family
+movies/Million_Dollar_Baby	28	#mentions=	2	#plurals=	0	census=	10321	father
+movies/Million_Dollar_Baby	19	#mentions=	1	#plurals=	0	census=	13276	german
+movies/Million_Dollar_Baby	23	#mentions=	1	#plurals=	0	census=	10605	god
+movies/Million_Dollar_Baby	18	#mentions=	1	#plurals=	0	census=	15200	government
+movies/Million_Dollar_Baby	29	#mentions=	1	#plurals=	0	census=	13372	irish
+movies/Million_Dollar_Baby	12	#mentions=	1	#plurals=	0	census=	9999	junior
+movies/Million_Dollar_Baby	6	#mentions=	5	#plurals=	1	census=	430	manager
+movies/Million_Dollar_Baby	27	#mentions=	1	#plurals=	0	census=	3260	medical staff
+movies/Million_Dollar_Baby	17	#mentions=	3	#plurals=	0	census=	10322	mother
+movies/Million_Dollar_Baby	9	#mentions=	1	#plurals=	0	census=	2060	novice
+movies/Million_Dollar_Baby	8	#mentions=	2	#plurals=	0	census=	2040	priest
+movies/Million_Dollar_Baby	26	#mentions=	1	#plurals=	0	census=	9999	prior
+movies/Million_Dollar_Baby	20	#mentions=	1	#plurals=	0	census=	9855	prostitute
+movies/Million_Dollar_Baby	13	#mentions=	1	#plurals=	1	census=	9999	substitute
+movies/Million_Dollar_Baby	1	#mentions=	1	#plurals=	0	census=	9977	swank
+movies/Million_Dollar_Baby	11	#mentions=	1	#plurals=	0	census=	9780	trainee
+movies/Million_Dollar_Baby	15	#mentions=	1	#plurals=	0	census=	13826	uk
+movies/Million_Dollar_Baby	2	#mentions=	1	#plurals=	0	census=	4111	waitress
+movies/Million_Dollar_Baby	4	#mentions=	1	#plurals=	1	census=	9789	work
+
+movies/Crash_(2004_film):
+movies/Crash_(2004_film)	22	#mentions=	1	#plurals=	0	census=	10600	angel
+movies/Crash_(2004_film)	7	#mentions=	2	#plurals=	0	census=	10841	black
+movies/Crash_(2004_film)	16	#mentions=	2	#plurals=	0	census=	10341	brother
+movies/Crash_(2004_film)	26	#mentions=	2	#plurals=	0	census=	13116	cambodian
+movies/Crash_(2004_film)	25	#mentions=	1	#plurals=	0	census=	565	coroner
+movies/Crash_(2004_film)	10	#mentions=	1	#plurals=	0	census=	10382	couple
+movies/Crash_(2004_film)	5	#mentions=	4	#plurals=	0	census=	10332	daughter
+movies/Crash_(2004_film)	1	#mentions=	1	#plurals=	0	census=	3820	detective
+movies/Crash_(2004_film)	14	#mentions=	1	#plurals=	0	census=	3280	director
+movies/Crash_(2004_film)	8	#mentions=	1	#plurals=	0	census=	35	district attorney
+movies/Crash_(2004_film)	21	#mentions=	1	#plurals=	0	census=	10380	family
+movies/Crash_(2004_film)	20	#mentions=	1	#plurals=	0	census=	10321	father
+movies/Crash_(2004_film)	24	#mentions=	1	#plurals=	0	census=	9999	hand
+movies/Crash_(2004_film)	11	#mentions=	1	#plurals=	0	census=	10842	hispanic
+movies/Crash_(2004_film)	27	#mentions=	2	#plurals=	1	census=	10848	immigrant
+movies/Crash_(2004_film)	12	#mentions=	1	#plurals=	0	census=	7540	locksmith
+movies/Crash_(2004_film)	15	#mentions=	1	#plurals=	0	census=	10322	mother
+movies/Crash_(2004_film)	17	#mentions=	1	#plurals=	0	census=	9310	navigator
+movies/Crash_(2004_film)	19	#mentions=	1	#plurals=	1	census=	9997	officer
+movies/Crash_(2004_film)	2	#mentions=	4	#plurals=	0	census=	9998	partner
+movies/Crash_(2004_film)	3	#mentions=	1	#plurals=	0	census=	13364	persian
+movies/Crash_(2004_film)	23	#mentions=	1	#plurals=	0	census=	9999	pick up
+movies/Crash_(2004_film)	18	#mentions=	1	#plurals=	1	census=	3850	police officer
+movies/Crash_(2004_film)	13	#mentions=	2	#plurals=	0	census=	8340	pull over
+movies/Crash_(2004_film)	4	#mentions=	2	#plurals=	0	census=	25	shop owner
+movies/Crash_(2004_film)	6	#mentions=	1	#plurals=	0	census=	25	store owner
+movies/Crash_(2004_film)	9	#mentions=	3	#plurals=	0	census=	10312	wife
+
+movies/The_Departed:
+movies/The_Departed	3	#mentions=	1	#plurals=	0	census=	13840	american
+movies/The_Departed	23	#mentions=	1	#plurals=	0	census=	2100	attorney
+movies/The_Departed	7	#mentions=	1	#plurals=	0	census=	9800	captain
+movies/The_Departed	1	#mentions=	1	#plurals=	0	census=	10330	child
+movies/The_Departed	22	#mentions=	1	#plurals=	0	census=	16103	computer
+movies/The_Departed	15	#mentions=	1	#plurals=	0	census=	3850	cop
+movies/The_Departed	20	#mentions=	2	#plurals=	0	census=	9997	crew
+movies/The_Departed	12	#mentions=	2	#plurals=	1	census=	9780	crew member
+movies/The_Departed	9	#mentions=	1	#plurals=	0	census=	10380	family
+movies/The_Departed	19	#mentions=	2	#plurals=	0	census=	15200	fbi
+movies/The_Departed	5	#mentions=	1	#plurals=	1	census=	6050	groom
+movies/The_Departed	25	#mentions=	1	#plurals=	0	census=	9999	head
+movies/The_Departed	13	#mentions=	1	#plurals=	1	census=	9850	henchman
+movies/The_Departed	21	#mentions=	1	#plurals=	0	census=	9781	his work
+movies/The_Departed	2	#mentions=	2	#plurals=	0	census=	13372	irish
+movies/The_Departed	4	#mentions=	1	#plurals=	0	census=	9857	mobster
+movies/The_Departed	10	#mentions=	5	#plurals=	0	census=	3850	police
+movies/The_Departed	17	#mentions=	1	#plurals=	0	census=	3850	police department
+movies/The_Departed	11	#mentions=	1	#plurals=	0	census=	3060	psychiatrist
+movies/The_Departed	8	#mentions=	1	#plurals=	0	census=	9810	staff sergeant
+movies/The_Departed	6	#mentions=	3	#plurals=	0	census=	3850	state police
+movies/The_Departed	14	#mentions=	1	#plurals=	0	census=	16102	television
+movies/The_Departed	24	#mentions=	2	#plurals=	0	census=	3850	trooper
+movies/The_Departed	18	#mentions=	1	#plurals=	0	census=	9789	work
+movies/The_Departed	16	#mentions=	1	#plurals=	0	census=	9789	working
+
+movies/No_Country_for_Old_Men_(film):
+movies/No_Country_for_Old_Men_(film)	11	#mentions=	1	#plurals=	0	census=	2750	band
+movies/No_Country_for_Old_Men_(film)	8	#mentions=	1	#plurals=	0	census=	3710	county sheriff
+movies/No_Country_for_Old_Men_(film)	2	#mentions=	1	#plurals=	0	census=	3850	deputy sheriff
+movies/No_Country_for_Old_Men_(film)	3	#mentions=	1	#plurals=	0	census=	9998	driver
+movies/No_Country_for_Old_Men_(film)	16	#mentions=	3	#plurals=	0	census=	10321	father
+movies/No_Country_for_Old_Men_(film)	1	#mentions=	1	#plurals=	0	census=	9856	hitman
+movies/No_Country_for_Old_Men_(film)	13	#mentions=	1	#plurals=	0	census=	10311	husband
+movies/No_Country_for_Old_Men_(film)	15	#mentions=	1	#plurals=	0	census=	3850	lawman
+movies/No_Country_for_Old_Men_(film)	5	#mentions=	4	#plurals=	3	census=	13484	mexican
+movies/No_Country_for_Old_Men_(film)	10	#mentions=	1	#plurals=	0	census=	13484	mexico
+movies/No_Country_for_Old_Men_(film)	7	#mentions=	3	#plurals=	0	census=	10322	mother
+movies/No_Country_for_Old_Men_(film)	4	#mentions=	1	#plurals=	0	census=	3288	owner
+movies/No_Country_for_Old_Men_(film)	9	#mentions=	1	#plurals=	0	census=	9999	second
+movies/No_Country_for_Old_Men_(film)	12	#mentions=	1	#plurals=	0	census=	3710	sheriff
+movies/No_Country_for_Old_Men_(film)	14	#mentions=	1	#plurals=	0	census=	10361	uncle
+movies/No_Country_for_Old_Men_(film)	6	#mentions=	2	#plurals=	0	census=	10312	wife
+
+movies/Slumdog_Millionaire:
+movies/Slumdog_Millionaire	10	#mentions=	2	#plurals=	2	census=	9973	beggar
+movies/Slumdog_Millionaire	5	#mentions=	1	#plurals=	0	census=	2700	bollywood star
+movies/Slumdog_Millionaire	6	#mentions=	4	#plurals=	2	census=	10341	brother
+movies/Slumdog_Millionaire	9	#mentions=	2	#plurals=	2	census=	10330	child
+movies/Slumdog_Millionaire	18	#mentions=	1	#plurals=	0	census=	9857	crime lord
+movies/Slumdog_Millionaire	14	#mentions=	1	#plurals=	1	census=	4140	dish washer
+movies/Slumdog_Millionaire	8	#mentions=	1	#plurals=	0	census=	9857	gangster
+movies/Slumdog_Millionaire	23	#mentions=	1	#plurals=	0	census=	10605	god
+movies/Slumdog_Millionaire	11	#mentions=	1	#plurals=	0	census=	9999	hand
+movies/Slumdog_Millionaire	21	#mentions=	1	#plurals=	0	census=	13356	india
+movies/Slumdog_Millionaire	1	#mentions=	3	#plurals=	0	census=	13356	indian
+movies/Slumdog_Millionaire	17	#mentions=	1	#plurals=	0	census=	9789	job
+movies/Slumdog_Millionaire	19	#mentions=	1	#plurals=	0	census=	9800	lieutenant
+movies/Slumdog_Millionaire	3	#mentions=	2	#plurals=	0	census=	9976	millionaire
+movies/Slumdog_Millionaire	7	#mentions=	1	#plurals=	0	census=	10322	mother
+movies/Slumdog_Millionaire	2	#mentions=	1	#plurals=	0	census=	11836	muslim
+movies/Slumdog_Millionaire	4	#mentions=	2	#plurals=	0	census=	3850	police
+movies/Slumdog_Millionaire	22	#mentions=	1	#plurals=	0	census=	3820	police inspector
+movies/Slumdog_Millionaire	16	#mentions=	1	#plurals=	0	census=	9855	prostitute
+movies/Slumdog_Millionaire	12	#mentions=	1	#plurals=	0	census=	9999	selling
+movies/Slumdog_Millionaire	20	#mentions=	1	#plurals=	0	census=	2800	show host
+movies/Slumdog_Millionaire	15	#mentions=	1	#plurals=	1	census=	4540	tour guide
+movies/Slumdog_Millionaire	13	#mentions=	1	#plurals=	0	census=	9789	working
+
+movies/The_Hurt_Locker:
+movies/The_Hurt_Locker	11	#mentions=	1	#plurals=	0	census=	13928	arab
+movies/The_Hurt_Locker	5	#mentions=	2	#plurals=	0	census=	9819	army
+movies/The_Hurt_Locker	14	#mentions=	1	#plurals=	0	census=	13825	british
+movies/The_Hurt_Locker	13	#mentions=	1	#plurals=	1	census=	50	contractor
+movies/The_Hurt_Locker	22	#mentions=	2	#plurals=	2	census=	9813	insurgent
+movies/The_Hurt_Locker	6	#mentions=	1	#plurals=	0	census=	13368	iraq
+movies/The_Hurt_Locker	9	#mentions=	4	#plurals=	0	census=	13368	iraqi
+movies/The_Hurt_Locker	3	#mentions=	4	#plurals=	0	census=	9999	leader
+movies/The_Hurt_Locker	18	#mentions=	1	#plurals=	0	census=	9800	lieutenant colonel
+movies/The_Hurt_Locker	15	#mentions=	3	#plurals=	3	census=	9812	mercenary
+movies/The_Hurt_Locker	12	#mentions=	1	#plurals=	0	census=	9819	military
+movies/The_Hurt_Locker	10	#mentions=	1	#plurals=	0	census=	9999	pick up
+movies/The_Hurt_Locker	16	#mentions=	2	#plurals=	2	census=	9858	prisoner
+movies/The_Hurt_Locker	20	#mentions=	1	#plurals=	0	census=	2200	professor
+movies/The_Hurt_Locker	19	#mentions=	1	#plurals=	0	census=	3060	psychiatrist
+movies/The_Hurt_Locker	1	#mentions=	2	#plurals=	0	census=	9810	sergeant
+movies/The_Hurt_Locker	17	#mentions=	1	#plurals=	1	census=	9812	sniper
+movies/The_Hurt_Locker	23	#mentions=	3	#plurals=	0	census=	10331	son
+movies/The_Hurt_Locker	8	#mentions=	1	#plurals=	0	census=	1600	specialist
+movies/The_Hurt_Locker	7	#mentions=	1	#plurals=	0	census=	9810	staff sergeant
+movies/The_Hurt_Locker	21	#mentions=	1	#plurals=	0	census=	9999	tanker
+movies/The_Hurt_Locker	2	#mentions=	4	#plurals=	0	census=	9998	team
+movies/The_Hurt_Locker	4	#mentions=	2	#plurals=	0	census=	13840	us
+movies/The_Hurt_Locker	24	#mentions=	1	#plurals=	0	census=	10312	wife
+
+movies/The_King%27s_Speech:
+movies/The_King%27s_Speech	21	#mentions=	2	#plurals=	2	census=	2005	advisor
+movies/The_King%27s_Speech	16	#mentions=	1	#plurals=	0	census=	13840	american
+movies/The_King%27s_Speech	25	#mentions=	1	#plurals=	0	census=	2040	archbishop
+movies/The_King%27s_Speech	9	#mentions=	2	#plurals=	0	census=	13036	australian
+movies/The_King%27s_Speech	23	#mentions=	2	#plurals=	0	census=	13825	britain
+movies/The_King%27s_Speech	2	#mentions=	1	#plurals=	0	census=	13825	british
+movies/The_King%27s_Speech	13	#mentions=	1	#plurals=	0	census=	10341	brother
+movies/The_King%27s_Speech	15	#mentions=	1	#plurals=	0	census=	10302	divorced
+movies/The_King%27s_Speech	19	#mentions=	1	#plurals=	0	census=	33	duchess
+movies/The_King%27s_Speech	4	#mentions=	2	#plurals=	0	census=	33	duke
+movies/The_King%27s_Speech	11	#mentions=	3	#plurals=	0	census=	10380	family
+movies/The_King%27s_Speech	12	#mentions=	1	#plurals=	0	census=	10321	father
+movies/The_King%27s_Speech	24	#mentions=	1	#plurals=	0	census=	13276	germany
+movies/The_King%27s_Speech	17	#mentions=	1	#plurals=	0	census=	430	head of
+movies/The_King%27s_Speech	18	#mentions=	2	#plurals=	1	census=	10311	husband
+movies/The_King%27s_Speech	7	#mentions=	15	#plurals=	0	census=	33	king
+movies/The_King%27s_Speech	14	#mentions=	1	#plurals=	0	census=	10303	marriage
+movies/The_King%27s_Speech	1	#mentions=	1	#plurals=	0	census=	430	official
+movies/The_King%27s_Speech	26	#mentions=	1	#plurals=	0	census=	15	prime minister
+movies/The_King%27s_Speech	3	#mentions=	1	#plurals=	0	census=	33	prince
+movies/The_King%27s_Speech	20	#mentions=	1	#plurals=	0	census=	33	queen
+movies/The_King%27s_Speech	5	#mentions=	2	#plurals=	0	census=	9999	second
+movies/The_King%27s_Speech	22	#mentions=	1	#plurals=	1	census=	9812	soldier
+movies/The_King%27s_Speech	6	#mentions=	2	#plurals=	0	census=	10331	son
+movies/The_King%27s_Speech	10	#mentions=	1	#plurals=	1	census=	3230	speech therapist
+movies/The_King%27s_Speech	8	#mentions=	2	#plurals=	0	census=	10312	wife
+
+movies/The_Artist_(film):
+movies/The_Artist_(film)	5	#mentions=	1	#plurals=	0	census=	430	boss
+movies/The_Artist_(film)	10	#mentions=	1	#plurals=	0	census=	9140	chauffeur
+movies/The_Artist_(film)	3	#mentions=	2	#plurals=	1	census=	2740	dancer
+movies/The_Artist_(film)	16	#mentions=	1	#plurals=	0	census=	3280	director of
+movies/The_Artist_(film)	6	#mentions=	1	#plurals=	0	census=	9999	extra
+movies/The_Artist_(film)	18	#mentions=	1	#plurals=	0	census=	2920	film crew
+movies/The_Artist_(film)	1	#mentions=	1	#plurals=	0	census=	2700	film star
+movies/The_Artist_(film)	17	#mentions=	1	#plurals=	0	census=	13250	french
+movies/The_Artist_(film)	11	#mentions=	1	#plurals=	0	census=	2700	hollywood star
+movies/The_Artist_(film)	7	#mentions=	1	#plurals=	0	census=	15050	industry
+movies/The_Artist_(film)	12	#mentions=	1	#plurals=	0	census=	9789	job
+movies/The_Artist_(film)	2	#mentions=	1	#plurals=	0	census=	9998	page
+movies/The_Artist_(film)	13	#mentions=	1	#plurals=	0	census=	3850	policeman
+movies/The_Artist_(film)	4	#mentions=	2	#plurals=	0	census=	9999	production
+movies/The_Artist_(film)	15	#mentions=	1	#plurals=	0	census=	9999	second
+movies/The_Artist_(film)	9	#mentions=	1	#plurals=	0	census=	4650	valet
+movies/The_Artist_(film)	8	#mentions=	1	#plurals=	0	census=	10312	wife
+movies/The_Artist_(film)	14	#mentions=	1	#plurals=	0	census=	9789	working
+
+movies/Argo_(2012_film):
+movies/Argo_(2012_film)	8	#mentions=	3	#plurals=	0	census=	35	ambassador
+movies/Argo_(2012_film)	31	#mentions=	1	#plurals=	1	census=	13840	american
+movies/Argo_(2012_film)	23	#mentions=	1	#plurals=	0	census=	430	boss
+movies/Argo_(2012_film)	7	#mentions=	5	#plurals=	0	census=	13124	canadian
+movies/Argo_(2012_film)	17	#mentions=	1	#plurals=	0	census=	2710	film producer
+movies/Argo_(2012_film)	18	#mentions=	1	#plurals=	0	census=	2710	film production
+movies/Argo_(2012_film)	14	#mentions=	1	#plurals=	1	census=	2710	filmmaker
+movies/Argo_(2012_film)	28	#mentions=	1	#plurals=	0	census=	15200	government
+movies/Argo_(2012_film)	27	#mentions=	1	#plurals=	1	census=	3930	guard
+movies/Argo_(2012_film)	24	#mentions=	1	#plurals=	0	census=	9999	head
+movies/Argo_(2012_film)	30	#mentions=	1	#plurals=	0	census=	4230	housekeeper
+movies/Argo_(2012_film)	6	#mentions=	1	#plurals=	0	census=	12803	in the home
+movies/Argo_(2012_film)	11	#mentions=	2	#plurals=	0	census=	9800	intelligence
+movies/Argo_(2012_film)	10	#mentions=	4	#plurals=	0	census=	13364	iran
+movies/Argo_(2012_film)	1	#mentions=	4	#plurals=	0	census=	13364	iranian
+movies/Argo_(2012_film)	32	#mentions=	1	#plurals=	0	census=	13368	iraq
+movies/Argo_(2012_film)	15	#mentions=	1	#plurals=	0	census=	4520	make up artist
+movies/Argo_(2012_film)	22	#mentions=	1	#plurals=	0	census=	9819	military
+movies/Argo_(2012_film)	3	#mentions=	1	#plurals=	0	census=	14	president carter
+movies/Argo_(2012_film)	20	#mentions=	1	#plurals=	0	census=	2710	producer
+movies/Argo_(2012_film)	25	#mentions=	1	#plurals=	0	census=	9999	production
+movies/Argo_(2012_film)	19	#mentions=	3	#plurals=	2	census=	9813	revolutionary
+movies/Argo_(2012_film)	26	#mentions=	1	#plurals=	0	census=	9999	second
+movies/Argo_(2012_film)	21	#mentions=	1	#plurals=	0	census=	4700	shopkeeper
+movies/Argo_(2012_film)	13	#mentions=	1	#plurals=	0	census=	10331	son
+movies/Argo_(2012_film)	12	#mentions=	1	#plurals=	0	census=	1600	specialist
+movies/Argo_(2012_film)	5	#mentions=	1	#plurals=	0	census=	3288	staff
+movies/Argo_(2012_film)	9	#mentions=	1	#plurals=	0	census=	15200	state department
+movies/Argo_(2012_film)	2	#mentions=	1	#plurals=	1	census=	13840	united state
+movies/Argo_(2012_film)	4	#mentions=	4	#plurals=	0	census=	13840	us
+movies/Argo_(2012_film)	29	#mentions=	1	#plurals=	0	census=	10312	wife
+movies/Argo_(2012_film)	16	#mentions=	1	#plurals=	0	census=	9789	worked
+
+movies/12_Years_a_Slave_(film):
+movies/12_Years_a_Slave_(film)	2	#mentions=	2	#plurals=	1	census=	10841	african american
+movies/12_Years_a_Slave_(film)	24	#mentions=	1	#plurals=	0	census=	13840	american
+movies/12_Years_a_Slave_(film)	22	#mentions=	1	#plurals=	0	census=	13124	canadian
+movies/12_Years_a_Slave_(film)	14	#mentions=	1	#plurals=	0	census=	6230	carpenter
+movies/12_Years_a_Slave_(film)	6	#mentions=	1	#plurals=	1	census=	10330	child
+movies/12_Years_a_Slave_(film)	26	#mentions=	1	#plurals=	0	census=	9999	companion
+movies/12_Years_a_Slave_(film)	21	#mentions=	1	#plurals=	0	census=	15040	construction
+movies/12_Years_a_Slave_(film)	30	#mentions=	1	#plurals=	0	census=	10332	daughter
+movies/12_Years_a_Slave_(film)	9	#mentions=	1	#plurals=	0	census=	9999	dc
+movies/12_Years_a_Slave_(film)	33	#mentions=	1	#plurals=	1	census=	9999	display
+movies/12_Years_a_Slave_(film)	28	#mentions=	2	#plurals=	0	census=	10380	family
+movies/12_Years_a_Slave_(film)	18	#mentions=	1	#plurals=	0	census=	6050	field hand
+movies/12_Years_a_Slave_(film)	12	#mentions=	1	#plurals=	0	census=	13268	georgia
+movies/12_Years_a_Slave_(film)	32	#mentions=	1	#plurals=	0	census=	10356	grandson
+movies/12_Years_a_Slave_(film)	31	#mentions=	1	#plurals=	0	census=	10311	husband
+movies/12_Years_a_Slave_(film)	17	#mentions=	1	#plurals=	0	census=	2110	judge
+movies/12_Years_a_Slave_(film)	23	#mentions=	1	#plurals=	0	census=	9760	laborer
+movies/12_Years_a_Slave_(film)	8	#mentions=	1	#plurals=	0	census=	2750	musician
+movies/12_Years_a_Slave_(film)	19	#mentions=	1	#plurals=	0	census=	7700	overseer
+movies/12_Years_a_Slave_(film)	13	#mentions=	2	#plurals=	0	census=	25	plantation owner
+movies/12_Years_a_Slave_(film)	25	#mentions=	3	#plurals=	0	census=	3710	sheriff
+movies/12_Years_a_Slave_(film)	27	#mentions=	1	#plurals=	0	census=	4700	shopkeeper
+movies/12_Years_a_Slave_(film)	10	#mentions=	9	#plurals=	3	census=	9975	slave
+movies/12_Years_a_Slave_(film)	15	#mentions=	1	#plurals=	0	census=	25	slave owner
+movies/12_Years_a_Slave_(film)	11	#mentions=	1	#plurals=	0	census=	4965	slave trader
+movies/12_Years_a_Slave_(film)	1	#mentions=	2	#plurals=	0	census=	13090	solomon
+movies/12_Years_a_Slave_(film)	29	#mentions=	1	#plurals=	0	census=	10331	son
+movies/12_Years_a_Slave_(film)	4	#mentions=	1	#plurals=	0	census=	2750	violinist
+movies/12_Years_a_Slave_(film)	20	#mentions=	1	#plurals=	0	census=	9999	whip
+movies/12_Years_a_Slave_(film)	7	#mentions=	2	#plurals=	0	census=	10840	white
+movies/12_Years_a_Slave_(film)	5	#mentions=	2	#plurals=	0	census=	10312	wife
+movies/12_Years_a_Slave_(film)	16	#mentions=	1	#plurals=	0	census=	9789	work
+movies/12_Years_a_Slave_(film)	3	#mentions=	2	#plurals=	0	census=	9789	working
+
+movies/Birdman_(film):
+movies/Birdman_(film)	2	#mentions=	4	#plurals=	1	census=	2700	actor
+movies/Birdman_(film)	1	#mentions=	2	#plurals=	0	census=	13840	american
+movies/Birdman_(film)	8	#mentions=	1	#plurals=	0	census=	9780	assistant
+movies/Birdman_(film)	9	#mentions=	1	#plurals=	0	census=	10306	boyfriend
+movies/Birdman_(film)	10	#mentions=	1	#plurals=	0	census=	2005	critic
+movies/Birdman_(film)	6	#mentions=	1	#plurals=	0	census=	10332	daughter
+movies/Birdman_(film)	5	#mentions=	1	#plurals=	0	census=	10307	girlfriend
+movies/Birdman_(film)	13	#mentions=	1	#plurals=	0	census=	9999	head
+movies/Birdman_(film)	4	#mentions=	1	#plurals=	0	census=	2100	lawyer
+movies/Birdman_(film)	12	#mentions=	1	#plurals=	0	census=	9999	pick up
+movies/Birdman_(film)	3	#mentions=	1	#plurals=	0	census=	10601	superhero
+movies/Birdman_(film)	11	#mentions=	1	#plurals=	0	census=	10312	wife
+movies/Birdman_(film)	7	#mentions=	1	#plurals=	0	census=	9789	working
+
+movies/Spotlight_(film):
+movies/Spotlight_(film)	15	#mentions=	1	#plurals=	0	census=	2040	archbishop
+movies/Spotlight_(film)	7	#mentions=	1	#plurals=	0	census=	35	assistant district attorney
+movies/Spotlight_(film)	9	#mentions=	4	#plurals=	0	census=	33	baron
+movies/Spotlight_(film)	14	#mentions=	4	#plurals=	0	census=	2040	cardinal
+movies/Spotlight_(film)	3	#mentions=	2	#plurals=	0	census=	11832	catholic
+movies/Spotlight_(film)	5	#mentions=	4	#plurals=	3	census=	10330	child
+movies/Spotlight_(film)	8	#mentions=	2	#plurals=	0	census=	2830	editor
+movies/Spotlight_(film)	16	#mentions=	1	#plurals=	1	census=	9999	head
+movies/Spotlight_(film)	11	#mentions=	3	#plurals=	2	census=	2810	journalist
+movies/Spotlight_(film)	13	#mentions=	2	#plurals=	0	census=	2100	lawyer
+movies/Spotlight_(film)	6	#mentions=	1	#plurals=	0	census=	10322	mother
+movies/Spotlight_(film)	1	#mentions=	1	#plurals=	0	census=	9999	police station
+movies/Spotlight_(film)	2	#mentions=	2	#plurals=	2	census=	3850	policeman
+movies/Spotlight_(film)	4	#mentions=	15	#plurals=	11	census=	2040	priest
+movies/Spotlight_(film)	12	#mentions=	3	#plurals=	0	census=	9999	research
+movies/Spotlight_(film)	10	#mentions=	9	#plurals=	0	census=	9998	team
+movies/Spotlight_(film)	18	#mentions=	1	#plurals=	1	census=	13840	united state
+movies/Spotlight_(film)	17	#mentions=	1	#plurals=	0	census=	9789	worked
+
+movies/Moonlight_(2016_film):
+movies/Moonlight_(2016_film)	11	#mentions=	2	#plurals=	0	census=	10841	black
+movies/Moonlight_(2016_film)	3	#mentions=	3	#plurals=	1	census=	10330	child
+movies/Moonlight_(2016_film)	1	#mentions=	1	#plurals=	0	census=	13192	cuban
+movies/Moonlight_(2016_film)	2	#mentions=	1	#plurals=	0	census=	9851	drug dealer
+movies/Moonlight_(2016_film)	10	#mentions=	1	#plurals=	0	census=	9999	escort
+movies/Moonlight_(2016_film)	14	#mentions=	1	#plurals=	0	census=	10321	father
+movies/Moonlight_(2016_film)	4	#mentions=	2	#plurals=	0	census=	10307	girlfriend
+movies/Moonlight_(2016_film)	7	#mentions=	1	#plurals=	0	census=	9999	head
+movies/Moonlight_(2016_film)	12	#mentions=	1	#plurals=	0	census=	13528	holland
+movies/Moonlight_(2016_film)	5	#mentions=	2	#plurals=	0	census=	10322	mother
+movies/Moonlight_(2016_film)	9	#mentions=	2	#plurals=	0	census=	3850	police
+movies/Moonlight_(2016_film)	6	#mentions=	1	#plurals=	0	census=	9999	selling
+movies/Moonlight_(2016_film)	8	#mentions=	1	#plurals=	0	census=	2010	social worker
+movies/Moonlight_(2016_film)	15	#mentions=	1	#plurals=	0	census=	9999	turn out
+movies/Moonlight_(2016_film)	13	#mentions=	1	#plurals=	1	census=	9789	work
+
+movies/The_Shape_of_Water:
+movies/The_Shape_of_Water	10	#mentions=	2	#plurals=	0	census=	13840	american
+movies/The_Shape_of_Water	1	#mentions=	1	#plurals=	0	census=	10330	child
+movies/The_Shape_of_Water	4	#mentions=	1	#plurals=	0	census=	4220	cleaner
+movies/The_Shape_of_Water	7	#mentions=	1	#plurals=	0	census=	9780	co worker
+movies/The_Shape_of_Water	9	#mentions=	1	#plurals=	0	census=	9800	colonel
+movies/The_Shape_of_Water	11	#mentions=	1	#plurals=	0	census=	9800	general
+movies/The_Shape_of_Water	5	#mentions=	1	#plurals=	0	census=	15200	government
+movies/The_Shape_of_Water	15	#mentions=	4	#plurals=	2	census=	60	handler
+movies/The_Shape_of_Water	16	#mentions=	1	#plurals=	0	census=	9999	head
+movies/The_Shape_of_Water	18	#mentions=	1	#plurals=	0	census=	9781	his career
+movies/The_Shape_of_Water	20	#mentions=	1	#plurals=	0	census=	10311	husband
+movies/The_Shape_of_Water	6	#mentions=	1	#plurals=	0	census=	2600	illustrator
+movies/The_Shape_of_Water	8	#mentions=	1	#plurals=	0	census=	2860	interpreter
+movies/The_Shape_of_Water	21	#mentions=	1	#plurals=	0	census=	3850	police
+movies/The_Shape_of_Water	2	#mentions=	2	#plurals=	0	census=	9999	river
+movies/The_Shape_of_Water	19	#mentions=	1	#plurals=	0	census=	13643	russian
+movies/The_Shape_of_Water	12	#mentions=	1	#plurals=	0	census=	1760	scientist
+movies/The_Shape_of_Water	13	#mentions=	2	#plurals=	0	census=	13810	soviet
+movies/The_Shape_of_Water	14	#mentions=	2	#plurals=	0	census=	3825	spy
+movies/The_Shape_of_Water	17	#mentions=	1	#plurals=	0	census=	430	theater owner
+movies/The_Shape_of_Water	3	#mentions=	1	#plurals=	1	census=	9789	work
