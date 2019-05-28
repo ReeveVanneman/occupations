@@ -82,6 +82,17 @@ After processing all text files, jobs.py writes total counts for each occ2010 co
 - ~~dropped: jobs.txt~~
 ~~After processing each text file, writes a line for each "jobtitle" found~~
 
+## an example:
+
+- Oscarsfiles.txt lists filenames for all Academy Award winners, 1950-2018 (e.g., movies/The_Shape_of_Water)
+Executing a python3 program (python3 jobs.py Oscars) with these files will produce output files:
+- OscarsCensus.xls
+- OscarsJobs.txt
+- OscarsTexts.xls
+- OscarsTotals.txt
+- Oscarskwic.txt
+
+
 ## todo (maybe):
 
 - singularizing text words:  
