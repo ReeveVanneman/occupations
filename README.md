@@ -92,6 +92,9 @@ Executing a python3 program (python3 jobs.py Oscars) with these files will produ
 - OscarsTotals.txt
 - Oscarskwic.txt
 
+This is a simple example of the possibilities of jobs.py.  The text files in occupations/movies/ are
+plot summaries from Wikipedia.  Other analyses have been based on a corpus of ~20k movie plots from Wikipedia.
+
 
 ## todo (maybe):
 

@@ -30,7 +30,7 @@
 #		uses python packages that must be downloaded and installed: nltk inflect BeautifulSoup
 #
 # todo (maybe):
-#	python program written to get the work done, not optimized
+#	optimize: python program was written to get the work done, not optimized
 #	need a better program to singularize words than inflect.
 #		work around now identifies ~200  words that should not be singularized, e.g., boss, bus
 #	punctuation: 
@@ -38,16 +38,19 @@
 #			s' ???
 #			n't should be replaced with " not"
 #	how to handle text files with non-ASCII character codes
-#	analyze headings for newspapers (multiplies "writer" etc.)?
+#	identify (& drop?) headings for newspapers (multiplies "writer" etc.)?
 #		do not code lines: BYLINE
+#	expand the industrial sector jobtitles/ codes
+#		expand the government code to specific government agencies
 #	edit the ridiculously long military jobtitles in jobs.json
 #	disambiguation:
 #		ambiguities, more than one possible code, mostly  coded into 9998 : 
-#			band, crew, driver, intern, officer, page, partner, team,
+#			band, crew, driver, Georgia, intern, officer, page, partner, team,
 #		ambiguities, coded into most common code::
 #			cast (2700= actors, not to cast aspersions etc.)
 #			critic (2005= experts, advisors, not journalist)
 #			General (9800= military officer, not in general))
+#			Indian (13356= country; not Native American Indian)
 #			minister (2040= clergy; not government minister)
 #			painter (2600= artist; not construction worker)
 #			producer (2710= producers and directors; not a producer of x, coal producer)_
@@ -62,7 +65,7 @@
 #			some words would specify jobs/positions only in the plural: academics
 #		should some capitalized be separate code?  
 #			e.g., President = 15 (usually US President); president=10 (chief executive)
-#		all caps words: mess up the check for proper names (e.g., COOPER=Cooper, POTTER=Potter)
+#		all caps words: mess up the check for proper names (e.g., COOPER=Cooper, PACKERS=Packer)
 #
 
 import re
@@ -108,8 +111,8 @@ print ('dontsing (jobtitles not singularized)= ' + str(type(dontsing)) + ' Nline
 #notwords= [ 'ain\'t', 'aren\'t', 'can\'t', 'couldn\'t', 'didn\'t', 'doesn\'t', 'don\'t', 'hadn\'t', 'hasn\'t', 'haven\'t', 'isn\'t', 'mustn\'t', 'needn\'t', 'oughtn\'t', 'shan\'t', 'shouldn\'t', 'wasn\'t', 'weren\'t', 'won\'t', 'wouldn\'t' ]
 #
 # someday these should be external files, easier to maintain
-notUpper= ['Archer', 'Baker', 'Beller', 'Bowman', 'Butler', 'Carmen', 'Carpenter', 'Carver', 'Cook', 'Cooper', 'Diver', 'Draper', 'Driver', 'Dyer', 'Fielder', 'Fletcher', 'Gilder', 'Glazer', 'Goldsmith', 'Hammersmith', 'Hooker', 'Hooper', 'Hunter', 'Jackman', 'Linderman', 'Lumper', 'Mason', 'Miller', 'Moulder', 'Pinker', 'Pitman', 'Polish',  'Porter', 'Potter', 'Presser', 'Rich', 'Roper', 'Sanders', 'Sawyer', 'Shearer', 'Silversmith', 'Singer', 'Skinner', 'Springer', 'Slater', 'Smith', 'Spanner', 'Steeler', 'Stoker', 'Stringer', 'Tanner', 'Turner', 'Wasp', 'Weaver', 'Webber', 'Wheeler', 'Whistler', 'White' ]
-notLower= ['count', 'dds', 'general', 'guard', 'justice', 'major', 'marine', 'private' ]
+notUpper= ['Archer', 'Baker', 'Beller', 'Bowman', 'Brewer', 'Butler', 'Carmen', 'Carpenter', 'Carney', 'Carver', 'Cook', 'Cooper', 'Cowboy', 'Diver', 'Draper', 'Driver', 'Dyer', 'Fielder', 'Fletcher', 'Gilder', 'Glazer', 'Goldsmith', 'Hammersmith', 'Hooker', 'Hooper', 'Hunter', 'Jackman', 'Linderman', 'Lumper', 'Mason', 'Miller', 'Moulder', 'Packer', 'Pinker', 'Pirate', 'Pitman', 'Porter', 'Potter', 'Presser', 'Rich', 'Roper', 'Sander', 'Sawyer', 'Shearer', 'Silversmith', 'Singer', 'Skinner', 'Springer', 'Slater', 'Smith', 'Spanner', 'Steeler', 'Stockman', 'Stoker', 'Stringer', 'Tanner', 'Turner', 'Wasp', 'Weaver', 'Webber', 'Wheeler', 'Whistler', 'White' ]
+notLower= ['count', 'dds', 'general', 'guard', 'justice', 'major', 'marine', 'polish', 'private' ]
 mustbeUpper= ['it', 'count', 'da', 'do', 'coo', 'st', 'us', 'usa']
 allUpper= ['IT', 'DA', 'DO', 'COO', 'ST', 'US', 'USA']
 
@@ -168,6 +171,7 @@ kwic= open(kwicfile, "w")
 # after processing all texts, writes totals for each occ2010 and the jobs found in that occ2010
 totalsfile= prefix + "Totals.txt"	
 totalsf= open(totalsfile, "w")
+totalsf.write ("\n    	N	 Plurals	Ntexts	code	jobtitle")
 #
 # after processing each text, writes a line for every "job" title found; probably unnecessary output file
 jobfile= prefix + "Jobs.txt"	
@@ -183,7 +187,7 @@ textfiles=files.split('\n')
 Ntextfiles=len(textfiles)
 # strip off end of file line:
 textfiles=textfiles[0:Ntextfiles-1]
-print ('\nList of textfiles files to be analyzed: ' + infilelist + " " + str(type(textfiles)) + ", #files= " + str(len(textfiles)) + '\n')
+print ('\nList of text files to be analyzed: ' + infilelist + " " + str(type(textfiles)) + ", #files= " + str(len(textfiles)) + '\n')
 
 Sumtitles=0
 Sumpara=0
@@ -261,6 +265,9 @@ for file in textfiles:
 	# the following abbreviations get confused with real words meaning something else:
 	textstring=textstring.replace('Md.', 'Maryland')
 	textstring=textstring.replace('Pa.', 'Pennsylvania')
+	textstring=textstring.replace('PA.', 'Pennsylvania')
+	textstring=textstring.replace('St.', 'Saint')
+	textstring=textstring.replace('ST.', 'SAINT')
 	#
 	# reduce multiple blanks to a single blank
 	textstring= re.sub(" +", " ", textstring)
@@ -358,7 +365,7 @@ for file in textfiles:
 				wordnewS= wordnewU
 				#print ('Dont singularize ', wordnewU, ': ', line)
 			else:
-				wordnewS= inf.singular_noun(wordnewU)
+				wordnewS= inf.singular_noun(wordnewU)	# wordnewS= singular root of wordnewU (maintains case)
 				if not wordnewS:  # wordnewU already singular
 					pluralnew=0
 					wordnewS=wordnewU
@@ -451,9 +458,9 @@ for file in textfiles:
 				skipword==1
 				census= jobs1[word2ndlast]
 				# don't analyze words in notLower, notUpper, etc. (maybe later count them?)
-				if word2ndlastU in notLower:
+				if word2ndlastS in notLower:
 					Nlower=1
-				elif word2ndlastU in notUpper:
+				elif word2ndlastS in notUpper:
 					Nupper=1
 				elif word2ndlastS.lower() in mustbeUpper and word2ndlastU not in allUpper:
 					Nallupper=1
