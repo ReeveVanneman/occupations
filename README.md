@@ -1,17 +1,35 @@
-# jobs.py  
-a python3 program to read a series of text files and code all words, bigrams, and trigrams that are "job" (or other position) titles.
-jobs.py codes these ~30,000 "jobtitles" into 4-digit coding system based on the U.S. Census 2010 codes.
+# jobs.py: A Python Program to Code Occupations in Text Files
 
-Several "jobtitles" that are not employment Census jobs have been added with new (non-Census codes)
-(e.g., wife-> 10312, criminal-> 9850, miiitary-> 9812)
-These additions expand the codes to 5-digits)
-Also, some Census codes are subdivided: e.g., (CEOs: government-> 35;  waitress-> 4111)
+## version
+This is beta version 0.1.1
+The list of "jobtitles" is constantly being updated and expanded so the last digit ("patches") will change often.
+
+## suggested citation:
+Vanneman, Reeve. 2019.  "jobs.py: A Python Program to Code Occupations in Text Files." 
+url: https://github.com/ReeveVanneman/occupations Version 0.1.1.
+
+## jobs and occupations
+jobs.py codes over 30,000 "jobtitles" (in jobs.json) into a 5-digit coding system (in occs2010.json) based on the U.S. Census 2010 occupation codes.
+While most of the jobtitles and occupation codes reflect occupations,
+several "jobtitles" that are not employment Census jobs have been added with new (non-Census codes), e.g.,
+- miiitary->9812
+- criminal->9850
+- wife->10312
+- immigrants->10848
+- Muslims->11836
+- France->13250
+These additions expand the codes to 5-digits.
+Also, several Census codes are subdivided: e.g., 
+- CEOs: private->30, government-> 35;  
+- waiter-> 4110, waitress-> 4111.
+
+(see occs2010.json for a numerical listing of all "occupation" codes)
 
 ## arguments  
-jobs.py is called with one argument, a prefix for input and output files.
-e.g. python3 jobs.py NYT
-would look for a file NYTfiles.txt listing all the text filenames to be processed.
-It would also produce output files with the prefix NYT (NYTcensus.xls, NYTtotals.txt, etc.)
+jobs.py is called with one argument, a prefix for input and output files.  e.g.,
+	 python3 jobs.py NYT
+would look for a file NYTfiles.txt that lists all the text filenames to be processed.
+It would also produce output files with the prefix NYT (NYTCensus.xls, NYTTotals.txt, etc.)
 
 ## compiling jobs.py:  
 jobs.py uses python standard packages: re json sys  
@@ -25,10 +43,10 @@ The main source was a 2016 Census coding list, The Alphabetical Indexes of Indus
 This listing often provided multiple Census codes for a single job title, only one of which could be used in jobs.json.
 So, the Census codes in jobs.json are often a compromise, or worse, misleading and need correction.  
 
-    The jobs.py program divides jobs.json into three Python dicts: 1-word, 2-word, and 3-word "jobtitles"  
+The jobs.py program divides jobs.json into three Python dicts: 1-word, 2-word, and 3-word "jobtitles".
 jobs.py works backwards from many text mining programs;
 instead of searching a text for a word or phrase,
-it searches the list of jobtitles for words and phrases from the text.
+it searches the list of jobtitles (jobs.json) for words and phrases from the text.
 A 3-word phrase from a text is checked first if it matches a 3-word jobtitle(abc);
 then two 2-word bigrams are formed from those 3 words (ab, ac) and checked against jobs.json;
 then the first word of the 3 is checked against one word titles from jobs.json (a).
@@ -65,7 +83,8 @@ These are now two python lists initialized in jobs.py, but they would probably b
 ( "XX" below is the prefix arg, e.g., NYT )
 
 - main output: XXcensus.xls  
-After processing each text file, writes one record for each occ2010 code found, regardless of "jobtitle"
+After processing each text file, jobs.py writes one record for each occ2010 code found in that text.
+Each record gives the name of the text file, the numeric occupation code, the number of times it was matched in the text file, of these the number of times it was a plural in the text, and a label for the occupation.
 
 - text file descriptions: XXtexts.xls  
 after processing each text, writes a count of #words, #sentences, etc., one line per text
@@ -74,7 +93,7 @@ after processing each text, writes a count of #words, #sentences, etc., one line
 A sentence for every "jobtitle" found in the text
 This is useful for checking coding accuracy.
 It also might be input to subsequent program to analyze sentiment or other characteristics about the coded "occ".
-if a sentence has more than one "jobtitle", a separate line is written for each "jobtitle".
+If a sentence has more than one "jobtitle", a separate line is written for each "jobtitle".
 
 - summary stats: XXtotals.txt  
 After processing all text files, jobs.py writes total counts for each occ2010 code and the jobtitles found within each code.
