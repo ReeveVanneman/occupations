@@ -12,25 +12,24 @@ url: https://github.com/ReeveVanneman/occupations Version 0.1.1.
 jobs.py codes over 30,000 "jobtitles" (in jobs.json) into a 5-digit coding system (in occs2010.json) based on the U.S. Census 2010 occupation codes.
 While most of the jobtitles and occupation codes reflect occupations,
 several "jobtitles" that are not employment Census jobs have been added with new (non-Census codes), e.g.,
-- miiitary->9812
+- military->9812
 - criminal->9850
 - wife->10312
 - immigrants->10848
 - Muslims->11836
 - France->13250
-These additions expand the codes to 5-digits.
+These additions expand the codes to 5-digits.  
 Also, several Census codes are subdivided: e.g., 
 - CEOs: private->30, government-> 35;  
-- waiter-> 4110, waitress-> 4111.
-
+- waiter-> 4110, waitress-> 4111.  
 (see occs2010.json for a numerical listing of all "occupation" codes)
 
 ## arguments  
-jobs.py is called with one argument, a prefix for input and output files.  e.g.,
+jobs.py is called with one argument, a prefix for input and output files.  e.g.,  
 	 python3 jobs.py NYT
 would look for a file NYTfiles.txt that lists all the text filenames to be processed.
 It would also produce output files with the prefix NYT (NYTCensus.xls, NYTTotals.txt, etc.)
-
+  
 ## compiling jobs.py:  
 jobs.py uses python standard packages: re json sys  
 jobs.py also uses python packages that must be downloaded and installed: nltk inflect BeautifulSoup
@@ -42,7 +41,7 @@ This file can always be improved and updated.
 The main source was a 2016 Census coding list, The Alphabetical Indexes of Industries and Occupations, ( https://www2.census.gov/programs-surveys/demo/guidance/industry-occupation/occupation-index-september-2016.xlsx ).
 This listing often provided multiple Census codes for a single job title, only one of which could be used in jobs.json.
 So, the Census codes in jobs.json are often a compromise, or worse, misleading and need correction.  
-
+  
 The jobs.py program divides jobs.json into three Python dicts: 1-word, 2-word, and 3-word "jobtitles".
 jobs.py works backwards from many text mining programs;
 instead of searching a text for a word or phrase,
@@ -63,7 +62,7 @@ So, jobs.py singularizes words in the text before matching them to the list of j
 The program keeps a separate count of plurals (since they are often more culturally meaningful).
 Currently, jobs.py uses a routine from the python package inflect to singularize plural nouns.
 But inflect will alter many singular nouns (e.g., boss, waitress) and thus not match correctly to jobs.json. 
-The current work around (nosingular.txt) identifies ~200  words that should not be singularized by jobs.py.
+The current work around (nosingularize.txt) identifies ~200  words that should not be singularized by jobs.py.
 
 - prefix+files.txt (e.g., NYTfiles.txt)  
 = a file of filenames of text files to be read and coded.
@@ -98,7 +97,7 @@ If a sentence has more than one "jobtitle", a separate line is written for each 
 - summary stats: XXtotals.txt  
 After processing all text files, jobs.py writes total counts for each occ2010 code and the jobtitles found within each code.
 
-- ~~dropped: jobs.txt~~
+- ~~to be dropped: jobs.txt~~
 ~~After processing each text file, writes a line for each "jobtitle" found~~
 
 ## an example:
@@ -122,39 +121,49 @@ Find a better package than inflect?
 
 - punctuation:  
 Possessive 's now becomes a separate word.  That helps for some codings;
-e.g., Harper's agent -> Harper 's agent" (= 500, performer's agent)
-Plural possessives, s' , become s '  ; i.e., apostrophe is treated as a separate word.  OK?
-And n't should be replaced with " not".
+e.g., "Harper's agent" -> "Harper 's agent" (= 500, performer's agent, not a government agent)  
+But plural possessives, s' , become s '  ; i.e., apostrophe is treated as a separate word.
+This might better be singularized to 's to match the above.
+And contractions like n't might be replaced with " not"; or each contraction replaced separately.
 
 - non-ASCII character codes:  
 Text files with non-ASCII character codes are not handled well now.
 
 - headings e.g., for newspapers  
-Some heading lines probably should not be coded. 
+Some heading lines probably should not be coded.
 For example, BYLINE in newspaper text files will end up multiplying counts for "writer".
 
-- disambiguation issues:  
-    -  Several jobtitles are now coded into 9998, indicating they could be more than one possible code.
-e.g., band, crew, driver, intern, officer, page, partner, team,
-    -  Other jobtitles are coded into the most common code, but might be further disambiguated.  
+- jobtitle disambiguation issues:  
+    -  Several jobtitles are now coded into 9997, indicating they could be more than one possible code;
+e.g., crew, deputy, officer.
+    -  Other jobtitles are now coded into 9998, indicating they are sometimes an occupation and sometimes not;
+e.g., guide, host, orderly.
+    -  Other ambiguous jobtitles are coded into the most common code, but might be further disambiguated.  
 cast (2700= actors, not to cast aspersions etc.)  
 critic (2005= experts, advisors, not journalist)  
-General (9800= military officer, not in general))  
+General (9800= military officer, not in general, General Foods)  
 minister (2040= clergy; not government minister)  
 painter (2600= artist; not construction worker)  
 producer (2710= producers and directors; not a producer of x, coal producer)  
 scout (9812= military, rank ns: not to scout, not baseball scout)  
-    -  coded into less specific, overall code:  
-director (3280= professional managerial, nec, for both movie director and Center director)
-    -  coded into 3288= larger prof/mgr code that captures only one meaning
-aide, backer, owner, staff, staff member
+    -  some ambiguous jobtitles are coded into a broad, overall occupation code:  
+director (3280= professional managerial, nec, for both movie director and Center director)  
+    -  other somewhat ambiguous jobtitles are coded into 3288= likely prof/mgr code, that captures only one meaning but might not be an occupation;
+e.g., aide, backer, owner.
     -  POS (part of speech)   
-Some words are jobtitles only if the word is a noun: command, guide  
+Some words are jobtitles only if the word is a noun: guide  
     - plurals  
-Some plurals could be a different code than their singular forms eg. spouses=couple spouse=individual.
-Some plurals should not be coded: counts, royalties, Queens
-Some words would specify jobtitles only in the plural: academics
+Some plurals could be a different code than their singular forms eg. spouses=couple spouse=individual.  
+Some plurals should not be coded as occupations: counts, royalties, Queens.  
+Some words would specify jobtitles only in the plural: academics.  
     - capitalization  
-Should some capitalized be separate code?
-e.g., President = 15 (usually US President); president=10 (chief executive)  
-All caps words confuse the check for proper names (e.g., COOPER=Cooper, POTTER=Potter)  
+Should some words be separate codes depending on whether or not they are capitalized?
+e.g., President = 15 (usually US President); president=10 (chief executive)
+This would become important if we expand jobtitles to include political titles (e.g., Democratic/ democratic).  
+ALL CAPS words confuse the check for proper names (e.g., COOPER=Cooper, POTTER=Potter).
+Maybe translate all caps into initial capital letter only (proper names)?
+That would correctly catch (and ignore) the notUpper list of common last names that match jobs (e.g., Potter)
+although it would miss actual jobs such as a potter.
+It would also often incorrectly match the notLower list of words that are only jobtitles when initial letter is capitalized (e.g., General).
+These notLower words are more often not jobtitles (e.g., "in general, ...").  
+  
