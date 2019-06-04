@@ -1,15 +1,16 @@
 # jobs.py: A Python Program to Code Occupations in Text Files
 
 ## version
-This is beta version 0.1.1
-The list of "jobtitles" is constantly being updated and expanded so the last digit ("patches") will change often.
+This is beta version 0.2.1  
+  Adds disambiguation of capitalized/ non-capitalized titles (e.g., President, president)  
+  The list of "jobtitles" (jobs.json) is constantly being updated and expanded so the last digit ("patches") will change often.
 
 ## suggested citation:
 Vanneman, Reeve. 2019.  "jobs.py: A Python Program to Code Occupations in Text Files." 
-url: https://github.com/ReeveVanneman/occupations Version 0.1.1.
+url: https://github.com/ReeveVanneman/occupations Version 0.2.1.
 
 ## jobs and occupations
-jobs.py codes over 30,000 "jobtitles" (in jobs.json) into a 5-digit coding system (in occs2010.json) based on the U.S. Census 2010 occupation codes.
+jobs.py codes over 35,000 "jobtitles" (in jobs.json) into a 5-digit coding system (in occs2010.json) based mainly on the U.S. Census 2010 occupation codes.
 While most of the jobtitles and occupation codes reflect occupations,
 several "jobtitles" that are not employment Census jobs have been added with new (non-Census codes), e.g.,
 - military->9812
@@ -19,14 +20,15 @@ several "jobtitles" that are not employment Census jobs have been added with new
 - Muslims->11836
 - France->13250
 These additions expand the codes to 5-digits.  
+  
 Also, several Census codes are subdivided: e.g., 
-- CEOs: private->30, government-> 35;  
+- more detail on government officials and separated from non-government managers
 - waiter-> 4110, waitress-> 4111.  
 (see occs2010.json for a numerical listing of all "occupation" codes)
 
 ## arguments  
 jobs.py is called with one argument, a prefix for input and output files.  e.g.,  
-	 python3 jobs.py NYT
+	 python3 jobs.py NYT  
 would look for a file NYTfiles.txt that lists all the text filenames to be processed.
 It would also produce output files with the prefix NYT (NYTCensus.xls, NYTTotals.txt, etc.)
   
@@ -35,6 +37,13 @@ jobs.py uses python standard packages: re json sys
 jobs.py also uses python packages that must be downloaded and installed: nltk inflect BeautifulSoup
 
 ## input files:  
+- prefix+files.txt (e.g., NYTfiles.txt)  
+= a file of filenames of text files to be read and coded.
+These are local file names (which can include absolute or relative addresses) that jobs.py loops through searching for jobtitles.
+In practice, output files will be more compact if the text files are in the same directory as jobs.py.  
+This is the only input file created for each execution of jobs.py.
+The other three files below are fixed inputs to jobs.py
+
 - jobs.json  
 = a json file of "job" titles and Census 2010 codes.  
 This file can always be improved and updated.
@@ -61,22 +70,8 @@ Almost all "jobtitles" in jobs.json are listed in the singular.
 So, jobs.py singularizes words in the text before matching them to the list of job titles.
 The program keeps a separate count of plurals (since they are often more culturally meaningful).
 Currently, jobs.py uses a routine from the python package inflect to singularize plural nouns.
-But inflect will alter many singular nouns (e.g., boss, waitress) and thus not match correctly to jobs.json. 
+But inflect will alter many singular nouns (e.g., boss->bos, waitress->waitres) and thus not match correctly to jobs.json. 
 The current work around (nosingularize.txt) identifies ~200  words that should not be singularized by jobs.py.
-
-- prefix+files.txt (e.g., NYTfiles.txt)  
-= a file of filenames of text files to be read and coded.
-These are local file names (which can include absolute or relative addresses) that jobs.py loops through searching for jobtitles.
-In practice, output files will be more compact if the text files are in the same directory as jobs.py.
-
-- notupper, mustbeupper  
-notupper= text words that are coded as jobs only if they are all lower case (e.g., potter)  
-mustbeupper= words that are coded as jobs only if the first letter is upper case (e.g., General)  
-These are now two python lists initialized in jobs.py, but they would probably be more flexible if maintained as external files.
-
-- abbreviations.json (obsolete, dropped, now incorporated into jobs.py)
-= abbreviations whose periods would confuse the sentencing algorithm.
-(e.g., U.S.A. is replaced with USA)
 
 ## output files:  
 ( "XX" below is the prefix arg, e.g., NYT )
@@ -117,7 +112,8 @@ plot summaries from Wikipedia.  Other analyses have been based on a corpus of ~2
 ## todo (maybe):
 
 - singularizing text words:  
-Find a better package than inflect?
+Find a better package than inflect?  
+nosingularize.txt now has 200+ lines of titles to override the behavior of the inflect routine singular_noun
 
 - punctuation:  
 Possessive 's now becomes a separate word.  That helps for some codings;
@@ -141,29 +137,25 @@ e.g., guide, host, orderly.
     -  Other ambiguous jobtitles are coded into the most common code, but might be further disambiguated.  
 cast (2700= actors, not to cast aspersions etc.)  
 critic (2005= experts, advisors, not journalist)  
-General (9800= military officer, not in general, General Foods)  
-minister (2040= clergy; not government minister)  
+General (9800= military officer, not in general, not General Foods)  
+minister (2040= clergy; not government minister, but specific government ministers such as "foreign minister" =31, legislative leader)  
 painter (2600= artist; not construction worker)  
 producer (2710= producers and directors; not a producer of x, coal producer)  
 scout (9812= military, rank ns: not to scout, not baseball scout)  
-    -  some ambiguous jobtitles are coded into a broad, overall occupation code:  
+    -  some ambiguous jobtitles are coded into a broad, overall occupation code that captures multiple occupations:  
 director (3280= professional managerial, nec, for both movie director and Center director)  
     -  other somewhat ambiguous jobtitles are coded into 3288= likely prof/mgr code, that captures only one meaning but might not be an occupation;
 e.g., aide, backer, owner.
     -  POS (part of speech)   
 Some words are jobtitles only if the word is a noun: guide  
     - plurals  
+Some plurals should not be coded as occupations: royalties.  
 Some plurals could be a different code than their singular forms eg. spouses=couple spouse=individual.  
-Some plurals should not be coded as occupations: counts, royalties, Queens.  
-Some words would specify jobtitles only in the plural: academics.  
+Some words would specify jobtitles mainly in the plural: academics.  
     - capitalization  
-Should some words be separate codes depending on whether or not they are capitalized?
-e.g., President = 15 (usually US President); president=10 (chief executive)
-This would become important if we expand jobtitles to include political titles (e.g., Democratic/ democratic).  
 ALL CAPS words confuse the check for proper names (e.g., COOPER=Cooper, POTTER=Potter).
 Maybe translate all caps into initial capital letter only (proper names)?
 That would correctly catch (and ignore) the notUpper list of common last names that match jobs (e.g., Potter)
 although it would miss actual jobs such as a potter.
-It would also often incorrectly match the notLower list of words that are only jobtitles when initial letter is capitalized (e.g., General).
-These notLower words are more often not jobtitles (e.g., "in general, ...").  
+It would also often incorrectly match the notLower list of words that are not usually jobtitles when the initial letter is lower case (e.g., general).
   

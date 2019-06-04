@@ -1,14 +1,21 @@
-# arg= prefix is a filename prefix to output (& input) files
-#	e.g. python3 jobs.py NYT
-#
 # jobs.py
+#	version 0.2.1
+#		revision: adds disambiguation of capitalized/ non-capitalized titles (e.g., President, president)
+#		titles to be disambiguated now have negative values in jobs.json (e.g., "president": -12, )
 #	reads a series of text files and identifies and codes all words, bigrams, and trigrams that are "job" (or other position) titles
 #		codes these ~30,000 "jobtitles" into 2010 3-digit U.S. Census codes 
-#		several added codes for "jobtitles" that are not employment Census jobs 
-#			(e.g., wife, criminal, miiitary)
+#		several added codes for "jobtitles" that are not employment Census occupations
+#			(e.g., wife, criminal, miiitary, France)
 #			these text titles are coded into new (non-Census) codes
 #			also, some Census codes are subdivided: e.g., (CEOs: govt & pvt; 
+#
+#	arg= prefix is a filename prefix to output (& input) files
+#		e.g. python3 jobs.py NYT
+#
 #	input:
+#		prefix+files.txt (e.g., NYTfiles.txt)= a file of filenames of text files to be read and coded.
+#			this is the only input file created for each execution of jobs.py
+#			the other three files below are fixed inputs to jobs.py
 #		jobs.json = a json file of "job" titles and Census 2010 codes
 #			this file can always be improved and updated.
 #				esp. jobtitles based on a 2016 Census coding list that often had multiple Census codes, only one of which could be used.
@@ -21,18 +28,19 @@
 #		occs2010.json = a json file of (the somewhat expanded) Census 2010 codes and their titles.
 #		nosingularize.txt = a file of words (jobtitles) that should not be singularized in the texts
 #			but would be incorrectly singularized by inflect.singnoun (e.g., boss, waitress)
-#		prefix+files.txt (e.g., NYTfiles.txt)= a file of filenames of text files to be read and coded.
 #		two lists initialized below in the program, but probably would be more flexible as external files:
 #			1 file of words that are coded as jobs only if lower case (e.g., potter)
 #			1 file of words that are coded as jobs only if upper case (e.g., General)
+#
 #	to compile jobs.py:
 #		uses python standard packages: re json sys
 #		uses python packages that must be downloaded and installed: nltk inflect BeautifulSoup
 #
 # todo (maybe):
-#	optimize: python program was written to get the work done, not optimized
-#	need a better program to singularize words than inflect.
+#	optimize; python program was written to get the work done, not optimized
+#	is there  a better program to singularize words than inflect.
 #		work around now identifies ~200  words that should not be singularized, e.g., boss, bus
+#			and changes the inflect default using the inflect routine defnoun
 #	punctuation: 
 #		' :	's is now a separate word (e.g., Harper's agent-> " 's agent" = 500, performer's agent)
 #			s' ???
@@ -51,20 +59,22 @@
 #			critic (2005= experts, advisors, not journalist)
 #			General (9800= military officer, not in general))
 #			Indian (13356= country; not Native American Indian)
+#			king (33= monarch; not chess piece or playing card)
 #			minister (2040= clergy; not government minister)
 #			painter (2600= artist; not construction worker)
+#			queen (33= monarch; not chess piece or playing card or Queen Anne furniture)
 #			producer (2710= producers and directors; not a producer of x, coal producer)_
 #			scout (9812= military, rank ns: not to scout, not baseball scout)
+#			stringer (2610= reporter, news stringer; not factory stringer)
 #		ambiguities, coded into less specific, overall code:
 #			director (3280= professional managerial, nec)
 #		ambiguities, coded into 3288= larger prof/mgr code that captures only one meaning
 #			aide, backer, owner, staff, staff member
 #		some jobs only if the word is a noun: command, guide
 #		should some plurals be recognized as a separate code?  eg. spouses=couple spouse=individual
-#			and some plurals should not be coded: counts, royalties, Queens
-#			some words would specify jobs/positions only in the plural: academics
-#		should some capitalized be separate code?  
-#			e.g., President = 15 (usually US President); president=10 (chief executive)
+#			and some plurals should not be coded: counts, royalties
+#			some words would specify jobs/positions mainly in the plural: academics
+#		President(=12, usually US President) vs president(=10, chief executive) depends entirely on correct capitaliztion
 #		all caps words: mess up the check for proper names (e.g., COOPER=Cooper, PACKERS=Packer)
 #
 
@@ -110,11 +120,14 @@ print ('dontsing (jobtitles not singularized)= ' + str(type(dontsing)) + ' Nline
 # contractions to be expanded (easier just to expand all "n\'t" to " not"; misses ain't, can't, shan't, won't, only can't and won't deserve separate replaces.
 #notwords= [ 'ain\'t', 'aren\'t', 'can\'t', 'couldn\'t', 'didn\'t', 'doesn\'t', 'don\'t', 'hadn\'t', 'hasn\'t', 'haven\'t', 'isn\'t', 'mustn\'t', 'needn\'t', 'oughtn\'t', 'shan\'t', 'shouldn\'t', 'wasn\'t', 'weren\'t', 'won\'t', 'wouldn\'t' ]
 #
-# someday these should be external files, easier to maintain
-notUpper= ['Archer', 'Baker', 'Beller', 'Bowman', 'Brewer', 'Butler', 'Carmen', 'Carpenter', 'Carney', 'Carver', 'Cook', 'Cooper', 'Cowboy', 'Diver', 'Draper', 'Driver', 'Dyer', 'Fielder', 'Fletcher', 'Gilder', 'Glazer', 'Goldsmith', 'Hammersmith', 'Hooker', 'Hooper', 'Hunter', 'Jackman', 'Linderman', 'Lumper', 'Mason', 'Miller', 'Moulder', 'Packer', 'Pinker', 'Pirate', 'Pitman', 'Porter', 'Potter', 'Presser', 'Rich', 'Roper', 'Sander', 'Sawyer', 'Shearer', 'Silversmith', 'Singer', 'Skinner', 'Springer', 'Slater', 'Smith', 'Spanner', 'Steeler', 'Stockman', 'Stoker', 'Stringer', 'Tanner', 'Turner', 'Wasp', 'Weaver', 'Webber', 'Wheeler', 'Whistler', 'White' ]
-notLower= ['count', 'dds', 'general', 'guard', 'justice', 'major', 'marine', 'polish', 'private' ]
-mustbeUpper= ['it', 'count', 'da', 'do', 'coo', 'st', 'us', 'usa']
-allUpper= ['IT', 'DA', 'DO', 'COO', 'ST', 'US', 'USA']
+# words that change meaning when capitalized or lower case:
+#	someday these might be external files, easier to maintain
+notUpper= ['Archer', 'Baker', 'Beller', 'Bowman', 'Brewer', 'Butler', 'Carman', 'Carpenter', 'Carney', 'Carver', 'Cook', 'Cooper', 'Cowboy', 'Diver', 'Draper', 'Driver', 'Dyer', 'Fletcher', 'Gilder', 'Glazer', 'Goldsmith', 'Hammersmith', 'Hooker', 'Hooper', 'Hunter', 'Jackman', 'Linderman', 'Lumper', 'Mason', 'Miller', 'Moulder', 'Packer', 'Pinker', 'Pirate', 'Pitman', 'Porter', 'Potter', 'Presser', 'Rich', 'Roper', 'Sander', 'Sawyer', 'Shearer', 'Silversmith', 'Singer', 'Skinner', 'Springer', 'Slater', 'Smith', 'Spanner', 'Steeler', 'Stockman', 'Stoker', 'Stringer', 'Tanner', 'Turner', 'Wasp', 'Weaver', 'Webber', 'Wheeler', 'Whistler', 'White' ]
+notLower= ['count', 'general', 'justice', 'major', 'marine', 'polish', 'pvt' ]
+# these are jobtitles when allcaps but something else if not all caps:
+#	IT probably should be dropped because found so often in all-cap title meaning "it" not "information technology"
+mustbeUpper= ['it', 'da', 'do', 'coo', 'st', 'us']
+allUpper=    ['IT', 'DA', 'DO', 'COO', 'ST', 'US']
 
 ####################################
 # readfile of occupation (& other) titles (mostly from US Census):
@@ -140,9 +153,12 @@ for job in joblabels:
 		jobs2[job]=joblabels[job]
 	elif Nwords==3:
 		jobs3[job]=joblabels[job]
-print ('\njobs1 (one-word jobtitles from Census)= ' + str(type(jobs1)) + ' Nlines=' + str(len(jobs1)))
-print ('\njobs2 (two-word jobtitles from Census)= ' + str(type(jobs2)) + ' Nlines=' + str(len(jobs2)))
-print ('\njobs3 (three-word jobtitles from Census)= ' + str(type(jobs3)) + ' Nlines=' + str(len(jobs3)))
+print ('	jobs1 (one-word jobtitles from Census)= ' + str(type(jobs1)) + ' Nlines=' + str(len(jobs1)))
+print ('	jobs2 (two-word jobtitles from Census)= ' + str(type(jobs2)) + ' Nlines=' + str(len(jobs2)))
+print ('	jobs3 (three-word jobtitles from Census)= ' + str(type(jobs3)) + ' Nlines=' + str(len(jobs3)))
+
+# store (disambiguated) census code for each joblabel found across all texts:
+jobscensus= {}
 
 ####################################
 # output files:
@@ -207,7 +223,7 @@ for file in textfiles:
 	kwic.write ("\n" + file + ":\n" )
 	# write blank line to ...census.txt file:
 	censusf.write ("\n")
-	filejobs= []
+	foundjobs= []
 	Nfound= [0]
 	Nplural= [0]
 	jcensus= [0]
@@ -244,6 +260,7 @@ for file in textfiles:
 	textstring=textstring.replace('Capt.', 'Captain')
 	textstring=textstring.replace('Comdr.', 'Commander')
 	textstring=textstring.replace('Cpl.', 'Corporal')
+	textstring=textstring.replace('D.A..', 'DA')
 	textstring=textstring.replace('Dem.', 'Democrat')
 	textstring=textstring.replace('Dept.', 'Department')
 	textstring=textstring.replace('dept.', 'department')
@@ -346,19 +363,12 @@ for file in textfiles:
 		# create list of words for this line:
 		linelist= line.split(' ')
 		for wordnewU in linelist:
-			# singular forms will be tested by just singularize the last word in trigrams or bigrams.
-			#	this will miss some pluralizatons such as Attorneys General, mothers-in-law
-			# problems with inflect.singular_noun:
+			# problems with inflect singular_noun:
 			#	inflect.singular_noun wrongly singularizes many words, esp those ending in "ss", e.g, waitress, class,
-			#		so, this program does not singularize words ending in ss, nor does it singularize "sales"
-			#		However, it will still erroneously singularize words like "chorus" 
-			#			so, jobs1.txt (jobs2.txt jobs3.txt) have incorrectly singularized those words
+			#		so, jobs.py needs 200+ lines of code (defnoun) above to fix those mistakes
 			#	IT = (Information Technology) but also = it which is the singular of they,them, etc. 
 			#		& so gets coded a lot, but not filtered out by IT must be in caps; 
-			#		so IT now dropped from jobs.txt
-			#
-			# singularize new word:
-			#   rint (wordnewU)
+			#		so IT now dropped from jobs.json
 			pluralnew= 1
 			if wordnewU.lower() in dontsing: # wordnewU in list not to singularize
 				pluralnew=0
@@ -389,9 +399,9 @@ for file in textfiles:
 				skipword= 3
 				census= jobs3[wordtri]
 				# check whether this job trigram has already been found for this file:
-				if wordtri in filejobs:
+				if wordtri in foundjobs:
 					# trigram has been found before in this file, so just increment count
-					iword= filejobs.index(wordtri)+1
+					iword= foundjobs.index(wordtri)+1
 					Nplural[iword]= Nplural[iword]+pluralnew
 					Nfound[iword]= Nfound[iword]+1
 				else:
@@ -401,7 +411,7 @@ for file in textfiles:
 					Nfound.append(1)
 					Nplural.append(pluralnew)
 					jcensus.append(census)
-					filejobs.append(wordtri)
+					foundjobs.append(wordtri)
 				# print this job trigram (whether new or not)
 				#	prints line close to the original format (line0) , before most replacements (line).
 				kwic.write (file + "	" + str(iline) + "	" + str(iword) + "	3	" + str(census) + " " + wordtriU + "	" + line0 + "\n")
@@ -412,9 +422,9 @@ for file in textfiles:
 				skipword=2
 				census= jobs2[wordbi]
 				# check whether this job bigram has already been found for this file:
-				if wordbi in filejobs:
+				if wordbi in foundjobs:
 					# bigram has been found before in this file, so just increment count
-					iword= filejobs.index(wordbi)+1
+					iword= foundjobs.index(wordbi)+1
 					Nplural[iword]= Nplural[iword]+plurallast
 					Nfound[iword]= Nfound[iword]+1
 				else:
@@ -424,7 +434,7 @@ for file in textfiles:
 					Nfound.append(1)
 					Nplural.append(plurallast)
 					jcensus.append(census)
-					filejobs.append(wordbi)
+					foundjobs.append(wordbi)
 				# print this job bigram (whether new or not)
 				kwic.write (file + "	" + str(iline) + "	" + str(iword) + "	2	" + str(census) + " " + wordbiU + "	" + line0 + "\n")
 			#
@@ -434,9 +444,9 @@ for file in textfiles:
 				skipword=3
 				census= jobs2[wordbi2]
 				# check whether this job bigram has already been found for this file:
-				if wordbi2 in filejobs:
+				if wordbi2 in foundjobs:
 					# bigram has been found before in this file, so just increment count
-					iword= filejobs.index(wordbi2)+1
+					iword= foundjobs.index(wordbi2)+1
 					Nplural[iword]= Nplural[iword]+plurallast
 					Nfound[iword]= Nfound[iword]+1
 				else:
@@ -446,7 +456,7 @@ for file in textfiles:
 					Nfound.append(1)
 					Nplural.append(plurallast)
 					jcensus.append(census)
-					filejobs.append(wordbi2)
+					foundjobs.append(wordbi2)
 				# print this job bigram (whether new or not)
 				kwic.write (file + "	" + str(iline) + "	" + str(iword) + "	2	" + str(census) + " " + wordbi2U + "	" + line0 + "\n")
 			#
@@ -457,31 +467,45 @@ for file in textfiles:
 			elif skipword<1 and word2ndlast in jobs1:
 				skipword==1
 				census= jobs1[word2ndlast]
-				# don't analyze words in notLower, notUpper, etc. (maybe later count them?)
-				if word2ndlastS in notLower:
-					Nlower=1
-				elif word2ndlastS in notUpper:
-					Nupper=1
-				elif word2ndlastS.lower() in mustbeUpper and word2ndlastU not in allUpper:
-					Nallupper=1
-				# so this is a valid jobtitle:
+				#
+				# census code <0 => word2ndlast is ambiguous but can be disambiguated based on capitalization:
+				if census<0:
+					census=-census
+					# separate entries for upper case / lower case titles in foundjobs:
+					#	default jobtitle in foundjobs is capitalized (title)
+					word2ndlast= word2ndlast.title()
+					if word2ndlastS in notLower: # e.g., general
+						census= 9998
+						word2ndlast= word2ndlastS.lower()
+					elif word2ndlastS in notUpper: # e.g., Potter
+						census= 9998
+					# double check this:
+					elif word2ndlastS.lower() in mustbeUpper and word2ndlastU not in allUpper:
+						census= 9998
+						word2ndlast= word2ndlastS.lower()
+					elif census==12 and word2ndlastU==word2ndlastU.lower(): # lower case president(s)
+						census= 10
+						word2ndlast= "president"
+					elif census==33 and word2ndlastU=="Queens": # probably borough of Queens
+						census= 9998
+						word2ndlast= "Queens"
+				# either jobtitle not ambiguous (census>0) or after disambiguation:
+				#	then check whether this single-word job has already been found for this file:
+				if word2ndlast in foundjobs:
+					# word2ndlast has been found before in this file, so just increment count:
+					iword= foundjobs.index(word2ndlast)+1
+					Nfound[iword]= Nfound[iword]+1
+					Nplural[iword]= Nplural[iword]+plural2ndlast
 				else:
-					# then check whether this job has already been found for this file:
-					if word2ndlast in filejobs:
-						# word2ndlast has been found before in this file, so just increment count:
-						iword= filejobs.index(word2ndlast)+1
-						Nfound[iword]= Nfound[iword]+1
-						Nplural[iword]= Nplural[iword]+plural2ndlast
-					else:
-						# word has not been found before in this file, so add to list of jobs found
-						ijob=ijob+1
-						iword= ijob
-						Nfound.append(1)
-						Nplural.append(plural2ndlast)
-						jcensus.append(census)
-						filejobs.append(word2ndlast)
-					# print this line (whether job is new or not)
-					kwic.write (file + "	" + str(iline) + "	" + str(iword) + "	1	" + str(census) + " " + word2ndlastU + '	' + line0 + "\n")
+					# word has not been found before in this file, so add to list of jobs found
+					ijob=ijob+1
+					iword= ijob
+					Nfound.append(1)
+					Nplural.append(plural2ndlast)
+					jcensus.append(census)
+					foundjobs.append(word2ndlast)  # word2ndlast has been disambiguated according to capitalization
+				# print this line (whether job is new or not)
+				kwic.write (file + "	" + str(iline) + "	" + str(iword) + "	1	" + str(census) + " " + word2ndlastU + '	' + line0 + "\n")
 			# reset 1st and 2nd words in trigram:
 			word2ndlastU=wordlastU
 			word2ndlastS=wordlastS
@@ -513,8 +537,8 @@ for file in textfiles:
 	ijob=0
 	censuscounts={}  	#	#mentions of this census code in this text file
 	censusplurals={}	#	#plurals of this census code in this text file
-	for job in sorted(filejobs):	# list job titles alphabetically
-		ijob=filejobs.index(job)+1
+	for job in sorted(foundjobs):	# list job titles alphabetically
+		ijob=foundjobs.index(job)+1
 		# write to text file X job title output:
 		#	tabs make this easy to import into stata, excel:
 		jobsf.write (file + '	' + str(ijob) + '	#mentions=	' + str(Nfound[ijob]) + '	#plurals=	' + str(Nplural[ijob]) + "	census=	" + str(jcensus[ijob]) + '	' + job + "\n")
@@ -527,6 +551,7 @@ for file in textfiles:
 			Sumjobcounts[job]= Nfound[ijob]
 			Sumjobplurals[job]= Nplural[ijob]
 			Ntextsjob[job]= 1
+			jobscensus[job]= jcensus[ijob]  # store disambiguated census code for this job ngram
 		# accumulate totals by census code across job titles for this text file:
 		if jcensus[ijob] in censuscounts:
 			censuscounts[jcensus[ijob]] = censuscounts[jcensus[ijob]] + Nfound[ijob]
@@ -535,7 +560,7 @@ for file in textfiles:
 			censuscounts[jcensus[ijob]] = Nfound[ijob]
 			censusplurals[jcensus[ijob]] = Nplural[ijob]
 	for code in sorted(censuscounts):
-		# write text file totals to ...Occ.txt file:
+		# write text file totals to ..Census.txt file:
 		censusf.write (file + "	" + str(code) + "	" + str(censuscounts[code]) + "	" + str(censusplurals[code]) + "	" + censuslabels[str(code)] + "\n" )
 		# accumulate totals by census code for all files:
 		if code in Sumcensuscounts:
@@ -553,6 +578,6 @@ print ("# titles=" + str(Sumtitles) + " # files=" + str(len(textfiles)) + " # se
 for code in sorted(Sumcensuscounts):
 	totalsf.write ("\n" + str(code) + "=	" + str(Sumcensuscounts[code]) + "	" + str(Sumcensusplurals[code]) + "	" + str(Ntextscensus[code]) + "	" + censuslabels[str(code)] + "\n")
 	for job in sorted(Sumjobcounts):
-		if joblabels[job]==code:
-			totalsf.write ("	" + str(Sumjobcounts[job]) + "	" + str(Sumjobplurals[job]) + "	" + str(Ntextsjob[job]) + "	" + str(joblabels[job]) + "	" + job + "\n")
+		if jobscensus[job]==code:
+			totalsf.write ("	" + str(Sumjobcounts[job]) + "	" + str(Sumjobplurals[job]) + "	" + str(Ntextsjob[job]) + "	" + str(jobscensus[job]) + "	" + job + "\n")
 

@@ -11,13 +11,15 @@ movies/All_About_Eve	5700	1	0	Secretaries
 movies/All_About_Eve	9780	1	0	employee nec
 movies/All_About_Eve	9782	1	0	Working women
 movies/All_About_Eve	9973	1	0	Poor
+movies/All_About_Eve	9998	2	1	ambiguous: occ/not occ
 movies/All_About_Eve	9999	2	0	not an occupation
 movies/All_About_Eve	10303	1	0	married
 movies/All_About_Eve	10306	1	0	boyfriend
 movies/All_About_Eve	10311	1	0	husband
 movies/All_About_Eve	10312	2	0	wife
+movies/All_About_Eve	10394	1	0	girls
 
-movies/An_American_in_Paris_(film)	17	1	0	Capitalist, not managing
+movies/An_American_in_Paris_(film)	26	1	0	Capitalist, not managing
 movies/An_American_in_Paris_(film)	2600	1	0	Artists
 movies/An_American_in_Paris_(film)	2750	5	0	Musicians, singers
 movies/An_American_in_Paris_(film)	4950	1	0	Door-to-door & street sales
@@ -25,9 +27,12 @@ movies/An_American_in_Paris_(film)	9780	1	0	employee nec
 movies/An_American_in_Paris_(film)	9781	2	1	Working men
 movies/An_American_in_Paris_(film)	9782	1	0	Working women
 movies/An_American_in_Paris_(film)	9789	1	1	work
+movies/An_American_in_Paris_(film)	9998	3	0	ambiguous: occ/not occ
 movies/An_American_in_Paris_(film)	9999	5	0	not an occupation
 movies/An_American_in_Paris_(film)	10307	1	0	girlfriend
 movies/An_American_in_Paris_(film)	10330	1	1	child
+movies/An_American_in_Paris_(film)	10392	4	0	women
+movies/An_American_in_Paris_(film)	10394	1	0	girls
 movies/An_American_in_Paris_(film)	10840	1	0	Whites
 movies/An_American_in_Paris_(film)	10841	1	0	Blacks
 movies/An_American_in_Paris_(film)	10860	1	1	student
@@ -53,12 +58,16 @@ movies/The_Greatest_Show_on_Earth_(film)	9789	4	2	work
 movies/The_Greatest_Show_on_Earth_(film)	9857	1	0	mafia, organized crime
 movies/The_Greatest_Show_on_Earth_(film)	9858	1	0	prisoner (or ex-prisoner)
 movies/The_Greatest_Show_on_Earth_(film)	9977	1	0	Elite
+movies/The_Greatest_Show_on_Earth_(film)	9998	3	0	ambiguous: occ/not occ
 movies/The_Greatest_Show_on_Earth_(film)	9999	9	1	not an occupation
 movies/The_Greatest_Show_on_Earth_(film)	10305	1	1	lover
 movies/The_Greatest_Show_on_Earth_(film)	10307	1	0	girlfriend
 movies/The_Greatest_Show_on_Earth_(film)	10312	2	0	wife
 movies/The_Greatest_Show_on_Earth_(film)	10322	1	0	mother
 movies/The_Greatest_Show_on_Earth_(film)	10341	1	1	brother
+movies/The_Greatest_Show_on_Earth_(film)	10390	1	0	people
+movies/The_Greatest_Show_on_Earth_(film)	10391	3	0	men
+movies/The_Greatest_Show_on_Earth_(film)	10392	2	0	women
 movies/The_Greatest_Show_on_Earth_(film)	10600	7	0	mythical creature
 movies/The_Greatest_Show_on_Earth_(film)	10841	1	0	Blacks
 movies/The_Greatest_Show_on_Earth_(film)	15200	1	0	government
@@ -76,16 +85,19 @@ movies/From_Here_to_Eternity	9810	6	1	Enlisted military supervisors
 movies/From_Here_to_Eternity	9812	2	0	Military, rank ns
 movies/From_Here_to_Eternity	9819	1	0	Military as an institution
 movies/From_Here_to_Eternity	9997	1	0	ambiguous: which occ
-movies/From_Here_to_Eternity	9998	3	0	ambiguous: occ/not occ
-movies/From_Here_to_Eternity	9999	5	1	not an occupation
+movies/From_Here_to_Eternity	9998	10	0	ambiguous: occ/not occ
+movies/From_Here_to_Eternity	9999	3	1	not an occupation
 movies/From_Here_to_Eternity	10303	1	0	married
 movies/From_Here_to_Eternity	10311	1	0	husband
 movies/From_Here_to_Eternity	10312	1	0	wife
 movies/From_Here_to_Eternity	10342	1	0	sister
+movies/From_Here_to_Eternity	10391	2	0	men
+movies/From_Here_to_Eternity	10392	1	0	women
+movies/From_Here_to_Eternity	10394	1	0	girls
 movies/From_Here_to_Eternity	13392	1	1	Japan
 
 movies/On_the_Waterfront	32	1	0	Politicians, candidates
-movies/On_the_Waterfront	430	1	0	Managers, other
+movies/On_the_Waterfront	630	1	0	Human resources workers
 movies/On_the_Waterfront	2040	1	0	Clergy
 movies/On_the_Waterfront	2720	1	0	Athletes, coaches, umpires
 movies/On_the_Waterfront	3850	1	0	Police & sheriff's patrol
@@ -94,10 +106,13 @@ movies/On_the_Waterfront	9780	1	1	employee nec
 movies/On_the_Waterfront	9789	5	0	work
 movies/On_the_Waterfront	9850	2	1	criminal /ns
 movies/On_the_Waterfront	9857	2	1	mafia, organized crime
+movies/On_the_Waterfront	9998	3	0	ambiguous: occ/not occ
 movies/On_the_Waterfront	9999	3	0	not an occupation
 movies/On_the_Waterfront	10321	7	0	father
 movies/On_the_Waterfront	10341	5	0	brother
 movies/On_the_Waterfront	10342	1	0	sister
+movies/On_the_Waterfront	10391	3	0	men
+movies/On_the_Waterfront	10393	1	0	boys
 
 movies/Marty_(film)	2340	1	0	Other teachers
 movies/Marty_(film)	2700	1	0	Actors
@@ -112,6 +127,9 @@ movies/Marty_(film)	10341	1	1	brother
 movies/Marty_(film)	10342	1	1	sister
 movies/Marty_(film)	10362	1	0	aunt
 movies/Marty_(film)	10380	1	0	family
+movies/Marty_(film)	10391	1	0	men
+movies/Marty_(film)	10392	1	0	women
+movies/Marty_(film)	10394	1	0	girls
 movies/Marty_(film)	13380	1	0	Italy
 movies/Marty_(film)	13840	1	0	United States of America
 movies/Marty_(film)	16102	1	0	television
@@ -122,9 +140,11 @@ movies/Around_the_World_in_80_Days_(1956_film)	2810	1	0	Journalists
 movies/Around_the_World_in_80_Days_(1956_film)	3820	2	0	Detectives
 movies/Around_the_World_in_80_Days_(1956_film)	4650	1	0	Personal care
 movies/Around_the_World_in_80_Days_(1956_film)	9850	1	0	criminal /ns
+movies/Around_the_World_in_80_Days_(1956_film)	9998	2	0	ambiguous: occ/not occ
 movies/Around_the_World_in_80_Days_(1956_film)	9999	2	0	not an occupation
 movies/Around_the_World_in_80_Days_(1956_film)	10301	1	0	widow
 movies/Around_the_World_in_80_Days_(1956_film)	10311	1	0	husband
+movies/Around_the_World_in_80_Days_(1956_film)	10392	1	0	women
 movies/Around_the_World_in_80_Days_(1956_film)	13344	1	0	Hong Kong
 movies/Around_the_World_in_80_Days_(1956_film)	13356	1	0	India
 movies/Around_the_World_in_80_Days_(1956_film)	13724	1	0	Spain
@@ -147,7 +167,10 @@ movies/The_Bridge_on_the_River_Kwai	9858	3	3	prisoner (or ex-prisoner)
 movies/The_Bridge_on_the_River_Kwai	9973	2	0	Poor
 movies/The_Bridge_on_the_River_Kwai	9992	1	1	volunteer position
 movies/The_Bridge_on_the_River_Kwai	9997	8	6	ambiguous: which occ
+movies/The_Bridge_on_the_River_Kwai	9998	4	1	ambiguous: occ/not occ
 movies/The_Bridge_on_the_River_Kwai	9999	6	0	not an occupation
+movies/The_Bridge_on_the_River_Kwai	10391	4	0	men
+movies/The_Bridge_on_the_River_Kwai	10392	2	2	women
 movies/The_Bridge_on_the_River_Kwai	13104	1	0	Myanmar
 movies/The_Bridge_on_the_River_Kwai	13124	1	0	Canada
 movies/The_Bridge_on_the_River_Kwai	13144	1	0	Sri Lanka
@@ -158,6 +181,7 @@ movies/The_Bridge_on_the_River_Kwai	15040	2	0	sector: construction
 
 movies/Gigi_(1958_film)	2340	1	0	Other teachers
 movies/Gigi_(1958_film)	9976	2	0	Rich
+movies/Gigi_(1958_film)	9998	1	0	ambiguous: occ/not occ
 movies/Gigi_(1958_film)	9999	2	0	not an occupation
 movies/Gigi_(1958_film)	10303	3	0	married
 movies/Gigi_(1958_film)	10305	8	1	lover
@@ -169,8 +193,12 @@ movies/Gigi_(1958_film)	10361	2	0	uncle
 movies/Gigi_(1958_film)	10362	3	0	aunt
 movies/Gigi_(1958_film)	10380	2	0	family
 movies/Gigi_(1958_film)	10382	1	0	couple
+movies/Gigi_(1958_film)	10390	1	0	people
+movies/Gigi_(1958_film)	10391	2	0	men
+movies/Gigi_(1958_film)	10392	2	1	women
+movies/Gigi_(1958_film)	10394	1	0	girls
 
-movies/Ben-Hur_(1959_film)	15	2	0	Chief executive, government
+movies/Ben-Hur_(1959_film)	15	2	0	Chief executive, government (exc.President)
 movies/Ben-Hur_(1959_film)	25	2	0	Owner manager
 movies/Ben-Hur_(1959_film)	33	4	0	Government official, inherited
 movies/Ben-Hur_(1959_film)	35	1	0	Managers, government officials
@@ -181,6 +209,7 @@ movies/Ben-Hur_(1959_film)	9814	2	0	Military, pre-modern
 movies/Ben-Hur_(1959_film)	9854	1	1	thief
 movies/Ben-Hur_(1959_film)	9975	3	1	Slave
 movies/Ben-Hur_(1959_film)	9976	2	0	Rich
+movies/Ben-Hur_(1959_film)	9998	2	1	ambiguous: occ/not occ
 movies/Ben-Hur_(1959_film)	9999	1	0	not an occupation
 movies/Ben-Hur_(1959_film)	10303	1	0	married
 movies/Ben-Hur_(1959_film)	10322	3	0	mother
@@ -188,6 +217,9 @@ movies/Ben-Hur_(1959_film)	10331	1	0	son
 movies/Ben-Hur_(1959_film)	10332	2	0	daughter
 movies/Ben-Hur_(1959_film)	10342	3	0	sister
 movies/Ben-Hur_(1959_film)	10380	4	0	family
+movies/Ben-Hur_(1959_film)	10390	1	0	people
+movies/Ben-Hur_(1959_film)	10391	2	0	men
+movies/Ben-Hur_(1959_film)	10392	2	1	women
 movies/Ben-Hur_(1959_film)	10605	1	0	god
 movies/Ben-Hur_(1959_film)	11835	3	0	Jews
 movies/Ben-Hur_(1959_film)	13807	2	1	North Macedonia
@@ -202,11 +234,14 @@ movies/The_Apartment	9780	1	1	employee nec
 movies/The_Apartment	9781	1	0	Working men
 movies/The_Apartment	9789	2	0	work
 movies/The_Apartment	9977	1	0	Elite
+movies/The_Apartment	9998	3	0	ambiguous: occ/not occ
 movies/The_Apartment	9999	3	0	not an occupation
 movies/The_Apartment	10305	1	1	lover
 movies/The_Apartment	10312	3	0	wife
 movies/The_Apartment	10347	1	0	brother in law
 movies/The_Apartment	10380	2	0	family
+movies/The_Apartment	10391	3	0	men
+movies/The_Apartment	10392	4	0	women
 movies/The_Apartment	15110	1	0	sector: insurance
 
 movies/West_Side_Story_(film)	25	1	0	Owner manager
@@ -214,6 +249,7 @@ movies/West_Side_Story_(film)	3850	4	0	Police & sheriff's patrol
 movies/West_Side_Story_(film)	9800	1	0	Military officer
 movies/West_Side_Story_(film)	9850	7	4	criminal /ns
 movies/West_Side_Story_(film)	9997	1	0	ambiguous: which occ
+movies/West_Side_Story_(film)	9998	1	0	ambiguous: occ/not occ
 movies/West_Side_Story_(film)	9999	2	0	not an occupation
 movies/West_Side_Story_(film)	10307	1	0	girlfriend
 movies/West_Side_Story_(film)	10342	1	0	sister
@@ -231,8 +267,9 @@ movies/Lawrence_of_Arabia_(film)	9819	1	0	Military as an institution
 movies/Lawrence_of_Arabia_(film)	9850	1	0	criminal /ns
 movies/Lawrence_of_Arabia_(film)	9856	1	0	murderer
 movies/Lawrence_of_Arabia_(film)	9858	1	1	prisoner (or ex-prisoner)
-movies/Lawrence_of_Arabia_(film)	9998	1	0	ambiguous: occ/not occ
+movies/Lawrence_of_Arabia_(film)	9998	7	1	ambiguous: occ/not occ
 movies/Lawrence_of_Arabia_(film)	9999	5	3	not an occupation
+movies/Lawrence_of_Arabia_(film)	10391	9	0	men
 movies/Lawrence_of_Arabia_(film)	13792	7	4	Turkey
 movies/Lawrence_of_Arabia_(film)	13825	7	0	Great Britain
 movies/Lawrence_of_Arabia_(film)	13840	1	0	United States of America
@@ -244,6 +281,7 @@ movies/Tom_Jones_(1963_film)	4500	1	0	Barbers
 movies/Tom_Jones_(1963_film)	4650	1	1	Personal care
 movies/Tom_Jones_(1963_film)	9976	1	0	Rich
 movies/Tom_Jones_(1963_film)	9997	1	0	ambiguous: which occ
+movies/Tom_Jones_(1963_film)	9998	1	0	ambiguous: occ/not occ
 movies/Tom_Jones_(1963_film)	9999	2	1	not an occupation
 movies/Tom_Jones_(1963_film)	10301	1	0	widow
 movies/Tom_Jones_(1963_film)	10312	1	0	wife
@@ -256,6 +294,9 @@ movies/Tom_Jones_(1963_film)	10341	1	0	brother
 movies/Tom_Jones_(1963_film)	10342	1	0	sister
 movies/Tom_Jones_(1963_film)	10361	1	0	uncle
 movies/Tom_Jones_(1963_film)	10362	1	0	aunt
+movies/Tom_Jones_(1963_film)	10391	4	0	men
+movies/Tom_Jones_(1963_film)	10392	1	0	women
+movies/Tom_Jones_(1963_film)	10395	2	0	babies
 
 movies/My_Fair_Lady_(film)	33	4	0	Government official, inherited
 movies/My_Fair_Lady_(film)	2005	2	0	Advisers & experts
@@ -267,11 +308,15 @@ movies/My_Fair_Lady_(film)	9800	1	0	Military officer
 movies/My_Fair_Lady_(film)	9970	1	0	Middle class category
 movies/My_Fair_Lady_(film)	9976	2	0	Rich
 movies/My_Fair_Lady_(film)	9977	2	0	Elite
+movies/My_Fair_Lady_(film)	9998	5	0	ambiguous: occ/not occ
 movies/My_Fair_Lady_(film)	9999	4	2	not an occupation
 movies/My_Fair_Lady_(film)	10321	2	0	father
 movies/My_Fair_Lady_(film)	10322	2	0	mother
 movies/My_Fair_Lady_(film)	10331	1	0	son
 movies/My_Fair_Lady_(film)	10332	2	0	daughter
+movies/My_Fair_Lady_(film)	10390	1	0	people
+movies/My_Fair_Lady_(film)	10391	3	0	men
+movies/My_Fair_Lady_(film)	10392	2	1	women
 movies/My_Fair_Lady_(film)	13348	2	0	Hungary
 movies/My_Fair_Lady_(film)	13356	1	0	India
 movies/My_Fair_Lady_(film)	13724	1	0	Spain
@@ -294,11 +339,14 @@ movies/The_Sound_of_Music_(film)	10322	3	0	mother
 movies/The_Sound_of_Music_(film)	10330	13	13	child
 movies/The_Sound_of_Music_(film)	10380	7	0	family
 movies/The_Sound_of_Music_(film)	10382	1	0	couple
+movies/The_Sound_of_Music_(film)	10391	1	0	men
+movies/The_Sound_of_Music_(film)	10392	1	0	women
+movies/The_Sound_of_Music_(film)	10393	1	0	boys
 movies/The_Sound_of_Music_(film)	13040	3	0	Austria
 movies/The_Sound_of_Music_(film)	13276	2	0	German
-movies/The_Sound_of_Music_(film)	13756	2	0	Switzerland
+movies/The_Sound_of_Music_(film)	13756	3	0	Switzerland
 
-movies/A_Man_for_All_Seasons_(1966_film)	17	1	0	Capitalist, not managing
+movies/A_Man_for_All_Seasons_(1966_film)	26	1	0	Capitalist, not managing
 movies/A_Man_for_All_Seasons_(1966_film)	33	18	0	Government official, inherited
 movies/A_Man_for_All_Seasons_(1966_film)	35	1	0	Managers, government officials
 movies/A_Man_for_All_Seasons_(1966_film)	430	3	0	Managers, other
@@ -310,15 +358,18 @@ movies/A_Man_for_All_Seasons_(1966_film)	3288	1	0	General, likely prof/mgr
 movies/A_Man_for_All_Seasons_(1966_film)	3825	1	0	Intelligence officers
 movies/A_Man_for_All_Seasons_(1966_film)	4650	2	1	Personal care
 movies/A_Man_for_All_Seasons_(1966_film)	9789	1	0	work
+movies/A_Man_for_All_Seasons_(1966_film)	9998	22	0	ambiguous: occ/not occ
 movies/A_Man_for_All_Seasons_(1966_film)	9999	2	0	not an occupation
 movies/A_Man_for_All_Seasons_(1966_film)	10303	2	0	married
 movies/A_Man_for_All_Seasons_(1966_film)	10312	1	0	wife
 movies/A_Man_for_All_Seasons_(1966_film)	10321	1	0	father
 movies/A_Man_for_All_Seasons_(1966_film)	10332	1	0	daughter
+movies/A_Man_for_All_Seasons_(1966_film)	10391	1	0	men
 movies/A_Man_for_All_Seasons_(1966_film)	10600	1	0	mythical creature
 movies/A_Man_for_All_Seasons_(1966_film)	10605	1	0	god
 movies/A_Man_for_All_Seasons_(1966_film)	11832	1	0	Catholics
 movies/A_Man_for_All_Seasons_(1966_film)	13336	1	0	Holy See
+movies/A_Man_for_All_Seasons_(1966_film)	13827	1	0	Wales
 
 movies/In_the_Heat_of_the_Night_(film)	25	2	0	Owner manager
 movies/In_the_Heat_of_the_Night_(film)	430	2	0	Managers, other
@@ -335,7 +386,7 @@ movies/In_the_Heat_of_the_Night_(film)	10841	2	0	Blacks
 movies/In_the_Heat_of_the_Night_(film)	15040	1	0	sector: construction
 movies/In_the_Heat_of_the_Night_(film)	15050	4	0	sector: manufacturing
 
-movies/Oliver!_(film)	15	2	2	Chief executive, government
+movies/Oliver!_(film)	15	2	2	Chief executive, government (exc.President)
 movies/Oliver!_(film)	25	1	1	Owner manager
 movies/Oliver!_(film)	2110	1	0	Judges
 movies/Oliver!_(film)	3850	3	0	Police & sheriff's patrol
@@ -346,6 +397,7 @@ movies/Oliver!_(film)	9789	3	0	work
 movies/Oliver!_(film)	9850	3	0	criminal /ns
 movies/Oliver!_(film)	9854	5	3	thief
 movies/Oliver!_(film)	9976	2	0	Rich
+movies/Oliver!_(film)	9998	7	0	ambiguous: occ/not occ
 movies/Oliver!_(film)	9999	5	2	not an occupation
 movies/Oliver!_(film)	10301	1	0	widow
 movies/Oliver!_(film)	10305	1	0	lover
@@ -354,6 +406,9 @@ movies/Oliver!_(film)	10322	2	0	mother
 movies/Oliver!_(film)	10330	1	1	child
 movies/Oliver!_(film)	10335	2	0	niece
 movies/Oliver!_(film)	10342	1	0	sister
+movies/Oliver!_(film)	10390	2	1	people
+movies/Oliver!_(film)	10391	1	0	men
+movies/Oliver!_(film)	10393	3	0	boys
 movies/Oliver!_(film)	15010	1	0	sector: business
 
 movies/Midnight_Cowboy	4650	1	0	Personal care
@@ -364,14 +419,16 @@ movies/Midnight_Cowboy	9852	2	1	embezzler
 movies/Midnight_Cowboy	9855	3	0	sex worker
 movies/Midnight_Cowboy	9973	1	0	Poor
 movies/Midnight_Cowboy	9977	1	0	Elite
-movies/Midnight_Cowboy	9998	1	0	ambiguous: occ/not occ
+movies/Midnight_Cowboy	9998	7	0	ambiguous: occ/not occ
 movies/Midnight_Cowboy	9999	3	1	not an occupation
 movies/Midnight_Cowboy	10321	2	0	father
 movies/Midnight_Cowboy	10322	1	0	mother
 movies/Midnight_Cowboy	10352	1	0	grandmother
+movies/Midnight_Cowboy	10391	6	0	men
+movies/Midnight_Cowboy	10392	3	1	women
+movies/Midnight_Cowboy	10394	1	0	girls
 movies/Midnight_Cowboy	10848	1	0	immigrants
 movies/Midnight_Cowboy	13380	1	0	Italy
-movies/Midnight_Cowboy	13616	1	0	Poland
 movies/Midnight_Cowboy	15010	1	0	sector: business
 movies/Midnight_Cowboy	16101	1	0	home appliance
 
@@ -381,6 +438,7 @@ movies/Patton_(film)	9800	8	0	Military officer
 movies/Patton_(film)	9812	6	3	Military, rank ns
 movies/Patton_(film)	9819	6	0	Military as an institution
 movies/Patton_(film)	9975	1	0	Slave
+movies/Patton_(film)	9998	3	0	ambiguous: occ/not occ
 movies/Patton_(film)	9999	2	1	not an occupation
 movies/Patton_(film)	10600	1	0	mythical creature
 movies/Patton_(film)	13250	1	0	France
@@ -388,7 +446,7 @@ movies/Patton_(film)	13276	10	0	German
 movies/Patton_(film)	13380	3	0	Italy
 movies/Patton_(film)	13643	2	0	Russia
 movies/Patton_(film)	13810	1	0	Soviet Union
-movies/Patton_(film)	13826	1	0	Wales
+movies/Patton_(film)	13826	1	0	United Kingdom
 movies/Patton_(film)	13840	9	3	United States of America
 movies/Patton_(film)	13910	1	0	Europe
 movies/Patton_(film)	13944	2	0	North Africa
@@ -408,10 +466,11 @@ movies/The_French_Connection_(film)	9850	4	1	criminal /ns
 movies/The_French_Connection_(film)	9856	4	0	murderer
 movies/The_French_Connection_(film)	9857	2	1	mafia, organized crime
 movies/The_French_Connection_(film)	9976	1	0	Rich
-movies/The_French_Connection_(film)	9998	1	0	ambiguous: occ/not occ
+movies/The_French_Connection_(film)	9998	9	3	ambiguous: occ/not occ
 movies/The_French_Connection_(film)	9999	6	1	not an occupation
 movies/The_French_Connection_(film)	10312	1	0	wife
 movies/The_French_Connection_(film)	10382	1	0	couple
+movies/The_French_Connection_(film)	10391	2	0	men
 movies/The_French_Connection_(film)	13250	6	0	France
 movies/The_French_Connection_(film)	13840	1	1	United States of America
 movies/The_French_Connection_(film)	15050	2	0	sector: manufacturing
@@ -426,8 +485,10 @@ movies/The_Godfather	3825	1	0	Intelligence officers
 movies/The_Godfather	3930	1	0	Security guards & gaming officers
 movies/The_Godfather	9781	1	0	Working men
 movies/The_Godfather	9800	1	0	Military officer
+movies/The_Godfather	9812	1	0	Military, rank ns
 movies/The_Godfather	9856	1	1	murderer
 movies/The_Godfather	9857	1	0	mafia, organized crime
+movies/The_Godfather	9998	3	0	ambiguous: occ/not occ
 movies/The_Godfather	10307	1	0	girlfriend
 movies/The_Godfather	10311	1	0	husband
 movies/The_Godfather	10321	2	0	father
@@ -436,6 +497,8 @@ movies/The_Godfather	10331	2	1	son
 movies/The_Godfather	10332	1	0	daughter
 movies/The_Godfather	10341	1	0	brother
 movies/The_Godfather	10380	9	3	family
+movies/The_Godfather	10391	1	0	men
+movies/The_Godfather	10395	1	0	babies
 movies/The_Godfather	13792	1	0	Turkey
 movies/The_Godfather	15010	3	0	sector: business
 movies/The_Godfather	15080	1	0	sector: trade
@@ -454,9 +517,10 @@ movies/The_Sting	9852	4	1	embezzler
 movies/The_Sting	9856	2	0	murderer
 movies/The_Sting	9857	1	0	mafia, organized crime
 movies/The_Sting	9997	1	0	ambiguous: which occ
-movies/The_Sting	9998	3	1	ambiguous: occ/not occ
+movies/The_Sting	9998	31	2	ambiguous: occ/not occ
 movies/The_Sting	9999	1	0	not an occupation
 movies/The_Sting	10301	1	0	widow
+movies/The_Sting	10391	4	0	men
 movies/The_Sting	10841	2	0	Blacks
 movies/The_Sting	15100	1	0	sector: finance
 movies/The_Sting	15200	1	0	government
@@ -470,6 +534,7 @@ movies/The_Godfather_Part_II	3850	1	0	Police & sheriff's patrol
 movies/The_Godfather_Part_II	3930	1	0	Security guards & gaming officers
 movies/The_Godfather_Part_II	9781	1	0	Working men
 movies/The_Godfather_Part_II	9789	2	0	work
+movies/The_Godfather_Part_II	9812	1	0	Military, rank ns
 movies/The_Godfather_Part_II	9813	1	0	Rebel military, rank ns
 movies/The_Godfather_Part_II	9850	2	0	criminal /ns
 movies/The_Godfather_Part_II	9857	1	0	mafia, organized crime
@@ -482,6 +547,7 @@ movies/The_Godfather_Part_II	10330	2	2	child
 movies/The_Godfather_Part_II	10331	3	1	son
 movies/The_Godfather_Part_II	10341	4	1	brother
 movies/The_Godfather_Part_II	10380	8	0	family
+movies/The_Godfather_Part_II	10391	1	0	men
 movies/The_Godfather_Part_II	13192	2	0	Cuba
 movies/The_Godfather_Part_II	13376	1	0	Israel
 movies/The_Godfather_Part_II	13840	3	3	United States of America
@@ -490,9 +556,10 @@ movies/The_Godfather_Part_II	15200	1	0	government
 
 movies/One_Flew_Over_the_Cuckoo%27s_Nest_(film)	430	8	0	Managers, other
 movies/One_Flew_Over_the_Cuckoo%27s_Nest_(film)	3255	1	0	Registered nurses
-movies/One_Flew_Over_the_Cuckoo%27s_Nest_(film)	3600	2	1	Nursing & home health aides
 movies/One_Flew_Over_the_Cuckoo%27s_Nest_(film)	9850	1	0	criminal /ns
+movies/One_Flew_Over_the_Cuckoo%27s_Nest_(film)	9998	3	1	ambiguous: occ/not occ
 movies/One_Flew_Over_the_Cuckoo%27s_Nest_(film)	10322	1	0	mother
+movies/One_Flew_Over_the_Cuckoo%27s_Nest_(film)	10392	1	1	women
 movies/One_Flew_Over_the_Cuckoo%27s_Nest_(film)	10844	1	0	Native Americans
 
 movies/Rocky	32	1	0	Politicians, candidates
@@ -516,16 +583,17 @@ movies/Annie_Hall	2850	1	0	Authors
 movies/Annie_Hall	3245	1	1	Therapists, other
 movies/Annie_Hall	9789	1	0	work
 movies/Annie_Hall	9990	1	0	Unemployed
+movies/Annie_Hall	9998	8	0	ambiguous: occ/not occ
 movies/Annie_Hall	9999	2	0	not an occupation
 movies/Annie_Hall	10303	2	0	married
 movies/Annie_Hall	10312	1	0	wife
 movies/Annie_Hall	10322	1	0	mother
+movies/Annie_Hall	10391	3	0	men
 movies/Annie_Hall	12812	1	0	housework: cooking
 movies/Annie_Hall	16102	1	0	television
 
 movies/The_Deer_Hunter	310	1	0	Food service managers
 movies/The_Deer_Hunter	2760	1	1	Performers, other
-movies/The_Deer_Hunter	3930	4	4	Security guards & gaming officers
 movies/The_Deer_Hunter	6050	1	0	Misc agricultural workers
 movies/The_Deer_Hunter	8040	1	1	Metal furnace operators
 movies/The_Deer_Hunter	9140	1	0	Taxi drivers & chauffeurs
@@ -537,15 +605,19 @@ movies/The_Deer_Hunter	9812	7	1	Military, rank ns
 movies/The_Deer_Hunter	9819	3	0	Military as an institution
 movies/The_Deer_Hunter	9858	1	1	prisoner (or ex-prisoner)
 movies/The_Deer_Hunter	9972	1	0	Working class category
+movies/The_Deer_Hunter	9998	14	5	ambiguous: occ/not occ
 movies/The_Deer_Hunter	9999	2	0	not an occupation
 movies/The_Deer_Hunter	10303	1	0	married
 movies/The_Deer_Hunter	10307	2	0	girlfriend
 movies/The_Deer_Hunter	10322	2	0	mother
+movies/The_Deer_Hunter	10391	2	0	men
+movies/The_Deer_Hunter	10392	1	0	women
+movies/The_Deer_Hunter	10395	1	0	babies
 movies/The_Deer_Hunter	10605	1	0	god
 movies/The_Deer_Hunter	11834	2	0	Other Christian
 movies/The_Deer_Hunter	13643	5	0	Russia
 movies/The_Deer_Hunter	13704	3	0	Vietnam
-movies/The_Deer_Hunter	13826	3	0	Wales
+movies/The_Deer_Hunter	13827	3	0	Wales
 movies/The_Deer_Hunter	13840	5	0	United States of America
 movies/The_Deer_Hunter	13866	1	1	South Vietnam
 
@@ -553,6 +625,7 @@ movies/Kramer_vs._Kramer	40	1	0	Advertising managers
 movies/Kramer_vs._Kramer	2100	2	1	Lawyers
 movies/Kramer_vs._Kramer	2630	1	0	Designers
 movies/Kramer_vs._Kramer	9789	1	0	work
+movies/Kramer_vs._Kramer	9998	3	0	ambiguous: occ/not occ
 movies/Kramer_vs._Kramer	9999	2	0	not an occupation
 movies/Kramer_vs._Kramer	10311	2	0	husband
 movies/Kramer_vs._Kramer	10312	1	0	wife
@@ -567,6 +640,7 @@ movies/Ordinary_People	2720	1	0	Athletes, coaches, umpires
 movies/Ordinary_People	3060	1	0	Physicians
 movies/Ordinary_People	9789	1	1	work
 movies/Ordinary_People	9970	1	0	Middle class category
+movies/Ordinary_People	9998	1	0	ambiguous: occ/not occ
 movies/Ordinary_People	10312	1	0	wife
 movies/Ordinary_People	10320	1	1	parent
 movies/Ordinary_People	10321	1	0	father
@@ -585,22 +659,25 @@ movies/Chariots_of_Fire	2720	5	1	Athletes, coaches, umpires
 movies/Chariots_of_Fire	3288	1	0	General, likely prof/mgr
 movies/Chariots_of_Fire	9789	2	0	work
 movies/Chariots_of_Fire	9970	1	0	Middle class category
-movies/Chariots_of_Fire	9998	1	0	ambiguous: occ/not occ
+movies/Chariots_of_Fire	9998	5	0	ambiguous: occ/not occ
 movies/Chariots_of_Fire	9999	6	5	not an occupation
 movies/Chariots_of_Fire	10303	1	0	married
 movies/Chariots_of_Fire	10307	1	0	girlfriend
 movies/Chariots_of_Fire	10320	1	1	parent
 movies/Chariots_of_Fire	10342	2	0	sister
+movies/Chariots_of_Fire	10390	1	0	people
 movies/Chariots_of_Fire	10605	4	0	god
 movies/Chariots_of_Fire	11831	1	0	Christians
 movies/Chariots_of_Fire	13156	5	0	China
 movies/Chariots_of_Fire	13392	1	1	Japan
 movies/Chariots_of_Fire	13825	4	0	Great Britain
+movies/Chariots_of_Fire	13827	1	0	Wales
 movies/Chariots_of_Fire	13828	4	0	Scotland
 movies/Chariots_of_Fire	13840	4	1	United States of America
 
-movies/Gandhi_(film)	15	1	0	Chief executive, government
+movies/Gandhi_(film)	15	1	0	Chief executive, government (exc.President)
 movies/Gandhi_(film)	4650	1	1	Personal care
+movies/Gandhi_(film)	9998	2	0	ambiguous: occ/not occ
 movies/Gandhi_(film)	9999	2	0	not an occupation
 movies/Gandhi_(film)	10605	1	0	god
 movies/Gandhi_(film)	11836	3	3	Muslims
@@ -634,12 +711,14 @@ movies/Amadeus_(film)	5510	1	1	Messengers
 movies/Amadeus_(film)	9781	1	0	Working men
 movies/Amadeus_(film)	9789	5	0	work
 movies/Amadeus_(film)	9800	1	0	Military officer
+movies/Amadeus_(film)	9998	1	0	ambiguous: occ/not occ
 movies/Amadeus_(film)	10303	1	0	married
 movies/Amadeus_(film)	10321	4	0	father
 movies/Amadeus_(film)	10331	2	0	son
 movies/Amadeus_(film)	10335	1	0	niece
 movies/Amadeus_(film)	10380	1	0	family
 movies/Amadeus_(film)	10382	1	0	couple
+movies/Amadeus_(film)	10394	1	0	girls
 movies/Amadeus_(film)	10605	4	0	god
 movies/Amadeus_(film)	10841	1	0	Blacks
 
@@ -651,12 +730,15 @@ movies/Out_of_Africa_(film)	6110	1	0	Hunters & trappers
 movies/Out_of_Africa_(film)	9780	1	1	employee nec
 movies/Out_of_Africa_(film)	9789	1	0	work
 movies/Out_of_Africa_(film)	9976	1	0	Rich
+movies/Out_of_Africa_(film)	9998	1	0	ambiguous: occ/not occ
 movies/Out_of_Africa_(film)	9999	2	1	not an occupation
 movies/Out_of_Africa_(film)	10303	2	0	married
 movies/Out_of_Africa_(film)	10304	1	0	unmarried
 movies/Out_of_Africa_(film)	10305	2	0	lover
 movies/Out_of_Africa_(film)	10341	1	0	brother
 movies/Out_of_Africa_(film)	10382	1	0	couple
+movies/Out_of_Africa_(film)	10391	1	0	men
+movies/Out_of_Africa_(film)	10392	2	0	women
 movies/Out_of_Africa_(film)	13208	5	0	Denmark
 movies/Out_of_Africa_(film)	13404	1	0	Kenya
 movies/Out_of_Africa_(film)	13752	1	0	Sweden
@@ -672,8 +754,10 @@ movies/Platoon_(film)	9819	2	0	Military as an institution
 movies/Platoon_(film)	9850	1	0	criminal /ns
 movies/Platoon_(film)	9870	1	0	terrorist attack
 movies/Platoon_(film)	9992	1	0	volunteer position
+movies/Platoon_(film)	9998	3	0	ambiguous: occ/not occ
 movies/Platoon_(film)	9999	4	2	not an occupation
 movies/Platoon_(film)	10312	1	0	wife
+movies/Platoon_(film)	10391	5	0	men
 movies/Platoon_(film)	13116	1	0	Cambodia
 movies/Platoon_(film)	13704	1	1	Vietnam
 movies/Platoon_(film)	13840	2	1	United States of America
@@ -686,7 +770,6 @@ movies/The_Last_Emperor	430	1	0	Managers, other
 movies/The_Last_Emperor	2340	1	0	Other teachers
 movies/The_Last_Emperor	2740	1	1	Dancers & choreographers
 movies/The_Last_Emperor	3255	1	0	Registered nurses
-movies/The_Last_Emperor	3930	1	0	Security guards & gaming officers
 movies/The_Last_Emperor	4230	1	1	Maids
 movies/The_Last_Emperor	4250	1	0	Grounds maintenance
 movies/The_Last_Emperor	9789	1	0	work
@@ -695,11 +778,15 @@ movies/The_Last_Emperor	9813	1	0	Rebel military, rank ns
 movies/The_Last_Emperor	9819	2	0	Military as an institution
 movies/The_Last_Emperor	9850	1	0	criminal /ns
 movies/The_Last_Emperor	9858	3	2	prisoner (or ex-prisoner)
+movies/The_Last_Emperor	9998	3	0	ambiguous: occ/not occ
 movies/The_Last_Emperor	9999	6	0	not an occupation
 movies/The_Last_Emperor	10321	1	0	father
 movies/The_Last_Emperor	10330	2	1	child
 movies/The_Last_Emperor	10331	1	0	son
 movies/The_Last_Emperor	10341	1	0	brother
+movies/The_Last_Emperor	10390	1	0	people
+movies/The_Last_Emperor	10393	3	0	boys
+movies/The_Last_Emperor	10395	1	0	babies
 movies/The_Last_Emperor	13156	2	0	China
 movies/The_Last_Emperor	13392	5	5	Japan
 movies/The_Last_Emperor	13810	1	0	Soviet Union
@@ -712,24 +799,27 @@ movies/Rain_Man	2110	1	0	Judges
 movies/Rain_Man	3060	2	0	Physicians
 movies/Rain_Man	5110	1	0	Billing clerks
 movies/Rain_Man	9780	1	0	employee nec
+movies/Rain_Man	9998	2	0	ambiguous: occ/not occ
 movies/Rain_Man	9999	1	0	not an occupation
 movies/Rain_Man	10307	1	0	girlfriend
 movies/Rain_Man	10321	3	0	father
 movies/Rain_Man	10341	5	0	brother
 movies/Rain_Man	10380	1	0	family
+movies/Rain_Man	10391	1	0	men
 movies/Rain_Man	16102	1	0	television
 
 movies/Driving_Miss_Daisy	2340	2	0	Other teachers
 movies/Driving_Miss_Daisy	4230	2	0	Maids
 movies/Driving_Miss_Daisy	9140	1	0	Taxi drivers & chauffeurs
 movies/Driving_Miss_Daisy	9976	1	0	Rich
+movies/Driving_Miss_Daisy	9998	1	0	ambiguous: occ/not occ
 movies/Driving_Miss_Daisy	9999	1	0	not an occupation
 movies/Driving_Miss_Daisy	10301	1	0	widow
 movies/Driving_Miss_Daisy	10331	1	0	son
+movies/Driving_Miss_Daisy	10390	1	0	people
 movies/Driving_Miss_Daisy	10841	3	0	Blacks
 movies/Driving_Miss_Daisy	11835	1	0	Jews
 movies/Driving_Miss_Daisy	12812	1	0	housework: cooking
-movies/Driving_Miss_Daisy	13268	1	0	Georgia
 movies/Driving_Miss_Daisy	13840	1	0	United States of America
 
 movies/Dances_with_Wolves	430	1	0	Managers, other
@@ -743,11 +833,15 @@ movies/Dances_with_Wolves	9819	3	0	Military as an institution
 movies/Dances_with_Wolves	9858	1	0	prisoner (or ex-prisoner)
 movies/Dances_with_Wolves	9973	1	0	Poor
 movies/Dances_with_Wolves	9997	2	1	ambiguous: which occ
+movies/Dances_with_Wolves	9998	8	2	ambiguous: occ/not occ
 movies/Dances_with_Wolves	9999	1	0	not an occupation
 movies/Dances_with_Wolves	10311	1	0	husband
 movies/Dances_with_Wolves	10332	1	0	daughter
 movies/Dances_with_Wolves	10380	1	0	family
+movies/Dances_with_Wolves	10390	1	0	people
+movies/Dances_with_Wolves	10391	1	0	men
 movies/Dances_with_Wolves	10840	4	0	Whites
+movies/Dances_with_Wolves	10844	9	0	Native Americans
 movies/Dances_with_Wolves	13840	3	0	United States of America
 movies/Dances_with_Wolves	15200	1	0	government
 
@@ -755,14 +849,16 @@ movies/The_Silence_of_the_Lambs_(film)	30	2	0	Legislators
 movies/The_Silence_of_the_Lambs_(film)	3060	1	0	Physicians
 movies/The_Silence_of_the_Lambs_(film)	3820	1	0	Detectives
 movies/The_Silence_of_the_Lambs_(film)	3850	1	0	Police & sheriff's patrol
-movies/The_Silence_of_the_Lambs_(film)	3930	1	1	Security guards & gaming officers
 movies/The_Silence_of_the_Lambs_(film)	8350	1	0	Tailors & dressmakers
 movies/The_Silence_of_the_Lambs_(film)	9780	1	0	employee nec
 movies/The_Silence_of_the_Lambs_(film)	9856	2	0	murderer
 movies/The_Silence_of_the_Lambs_(film)	9858	1	1	prisoner (or ex-prisoner)
+movies/The_Silence_of_the_Lambs_(film)	9998	4	2	ambiguous: occ/not occ
 movies/The_Silence_of_the_Lambs_(film)	9999	2	0	not an occupation
 movies/The_Silence_of_the_Lambs_(film)	10321	1	0	father
 movies/The_Silence_of_the_Lambs_(film)	10332	1	0	daughter
+movies/The_Silence_of_the_Lambs_(film)	10391	2	0	men
+movies/The_Silence_of_the_Lambs_(film)	10392	3	0	women
 movies/The_Silence_of_the_Lambs_(film)	15200	3	0	government
 
 movies/Unforgiven	33	1	0	Government official, inherited
@@ -770,16 +866,19 @@ movies/Unforgiven	2850	1	0	Authors
 movies/Unforgiven	3255	1	0	Registered nurses
 movies/Unforgiven	3288	1	0	General, likely prof/mgr
 movies/Unforgiven	3710	2	0	Superv: police
-movies/Unforgiven	3850	3	3	Police & sheriff's patrol
 movies/Unforgiven	6050	6	6	Misc agricultural workers
 movies/Unforgiven	9789	1	0	work
 movies/Unforgiven	9850	5	0	criminal /ns
 movies/Unforgiven	9855	8	5	sex worker
 movies/Unforgiven	9856	4	2	murderer
+movies/Unforgiven	9997	3	3	ambiguous: which occ
+movies/Unforgiven	9998	3	0	ambiguous: occ/not occ
 movies/Unforgiven	9999	4	1	not an occupation
 movies/Unforgiven	10301	1	0	widow
 movies/Unforgiven	10312	1	0	wife
 movies/Unforgiven	10330	4	4	child
+movies/Unforgiven	10391	3	0	men
+movies/Unforgiven	10393	1	0	boys
 movies/Unforgiven	13825	1	0	Great Britain
 
 movies/Schindler%27s_List	32	1	0	Politicians, candidates
@@ -796,15 +895,21 @@ movies/Schindler%27s_List	9819	2	1	Military as an institution
 movies/Schindler%27s_List	9853	1	1	smuggler
 movies/Schindler%27s_List	9856	1	1	murderer
 movies/Schindler%27s_List	9858	1	1	prisoner (or ex-prisoner)
+movies/Schindler%27s_List	9998	1	1	ambiguous: occ/not occ
 movies/Schindler%27s_List	9999	6	0	not an occupation
 movies/Schindler%27s_List	10303	1	0	married
 movies/Schindler%27s_List	10312	1	0	wife
 movies/Schindler%27s_List	10330	1	1	child
 movies/Schindler%27s_List	10380	1	1	family
+movies/Schindler%27s_List	10390	4	0	people
+movies/Schindler%27s_List	10391	1	0	men
+movies/Schindler%27s_List	10392	1	1	women
+movies/Schindler%27s_List	10394	1	0	girls
 movies/Schindler%27s_List	10847	1	0	ethnics
 movies/Schindler%27s_List	11835	11	4	Jews
 movies/Schindler%27s_List	13200	1	0	Czechoslovakia
 movies/Schindler%27s_List	13276	6	2	German
+movies/Schindler%27s_List	13616	1	0	Poland
 movies/Schindler%27s_List	13810	1	0	Soviet Union
 movies/Schindler%27s_List	13840	1	1	United States of America
 movies/Schindler%27s_List	13910	1	0	Europe
@@ -812,34 +917,35 @@ movies/Schindler%27s_List	15010	3	1	sector: business
 movies/Schindler%27s_List	15040	1	0	sector: construction
 movies/Schindler%27s_List	15050	9	0	sector: manufacturing
 
+movies/Forrest_Gump	12	1	0	President
 movies/Forrest_Gump	14	1	0	Named President
-movies/Forrest_Gump	15	1	0	Chief executive, government
 movies/Forrest_Gump	2720	1	0	Athletes, coaches, umpires
 movies/Forrest_Gump	9130	2	0	Driver/sales & truck drivers
-movies/Forrest_Gump	9800	3	0	Military officer
+movies/Forrest_Gump	9800	2	0	Military officer
 movies/Forrest_Gump	9812	1	0	Military, rank ns
 movies/Forrest_Gump	9819	1	0	Military as an institution
-movies/Forrest_Gump	9998	2	1	ambiguous: occ/not occ
+movies/Forrest_Gump	9998	5	2	ambiguous: occ/not occ
 movies/Forrest_Gump	9999	4	1	not an occupation
 movies/Forrest_Gump	10322	2	0	mother
 movies/Forrest_Gump	10330	1	1	child
 movies/Forrest_Gump	10331	2	0	son
 movies/Forrest_Gump	10380	1	0	family
+movies/Forrest_Gump	10394	1	0	girls
 movies/Forrest_Gump	13156	1	1	China
-movies/Forrest_Gump	13268	1	0	Georgia
 movies/Forrest_Gump	13704	1	0	Vietnam
 movies/Forrest_Gump	13840	2	0	United States of America
 movies/Forrest_Gump	15010	1	0	sector: business
 movies/Forrest_Gump	16102	1	0	television
 movies/Forrest_Gump	16103	1	0	computer
 
-movies/Braveheart	17	1	0	Capitalist, not managing
+movies/Braveheart	26	1	0	Capitalist, not managing
 movies/Braveheart	32	1	0	Politicians, candidates
 movies/Braveheart	33	11	3	Government official, inherited
 movies/Braveheart	2110	3	0	Judges
 movies/Braveheart	9812	2	2	Military, rank ns
 movies/Braveheart	9813	1	1	Rebel military, rank ns
 movies/Braveheart	9819	4	0	Military as an institution
+movies/Braveheart	9998	1	0	ambiguous: occ/not occ
 movies/Braveheart	9999	5	0	not an occupation
 movies/Braveheart	10312	1	0	wife
 movies/Braveheart	10321	4	0	father
@@ -848,10 +954,13 @@ movies/Braveheart	10331	4	0	son
 movies/Braveheart	10334	1	0	nephew
 movies/Braveheart	10341	1	0	brother
 movies/Braveheart	10361	1	0	uncle
+movies/Braveheart	10390	1	0	people
+movies/Braveheart	10391	1	0	men
 movies/Braveheart	13250	1	0	France
 movies/Braveheart	13828	12	3	Scotland
 movies/Braveheart	13910	1	0	Europe
 
+movies/The_English_Patient_(film)	33	1	0	Government official, inherited
 movies/The_English_Patient_(film)	1310	1	0	Surveyors
 movies/The_English_Patient_(film)	2720	2	2	Athletes, coaches, umpires
 movies/The_English_Patient_(film)	3255	1	0	Registered nurses
@@ -859,9 +968,11 @@ movies/The_English_Patient_(film)	3825	1	0	Intelligence officers
 movies/The_English_Patient_(film)	9810	1	0	Enlisted military supervisors
 movies/The_English_Patient_(film)	9812	2	1	Military, rank ns
 movies/The_English_Patient_(film)	9819	4	0	Military as an institution
+movies/The_English_Patient_(film)	9998	2	1	ambiguous: occ/not occ
 movies/The_English_Patient_(film)	9999	2	0	not an occupation
 movies/The_English_Patient_(film)	10311	1	0	husband
 movies/The_English_Patient_(film)	10382	1	0	couple
+movies/The_English_Patient_(film)	10391	2	0	men
 movies/The_English_Patient_(film)	11839	1	0	Other named religions
 movies/The_English_Patient_(film)	13124	3	0	Canada
 movies/The_English_Patient_(film)	13250	1	0	France
@@ -878,12 +989,14 @@ movies/Titanic_(1997_film)	3930	2	0	Security guards & gaming officers
 movies/Titanic_(1997_film)	6110	1	0	Hunters & trappers
 movies/Titanic_(1997_film)	9300	1	0	Sailors
 movies/Titanic_(1997_film)	9997	1	1	ambiguous: which occ
-movies/Titanic_(1997_film)	9998	1	0	ambiguous: occ/not occ
+movies/Titanic_(1997_film)	9998	4	1	ambiguous: occ/not occ
 movies/Titanic_(1997_film)	9999	3	0	not an occupation
 movies/Titanic_(1997_film)	10303	1	0	married
 movies/Titanic_(1997_film)	10322	2	0	mother
 movies/Titanic_(1997_film)	10330	1	0	child
 movies/Titanic_(1997_film)	10380	1	0	family
+movies/Titanic_(1997_film)	10390	1	0	people
+movies/Titanic_(1997_film)	10392	3	0	women
 
 movies/Shakespeare_in_Love	25	1	0	Owner manager
 movies/Shakespeare_in_Love	33	4	0	Government official, inherited
@@ -896,9 +1009,9 @@ movies/Shakespeare_in_Love	3255	2	0	Registered nurses
 movies/Shakespeare_in_Love	3288	2	0	General, likely prof/mgr
 movies/Shakespeare_in_Love	3825	1	1	Intelligence officers
 movies/Shakespeare_in_Love	9789	1	0	work
-movies/Shakespeare_in_Love	9854	1	0	thief
 movies/Shakespeare_in_Love	9973	2	0	Poor
 movies/Shakespeare_in_Love	9976	1	0	Rich
+movies/Shakespeare_in_Love	9998	1	0	ambiguous: occ/not occ
 movies/Shakespeare_in_Love	9999	2	0	not an occupation
 movies/Shakespeare_in_Love	10303	3	0	married
 movies/Shakespeare_in_Love	10305	2	0	lover
@@ -906,6 +1019,9 @@ movies/Shakespeare_in_Love	10312	1	0	wife
 movies/Shakespeare_in_Love	10320	1	1	parent
 movies/Shakespeare_in_Love	10332	2	0	daughter
 movies/Shakespeare_in_Love	10343	1	0	cousin
+movies/Shakespeare_in_Love	10391	4	0	men
+movies/Shakespeare_in_Love	10392	3	1	women
+movies/Shakespeare_in_Love	10393	2	0	boys
 movies/Shakespeare_in_Love	10600	1	0	mythical creature
 
 movies/American_Beauty_(1999_film)	40	1	0	Advertising managers
@@ -922,6 +1038,7 @@ movies/American_Beauty_(1999_film)	9789	3	1	work
 movies/American_Beauty_(1999_film)	9800	2	0	Military officer
 movies/American_Beauty_(1999_film)	9819	2	0	Military as an institution
 movies/American_Beauty_(1999_film)	9990	1	0	Unemployed
+movies/American_Beauty_(1999_film)	9998	1	0	ambiguous: occ/not occ
 movies/American_Beauty_(1999_film)	9999	7	1	not an occupation
 movies/American_Beauty_(1999_film)	10303	2	0	married
 movies/American_Beauty_(1999_film)	10311	1	0	husband
@@ -932,6 +1049,9 @@ movies/American_Beauty_(1999_film)	10331	5	0	son
 movies/American_Beauty_(1999_film)	10332	4	0	daughter
 movies/American_Beauty_(1999_film)	10380	3	0	family
 movies/American_Beauty_(1999_film)	10382	1	0	couple
+movies/American_Beauty_(1999_film)	10391	4	0	men
+movies/American_Beauty_(1999_film)	10392	1	0	women
+movies/American_Beauty_(1999_film)	10394	1	0	girls
 movies/American_Beauty_(1999_film)	10840	1	0	Whites
 movies/American_Beauty_(1999_film)	12802	1	0	housewife
 movies/American_Beauty_(1999_film)	13840	1	0	United States of America
@@ -940,18 +1060,19 @@ movies/American_Beauty_(1999_film)	15120	1	0	sector: real estate
 movies/Gladiator_(2000_film)	30	2	0	Legislators
 movies/Gladiator_(2000_film)	33	2	0	Government official, inherited
 movies/Gladiator_(2000_film)	2720	1	0	Athletes, coaches, umpires
-movies/Gladiator_(2000_film)	3600	1	0	Nursing & home health aides
-movies/Gladiator_(2000_film)	3930	4	2	Security guards & gaming officers
 movies/Gladiator_(2000_film)	9800	1	0	Military officer
 movies/Gladiator_(2000_film)	9812	2	1	Military, rank ns
 movies/Gladiator_(2000_film)	9814	10	6	Military, pre-modern
 movies/Gladiator_(2000_film)	9819	2	0	Military as an institution
+movies/Gladiator_(2000_film)	9998	6	2	ambiguous: occ/not occ
 movies/Gladiator_(2000_film)	9999	2	0	not an occupation
 movies/Gladiator_(2000_film)	10312	2	0	wife
 movies/Gladiator_(2000_film)	10321	1	0	father
 movies/Gladiator_(2000_film)	10331	3	0	son
 movies/Gladiator_(2000_film)	10342	1	0	sister
 movies/Gladiator_(2000_film)	10380	3	0	family
+movies/Gladiator_(2000_film)	10390	1	0	people
+movies/Gladiator_(2000_film)	10391	1	0	men
 movies/Gladiator_(2000_film)	13276	1	0	German
 
 movies/A_Beautiful_Mind_(film)	430	2	0	Managers, other
@@ -959,15 +1080,20 @@ movies/A_Beautiful_Mind_(film)	2200	1	1	Postsecondary teachers
 movies/A_Beautiful_Mind_(film)	3825	2	2	Intelligence officers
 movies/A_Beautiful_Mind_(film)	9781	1	0	Working men
 movies/A_Beautiful_Mind_(film)	9789	3	0	work
+movies/A_Beautiful_Mind_(film)	9998	2	0	ambiguous: occ/not occ
 movies/A_Beautiful_Mind_(film)	9999	1	1	not an occupation
 movies/A_Beautiful_Mind_(film)	10331	1	0	son
 movies/A_Beautiful_Mind_(film)	10335	1	0	niece
+movies/A_Beautiful_Mind_(film)	10390	1	0	people
+movies/A_Beautiful_Mind_(film)	10391	1	0	men
+movies/A_Beautiful_Mind_(film)	10392	1	1	women
+movies/A_Beautiful_Mind_(film)	10395	4	0	babies
 movies/A_Beautiful_Mind_(film)	10860	2	0	student
 movies/A_Beautiful_Mind_(film)	10866	2	2	grad student
 movies/A_Beautiful_Mind_(film)	13810	3	2	Soviet Union
 movies/A_Beautiful_Mind_(film)	13840	1	1	United States of America
 
-movies/Chicago_(2002_film)	17	1	0	Capitalist, not managing
+movies/Chicago_(2002_film)	26	1	0	Capitalist, not managing
 movies/Chicago_(2002_film)	35	2	0	Managers, government officials
 movies/Chicago_(2002_film)	430	1	0	Managers, other
 movies/Chicago_(2002_film)	2100	2	0	Lawyers
@@ -980,6 +1106,7 @@ movies/Chicago_(2002_film)	9854	1	0	thief
 movies/Chicago_(2002_film)	9856	1	1	murderer
 movies/Chicago_(2002_film)	9858	1	0	prisoner (or ex-prisoner)
 movies/Chicago_(2002_film)	9976	1	0	Rich
+movies/Chicago_(2002_film)	9998	5	0	ambiguous: occ/not occ
 movies/Chicago_(2002_film)	9999	2	0	not an occupation
 movies/Chicago_(2002_film)	10305	1	1	lover
 movies/Chicago_(2002_film)	10311	5	0	husband
@@ -987,16 +1114,19 @@ movies/Chicago_(2002_film)	10321	1	0	father
 movies/Chicago_(2002_film)	10322	2	0	mother
 movies/Chicago_(2002_film)	10330	2	0	child
 movies/Chicago_(2002_film)	10342	2	0	sister
+movies/Chicago_(2002_film)	10392	5	1	women
 movies/Chicago_(2002_film)	13348	1	0	Hungary
 
 movies/The_Lord_of_the_Rings:_The_Return_of_the_King	33	5	0	Government official, inherited
 movies/The_Lord_of_the_Rings:_The_Return_of_the_King	9819	7	0	Military as an institution
+movies/The_Lord_of_the_Rings:_The_Return_of_the_King	9998	3	1	ambiguous: occ/not occ
 movies/The_Lord_of_the_Rings:_The_Return_of_the_King	9999	3	1	not an occupation
 movies/The_Lord_of_the_Rings:_The_Return_of_the_King	10330	1	1	child
 movies/The_Lord_of_the_Rings:_The_Return_of_the_King	10331	2	0	son
 movies/The_Lord_of_the_Rings:_The_Return_of_the_King	10334	1	0	nephew
 movies/The_Lord_of_the_Rings:_The_Return_of_the_King	10335	1	0	niece
 movies/The_Lord_of_the_Rings:_The_Return_of_the_King	10361	1	0	uncle
+movies/The_Lord_of_the_Rings:_The_Return_of_the_King	10391	1	0	men
 movies/The_Lord_of_the_Rings:_The_Return_of_the_King	10600	1	1	mythical creature
 movies/The_Lord_of_the_Rings:_The_Return_of_the_King	10601	9	8	invented non-human character
 movies/The_Lord_of_the_Rings:_The_Return_of_the_King	10603	2	0	witch
@@ -1014,15 +1144,19 @@ movies/Million_Dollar_Baby	9780	3	1	employee nec
 movies/Million_Dollar_Baby	9789	2	1	work
 movies/Million_Dollar_Baby	9855	1	0	sex worker
 movies/Million_Dollar_Baby	9977	1	0	Elite
+movies/Million_Dollar_Baby	9998	2	1	ambiguous: occ/not occ
 movies/Million_Dollar_Baby	9999	4	1	not an occupation
 movies/Million_Dollar_Baby	10321	2	0	father
 movies/Million_Dollar_Baby	10322	3	0	mother
 movies/Million_Dollar_Baby	10332	2	0	daughter
 movies/Million_Dollar_Baby	10380	1	0	family
+movies/Million_Dollar_Baby	10390	1	0	people
+movies/Million_Dollar_Baby	10392	2	2	women
+movies/Million_Dollar_Baby	10394	1	0	girls
 movies/Million_Dollar_Baby	10605	1	0	god
 movies/Million_Dollar_Baby	13276	1	0	German
 movies/Million_Dollar_Baby	13372	1	0	Ireland
-movies/Million_Dollar_Baby	13826	1	0	Wales
+movies/Million_Dollar_Baby	13826	1	0	United Kingdom
 movies/Million_Dollar_Baby	13910	1	0	Europe
 movies/Million_Dollar_Baby	15200	1	0	government
 
@@ -1036,7 +1170,7 @@ movies/Crash_(2004_film)	7540	1	0	Locksmiths
 movies/Crash_(2004_film)	8340	2	0	Shoe machine
 movies/Crash_(2004_film)	9310	1	0	Ship captains
 movies/Crash_(2004_film)	9997	1	1	ambiguous: which occ
-movies/Crash_(2004_film)	9998	4	0	ambiguous: occ/not occ
+movies/Crash_(2004_film)	9998	6	0	ambiguous: occ/not occ
 movies/Crash_(2004_film)	9999	2	0	not an occupation
 movies/Crash_(2004_film)	10312	3	0	wife
 movies/Crash_(2004_film)	10321	1	0	father
@@ -1045,6 +1179,10 @@ movies/Crash_(2004_film)	10332	4	0	daughter
 movies/Crash_(2004_film)	10341	2	0	brother
 movies/Crash_(2004_film)	10380	1	0	family
 movies/Crash_(2004_film)	10382	1	0	couple
+movies/Crash_(2004_film)	10390	1	0	people
+movies/Crash_(2004_film)	10391	3	0	men
+movies/Crash_(2004_film)	10393	1	0	boys
+movies/Crash_(2004_film)	10394	1	0	girls
 movies/Crash_(2004_film)	10600	1	0	mythical creature
 movies/Crash_(2004_film)	10841	2	0	Blacks
 movies/Crash_(2004_film)	10842	1	0	Latinos
@@ -1064,9 +1202,11 @@ movies/The_Departed	9810	1	0	Enlisted military supervisors
 movies/The_Departed	9850	1	1	criminal /ns
 movies/The_Departed	9857	1	0	mafia, organized crime
 movies/The_Departed	9997	2	0	ambiguous: which occ
+movies/The_Departed	9998	3	0	ambiguous: occ/not occ
 movies/The_Departed	9999	1	0	not an occupation
 movies/The_Departed	10330	1	0	child
 movies/The_Departed	10380	1	0	family
+movies/The_Departed	10391	3	0	men
 movies/The_Departed	13372	2	0	Ireland
 movies/The_Departed	13840	1	0	United States of America
 movies/The_Departed	15200	2	0	government
@@ -1078,13 +1218,14 @@ movies/No_Country_for_Old_Men_(film)	3288	1	0	General, likely prof/mgr
 movies/No_Country_for_Old_Men_(film)	3710	2	0	Superv: police
 movies/No_Country_for_Old_Men_(film)	3850	2	0	Police & sheriff's patrol
 movies/No_Country_for_Old_Men_(film)	9856	1	0	murderer
-movies/No_Country_for_Old_Men_(film)	9998	1	0	ambiguous: occ/not occ
+movies/No_Country_for_Old_Men_(film)	9998	2	0	ambiguous: occ/not occ
 movies/No_Country_for_Old_Men_(film)	9999	1	0	not an occupation
 movies/No_Country_for_Old_Men_(film)	10311	1	0	husband
 movies/No_Country_for_Old_Men_(film)	10312	2	0	wife
 movies/No_Country_for_Old_Men_(film)	10321	3	0	father
 movies/No_Country_for_Old_Men_(film)	10322	3	0	mother
 movies/No_Country_for_Old_Men_(film)	10361	1	0	uncle
+movies/No_Country_for_Old_Men_(film)	10391	3	0	men
 movies/No_Country_for_Old_Men_(film)	13484	5	3	Mexico
 
 movies/Slumdog_Millionaire	2700	1	0	Actors
@@ -1099,10 +1240,14 @@ movies/Slumdog_Millionaire	9855	1	0	sex worker
 movies/Slumdog_Millionaire	9857	2	0	mafia, organized crime
 movies/Slumdog_Millionaire	9973	2	2	Poor
 movies/Slumdog_Millionaire	9976	2	0	Rich
+movies/Slumdog_Millionaire	9998	3	0	ambiguous: occ/not occ
 movies/Slumdog_Millionaire	9999	2	0	not an occupation
 movies/Slumdog_Millionaire	10322	1	0	mother
 movies/Slumdog_Millionaire	10330	2	2	child
 movies/Slumdog_Millionaire	10341	4	2	brother
+movies/Slumdog_Millionaire	10390	1	0	people
+movies/Slumdog_Millionaire	10391	4	0	men
+movies/Slumdog_Millionaire	10394	1	0	girls
 movies/Slumdog_Millionaire	10605	1	0	god
 movies/Slumdog_Millionaire	11836	1	0	Muslims
 movies/Slumdog_Millionaire	13356	4	0	India
@@ -1117,22 +1262,25 @@ movies/The_Hurt_Locker	9812	4	4	Military, rank ns
 movies/The_Hurt_Locker	9813	2	2	Rebel military, rank ns
 movies/The_Hurt_Locker	9819	3	0	Military as an institution
 movies/The_Hurt_Locker	9858	2	2	prisoner (or ex-prisoner)
-movies/The_Hurt_Locker	9998	4	0	ambiguous: occ/not occ
+movies/The_Hurt_Locker	9998	6	1	ambiguous: occ/not occ
 movies/The_Hurt_Locker	9999	6	0	not an occupation
 movies/The_Hurt_Locker	10312	1	0	wife
 movies/The_Hurt_Locker	10331	3	0	son
+movies/The_Hurt_Locker	10391	3	0	men
+movies/The_Hurt_Locker	10395	1	0	babies
 movies/The_Hurt_Locker	13368	5	0	Iraq
 movies/The_Hurt_Locker	13825	1	0	Great Britain
 movies/The_Hurt_Locker	13840	2	0	United States of America
 movies/The_Hurt_Locker	13928	1	0	Arab
 
-movies/The_King%27s_Speech	15	1	0	Chief executive, government
+movies/The_King%27s_Speech	15	1	0	Chief executive, government (exc.President)
 movies/The_King%27s_Speech	33	20	0	Government official, inherited
 movies/The_King%27s_Speech	430	2	0	Managers, other
 movies/The_King%27s_Speech	2005	2	2	Advisers & experts
 movies/The_King%27s_Speech	2040	1	0	Clergy
 movies/The_King%27s_Speech	3230	1	1	Speech-language pathologists
 movies/The_King%27s_Speech	9812	1	1	Military, rank ns
+movies/The_King%27s_Speech	9998	3	0	ambiguous: occ/not occ
 movies/The_King%27s_Speech	9999	2	0	not an occupation
 movies/The_King%27s_Speech	10302	1	0	divorced
 movies/The_King%27s_Speech	10303	1	0	married
@@ -1142,6 +1290,7 @@ movies/The_King%27s_Speech	10321	1	0	father
 movies/The_King%27s_Speech	10331	2	0	son
 movies/The_King%27s_Speech	10341	1	0	brother
 movies/The_King%27s_Speech	10380	3	0	family
+movies/The_King%27s_Speech	10390	2	0	people
 movies/The_King%27s_Speech	13036	2	0	Australia
 movies/The_King%27s_Speech	13276	1	0	German
 movies/The_King%27s_Speech	13825	3	0	Great Britain
@@ -1156,9 +1305,11 @@ movies/The_Artist_(film)	3850	1	0	Police & sheriff's patrol
 movies/The_Artist_(film)	4650	1	0	Personal care
 movies/The_Artist_(film)	9140	1	0	Taxi drivers & chauffeurs
 movies/The_Artist_(film)	9789	2	0	work
-movies/The_Artist_(film)	9998	1	0	ambiguous: occ/not occ
+movies/The_Artist_(film)	9998	7	0	ambiguous: occ/not occ
 movies/The_Artist_(film)	9999	4	0	not an occupation
 movies/The_Artist_(film)	10312	1	0	wife
+movies/The_Artist_(film)	10392	1	0	women
+movies/The_Artist_(film)	10394	1	0	girls
 movies/The_Artist_(film)	13250	1	0	France
 movies/The_Artist_(film)	15050	1	0	sector: manufacturing
 
@@ -1168,14 +1319,14 @@ movies/Argo_(2012_film)	430	1	0	Managers, other
 movies/Argo_(2012_film)	1600	1	0	Agricultural & food scientists
 movies/Argo_(2012_film)	2710	4	1	Producers & directors
 movies/Argo_(2012_film)	3288	1	0	General, likely prof/mgr
-movies/Argo_(2012_film)	3930	1	1	Security guards & gaming officers
+movies/Argo_(2012_film)	3825	1	0	Intelligence officers
 movies/Argo_(2012_film)	4230	1	0	Maids
 movies/Argo_(2012_film)	4520	1	0	Misc personal appearance
 movies/Argo_(2012_film)	4700	1	0	Superv: retail sales
 movies/Argo_(2012_film)	9789	1	0	work
-movies/Argo_(2012_film)	9800	2	0	Military officer
 movies/Argo_(2012_film)	9813	3	2	Rebel military, rank ns
 movies/Argo_(2012_film)	9819	1	0	Military as an institution
+movies/Argo_(2012_film)	9998	5	2	ambiguous: occ/not occ
 movies/Argo_(2012_film)	9999	3	0	not an occupation
 movies/Argo_(2012_film)	10312	1	0	wife
 movies/Argo_(2012_film)	10331	1	0	son
@@ -1198,6 +1349,7 @@ movies/12_Years_a_Slave_(film)	7700	1	0	Superv: production
 movies/12_Years_a_Slave_(film)	9760	1	0	Laborers, nec
 movies/12_Years_a_Slave_(film)	9789	3	0	work
 movies/12_Years_a_Slave_(film)	9975	9	3	Slave
+movies/12_Years_a_Slave_(film)	9998	3	0	ambiguous: occ/not occ
 movies/12_Years_a_Slave_(film)	9999	4	1	not an occupation
 movies/12_Years_a_Slave_(film)	10311	1	0	husband
 movies/12_Years_a_Slave_(film)	10312	2	0	wife
@@ -1206,11 +1358,10 @@ movies/12_Years_a_Slave_(film)	10331	1	0	son
 movies/12_Years_a_Slave_(film)	10332	1	0	daughter
 movies/12_Years_a_Slave_(film)	10356	1	0	grandson
 movies/12_Years_a_Slave_(film)	10380	2	0	family
+movies/12_Years_a_Slave_(film)	10391	7	0	men
 movies/12_Years_a_Slave_(film)	10840	2	0	Whites
 movies/12_Years_a_Slave_(film)	10841	2	1	Blacks
-movies/12_Years_a_Slave_(film)	13090	2	0	Solomon Islands
 movies/12_Years_a_Slave_(film)	13124	1	0	Canada
-movies/12_Years_a_Slave_(film)	13268	1	0	Georgia
 movies/12_Years_a_Slave_(film)	13840	1	0	United States of America
 movies/12_Years_a_Slave_(film)	15040	1	0	sector: construction
 
@@ -1219,6 +1370,7 @@ movies/Birdman_(film)	2100	1	0	Lawyers
 movies/Birdman_(film)	2700	4	1	Actors
 movies/Birdman_(film)	9780	1	0	employee nec
 movies/Birdman_(film)	9789	1	0	work
+movies/Birdman_(film)	9998	5	0	ambiguous: occ/not occ
 movies/Birdman_(film)	9999	2	0	not an occupation
 movies/Birdman_(film)	10306	1	0	boyfriend
 movies/Birdman_(film)	10307	1	0	girlfriend
@@ -1235,10 +1387,11 @@ movies/Spotlight_(film)	2810	3	2	Journalists
 movies/Spotlight_(film)	2830	2	0	Editors
 movies/Spotlight_(film)	3850	2	2	Police & sheriff's patrol
 movies/Spotlight_(film)	9789	1	0	work
-movies/Spotlight_(film)	9998	9	0	ambiguous: occ/not occ
+movies/Spotlight_(film)	9998	11	0	ambiguous: occ/not occ
 movies/Spotlight_(film)	9999	5	1	not an occupation
 movies/Spotlight_(film)	10322	1	0	mother
 movies/Spotlight_(film)	10330	4	3	child
+movies/Spotlight_(film)	10390	1	1	people
 movies/Spotlight_(film)	11832	2	0	Catholics
 movies/Spotlight_(film)	13840	1	1	United States of America
 
@@ -1246,11 +1399,14 @@ movies/Moonlight_(2016_film)	2010	1	0	Social workers
 movies/Moonlight_(2016_film)	3850	2	0	Police & sheriff's patrol
 movies/Moonlight_(2016_film)	9789	1	1	work
 movies/Moonlight_(2016_film)	9851	1	0	drug dealer
+movies/Moonlight_(2016_film)	9998	4	1	ambiguous: occ/not occ
 movies/Moonlight_(2016_film)	9999	4	0	not an occupation
 movies/Moonlight_(2016_film)	10307	2	0	girlfriend
 movies/Moonlight_(2016_film)	10321	1	0	father
 movies/Moonlight_(2016_film)	10322	2	0	mother
 movies/Moonlight_(2016_film)	10330	3	1	child
+movies/Moonlight_(2016_film)	10390	2	0	people
+movies/Moonlight_(2016_film)	10392	1	0	women
 movies/Moonlight_(2016_film)	10841	2	0	Blacks
 movies/Moonlight_(2016_film)	13192	1	0	Cuba
 movies/Moonlight_(2016_film)	13528	1	0	Netherlands
@@ -1267,9 +1423,11 @@ movies/The_Shape_of_Water	9780	1	0	employee nec
 movies/The_Shape_of_Water	9781	1	0	Working men
 movies/The_Shape_of_Water	9789	1	1	work
 movies/The_Shape_of_Water	9800	2	0	Military officer
+movies/The_Shape_of_Water	9998	7	0	ambiguous: occ/not occ
 movies/The_Shape_of_Water	9999	3	0	not an occupation
 movies/The_Shape_of_Water	10311	1	0	husband
 movies/The_Shape_of_Water	10330	1	0	child
+movies/The_Shape_of_Water	10391	16	0	men
 movies/The_Shape_of_Water	13643	1	0	Russia
 movies/The_Shape_of_Water	13810	2	0	Soviet Union
 movies/The_Shape_of_Water	13840	2	0	United States of America
