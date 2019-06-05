@@ -268,6 +268,7 @@ for file in textfiles:
 	textstring=textstring.replace('J.D.', 'JD')
 	textstring=textstring.replace('Lieut.', 'Lt')
 	textstring=textstring.replace('M.D.', 'MD')
+	textstring=textstring.replace('Pvt.', 'Pvt')
 	textstring=textstring.replace('R.N.', 'RN')
 	textstring=textstring.replace('Repub.', 'Republican')
 	textstring=textstring.replace('Rev.', 'Reverend')
@@ -486,6 +487,9 @@ for file in textfiles:
 					elif census==12 and word2ndlastU==word2ndlastU.lower(): # lower case president(s)
 						census= 10
 						word2ndlast= "president"
+					elif census==30 and word2ndlastU==word2ndlastU.lower(): # lower case representative(s)
+						census= 4840
+						word2ndlast= "respresentative"
 					elif census==33 and word2ndlastU=="Queens": # probably borough of Queens
 						census= 9998
 						word2ndlast= "Queens"
