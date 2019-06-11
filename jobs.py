@@ -28,6 +28,7 @@
 #		occs2010.json = a json file of (the somewhat expanded) Census 2010 codes and their titles.
 #		nosingularize.txt = a file of words (jobtitles) that should not be singularized in the texts
 #			but would be incorrectly singularized by inflect.singnoun (e.g., boss, waitress)
+#			or are in the plural in jobs.json: bahamas, data, physics
 #		two lists initialized below in the program, but probably would be more flexible as external files:
 #			1 file of words that are coded as jobs only if lower case (e.g., potter)
 #			1 file of words that are coded as jobs only if upper case (e.g., General)
@@ -56,6 +57,7 @@
 #			band, crew, driver, Georgia, intern, officer, page, partner, team,
 #		ambiguities, coded into most common code::
 #			cast (2700= actors, not to cast aspersions etc.)
+#			collector (2400= archivists)
 #			critic (2005= experts, advisors, not journalist)
 #			General (9800= military officer, not in general))
 #			Indian (13356= country; not Native American Indian)
@@ -74,8 +76,8 @@
 #		should some plurals be recognized as a separate code?  eg. spouses=couple spouse=individual
 #			and some plurals should not be coded: counts, royalties
 #			some words would specify jobs/positions mainly in the plural: academics
-#		President(=12, usually US President) vs president(=10, chief executive) depends entirely on correct capitaliztion
-#		all caps words: mess up the check for proper names (e.g., COOPER=Cooper, PACKERS=Packer)
+#		President(=12, usually US President) vs president(=10, chief executive) depends on correct capitalization
+#		all caps words have been changed to titles (e.g. COOPER = Cooper)
 #
 
 import re
@@ -122,12 +124,12 @@ print ('dontsing (jobtitles not singularized)= ' + str(type(dontsing)) + ' Nline
 #
 # words that change meaning when capitalized or lower case:
 #	someday these might be external files, easier to maintain
-notUpper= ['Archer', 'Baker', 'Beller', 'Bowman', 'Brewer', 'Butler', 'Carman', 'Carpenter', 'Carney', 'Carver', 'Cook', 'Cooper', 'Cowboy', 'Diver', 'Draper', 'Driver', 'Dyer', 'Fletcher', 'Gilder', 'Glazer', 'Goldsmith', 'Hammersmith', 'Hooker', 'Hooper', 'Hunter', 'Jackman', 'Linderman', 'Lumper', 'Mason', 'Miller', 'Moulder', 'Packer', 'Pinker', 'Pirate', 'Pitman', 'Porter', 'Potter', 'Presser', 'Rich', 'Roper', 'Sander', 'Sawyer', 'Shearer', 'Silversmith', 'Singer', 'Skinner', 'Springer', 'Slater', 'Smith', 'Spanner', 'Steeler', 'Stockman', 'Stoker', 'Stringer', 'Tanner', 'Turner', 'Wasp', 'Weaver', 'Webber', 'Wheeler', 'Whistler', 'White' ]
+notUpper= ['archer', 'baker', 'beller', 'boilermaker', 'bowman', 'brewer', 'butler', 'carman', 'carpenter', 'carney', 'carver', 'cook', 'cooper', 'cowboy', 'diver', 'draper', 'driver', 'dyer', 'fletcher', 'gilder', 'glazer', 'goldsmith', 'hammersmith', 'hooker', 'hooper', 'hunter', 'jackman', 'linderman', 'lumper', 'mailer', 'mason', 'miller', 'moulder', 'oiler', 'packer', 'pinker', 'pirate', 'pitman', 'porter', 'potter', 'presser', 'rich', 'roper', 'sander', 'sawyer', 'shearer', 'shepherd', 'shoemaker', 'silversmith', 'singer', 'skinner', 'springer', 'slater', 'smith', 'spanner', 'steeler', 'stockman', 'stoker', 'stringer', 'tanner', 'turner', 'wagoner', 'wasp', 'weaver', 'webber', 'wheeler', 'whistler', 'white' ]
 notLower= ['count', 'general', 'justice', 'major', 'marine', 'polish', 'pvt' ]
 # these are jobtitles when allcaps but something else if not all caps:
-#	IT probably should be dropped because found so often in all-cap title meaning "it" not "information technology"
-mustbeUpper= ['it', 'da', 'do', 'coo', 'st', 'us']
-allUpper=    ['IT', 'DA', 'DO', 'COO', 'ST', 'US']
+#	IT DO were dropped because found so often in all-cap title meaning "it" not "information technology"
+allUpper= ['da', 'coo', 'st', 'us']
+#allUpper= ['DA', 'COO', 'ST', 'US']
 
 ####################################
 # readfile of occupation (& other) titles (mostly from US Census):
@@ -258,13 +260,16 @@ for file in textfiles:
 	# the following abbreviations cause the sentence tokenizer to split the sentence incorrectly & are part of jobs.json
 	textstring=textstring.replace('Assn.', 'Association')
 	textstring=textstring.replace('Capt.', 'Captain')
+	textstring=textstring.replace('C.I.A.', 'CIA')
 	textstring=textstring.replace('Comdr.', 'Commander')
 	textstring=textstring.replace('Cpl.', 'Corporal')
 	textstring=textstring.replace('D.A..', 'DA')
 	textstring=textstring.replace('Dem.', 'Democrat')
 	textstring=textstring.replace('Dept.', 'Department')
 	textstring=textstring.replace('dept.', 'department')
+	textstring=textstring.replace('F.B.I.', 'FBI')
 	textstring=textstring.replace('Gov.', 'Governor')
+	textstring=textstring.replace('K.G.B.', 'KGB')
 	textstring=textstring.replace('J.D.', 'JD')
 	textstring=textstring.replace('Lieut.', 'Lt')
 	textstring=textstring.replace('M.D.', 'MD')
@@ -284,6 +289,7 @@ for file in textfiles:
 	textstring=textstring.replace('Md.', 'Maryland')
 	textstring=textstring.replace('Pa.', 'Pennsylvania')
 	textstring=textstring.replace('PA.', 'Pennsylvania')
+	textstring=textstring.replace('S.C..', 'South Carolina')
 	textstring=textstring.replace('St.', 'Saint')
 	textstring=textstring.replace('ST.', 'SAINT')
 	#
@@ -343,6 +349,7 @@ for file in textfiles:
 		line=line.replace('\*',' \* ')
 		# replace ', 's,  and "
 		line=line.replace('\"',' \" ')
+		line=line.replace("\'\'",' \" ')  # some files use '' for "
 		line=line.replace('\'',' \' ')
 		line=line.replace(' \' s ',' \'s ')
 		#
@@ -467,32 +474,60 @@ for file in textfiles:
 				#	except if 1st word has been part of the previous trigram or bigram (skipword>=1)
 			elif skipword<1 and word2ndlast in jobs1:
 				skipword==1
-				census= jobs1[word2ndlast]
-				#
+				census= jobs1[word2ndlast]    # word2ndlast is sigularized and lower case
+				# 
 				# census code <0 => word2ndlast is ambiguous but can be disambiguated based on capitalization:
 				if census<0:
 					census=-census
 					# separate entries for upper case / lower case titles in foundjobs:
 					#	default jobtitle in foundjobs is capitalized (title)
-					word2ndlast= word2ndlast.title()
-					if word2ndlastS in notLower: # e.g., general
-						census= 9998
-						word2ndlast= word2ndlastS.lower()
-					elif word2ndlastS in notUpper: # e.g., Potter
-						census= 9998
-					# double check this:
-					elif word2ndlastS.lower() in mustbeUpper and word2ndlastU not in allUpper:
-						census= 9998
-						word2ndlast= word2ndlastS.lower()
-					elif census==12 and word2ndlastU==word2ndlastU.lower(): # lower case president(s)
-						census= 10
-						word2ndlast= "president"
-					elif census==30 and word2ndlastU==word2ndlastU.lower(): # lower case representative(s)
-						census= 4840
-						word2ndlast= "respresentative"
-					elif census==33 and word2ndlastU=="Queens": # probably borough of Queens
+					#word2ndlast= word2ndlast.title()
+					#  do this when first seen as wordnew?
+					if word2ndlastS.isupper():   # all upper case is usually an article title; translate to proper name titled
+						# a couple of exceptions: DA, COO, etc.:
+						if word2ndlast not in allUpper: # for these special all uppercase jobs (DA etc.) keep as upper case
+						# otherwise translate to proper name as best guess:
+							word2ndlastS= word2ndlastS.title()
+					if word2ndlast in notLower: # e.g., general, lower case
+						if word2ndlastS.islower():
+							census= 9998
+						else:
+							#census=census
+							word2ndlast= word2ndlast.title()
+					elif word2ndlast in notUpper: # e.g., Potter, capitalized
+						if word2ndlastS.islower():
+							#census=census
+							word2ndlast= word2ndlastS.lower()  # redundant, kept only for code symmetry
+						else:
+							census= 9998
+							word2ndlast= word2ndlast.title()  # change to capitalized
+					elif word2ndlast in allUpper:
+						if word2ndlastS.isupper():
+							#census=census
+							word2ndlast= word2ndlast.upper()
+						else:
+							census= 9998
+							#word2ndlast= word2ndlast.lower()
+					elif census==12:  # president=10 / President=12
+						if word2ndlastS.islower():
+							census=10
+							#word2ndlast= word2ndlastS.lower()
+						else:
+							#census= 12
+							word2ndlast= word2ndlast.title()  # change to capitalized ("President")
+					elif census==30: # representative(s)=4840 / Representative=30
+						if word2ndlastS.islower():
+							census=4840
+							#word2ndlast= word2ndlastS.lower()
+						else:
+							#census= 30
+							word2ndlast= word2ndlast.title()  # change to capitalized ("Representative")
+					elif census==33 and (word2ndlastU=="Queens" or word2ndlastU=="QUEENS"): # probably borough of Queens
 						census= 9998
 						word2ndlast= "Queens"
+					elif census==33 and (word2ndlastU=="Kings" or word2ndlastU=="KINGS"): # probably not multiple kings if capitalized
+						census= 9998
+						word2ndlast= "Kings"
 				# either jobtitle not ambiguous (census>0) or after disambiguation:
 				#	then check whether this single-word job has already been found for this file:
 				if word2ndlast in foundjobs:
