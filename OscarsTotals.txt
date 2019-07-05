@@ -1,64 +1,74 @@
 
     	N	 Plurals	Ntexts	code	jobtitle
-12=	1	0	1	President
-	1	0	1	12	President
+10=	2	0	1	Chief executives
+	2	0	1	10	president
 
-14=	2	0	2	Named President
+14=	3	0	2	Named President
 	1	0	1	14	president jimmy carter
+	1	0	1	14	president john f
 	1	0	1	14	president richard nixon
 
-15=	6	2	4	Chief executive, government (exc.President)
-	4	2	2	15	governor
+15=	9	2	5	Chief executive, government (exc.President)
+	7	2	3	15	governor
 	2	0	2	15	prime minister
 
 20=	1	0	1	General managers
 	1	0	1	20	general manager
 
-25=	14	1	8	Owner manager
+25=	19	1	12	Owner manager
 	1	0	1	25	family business
 	1	0	1	25	founder
-	1	0	1	25	industrialist
+	2	0	2	25	industrialist
+	1	0	1	25	manufacturer
 	4	1	3	25	merchant
+	1	0	1	25	mill owner
+	2	0	1	25	mine owner
 	3	0	2	25	plantation owner
 	2	0	1	25	shop owner
 	1	0	1	25	slave owner
 	1	0	1	25	store owner
 
-26=	4	0	4	Capitalist, not managing
+26=	5	0	5	Capitalist, not managing
 	2	0	2	26	heir
-	2	0	2	26	heiress
+	3	0	3	26	heiress
 
 30=	4	0	2	Legislators
 	4	0	2	30	senator
 
-32=	4	0	4	Politicians, candidates
+32=	7	1	5	Politicians, candidates
+	1	0	1	32	candidate
 	3	0	3	32	contender
 	1	0	1	32	party member
+	2	1	1	32	politician
 
-33=	108	3	23	Government official, inherited
+33=	133	3	28	Government official, inherited
 	1	0	1	33	Count
-	8	0	5	33	Queen
-	6	0	3	33	baron
+	16	0	4	33	baron
 	5	0	2	33	baroness
 	2	0	2	33	duchess
 	4	0	3	33	duke
 	16	0	5	33	emperor
 	2	0	1	33	empress
-	41	0	5	33	king
+	52	0	8	33	king
 	1	0	1	33	nobility
 	2	1	2	33	noble
 	4	2	2	33	nobleman
 	1	0	1	33	noblewoman
-	8	0	7	33	prince
+	11	0	8	33	prince
 	3	0	3	33	princess
+	9	0	6	33	queen
 	1	0	1	33	ruler
 	2	0	1	33	sheik
 	1	0	1	33	sultan
 
-35=	12	0	9	Managers, government officials
+34=	1	0	1	Government official, elected
+	1	0	1	34	vice president
+
+35=	13	0	10	Managers, government officials
 	3	0	1	35	ambassador
 	1	0	1	35	assistant district attorney
 	1	0	1	35	consul
+	1	0	1	35	county treasurer
 	3	0	2	35	district attorney
 	1	0	1	35	inspector general
 	1	0	1	35	local official
@@ -71,42 +81,48 @@
 50=	1	1	1	Marketing managers
 	1	1	1	50	contractor
 
-60=	4	2	1	Public relations managers
+60=	5	2	2	Public relations managers
+	1	0	1	60	foreign agent
 	4	2	1	60	handler
+
+120=	3	0	2	Financial managers
+	3	0	2	120	banker
 
 136=	1	0	1	Human resources managers
 	1	0	1	136	personnel director
-
-140=	1	0	1	Industrial production managers
-	1	0	1	140	manufacturer
-
-230=	3	0	3	Education administrators
-	3	0	3	230	commandant
 
 310=	2	0	2	Food service managers
 	1	0	1	310	bar owner
 	1	0	1	310	concessionaire
 
+340=	1	0	1	Lodging managers
+	1	0	1	340	hotel manager
+
 350=	1	0	1	Medical managers
 	1	0	1	350	medical officer
 
-410=	2	0	2	Property managers
-	1	0	1	410	landlord
-	1	0	1	410	trustee
+410=	3	1	3	Property managers
+	1	0	1	410	landlady
+	2	1	2	410	landlord
 
-430=	52	8	25	Managers, other
-	6	1	5	430	boss
+430=	67	9	36	Managers, other
+	1	0	1	430	a vice president
+	7	1	6	430	boss
 	2	0	1	430	business partner
-	1	0	1	430	business rival
-	14	0	5	430	chief
-	1	0	1	430	employer
-	4	2	2	430	executive
+	2	0	2	430	business rival
+	15	0	6	430	chief
+	1	0	1	430	chief of
+	2	0	2	430	employer
+	6	2	3	430	executive
 	7	0	4	430	head of
 	2	0	2	430	management
-	8	3	3	430	manager
-	4	2	3	430	official
+	9	3	4	430	manager
+	6	3	5	430	official
+	1	0	1	430	overseer
+	2	0	2	430	publisher
 	2	0	2	430	supervisor
 	1	0	1	430	theater owner
+	1	0	1	430	trustee
 
 500=	1	0	1	Agents of performers
 	1	0	1	500	promoter
@@ -117,11 +133,20 @@
 530=	2	2	1	Purchasing agents, other
 	2	2	1	530	buyer
 
-565=	1	0	1	Compliance officers
-	1	0	1	565	coroner
+565=	2	0	2	Compliance officers
+	2	0	2	565	coroner
 
-630=	1	0	1	Human resources workers
-	1	0	1	630	union boss
+631=	1	0	1	Union official
+	1	0	1	631	union boss
+
+710=	1	0	1	Management analysts
+	1	0	1	710	consulting
+
+800=	1	0	1	Accountants & auditors
+	1	0	1	800	accountant
+
+1300=	1	0	1	Architects, exc naval
+	1	0	1	1300	architect
 
 1310=	1	0	1	Surveyors
 	1	0	1	1310	cartographer
@@ -131,9 +156,6 @@
 
 1530=	1	1	1	Engineers, other
 	1	1	1	1530	engineer
-
-1600=	2	0	2	Agricultural & food scientists
-	2	0	2	1600	specialist
 
 1720=	2	0	1	Chemists
 	2	0	1	1720	chemist
@@ -150,53 +172,67 @@
 2010=	1	0	1	Social workers
 	1	0	1	2010	social worker
 
-2040=	33	12	6	Clergy
+2040=	47	13	10	Clergy
 	3	0	3	2040	archbishop
-	1	1	1	2040	bishop
+	5	1	2	2040	bishop
 	5	0	2	2040	cardinal
 	4	0	1	2040	chancellor
+	1	1	1	2040	deacon
 	1	0	1	2040	minister
-	19	11	4	2040	priest
+	3	0	1	2040	pastor
+	1	0	1	2040	preacher
+	1	0	1	2040	prefect
+	22	11	5	2040	priest
+	1	0	1	2040	vicar
 
-2060=	7	2	3	Religious workers, other
+2060=	7	3	3	Religious workers, other
 	3	0	1	2060	missionary
-	1	0	1	2060	novice
+	1	1	1	2060	monk
 	3	2	1	2060	nun
 
-2100=	12	1	9	Lawyers
-	2	0	2	2100	attorney
-	10	1	7	2100	lawyer
+2100=	14	1	11	Lawyers
+	3	0	3	2100	attorney
+	11	1	8	2100	lawyer
 
-2110=	7	0	5	Judges
-	4	0	4	2110	judge
+2110=	16	1	9	Judges
+	13	1	8	2110	judge
 	3	0	2	2110	magistrate
 
-2200=	5	2	5	Postsecondary teachers
+2200=	10	2	7	Postsecondary teachers
 	2	1	2	2200	college professor
-	3	1	3	2200	professor
+	1	0	1	2200	music professor
+	7	1	4	2200	professor
 
-2340=	7	1	6	Other teachers
+2340=	9	1	8	Other teachers
 	1	0	1	2340	instructor
+	1	0	1	2340	school teacher
 	2	0	2	2340	schoolteacher
-	2	0	2	2340	teacher
+	3	0	3	2340	teacher
 	2	1	2	2340	tutor
 
-2600=	5	0	4	Artists
+2400=	1	0	1	Archivists, curators
+	1	0	1	2400	collector
+
+2600=	7	0	5	Artists
 	3	0	2	2600	artist
 	1	0	1	2600	illustrator
-	1	0	1	2600	painter
+	3	0	2	2600	painter
 
 2630=	2	0	2	Designers
 	2	0	2	2630	designer
 
-2700=	16	5	9	Actors
+2700=	18	6	11	Actors
 	9	4	4	2700	actor
 	1	0	1	2700	bollywood star
-	2	0	2	2700	cast
+	3	0	3	2700	cast
 	1	0	1	2700	film star
 	1	0	1	2700	hollywood star
 	1	1	1	2700	minstrel
 	1	0	1	2700	television personality
+	1	1	1	2700	theatrical performer
+
+2701=	1	0	1	Actresses
+	1	0	1	2701	actress
 
 2710=	7	1	4	Producers & directors
 	1	0	1	2710	film producer
@@ -205,62 +241,68 @@
 	3	0	3	2710	producer
 	1	0	1	2710	studio head
 
-2720=	21	4	13	Athletes, coaches, umpires
+2720=	23	5	15	Athletes, coaches, umpires
 	1	1	1	2720	athlete
-	4	0	3	2720	boxer
+	5	0	4	2720	boxer
 	1	0	1	2720	boxing trainer
 	1	0	1	2720	cheerleader
-	3	1	2	2720	coach
+	4	1	3	2720	coach
 	1	0	1	2720	motorcyclist
-	1	0	1	2720	player
+	2	1	2	2720	player
 	1	0	1	2720	professional coach
 	1	0	1	2720	referee
-	1	0	1	2720	running back
 	2	2	1	2720	swimmer
 	4	0	4	2720	trainer
 
-2740=	3	2	2	Dancers & choreographers
-	3	2	2	2740	dancer
+2723=	2	0	2	Football player, coaches, referees
+	1	0	1	2723	quarterback
+	1	0	1	2723	running back
 
-2750=	15	0	7	Musicians, singers
-	4	0	4	2750	Singer
-	1	0	1	2750	band
+2740=	8	2	5	Dancers & choreographers
+	1	0	1	2740	ballerina
+	7	2	4	2740	dancer
+
+2750=	21	0	10	Musicians, singers
+	3	0	2	2750	band
 	1	0	1	2750	bugler
 	3	0	1	2750	composer
 	1	0	1	2750	concert pianist
 	1	0	1	2750	conductor
 	1	0	1	2750	musician
-	2	0	1	2750	orchestra
+	3	0	2	2750	orchestra
+	1	0	1	2750	pianist
+	5	0	4	2750	singer
 	1	0	1	2750	violinist
 	1	0	1	2750	vocalist
 
-2760=	10	4	5	Performers, other
+2760=	14	7	6	Performers, other
 	1	1	1	2760	aerialist
 	4	1	2	2760	clown
 	1	0	1	2760	comedian
-	1	0	1	2760	comic
-	3	2	2	2760	performer
+	6	5	4	2760	performer
+	1	0	1	2760	show business
+	1	0	1	2760	showman
 
 2800=	3	1	3	Announcers
 	1	0	1	2800	narrator
 	1	0	1	2800	show host
 	1	1	1	2800	sportscaster
 
-2810=	7	3	4	Journalists
+2810=	11	3	7	Journalists
 	1	0	1	2810	correspondent
-	4	2	2	2810	journalist
-	1	1	1	2810	newspaper reporter
+	7	2	4	2810	journalist
+	2	1	2	2810	newspaper reporter
 	1	0	1	2810	reporter
 
-2830=	2	0	1	Editors
-	2	0	1	2830	editor
+2830=	4	0	3	Editors
+	4	0	3	2830	editor
 
-2850=	8	0	6	Authors
+2850=	12	0	8	Authors
 	2	0	2	2850	author
 	1	0	1	2850	biographer
 	1	0	1	2850	magazine writer
 	2	0	1	2850	playwright
-	2	0	2	2850	writer
+	6	0	4	2850	writer
 
 2860=	3	0	2	Misc media
 	3	0	2	2860	interpreter
@@ -271,9 +313,10 @@
 3050=	1	0	1	Pharmacists
 	1	0	1	3050	pharmacist
 
-3060=	15	1	10	Physicians
-	10	1	6	3060	doctor
+3060=	25	1	15	Physicians
+	18	1	10	3060	doctor
 	5	0	5	3060	psychiatrist
+	2	0	2	3060	surgeon
 
 3230=	1	1	1	Speech-language pathologists
 	1	1	1	3230	speech therapist
@@ -281,21 +324,22 @@
 3245=	1	1	1	Therapists, other
 	1	1	1	3245	therapist
 
-3255=	7	0	6	Registered nurses
-	7	0	6	3255	nurse
+3255=	8	0	7	Registered nurses
+	8	0	7	3255	nurse
 
 3260=	2	0	2	Health practitioners, other
 	1	0	1	3260	medical staff
 	1	0	1	3260	medicine man
 
-3280=	4	1	4	Professional & managerial, ns
-	3	1	3	3280	director
+3280=	5	1	5	Professional & managerial, ns
+	4	1	4	3280	director
 	1	0	1	3280	director of
 
-3288=	9	0	8	General, likely prof/mgr
+3288=	23	2	16	General, likely prof/mgr
 	3	0	3	3288	aide
-	4	0	3	3288	owner
-	2	0	2	3288	staff
+	7	2	5	3288	owner
+	3	0	3	3288	specialist
+	10	0	8	3288	staff
 
 3700=	16	0	2	Superv: correctional officers
 	16	0	2	3700	warden
@@ -308,8 +352,8 @@
 3800=	1	0	1	Bailiffs & correctional officers
 	1	0	1	3800	matron
 
-3820=	24	7	10	Detectives
-	2	0	1	3820	agent
+3820=	26	8	11	Detectives
+	3	1	2	3820	agent
 	10	4	4	3820	detective
 	3	1	2	3820	fbi agent
 	1	0	1	3820	fbi team
@@ -318,27 +362,25 @@
 	1	0	1	3820	inspector
 	2	0	2	3820	police inspector
 	1	0	1	3820	special agent
+	1	0	1	3820	undercover agent
 	1	0	1	3820	undercover police
 
-3825=	9	3	7	Intelligence officers
+3825=	11	2	8	Intelligence officers
 	1	0	1	3825	central intelligence agency
-	2	2	1	3825	soviet agent
-	6	1	5	3825	spy
+	1	0	1	3825	french agent
+	1	1	1	3825	soviet agent
+	8	1	6	3825	spy
 
-3850=	47	4	17	Police & sheriff's patrol
+3850=	58	5	22	Police & sheriff's patrol
 	1	0	1	3850	cop
 	1	0	1	3850	deputy sheriff
 	1	0	1	3850	lawman
-	1	0	1	3850	marshal
-	28	0	12	3850	police
+	39	0	18	3850	police
 	1	0	1	3850	police department
 	2	1	2	3850	police officer
-	7	3	4	3850	policeman
+	8	4	5	3850	policeman
 	3	0	1	3850	state police
 	2	0	1	3850	trooper
-
-3910=	1	0	1	Private detectives
-	1	0	1	3910	undercover agent
 
 3930=	4	0	3	Security guards & gaming officers
 	4	0	3	3930	bodyguard
@@ -346,34 +388,46 @@
 4010=	1	0	1	Superv: food preparation
 	1	0	1	4010	caterer
 
-4110=	1	0	1	Waiters
-	1	0	1	4110	waiter
+4020=	1	0	1	Cooks
+	1	0	1	4020	the cook
 
-4111=	2	0	2	Waitresses
-	2	0	2	4111	waitress
+4040=	1	0	1	Bartenders
+	1	0	1	4040	bartender
+
+4110=	2	0	2	Waiters
+	2	0	2	4110	waiter
+
+4111=	3	0	3	Waitresses
+	3	0	3	4111	waitress
 
 4140=	1	1	1	Dishwashers
 	1	1	1	4140	dish washer
 
-4220=	1	0	1	Janitors
-	1	0	1	4220	cleaner
+4151=	1	0	1	Hostesses, restaurant
+	1	0	1	4151	hostess
 
-4230=	8	1	7	Maids
-	4	0	3	4230	housekeeper
-	4	1	4	4230	maid
+4220=	1	0	1	Janitors
+	1	0	1	4220	janitor
+
+4230=	12	1	11	Maids
+	1	0	1	4230	cleaning lady
+	5	0	4	4230	housekeeper
+	1	0	1	4230	housemaid
+	5	1	5	4230	maid
 
 4250=	3	0	3	Grounds maintenance
 	1	0	1	4250	caretaker
 	2	0	2	4250	gardener
 
-4400=	1	0	1	Gaming services
+4400=	2	0	2	Gaming services
 	1	0	1	4400	bookie
+	1	0	1	4400	card player
 
 4465=	1	0	1	Undertakers & funeral directors
 	1	0	1	4465	undertaker
 
-4500=	1	0	1	Barbers
-	1	0	1	4500	barber
+4500=	2	0	2	Barbers
+	2	0	2	4500	barber
 
 4520=	1	0	1	Misc personal appearance
 	1	0	1	4520	make up artist
@@ -381,59 +435,63 @@
 4540=	1	1	1	Tour & travel guides
 	1	1	1	4540	tour guide
 
-4600=	2	0	1	Childcare workers
+4600=	3	0	2	Childcare workers
 	2	0	1	4600	governess
+	1	0	1	4600	wet nurse
 
-4650=	12	5	11	Personal care
+4650=	13	5	12	Personal care
 	1	0	1	4650	attendant
+	1	0	1	4650	butler
 	1	1	1	4650	greeter
 	7	4	6	4650	servant
 	1	0	1	4650	shoeshiner
 	2	0	2	4650	valet
 
-4700=	2	0	2	Superv: retail sales
+4700=	3	0	3	Superv: retail sales
+	1	0	1	4700	pawnbroker
 	2	0	2	4700	shopkeeper
 
 4720=	1	0	1	Cashiers
 	1	0	1	4720	teller
 
-4920=	2	0	1	Real estate brokers
+4920=	3	0	2	Real estate brokers
 	1	0	1	4920	real estate agent
-	1	0	1	4920	real estate broker
-
-4950=	1	0	1	Door-to-door & street sales
-	1	0	1	4950	collector
+	2	0	2	4920	real estate broker
 
 4965=	1	0	1	Sales, other
 	1	0	1	4965	slave trader
 
-5110=	1	0	1	Billing clerks
-	1	0	1	5110	calculator
-
-5510=	4	1	3	Messengers
-	2	0	1	5510	courier
+5510=	5	2	4	Messengers
+	3	1	2	5510	courier
 	2	1	2	5510	messenger
 
-5700=	2	0	2	Secretaries
-	2	0	2	5700	secretary
+5700=	4	0	4	Secretaries
+	1	0	1	5700	executive assistant
+	3	0	3	5700	secretary
 
-6050=	11	7	5	Misc agricultural workers
-	8	6	2	6050	Cowboy
+5940=	2	0	2	Office support, other
+	2	0	2	5940	stenographer
+
+6050=	8	6	3	Misc agricultural workers
+	7	6	2	6050	cowboy
 	1	0	1	6050	field hand
-	2	1	2	6050	groom
 
 6100=	1	0	1	Fishing workers
 	1	0	1	6100	waterman
 
 6110=	2	0	2	Hunters & trappers
-	1	0	1	6110	Hunter
 	1	0	1	6110	game hunter
+	1	0	1	6110	hunter
 
 6230=	1	0	1	Carpenters
-	1	0	1	6230	Carpenter
+	1	0	1	6230	carpenter
 
-6830=	4	0	1	Explosives
-	4	0	1	6830	detonator
+6800=	1	1	1	Drill operators, oil, gas, & mining
+	1	1	1	6800	oil driller
+
+6840=	4	3	2	Mining machine
+	1	0	1	6840	coal miner
+	3	3	1	6840	miner
 
 6920=	1	1	1	Roustabouts, oil & gas
 	1	1	1	6920	roustabout
@@ -441,28 +499,22 @@
 7540=	1	0	1	Locksmiths
 	1	0	1	7540	locksmith
 
-7700=	1	0	1	Superv: production
-	1	0	1	7700	overseer
-
 7810=	1	0	1	Butchers
 	1	0	1	7810	butcher
 
-8040=	2	1	2	Metal furnace operators
-	1	0	1	8040	plunger
+8040=	1	1	1	Metal furnace operators
 	1	1	1	8040	steel worker
-
-8340=	2	0	1	Shoe machine
-	2	0	1	8340	pull over
 
 8350=	1	0	1	Tailors & dressmakers
 	1	0	1	8350	tailor
 
-8965=	1	0	1	Production, other
+8965=	2	0	2	Production, other
+	1	0	1	8965	an operator
 	1	0	1	8965	apprentice
 
-9030=	2	0	2	Pilots & flight engineers
+9030=	5	0	4	Pilots & flight engineers
 	1	0	1	9030	astronaut
-	1	0	1	9030	pilot
+	4	0	3	9030	pilot
 
 9130=	2	0	1	Driver/sales & truck drivers
 	2	0	1	9130	truck driver
@@ -487,66 +539,79 @@
 	5	2	1	9620	dockworker
 	1	1	1	9620	longshoreman
 
-9750=	1	0	1	Material moving, other
-	1	0	1	9750	elevator operator
+9760=	2	1	2	Laborers, nec
+	2	1	2	9760	laborer
 
-9760=	1	0	1	Laborers, nec
-	1	0	1	9760	laborer
+9770=	30	14	19	employee nec
+	8	0	6	9770	assistant
+	1	0	1	9770	associate
+	2	1	2	9770	co worker
+	4	3	2	9770	crew member
+	4	2	4	9770	employee
+	2	0	2	9770	trainee
+	1	0	1	9770	work crew
+	8	8	3	9770	worker
 
-9780=	23	12	15	employee nec
-	4	0	4	9780	assistant
-	1	0	1	9780	associate
-	2	1	2	9780	co worker
-	2	1	1	9780	crew member
-	4	2	4	9780	employee
-	2	0	2	9780	trainee
-	8	8	3	9780	worker
+9780=	2	1	2	People work
+	1	1	1	9780	their job
+	1	0	1	9780	they work
 
-9781=	12	1	10	Working men
-	3	0	3	9781	his career
-	4	0	4	9781	his job
-	5	1	4	9781	his work
+9781=	17	1	14	Men work
+	4	0	4	9781	his career
+	7	0	6	9781	his job
+	6	1	5	9781	his work
 
-9782=	2	0	2	Working women
-	1	0	1	9782	her career
+9782=	3	0	3	Women work
+	2	0	2	9782	her career
 	1	0	1	9782	her work
 
-9789=	73	10	39	work
-	4	0	4	9789	career
+9789=	87	11	49	General work
+	6	0	6	9789	career
 	1	0	1	9789	employed
-	18	1	15	9789	job
-	32	9	23	9789	work
+	24	2	19	9789	job
+	34	9	25	9789	work
 	3	0	3	9789	worked
-	15	0	14	9789	working
+	19	0	18	9789	working
 
-9800=	74	0	22	Military officer
-	10	0	4	9800	General
-	4	0	2	9800	Major
+9800=	96	1	28	Military officer
+	12	0	6	9800	General
+	6	0	4	9800	Major
+	1	0	1	9800	air marshal
+	1	1	1	9800	army commander
 	1	0	1	9800	army lieutenant
-	26	0	7	9800	captain
-	8	0	5	9800	colonel
+	32	0	11	9800	captain
+	10	0	6	9800	colonel
+	3	0	3	9800	commandant
 	9	0	6	9800	commander
 	1	0	1	9800	company commander
-	8	0	7	9800	lieutenant
+	1	0	1	9800	fighter pilot
+	9	0	8	9800	lieutenant
 	3	0	3	9800	lieutenant colonel
 	2	0	2	9800	lt
-	1	0	1	9800	marine corps colonel
+	1	0	1	9800	midshipman
+	1	0	1	9800	military officer
+	1	0	1	9800	naval officer
 	1	0	1	9800	navy commander
+	1	0	1	9800	senior officer
 
-9810=	14	1	6	Enlisted military supervisors
+9805=	1	0	1	Rebel military officer
+	1	0	1	9805	resistance leader
+
+9810=	16	1	7	Enlisted military supervisors
 	1	1	1	9810	non commissioned officer
-	8	0	4	9810	sergeant
+	1	0	1	9810	petty officer
+	9	0	5	9810	sergeant
 	5	0	5	9810	staff sergeant
 
-9811=	4	3	3	Military enlisted
-	1	0	1	9811	corporal
+9811=	6	3	4	Military enlisted
+	3	0	2	9811	corporal
 	1	1	1	9811	infantryman
 	2	2	1	9811	ss guard
 
-9812=	55	32	18	Military, rank ns
+9812=	72	44	24	Military, rank ns
 	2	0	2	9812	Marine
 	2	1	1	9812	commando
-	2	0	1	9812	infantry
+	3	0	2	9812	infantry
 	1	1	1	9812	intelligence corps
 	3	3	1	9812	mercenary
 	1	0	1	9812	military police
@@ -554,60 +619,67 @@
 	1	0	1	9812	prisoner of war
 	2	0	2	9812	sapper
 	1	1	1	9812	scout
-	2	1	2	9812	sniper
-	30	18	13	9812	soldier
-	7	7	4	9812	troop
+	3	1	3	9812	sniper
+	43	29	17	9812	soldier
+	9	8	6	9812	troop
 
-9813=	9	6	6	Rebel military, rank ns
+9813=	11	6	7	Rebel military, rank ns
+	2	0	2	9813	guerrilla
 	2	2	1	9813	insurgent
 	3	2	3	9813	rebel
 	4	2	2	9813	revolutionary
 
-9814=	14	6	3	Military, pre-modern
+9814=	15	6	4	Military veteran
 	11	6	2	9814	gladiator
+	1	0	1	9814	navy veteran
 	1	0	1	9814	tribune
 	2	0	1	9814	warrior
 
-9819=	48	1	18	Military as an institution
-	1	0	1	9819	air force
-	1	1	1	9819	armed force
-	35	0	14	9819	army
-	9	0	7	9819	military
-	2	0	2	9819	navy
+9819=	64	3	26	Military as an institution
+	3	0	3	9819	air force
+	2	2	2	9819	armed force
+	36	0	15	9819	army
+	12	0	9	9819	military
+	4	0	4	9819	navy
+	6	0	5	9819	us army
+	1	1	1	9819	us marine corps
 
-9850=	33	8	13	criminal /ns
-	9	1	5	9850	criminal
+9850=	40	10	18	criminal /ns
+	9	1	6	9850	criminal
+	1	1	1	9850	criminal record
+	1	0	1	9850	crook
 	4	0	3	9850	culprit
-	12	4	5	9850	gang
+	14	4	7	9850	gang
+	1	0	1	9850	gang leader
 	3	0	1	9850	gunfighter
 	1	1	1	9850	henchman
 	1	1	1	9850	hooligan
-	2	0	1	9850	outlaw
+	4	1	2	9850	outlaw
 	1	1	1	9850	thug
 
 9851=	1	0	1	drug dealer
 	1	0	1	9851	drug dealer
 
-9852=	6	2	2	embezzler
+9852=	8	4	2	embezzler
 	1	1	1	9852	con artist
-	4	0	2	9852	con man
+	6	2	2	9852	con man
 	1	1	1	9852	hustler
 
 9853=	1	1	1	smuggler
 	1	1	1	9853	black marketeer
 
-9854=	7	4	3	thief
-	2	1	2	9854	Pirate
+9854=	9	5	5	thief
 	1	0	1	9854	burglar
 	1	0	1	9854	pickpocket
-	4	3	1	9854	thief
+	2	2	2	9854	pirate
+	5	3	2	9854	thief
 
-9855=	13	5	4	sex worker
+9855=	15	5	6	sex worker
 	1	0	1	9855	brothel
 	1	0	1	9855	brothel owner
 	1	0	1	9855	call girl
 	1	0	1	9855	pimp
-	9	5	4	9855	prostitute
+	11	5	6	9855	prostitute
 
 9856=	18	5	10	murderer
 	5	3	4	9856	assassin
@@ -618,24 +690,28 @@
 	5	2	5	9856	murderer
 	2	0	1	9856	serial killer
 
-9857=	11	2	8	mafia, organized crime
+9857=	17	1	9	mafia, organized crime
 	1	0	1	9857	crime boss
+	3	0	2	9857	crime family
 	1	0	1	9857	crime lord
-	2	1	2	9857	enforcer
 	2	0	2	9857	gangster
 	1	0	1	9857	mafia chieftain
 	1	0	1	9857	mob boss
 	2	1	2	9857	mobster
-	1	0	1	9857	underworld
+	4	0	2	9857	organized crime
+	2	0	2	9857	underworld
 
-9858=	15	11	10	prisoner (or ex-prisoner)
-	1	0	1	9858	fugitive
+9858=	16	11	11	prisoner (or ex-prisoner)
+	2	0	2	9858	fugitive
 	1	0	1	9858	inmate
 	3	2	1	9858	political prisoner
 	10	9	7	9858	prisoner
 
 9870=	1	0	1	terrorist attack
 	1	0	1	9870	suicide attack
+
+9961=	1	0	1	Working men
+	1	0	1	9961	boy who work
 
 9970=	3	0	3	Middle class category
 	1	0	1	9970	middle class
@@ -645,203 +721,259 @@
 9972=	1	0	1	Working class category
 	1	0	1	9972	working class
 
-9973=	9	2	6	Poor
+9973=	12	2	9	Poor
 	2	2	1	9973	beggar
-	1	0	1	9973	impoverished
-	5	0	5	9973	poor
+	2	0	2	9973	impoverished
+	7	0	7	9973	poor
 	1	0	1	9973	the poor
 
-9975=	13	4	3	Slave
-	13	4	3	9975	slave
+9975=	16	5	4	Slave
+	16	5	4	9975	slave
 
-9976=	18	0	13	Rich
-	12	0	2	9976	Rich
+9976=	24	0	18	Rich
 	2	0	1	9976	millionaire
-	15	0	11	9976	wealthy
+	5	0	4	9976	rich
+	17	0	13	9976	wealthy
 
-9977=	6	0	5	Elite
+9977=	8	0	7	Elite
 	1	0	1	9977	debonair
-	1	0	1	9977	exclusive
+	2	0	2	9977	exclusive
 	1	0	1	9977	posh
 	1	0	1	9977	swank
-	2	0	1	9977	upper class
+	3	0	2	9977	upper class
 
-9990=	2	0	2	Unemployed
+9981=	1	1	1	Striker
+	1	1	1	9981	striker
+
+9982=	1	1	1	Protester
+	1	1	1	9982	protester
+
+9990=	3	0	3	Unemployed
 	1	0	1	9990	laid off
 	1	0	1	9990	not working
+	1	0	1	9990	out of work
 
-9992=	2	1	2	volunteer position
-	2	1	2	9992	volunteer
+9992=	4	3	4	volunteer position
+	4	3	4	9992	volunteer
 
-9997=	22	12	11	ambiguous: which occ
-	3	0	2	9997	crew
+9997=	35	17	15	ambiguous: which occ
+	11	0	3	9997	crew
 	3	3	1	9997	deputy
-	16	9	8	9997	officer
+	2	1	2	9997	enforcer
+	19	13	10	9997	officer
 
-9998=	293	36	64	ambiguous: occ/not occ
-	1	1	1	9998	Carman
+9998=	185	24	59	ambiguous: occ/not occ
+	1	0	1	9998	Baker
+	1	0	1	9998	Butler
+	2	2	2	9998	Carman
 	1	0	1	9998	Carver
-	1	0	1	9998	Cook
+	3	0	2	9998	Cook
 	2	0	2	9998	Cooper
-	2	0	2	9998	Driver
+	1	0	1	9998	Fletcher
 	23	0	1	9998	Hooker
+	1	0	1	9998	Knight
 	1	0	1	9998	Miller
+	1	0	1	9998	Pirate
+	11	0	1	9998	Rich
 	4	0	1	9998	Roper
-	2	2	2	9998	Sander
+	3	3	3	9998	Sander
+	1	0	1	9998	Singer
 	1	0	1	9998	Smith
 	1	0	1	9998	Turner
+	3	0	3	9998	White
+	1	1	1	9998	boat owner
+	1	0	1	9998	calculator
+	1	0	1	9998	cleaner
+	2	0	2	9998	comic
 	2	0	1	9998	count
-	17	0	14	9998	do
-	5	0	5	9998	general
-	3	0	3	9998	georgia
-	15	8	8	9998	guard
+	1	0	1	9998	da
+	4	0	1	9998	detonator
+	1	0	1	9998	drive man
+	3	0	3	9998	driver
+	6	0	6	9998	general
+	4	0	4	9998	georgia
+	2	1	2	9998	groom
+	16	8	9	9998	guard
 	1	0	1	9998	guide
-	2	0	2	9998	intelligence
-	139	18	53	9998	it
-	7	0	6	9998	major
+	4	0	4	9998	intelligence
+	10	0	9	9998	major
+	2	0	1	9998	model
+	1	0	1	9998	novice
 	3	1	2	9998	orderly
 	1	0	1	9998	page
-	11	5	5	9998	partner
+	13	7	7	9998	partner
+	1	0	1	9998	plunger
 	1	0	1	9998	polish
-	9	0	6	9998	private
+	13	0	10	9998	private
+	2	0	1	9998	pull over
 	1	0	1	9998	st
 	21	1	8	9998	team
+	6	0	1	9998	us
 
-9999=	189	29	61	not an occupation
+9999=	258	40	81	not an occupation
 	1	0	1	9999	a guide
-	1	1	1	9999	advocate
+	2	1	2	9999	advocate
 	1	0	1	9999	agent of
-	1	0	1	9999	audience member
+	1	1	1	9999	alteration
+	2	1	2	9999	audience member
 	1	0	1	9999	bitter
 	1	1	1	9999	boy scout
-	1	0	1	9999	closer
+	2	0	2	9999	closer
 	3	1	2	9999	coffin
-	1	0	1	9999	companion
+	3	0	2	9999	companion
 	2	0	1	9999	cook county
 	2	0	2	9999	counter
+	1	1	1	9999	cowboy boot
 	1	1	1	9999	crater
-	1	0	1	9999	dagger
-	4	0	4	9999	dc
-	1	1	1	9999	display
+	2	0	2	9999	dagger
+	5	0	5	9999	dc
+	1	0	1	9999	dean
+	3	2	3	9999	display
 	1	0	1	9999	dresser
-	2	0	2	9999	elder
+	3	0	3	9999	elder
 	4	0	4	9999	escort
-	1	0	1	9999	extra
-	2	0	2	9999	flyer
-	15	4	12	9999	hand
-	21	4	18	9999	head
+	2	0	2	9999	extra
+	3	1	3	9999	flyer
+	1	0	1	9999	fortune hunter
+	1	0	1	9999	gang up
+	1	1	1	9999	grip
+	19	5	16	9999	hand
+	24	5	21	9999	head
 	1	0	1	9999	heater
+	1	0	1	9999	holder
+	1	0	1	9999	in person
 	2	0	2	9999	junior
-	8	0	5	9999	leader
+	9	1	6	9999	leader
+	2	0	2	9999	liner
 	2	0	1	9999	marker
 	1	0	1	9999	martin luther king
-	6	2	4	9999	master
+	8	2	5	9999	master
 	2	1	2	9999	mate
 	2	2	2	9999	member
-	6	0	6	9999	member of
+	8	0	8	9999	member of
 	1	0	1	9999	officer training
 	4	0	3	9999	ordinary
-	2	0	2	9999	packing
+	4	0	4	9999	packing
 	7	0	7	9999	pick up
 	1	0	1	9999	police station
-	1	0	1	9999	prior
-	3	0	2	9999	production
-	1	0	1	9999	relief
-	4	0	2	9999	research
-	2	2	1	9999	resident
-	10	0	6	9999	river
+	2	0	2	9999	prior
+	7	0	4	9999	production
+	2	0	1	9999	register
+	2	0	2	9999	relief
+	5	1	3	9999	research
+	3	2	2	9999	resident
+	12	0	8	9999	river
 	1	0	1	9999	roadmaster
 	3	0	1	9999	rocker
-	4	3	2	9999	runner
-	19	2	13	9999	second
-	3	0	3	9999	selling
-	1	0	1	9999	senior
-	3	1	3	9999	service
+	5	3	3	9999	runner
+	27	2	19	9999	second
+	5	0	4	9999	selling
+	8	1	7	9999	service
 	1	1	1	9999	slipper
 	1	1	1	9999	smoker
+	2	0	1	9999	snapper
 	1	0	1	9999	sponsor
-	2	0	2	9999	stand in
+	3	0	3	9999	stand in
 	2	0	2	9999	steward
 	1	1	1	9999	substitute
-	3	0	3	9999	superior
+	4	1	4	9999	superior
 	1	0	1	9999	tanker
 	1	0	1	9999	tender
 	1	0	1	9999	the guide
-	3	0	3	9999	turn out
+	1	0	1	9999	trailer
+	4	0	4	9999	turn out
 	2	0	2	9999	visitor
 	1	0	1	9999	warm in
 	1	0	1	9999	whip
 
-10301=	12	0	10	widow
+10301=	15	0	13	widow
 	7	0	5	10301	widow
-	4	0	4	10301	widowed
-	1	0	1	10301	widower
+	6	0	6	10301	widowed
+	2	0	2	10301	widower
 
-10302=	1	0	1	divorced
-	1	0	1	10302	divorced
+10302=	3	0	3	divorced
+	3	0	3	10302	divorced
 
-10303=	25	0	16	married
-	18	0	13	10303	marriage
-	6	0	6	10303	married
-	1	0	1	10303	married to
+10303=	85	6	39	married
+	30	0	20	10303	marriage
+	16	0	13	10303	married
+	5	0	5	10303	married to
+	34	6	25	10303	marry
 
 10304=	3	0	2	unmarried
 	3	0	2	10304	unmarried
 
-10305=	16	4	7	lover
-	7	3	6	10305	lover
-	9	1	2	10305	mistress
+10305=	18	4	9	lover
+	8	3	7	10305	lover
+	10	1	3	10305	mistress
 
 10306=	2	0	2	boyfriend
 	2	0	2	10306	boyfriend
 
-10307=	13	0	11	girlfriend
-	13	0	11	10307	girlfriend
+10307=	17	0	15	girlfriend
+	16	0	14	10307	girlfriend
+	1	0	1	10307	sweetheart
 
-10311=	19	1	13	husband
-	19	1	13	10311	husband
+10308=	3	0	3	fiancee
+	3	0	3	10308	engaged to
 
-10312=	42	0	27	wife
-	42	0	27	10312	wife
+10311=	33	1	19	husband
+	33	1	19	10311	husband
 
-10320=	5	5	5	parent
-	5	5	5	10320	parent
+10312=	60	0	37	wife
+	60	0	37	10312	wife
 
-10321=	49	0	23	father
+10320=	13	13	10	parent
+	13	13	10	10320	parent
+
+10321=	78	0	31	father
 	3	0	1	10321	dad
-	46	0	23	10321	father
+	75	0	31	10321	father
 
-10322=	52	0	23	mother
+10322=	68	0	30	mother
 	2	0	1	10322	mama
-	50	0	22	10322	mother
+	1	0	1	10322	mom
+	65	0	28	10322	mother
 
 10323=	1	0	1	single parent
 	1	0	1	10323	single parent
 
-10330=	53	39	23	child
-	53	39	23	10330	child
+10326=	1	1	1	in law
+	1	1	1	10326	in law
 
-10331=	46	2	20	son
-	46	2	20	10331	son
+10328=	1	0	1	mother in law
+	1	0	1	10328	mother in law
 
-10332=	23	0	13	daughter
-	23	0	13	10332	daughter
+10330=	66	44	29	child
+	66	44	29	10330	child
 
-10334=	4	0	4	nephew
-	4	0	4	10334	nephew
+10331=	66	6	32	son
+	66	6	32	10331	son
 
-10335=	5	0	4	niece
-	5	0	4	10335	niece
+10332=	33	0	22	daughter
+	33	0	22	10332	daughter
 
-10341=	32	5	16	brother
+10334=	5	0	5	nephew
+	5	0	5	10334	nephew
+
+10335=	6	0	5	niece
+	6	0	5	10335	niece
+
+10337=	1	0	1	son in law
+	1	0	1	10337	son in law
+
+10338=	1	0	1	daughter in law
+	1	0	1	10338	daughter in law
+
+10341=	43	7	23	brother
 	1	1	1	10341	bro
-	31	4	15	10341	brother
+	42	6	22	10341	brother
 
-10342=	15	1	11	sister
-	15	1	11	10342	sister
+10342=	23	3	14	sister
+	23	3	14	10342	sister
 
-10343=	1	0	1	cousin
-	1	0	1	10343	cousin
+10343=	3	0	3	cousin
+	3	0	3	10343	cousin
 
 10347=	1	0	1	brother in law
 	1	0	1	10347	brother in law
@@ -849,60 +981,73 @@
 10350=	1	1	1	grandparent
 	1	1	1	10350	grandparent
 
+10351=	9	0	1	grandfather
+	9	0	1	10351	grandpa
+
 10352=	5	0	2	grandmother
 	5	0	2	10352	grandmother
 
 10356=	1	0	1	grandson
 	1	0	1	10356	grandson
 
-10357=	1	0	1	granddaughter
-	1	0	1	10357	granddaughter
+10357=	3	0	2	granddaughter
+	3	0	2	10357	granddaughter
 
-10361=	7	0	6	uncle
-	7	0	6	10361	uncle
+10361=	9	0	7	uncle
+	9	0	7	10361	uncle
 
 10362=	5	0	3	aunt
 	5	0	3	10362	aunt
 
-10380=	60	4	22	family
-	60	4	22	10380	family
+10380=	94	8	31	family
+	94	8	31	10380	family
 
-10381=	1	0	1	household
-	1	0	1	10381	household
+10381=	3	0	3	household
+	3	0	3	10381	household
 
-10382=	8	0	8	couple
-	8	0	8	10382	couple
+10382=	10	0	10	couple
+	10	0	10	10382	couple
 
-10390=	26	2	20	people
-	4	1	4	10390	adult
-	17	1	13	10390	people
-	5	0	5	10390	person
+10400=	47	34	27	people
+	5	1	5	10400	adult
+	1	1	1	10400	people
+	41	32	24	10400	person
 
-10391=	125	0	42	men
-	3	0	3	10391	male
-	80	0	30	10391	man
-	42	0	22	10391	men
+10401=	148	52	54	men
+	4	0	4	10401	male
+	144	52	52	10401	man
 
-10392=	51	13	26	women
-	7	0	6	10392	female
-	44	13	24	10392	woman
+10402=	65	18	35	women
+	10	0	9	10402	female
+	55	18	33	10402	woman
 
-10393=	12	0	7	boys
-	12	0	7	10393	boy
+10403=	2	1	2	men and women
+	2	1	2	10403	man and woman
 
-10394=	14	0	14	girls
-	14	0	14	10394	girl
+10404=	26	12	12	boys
+	26	12	12	10404	boy
 
-10395=	10	0	6	babies
-	7	0	4	10395	baby
-	2	0	2	10395	infant
-	1	0	1	10395	toddler
+10405=	26	4	24	girls
+	26	4	24	10405	girl
 
-10600=	12	1	6	mythical creature
+10407=	13	0	12	teenagers
+	3	0	2	10407	teenage
+	1	0	1	10407	teenager
+	9	0	9	10407	youth
+
+10408=	13	0	8	babies
+	10	0	6	10408	baby
+	2	0	2	10408	infant
+	1	0	1	10408	toddler
+
+10413=	1	0	1	Baby Boomer
+	1	0	1	10413	boomer
+
+10600=	23	1	8	mythical creature
 	8	0	2	10600	angel
-	1	0	1	10600	devil
+	2	0	2	10600	devil
 	1	1	1	10600	elf
-	1	0	1	10600	ghost
+	11	0	2	10600	ghost
 	1	0	1	10600	phantom
 
 10601=	10	8	2	invented non-human character
@@ -913,23 +1058,24 @@
 10603=	2	0	1	witch
 	2	0	1	10603	witch
 
-10605=	14	0	8	god
-	14	0	8	10605	god
+10605=	15	0	9	god
+	15	0	9	10605	god
 
-10840=	9	0	5	Whites
-	11	0	8	10840	White
-	1	0	1	10840	white man
+10840=	9	1	5	Whites
+	7	0	5	10840	white
+	2	1	2	10840	white man
 
-10841=	17	1	10	Blacks
+10841=	17	2	10	Blacks
 	5	1	2	10841	african american
-	9	0	7	10841	black
-	3	0	2	10841	black man
+	8	0	7	10841	black
+	4	1	3	10841	black man
 
 10842=	1	0	1	Latinos
 	1	0	1	10842	hispanic
 
-10844=	10	0	2	Native Americans
-	1	0	1	10844	native american
+10844=	13	0	3	Native Americans
+	1	0	1	10844	cherokee
+	3	0	2	10844	native american
 	9	0	1	10844	sioux
 
 10847=	1	0	1	ethnics
@@ -938,25 +1084,33 @@
 10848=	3	1	2	immigrants
 	3	1	2	10848	immigrant
 
-10860=	4	1	3	student
-	4	1	3	10860	student
+10860=	8	3	6	student
+	1	1	1	10860	pupil
+	1	0	1	10860	schoolgirl
+	6	2	4	10860	student
+
+10864=	1	0	1	high school student
+	1	0	1	10864	high school student
 
 10866=	2	2	1	grad student
 	2	2	1	10866	graduate student
 
-11831=	1	0	1	Christians
-	1	0	1	11831	christian
+10867=	1	1	1	art student
+	1	1	1	10867	art student
 
-11832=	3	0	2	Catholics
-	3	0	2	11832	catholic
+11831=	20	0	4	Christians
+	20	0	4	11831	christian
+
+11832=	4	0	3	Catholics
+	4	0	3	11832	catholic
 
 11834=	2	0	1	Other Christian
 	1	0	1	11834	orthodox
 	1	0	1	11834	russian orthodox
 
-11835=	15	4	3	Jews
-	4	4	1	11835	jew
-	11	0	3	11835	jewish
+11835=	41	10	6	Jews
+	12	10	2	11835	jew
+	29	0	6	11835	jewish
 
 11836=	4	3	2	Muslims
 	4	3	2	11836	muslim
@@ -970,8 +1124,11 @@
 12802=	1	0	1	housewife
 	1	0	1	12802	housewife
 
-12803=	1	0	1	stay at home
-	1	0	1	12803	in the home
+12803=	2	0	2	stay at home
+	2	0	2	12803	in the home
+
+12810=	1	0	1	housework: nec
+	1	0	1	12810	keep house
 
 12812=	4	0	3	housework: cooking
 	1	0	1	12812	do the cooking
@@ -1011,16 +1168,26 @@
 13200=	1	0	1	Czechoslovakia
 	1	0	1	13200	czechoslovakia
 
-13208=	5	0	1	Denmark
-	1	0	1	13208	danish
-	4	0	1	13208	denmark
+13203=	1	0	1	Czech Republic
+	1	0	1	13203	czech
 
-13250=	12	0	6	France
+13208=	9	0	3	Denmark
+	2	0	1	13208	dane
+	2	0	2	13208	danish
+	5	0	2	13208	denmark
+
+13231=	1	0	1	Ethiopia
+	1	0	1	13231	ethiopia
+
+13250=	17	0	10	France
 	6	0	3	13250	france
-	6	0	4	13250	french
+	11	0	8	13250	french
 
-13276=	25	2	7	German
-	20	2	6	13276	german
+13254=	1	0	1	French Guiana
+	1	0	1	13254	french guiana
+
+13276=	35	3	11	German
+	30	3	10	13276	german
 	5	0	3	13276	germany
 
 13336=	1	0	1	Holy See
@@ -1032,9 +1199,9 @@
 13348=	4	0	3	Hungary
 	4	0	3	13348	hungarian
 
-13356=	20	5	4	India
-	10	0	4	13356	india
-	10	5	2	13356	indian
+13356=	23	5	6	India
+	11	0	5	13356	india
+	12	5	3	13356	indian
 
 13364=	9	0	2	Iran
 	4	0	1	13364	iran
@@ -1045,15 +1212,16 @@
 	2	0	2	13368	iraq
 	4	0	1	13368	iraqi
 
-13372=	3	0	2	Ireland
-	3	0	2	13372	irish
+13372=	7	0	3	Ireland
+	3	0	1	13372	ireland
+	4	0	3	13372	irish
 
 13376=	1	0	1	Israel
 	1	0	1	13376	israel
 
-13380=	10	0	5	Italy
+13380=	11	0	6	Italy
 	9	0	5	13380	italian
-	1	0	1	13380	italy
+	2	0	2	13380	italy
 
 13392=	16	15	4	Japan
 	1	0	1	13392	japan
@@ -1076,15 +1244,21 @@
 13586=	1	0	1	Pakistan
 	1	0	1	13586	pakistan
 
+13612=	1	0	1	Pitcairn Island
+	1	0	1	13612	pitcairn
+
 13616=	1	0	1	Poland
 	1	0	1	13616	Polish
+
+13620=	1	0	1	Portugal
+	1	0	1	13620	portugal
 
 13630=	2	0	1	Puerto Rico
 	1	0	1	13630	puerto rican
 	1	0	1	13630	puerto rico
 
-13643=	8	0	3	Russia
-	8	0	3	13643	russian
+13643=	9	0	4	Russia
+	9	0	4	13643	russian
 
 13704=	5	1	3	Vietnam
 	4	0	2	13704	vietnam
@@ -1094,8 +1268,9 @@
 	2	0	1	13710	south africa
 	1	0	1	13710	south african
 
-13724=	2	0	2	Spain
+13724=	3	0	3	Spain
 	2	0	2	13724	spain
+	1	0	1	13724	spanish
 
 13752=	1	0	1	Sweden
 	1	0	1	13752	swedish
@@ -1115,32 +1290,32 @@
 	6	2	3	13810	soviet
 	2	0	2	13810	soviet union
 
-13818=	2	0	1	Egypt
-	1	0	1	13818	egypt
+13818=	3	0	2	Egypt
+	2	0	2	13818	egypt
 	1	0	1	13818	egyptian
 
-13825=	33	0	10	Great Britain
+13825=	33	0	11	Great Britain
 	7	0	4	13825	britain
-	25	0	10	13825	british
+	25	0	11	13825	british
 	1	0	1	13825	great britain
 
 13826=	2	0	2	United Kingdom
 	1	0	1	13826	uk
 	1	0	1	13826	united kingdom
 
-13827=	5	0	3	Wales
-	2	0	2	13827	wales
-	3	0	1	13827	welsh
+13827=	9	0	5	Wales
+	5	0	3	13827	wales
+	4	0	2	13827	welsh
 
-13828=	17	3	3	Scotland
+13828=	18	3	4	Scotland
 	3	3	1	13828	scot
-	10	0	3	13828	scotland
+	11	0	4	13828	scotland
 	4	0	2	13828	scottish
 
-13840=	60	17	27	United States of America
-	15	0	7	13840	Us
-	32	4	20	13840	american
-	13	13	10	13840	united state
+13840=	57	18	28	United States of America
+	8	0	3	13840	US
+	35	4	23	13840	american
+	14	14	11	13840	united state
 
 13866=	2	1	2	South Vietnam
 	1	0	1	13866	south vietnam
@@ -1149,8 +1324,8 @@
 13868=	2	2	1	North Vietnam
 	2	2	1	13868	north vietnamese
 
-13910=	4	0	4	Europe
-	4	0	4	13910	europe
+13910=	7	0	7	Europe
+	7	0	7	13910	europe
 
 13927=	1	0	1	Middle East
 	1	0	1	13927	levant
@@ -1158,20 +1333,26 @@
 13928=	11	5	3	Arab
 	11	5	3	13928	arab
 
-13940=	3	0	1	Africa
-	3	0	1	13940	africa
+13940=	4	0	2	Africa
+	4	0	2	13940	africa
 
 13944=	2	0	1	North Africa
 	2	0	1	13944	north africa
 
-15010=	13	1	7	sector: business
-	13	1	7	15010	business
+13965=	1	0	1	West Indies
+	1	0	1	13965	west indies
+
+15010=	15	1	8	sector: business
+	15	1	8	15010	business
+
+15030=	2	0	1	sector: mining
+	2	0	1	15030	mining
 
 15040=	5	0	4	sector: construction
 	5	0	4	15040	construction
 
-15050=	16	0	4	sector: manufacturing
-	15	0	3	15050	factory
+15050=	19	1	6	sector: manufacturing
+	18	1	5	15050	factory
 	1	0	1	15050	industry
 
 15080=	1	0	1	sector: trade
@@ -1183,13 +1364,13 @@
 15110=	1	0	1	sector: insurance
 	1	0	1	15110	insurance
 
-15120=	1	0	1	sector: real estate
-	1	0	1	15120	real estate
+15120=	2	0	2	sector: real estate
+	2	0	2	15120	real estate
 
-15200=	16	0	12	government
+15200=	19	0	15	government
 	7	0	4	15200	fbi
 	1	0	1	15200	federal
-	7	0	7	15200	government
+	10	0	10	15200	government
 	1	0	1	15200	state department
 
 16101=	1	0	1	home appliance
@@ -1200,3 +1381,6 @@
 
 16103=	2	0	2	computer
 	2	0	2	16103	computer
+
+16107=	3	1	3	toy
+	3	1	3	16107	toy

@@ -1,0 +1,754 @@
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /Users/reeve/Documents/content/occupations/git/Oscars.txt
+  log type:  text
+ opened on:   4 Jul 2019, 20:32:36
+
+. 
+. * Oscars.do
+. *       reads OscarsCensus.xls from jobs.py, occ-level file for each movie from jobs.py
+. *       saves OscarsCensus.dta
+. *       collapses to a movie-level file, Oscars.dta
+. *               just one example of creating useful variables from the Census occupation codes.
+. 
+. clear all
+
+. set more off
+
+. pwd
+/Users/reeve/Documents/content/occupations/git
+
+. 
+. dir Oscars*.xls
+
+-rw-r--r--  1 reeve  staff  92854 Jul  4 20:32 OscarsCensus.xls
+-rw-r--r--  1 reeve  staff   4339 Jul  4 20:32 OscarsTexts.xls
+-rw-r--r--  1 reeve  staff   3812 Jun 21 15:49 OscarsTitles.xls
+
+. 
+. *import delimited OscarsCensus.xls,clear /* earlier stata version */
+. insheet using OscarsCensus.xls,clear
+(5 vars, 1,817 obs)
+
+.         describe
+
+Contains data
+  obs:         1,817                          
+ vars:             5                          
+ size:       179,883                          
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+              storage   display    value
+variable name   type    format     label      variable label
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+filename        str52   %52s                  
+occcode         int     %8.0g                 OccCode
+nocc            byte    %8.0g                 Nocc
+nplurals        byte    %8.0g                 Nplurals
+occlabel        str43   %43s                  Occlabel
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Sorted by: 
+     Note: Dataset has changed since last saved.
+
+.         summarize, sep(0)
+
+    Variable |        Obs        Mean    Std. Dev.       Min        Max
+-------------+---------------------------------------------------------
+    filename |          0
+     occcode |      1,817    8738.283        3932         10      16107
+        nocc |      1,817    2.052834    2.183605          1         27
+    nplurals |      1,817    .3643368    .9751339          0         13
+    occlabel |          0
+
+. 
+. *drop the directory ("movies/") prefix:
+. gen str url=substr(filename,8,.)
+
+.         order url, before(filename)
+
+.         drop filename
+
+. 
+. rename occcode occ2010
+
+.         label variable occ2010 "Census occ 2010 codes in text"
+
+.         run occ2010labels.do
+
+.         label values occ2010 occ2010
+
+.         * drop ambiguous and non-"job" categories:
+.         tab occ2010 if occ2010>=9990 & occ2010<=9999
+
+          Census occ 2010 codes in text |      Freq.     Percent        Cum.
+----------------------------------------+-----------------------------------
+                        Unemployed 9990 |          3        1.85        1.85
+                volunteer position 9992 |          4        2.47        4.32
+              ambiguous: which occ 9997 |         15        9.26       13.58
+            ambiguous: occ/not occ 9998 |         59       36.42       50.00
+                 not an occupation 9999 |         81       50.00      100.00
+----------------------------------------+-----------------------------------
+                                  Total |        162      100.00
+
+.                 drop if occ2010>=9997 & occ2010<=9999
+(155 observations deleted)
+
+. 
+. rename nocc mentions
+
+.         label variable mentions "# mentions of Census occ in text"
+
+.         tab mentions
+
+ # mentions |
+  of Census |
+occ in text |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          1 |      1,032       62.09       62.09
+          2 |        312       18.77       80.87
+          3 |        126        7.58       88.45
+          4 |         70        4.21       92.66
+          5 |         43        2.59       95.25
+          6 |         20        1.20       96.45
+          7 |         17        1.02       97.47
+          8 |          5        0.30       97.77
+          9 |         13        0.78       98.56
+         10 |          6        0.36       98.92
+         11 |          3        0.18       99.10
+         12 |          5        0.30       99.40
+         13 |          2        0.12       99.52
+         14 |          1        0.06       99.58
+         16 |          1        0.06       99.64
+         17 |          1        0.06       99.70
+         18 |          1        0.06       99.76
+         19 |          1        0.06       99.82
+         20 |          2        0.12       99.94
+         24 |          1        0.06      100.00
+------------+-----------------------------------
+      Total |      1,662      100.00
+
+. 
+. rename nplurals plurals
+
+.         label variable plurals "# plurals per Census occ in text"
+
+.         tab plurals
+
+  # plurals |
+ per Census |
+occ in text |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      1,326       79.78       79.78
+          1 |        229       13.78       93.56
+          2 |         51        3.07       96.63
+          3 |         26        1.56       98.19
+          4 |         11        0.66       98.86
+          5 |          7        0.42       99.28
+          6 |          5        0.30       99.58
+          7 |          1        0.06       99.64
+          8 |          4        0.24       99.88
+         11 |          1        0.06       99.94
+         13 |          1        0.06      100.00
+------------+-----------------------------------
+      Total |      1,662      100.00
+
+. 
+. rename occlabel occ2010label
+
+.         label variable occ2010label "occ2010 short label"
+
+. 
+. sort url occ2010
+
+. 
+. label data "OscarsCensus: occ2010(+) level results from Wikipedia movie plots, synopses, & summaries"
+note: label truncated to 80 characters
+
+.         save OscarsCensus.dta, replace
+file OscarsCensus.dta saved
+
+.         describe
+
+Contains data from OscarsCensus.dta
+  obs:         1,662                          OscarsCensus: occ2010(+) level results from Wikipedia movie plots, synopses, & s
+ vars:             5                          4 Jul 2019 20:32
+ size:       152,904                          
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+              storage   display    value
+variable name   type    format     label      variable label
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+url             str45   %45s                  
+occ2010         int     %46.0g     occ2010    Census occ 2010 codes in text
+mentions        byte    %8.0g                 # mentions of Census occ in text
+plurals         byte    %8.0g                 # plurals per Census occ in text
+occ2010label    str43   %43s                  occ2010 short label
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Sorted by: url  occ2010
+
+.         summarize, sep(0)
+
+    Variable |        Obs        Mean    Std. Dev.       Min        Max
+-------------+---------------------------------------------------------
+         url |          0
+     occ2010 |      1,662    8620.761    4091.621         10      16107
+    mentions |      1,662    1.956679    2.052132          1         24
+     plurals |      1,662    .3495788    .9783615          0         13
+occ2010label |          0
+
+.         list in 1/20, sepby(url) str(20)
+
+     +-----------------------------------------------------------------------------------------------+
+     | url                      occ2010                  mentions   plurals   occ2010label           |
+     |-----------------------------------------------------------------------------------------------|
+  1. | 12_Years_a_Slave_(fi..         Owner manager 25          3         0   Owner manager          |
+  2. | 12_Years_a_Slave_(fi..      Managers, other 430          1         0   Managers, other        |
+  3. | 12_Years_a_Slave_(fi..              Judges 2110          1         0   Judges                 |
+  4. | 12_Years_a_Slave_(fi..   Musicians, singers 2..          2         0   Musicians, singers     |
+  5. | 12_Years_a_Slave_(fi..      Superv: police 3710          3         0   Superv: police         |
+  6. | 12_Years_a_Slave_(fi..   Superv: retail sales..          1         0   Superv: retail sales   |
+  7. | 12_Years_a_Slave_(fi..        Sales, other 4965          1         0   Sales, other           |
+  8. | 12_Years_a_Slave_(fi..   Misc agricultural wo..          1         0   Misc agricultural wo.. |
+  9. | 12_Years_a_Slave_(fi..          Carpenters 6230          1         0   Carpenters             |
+ 10. | 12_Years_a_Slave_(fi..       Laborers, nec 9760          1         0   Laborers, nec          |
+ 11. | 12_Years_a_Slave_(fi..                work 9789          3         0   General work           |
+ 12. | 12_Years_a_Slave_(fi..               Slave 9975          9         3   Slave                  |
+ 13. | 12_Years_a_Slave_(fi..            husband 10311          1         0   husband                |
+ 14. | 12_Years_a_Slave_(fi..               wife 10312          2         0   wife                   |
+ 15. | 12_Years_a_Slave_(fi..              child 10330          1         1   child                  |
+ 16. | 12_Years_a_Slave_(fi..                son 10331          1         0   son                    |
+ 17. | 12_Years_a_Slave_(fi..           daughter 10332          1         0   daughter               |
+ 18. | 12_Years_a_Slave_(fi..           grandson 10356          1         0   grandson               |
+ 19. | 12_Years_a_Slave_(fi..             family 10380          2         0   family                 |
+ 20. | 12_Years_a_Slave_(fi..                men 10401          6         0   men                    |
+     +-----------------------------------------------------------------------------------------------+
+
+. 
+. * collapse to movie level counts:
+. gen omentions= mentions if occ2010>0 & occ2010<9780
+(1,172 missing values generated)
+
+.         label variable omentions "# mentions of any occupation"
+
+.         summarize omentions if omentions>=1, detail
+
+                # mentions of any occupation
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%            1              1
+ 5%            1              1
+10%            1              1       Obs                 490
+25%            1              1       Sum of Wgt.         490
+
+50%            1                      Mean           1.804082
+                        Largest       Std. Dev.      2.100342
+75%            2             12
+90%            3             18       Variance       4.411435
+95%            5             20       Skewness       5.087604
+99%           12             20       Kurtosis        36.1302
+
+. 
+. * create working class counts:
+. gen owkocc= 0 if omentions>0
+
+.         replace owkocc= mentions if occ2010>=3300 & occ2010<=3690 /* medical technicians */
+(0 real changes made)
+
+.         replace owkocc= mentions if occ2010>=3740 & occ2010<=4760 /* police, security, retail sales  */
+(95 real changes made)
+
+.         replace owkocc= mentions if occ2010>=4940 & occ2010<=9759 /* other lower white collar & blue collar */
+(41 real changes made)
+
+. 
+.         label variable owkocc "working class occs mentions"
+
+.         summarize owkocc, detail
+
+                 working class occs mentions
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%            0              0
+ 5%            0              0
+10%            0              0       Obs               1,662
+25%            0              0       Sum of Wgt.       1,662
+
+50%            0                      Mean           .1263538
+                        Largest       Std. Dev.      .6077295
+75%            0              6
+90%            0              7       Variance       .3693352
+95%            1              9       Skewness       10.02419
+99%            2             12       Kurtosis       145.1016
+
+. 
+. sort url mentions occ2010
+
+. 
+. collapse (sum) mentions plurals omentions owkocc (last) occ2010, by(url)
+
+.         describe
+
+Contains data
+  obs:            88                          OscarsCensus: occ2010(+) level results from Wikipedia movie plots, synopses, & s
+ vars:             6                          
+ size:         6,952                          
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+              storage   display    value
+variable name   type    format     label      variable label
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+url             str45   %45s                  
+mentions        double  %8.0g                 (sum) mentions
+plurals         double  %8.0g                 (sum) plurals
+omentions       double  %9.0g                 (sum) omentions
+owkocc          double  %9.0g                 (sum) owkocc
+occ2010         int     %46.0g                (last) occ2010
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Sorted by: url
+     Note: Dataset has changed since last saved.
+
+.         summarize, sep(0)
+
+    Variable |        Obs        Mean    Std. Dev.       Min        Max
+-------------+---------------------------------------------------------
+         url |          0
+    mentions |         88    36.95455    14.06954         13         77
+     plurals |         88    6.602273    5.808317          0         31
+   omentions |         88    10.04545    6.923073          1         37
+      owkocc |         88    2.386364    2.894433          0         19
+     occ2010 |         88    8890.261    4257.878         33      15200
+
+. 
+. label variable mentions         "# mentions of any code"
+
+. label variable omentions        "# mentions of any occupation code"
+
+. label variable owkocc           "# mentions of a working class occupation code"
+
+. 
+. label variable occ2010 "most mentioned occ"
+
+.         run occ2010labels.do
+
+.         label values occ2010 occ2010
+
+.         tab occ2010, missing
+
+                     most mentioned occ |      Freq.     Percent        Cum.
+----------------------------------------+-----------------------------------
+      Government official, inherited 33 |          7        7.95        7.95
+                    Managers, other 430 |          3        3.41       11.36
+                            Clergy 2040 |          2        2.27       13.64
+                            Judges 2110 |          1        1.14       14.77
+                            Actors 2700 |          1        1.14       15.91
+   Athletes, coaches, umpires, nec 2720 |          1        1.14       17.05
+                Musicians, singers 2750 |          1        1.14       18.18
+     Superv: correctional officers 3700 |          1        1.14       19.32
+                        Detectives 3820 |          1        1.14       20.45
+         Police & sheriff's patrol 3850 |          2        2.27       22.73
+                              work 9789 |          1        1.14       23.86
+                  Military officer 9800 |          3        3.41       27.27
+                 Military, rank ns 9812 |          3        3.41       30.68
+              Military, pre-modern 9814 |          1        1.14       31.82
+                      criminal /ns 9850 |          1        1.14       32.95
+                         embezzler 9852 |          1        1.14       34.09
+                        sex worker 9855 |          1        1.14       35.23
+                             Slave 9975 |          1        1.14       36.36
+                            lover 10305 |          1        1.14       37.50
+                             wife 10312 |          2        2.27       39.77
+                           father 10321 |          3        3.41       43.18
+                           mother 10322 |          1        1.14       44.32
+                            child 10330 |          2        2.27       46.59
+                              son 10331 |          3        3.41       50.00
+                         daughter 10332 |          1        1.14       51.14
+                          brother 10341 |          1        1.14       52.27
+                           sister 10342 |          1        1.14       53.41
+                           family 10380 |          7        7.95       61.36
+                           people 10400 |          1        1.14       62.50
+                              men 10401 |          7        7.95       70.45
+                            women 10402 |          2        2.27       72.73
+                            girls 10404 |          1        1.14       73.86
+                                  10408 |          1        1.14       75.00
+                mythical creature 10600 |          1        1.14       76.14
+     invented non-human character 10601 |          1        1.14       77.27
+                           Blacks 10841 |          1        1.14       78.41
+                 Native Americans 10844 |          2        2.27       80.68
+                       Christians 11831 |          1        1.14       81.82
+                             Jews 11835 |          2        2.27       84.09
+                            China 13156 |          1        1.14       85.23
+                          Denmark 13208 |          1        1.14       86.36
+                           German 13276 |          2        2.27       88.64
+                            India 13356 |          2        2.27       90.91
+                             Iran 13364 |          1        1.14       92.05
+                             Iraq 13368 |          1        1.14       93.18
+                           Mexico 13484 |          1        1.14       94.32
+                    Great Britain 13825 |          1        1.14       95.45
+                         Scotland 13828 |          1        1.14       96.59
+                             Arab 13928 |          1        1.14       97.73
+            sector: manufacturing 15050 |          1        1.14       98.86
+                       government 15200 |          1        1.14      100.00
+----------------------------------------+-----------------------------------
+                                  Total |         88      100.00
+
+. 
+. gen pwkocc= owkocc / omentions
+
+.         label variable pwkocc "% of occupation mentions that are working class"
+
+.         format pwkocc %8.3f
+
+.         summarize pwkocc, detail
+
+       % of occupation mentions that are working class
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%            0              0
+ 5%            0              0
+10%            0              0       Obs                  88
+25%            0              0       Sum of Wgt.          88
+
+50%     .2222222                      Mean             .25934
+                        Largest       Std. Dev.      .2466033
+75%     .4083333            .76
+90%           .6             .8       Variance       .0608132
+95%          .75       .8333333       Skewness       .7989962
+99%            1              1       Kurtosis       2.882592
+
+. 
+. sort url
+
+. 
+. label data "OscarsCounts: Oscars movie-level # mentions of broad occ categories"
+
+. save OscarsCounts.dta, replace
+file OscarsCounts.dta saved
+
+.         describe
+
+Contains data from OscarsCounts.dta
+  obs:            88                          OscarsCounts: Oscars movie-level # mentions of broad occ categories
+ vars:             7                          4 Jul 2019 20:32
+ size:         7,304                          
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+              storage   display    value
+variable name   type    format     label      variable label
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+url             str45   %45s                  
+mentions        double  %8.0g                 # mentions of any code
+plurals         double  %8.0g                 (sum) plurals
+omentions       double  %9.0g                 # mentions of any occupation code
+owkocc          double  %9.0g                 # mentions of a working class occupation code
+occ2010         int     %46.0g     occ2010    most mentioned occ
+pwkocc          float   %8.3f                 % of occupation mentions that are working class
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Sorted by: url
+
+.         summarize, sep(0)
+
+    Variable |        Obs        Mean    Std. Dev.       Min        Max
+-------------+---------------------------------------------------------
+         url |          0
+    mentions |         88    36.95455    14.06954         13         77
+     plurals |         88    6.602273    5.808317          0         31
+   omentions |         88    10.04545    6.923073          1         37
+      owkocc |         88    2.386364    2.894433          0         19
+     occ2010 |         88    8890.261    4257.878         33      15200
+      pwkocc |         88      .25934    .2466033          0          1
+
+. 
+. * read in movie-level files:
+. *       first, counts of words etc. output from jobs.py
+. insheet using OscarsTexts.xls,clear
+(7 vars, 88 obs)
+
+.         describe
+
+Contains data
+  obs:            88                          
+ vars:             7                          
+ size:         5,280                          
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+              storage   display    value
+variable name   type    format     label      variable label
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+filename        str52   %52s                  
+ntitles         byte    %8.0g                 Ntitles
+nmentions       byte    %8.0g                 Nmentions
+npara           byte    %8.0g                 Npara
+nsentences      byte    %8.0g                 Nsentences
+nwords          int     %8.0g                 Nwords
+nbytes          int     %8.0g                 Nbytes
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Sorted by: 
+     Note: Dataset has changed since last saved.
+
+.         summarize, sep(0)
+
+    Variable |        Obs        Mean    Std. Dev.       Min        Max
+-------------+---------------------------------------------------------
+    filename |          0
+     ntitles |         88    26.13636    7.831827          8         44
+   nmentions |         88    42.38636    15.94706         16         83
+       npara |         88    8.113636     6.82024          3         65
+  nsentences |         88    35.13636    11.01637         12         76
+      nwords |         88    713.2045    190.2248        224       1365
+      nbytes |         88    4218.898    1089.998       1462       7885
+
+. 
+. *drop the directory ("movies/") prefix:
+. gen str url=substr(filename,8,.)
+
+.         order url, before(filename)
+
+.         drop filename
+
+. 
+.         sort url
+
+.         save temptexts.dta, replace
+file temptexts.dta saved
+
+. 
+. * then list of year released and titles
+. insheet using Oscarstitles.xls,clear
+(3 vars, 88 obs)
+
+.         describe
+
+Contains data
+  obs:            88                          
+ vars:             3                          
+ size:         8,272                          
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+              storage   display    value
+variable name   type    format     label      variable label
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+url             str45   %45s                  
+year            int     %8.0g                 
+title           str47   %47s                  
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Sorted by: 
+     Note: Dataset has changed since last saved.
+
+.         summarize, sep(0)
+
+    Variable |        Obs        Mean    Std. Dev.       Min        Max
+-------------+---------------------------------------------------------
+         url |          0
+        year |         88    1973.477    25.54733       1930       2017
+       title |          0
+
+.         sort url
+
+. 
+. merge 1:1 url using temptexts.dta, gen(_mtexts)
+
+    Result                           # of obs.
+    -----------------------------------------
+    not matched                             0
+    matched                                88  (_mtexts==3)
+    -----------------------------------------
+
+.         describe, short
+
+Contains data
+  obs:            88                          
+ vars:            10                          
+ size:         9,064                          
+Sorted by: url
+     Note: Dataset has changed since last saved.
+
+. 
+. merge 1:1 url using OscarsCounts.dta, gen(_mcounts)
+(label occ2010 already defined)
+
+    Result                           # of obs.
+    -----------------------------------------
+    not matched                             0
+    matched                                88  (_mcounts==3)
+    -----------------------------------------
+
+.         label data "OscarsCounts: Oscars movie-level # mentions of broad occ categories"
+
+.         save OscarsCounts.dta, replace
+file OscarsCounts.dta saved
+
+.         describe
+
+Contains data from OscarsCounts.dta
+  obs:            88                          OscarsCounts: Oscars movie-level # mentions of broad occ categories
+ vars:            17                          4 Jul 2019 20:32
+ size:        12,496                          
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+              storage   display    value
+variable name   type    format     label      variable label
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+url             str45   %45s                  
+year            int     %8.0g                 
+title           str47   %47s                  
+ntitles         byte    %8.0g                 Ntitles
+nmentions       byte    %8.0g                 Nmentions
+npara           byte    %8.0g                 Npara
+nsentences      byte    %8.0g                 Nsentences
+nwords          int     %8.0g                 Nwords
+nbytes          int     %8.0g                 Nbytes
+_mtexts         byte    %23.0g     _merge     
+mentions        double  %8.0g                 # mentions of any code
+plurals         double  %8.0g                 (sum) plurals
+omentions       double  %9.0g                 # mentions of any occupation code
+owkocc          double  %9.0g                 # mentions of a working class occupation code
+occ2010         int     %46.0g     occ2010    most mentioned occ
+pwkocc          float   %8.3f                 % of occupation mentions that are working class
+_mcounts        byte    %23.0g     _merge     
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Sorted by: url
+
+.         summarize, sep(0)
+
+    Variable |        Obs        Mean    Std. Dev.       Min        Max
+-------------+---------------------------------------------------------
+         url |          0
+        year |         88    1973.477    25.54733       1930       2017
+       title |          0
+     ntitles |         88    26.13636    7.831827          8         44
+   nmentions |         88    42.38636    15.94706         16         83
+       npara |         88    8.113636     6.82024          3         65
+  nsentences |         88    35.13636    11.01637         12         76
+      nwords |         88    713.2045    190.2248        224       1365
+      nbytes |         88    4218.898    1089.998       1462       7885
+     _mtexts |         88           3           0          3          3
+    mentions |         88    36.95455    14.06954         13         77
+     plurals |         88    6.602273    5.808317          0         31
+   omentions |         88    10.04545    6.923073          1         37
+      owkocc |         88    2.386364    2.894433          0         19
+     occ2010 |         88    8890.261    4257.878         33      15200
+      pwkocc |         88      .25934    .2466033          0          1
+    _mcounts |         88           3           0          3          3
+
+. 
+. gen int decade=10*floor(year/10)
+
+. 
+. recode owkocc (0/2=0) (3/max=1), gen(y3owkocc)
+(64 differences between owkocc and y3owkocc)
+
+.         label variable y3owkocc "Three+ mentions of working class occupations"
+
+.         label define y3 0 "0-2 mentions 0" 1 "3+ mentions 3"
+
+.         label values y3owkocc y3
+
+.         tab y3owkocc, missing
+
+        Three+ |
+   mentions of |
+ working class |
+   occupations |      Freq.     Percent        Cum.
+---------------+-----------------------------------
+0-2 mentions 0 |         54       61.36       61.36
+ 3+ mentions 3 |         34       38.64      100.00
+---------------+-----------------------------------
+         Total |         88      100.00
+
+. 
+. tab decade y3owkocc,row 
+
++----------------+
+| Key            |
+|----------------|
+|   frequency    |
+| row percentage |
++----------------+
+
+           |  Three+ mentions of
+           |     working class
+           |      occupations
+    decade | 0-2 menti  3+ mentio |     Total
+-----------+----------------------+----------
+      1930 |         8          2 |        10 
+           |     80.00      20.00 |    100.00 
+-----------+----------------------+----------
+      1940 |         4          6 |        10 
+           |     40.00      60.00 |    100.00 
+-----------+----------------------+----------
+      1950 |         7          3 |        10 
+           |     70.00      30.00 |    100.00 
+-----------+----------------------+----------
+      1960 |         4          6 |        10 
+           |     40.00      60.00 |    100.00 
+-----------+----------------------+----------
+      1970 |         7          3 |        10 
+           |     70.00      30.00 |    100.00 
+-----------+----------------------+----------
+      1980 |         7          3 |        10 
+           |     70.00      30.00 |    100.00 
+-----------+----------------------+----------
+      1990 |         7          3 |        10 
+           |     70.00      30.00 |    100.00 
+-----------+----------------------+----------
+      2000 |         6          4 |        10 
+           |     60.00      40.00 |    100.00 
+-----------+----------------------+----------
+      2010 |         4          4 |         8 
+           |     50.00      50.00 |    100.00 
+-----------+----------------------+----------
+     Total |        54         34 |        88 
+           |     61.36      38.64 |    100.00 
+
+
+. sort year 
+
+. list year title owkocc omentions pwkocc if owkocc>=3, sepby(decade)
+
+     +---------------------------------------------------------------------+
+     | year                             title   owkocc   omenti~s   pwkocc |
+     |---------------------------------------------------------------------|
+  3. | 1932                       Grand Hotel        3         21    0.143 |
+  8. | 1937           The Life of Ãmile Zola        5         13    0.385 |
+     |---------------------------------------------------------------------|
+ 11. | 1940                           Rebecca        5         12    0.417 |
+ 12. | 1941           How Green Was My Valley        3         11    0.273 |
+ 13. | 1942                        Casablanca        7         14    0.500 |
+ 14. | 1942                      Mrs. Miniver        5          9    0.556 |
+ 16. | 1945                  The Lost Weekend        3         11    0.273 |
+ 18. | 1947             Gentleman's Agreement        3         14    0.214 |
+     |---------------------------------------------------------------------|
+ 23. | 1952        The Greatest Show on Earth        6         29    0.207 |
+ 25. | 1954                 On the Waterfront        7         12    0.583 |
+ 27. | 1956   Around the World in Eighty Days        3          5    0.600 |
+     |---------------------------------------------------------------------|
+ 31. | 1960                     The Apartment        3         10    0.300 |
+ 32. | 1961                   West Side Story        4          5    0.800 |
+ 36. | 1965                The Sound of Music        4         11    0.364 |
+ 37. | 1966             A Man for All Seasons        3         37    0.081 |
+ 38. | 1967          In the Heat of the Night        4          9    0.444 |
+ 39. | 1968                           Oliver!        6         10    0.600 |
+     |---------------------------------------------------------------------|
+ 42. | 1971             The French Connection       19         25    0.760 |
+ 44. | 1973                         The Sting       10         12    0.833 |
+ 45. | 1974             The Godfather Part II        3          8    0.375 |
+     |---------------------------------------------------------------------|
+ 55. | 1984                           Amadeus        3         20    0.150 |
+ 58. | 1987                  The Last Emperor        3         14    0.214 |
+ 60. | 1989                Driving Miss Daisy        3          5    0.600 |
+     |---------------------------------------------------------------------|
+ 62. | 1991          The Silence of the Lambs        3          7    0.429 |
+ 63. | 1992                        Unforgiven        6         12    0.500 |
+ 68. | 1997                           Titanic        4          6    0.667 |
+     |---------------------------------------------------------------------|
+ 73. | 2002                           Chicago        3         11    0.273 |
+ 75. | 2004                             Crash        4         10    0.400 |
+ 77. | 2006                      The Departed       12         16    0.750 |
+ 79. | 2008               Slumdog Millionaire        5          7    0.714 |
+     |---------------------------------------------------------------------|
+ 82. | 2011                        The Artist        3         10    0.300 |
+ 83. | 2012                              Argo        4         15    0.267 |
+ 84. | 2013                  12 Years a Slave        4         15    0.267 |
+ 88. | 2017                The Shape of Water        3         12    0.250 |
+     +---------------------------------------------------------------------+
+
+. 
+. * end of Oscars.do
+. log close
+      name:  <unnamed>
+       log:  /Users/reeve/Documents/content/occupations/git/Oscars.txt
+  log type:  text
+ closed on:   4 Jul 2019, 20:32:36
+---------------------------------------------------------------------------------------------------------------------------------------------------------

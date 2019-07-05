@@ -97,13 +97,22 @@ After processing all text files, jobs.py writes total counts for each occ2010 co
 
 ## an example:
 
-- Oscarsfiles.txt lists filenames for all Academy Award winners, 1950-2018 (e.g., movies/The_Shape_of_Water)
+- Oscarsfiles.txt lists filenames for all Academy Award winners, 1930-2018 (e.g., movies/The_Shape_of_Water)
 Executing a python3 program (python3 jobs.py Oscars) with these files will produce output files:
 - OscarsCensus.xls
 - OscarsJobs.txt
 - OscarsTexts.xls
 - OscarsTotals.txt
 - Oscarskwic.txt
+
+These files can be processed by other statistical software to analyze trends, compare sources, 
+investigate internal consistencies, and many other issues in cultural studies.
+For example, the file Oscars.do is a stata program that uses the jobs.py output files, OscarsCensus.xls and OscarsTexts.xls
+to investigate whether working-class characters have become more or less common in recent Best Picture movies 
+(spoiler alert: they haven't).  The program recodes the occupations in OscarsCensus.xls into working class or not, 
+aggregates the counts to a movie-level file (OscarsCounts.dta),
+merges it with a file of release year,
+and then tests for trends over time.
 
 This is a simple example of the possibilities of jobs.py.  The text files in occupations/movies/ are
 plot summaries from Wikipedia.  Other analyses have been based on a corpus of ~20k movie plots from Wikipedia.
@@ -132,8 +141,10 @@ For example, BYLINE in newspaper text files will end up multiplying counts for "
 - jobtitle disambiguation issues:  
     -  Several jobtitles are now coded into 9997, indicating they could be more than one possible code;
 e.g., crew, deputy, officer.
-    -  Other jobtitles are now coded into 9998, indicating they are sometimes an occupation and sometimes not;
-e.g., guide, host, orderly.
+
+    -  Many jobtitles are now coded into 9998, indicating they are sometimes an occupation and sometimes not;
+e.g., guide, host, orderly, printer.
+
     -  Other ambiguous jobtitles are coded into the most common code, but might be further disambiguated.  
 cast (2700= actors, not to cast aspersions etc.)  
 critic (2005= experts, advisors, not journalist)  
@@ -141,7 +152,9 @@ General (9800= military officer, not in general, not General Foods)
 minister (2040= clergy; not government minister, but specific government ministers such as "foreign minister" =31, legislative leader)  
 painter (2600= artist; not construction worker)  
 producer (2710= producers and directors; not a producer of x, coal producer)  
+rebel (9813= rebel military, rank ns; not the broader meaning of a "rebellious" person, nor "Old Miss Rebels"))
 scout (9812= military, rank ns: not to scout, not baseball scout)  
+
     -  some ambiguous jobtitles are coded into a broad, overall occupation code that captures multiple occupations:  
 director (3280= professional managerial, nec, for both movie director and Center director)  
     -  other somewhat ambiguous jobtitles are coded into 3288= likely prof/mgr code, that captures only one meaning but might not be an occupation;
@@ -153,9 +166,10 @@ Some plurals should not be coded as occupations: royalties.
 Some plurals could be a different code than their singular forms eg. spouses=couple spouse=individual.  
 Some words would specify jobtitles mainly in the plural: academics.  
     - capitalization  
-ALL CAPS words confuse the check for proper names (e.g., COOPER=Cooper, POTTER=Potter).
-Maybe translate all caps into initial capital letter only (proper names)?
-That would correctly catch (and ignore) the notUpper list of common last names that match jobs (e.g., Potter)
-although it would miss actual jobs such as a potter.
-It would also often incorrectly match the notLower list of words that are not usually jobtitles when the initial letter is lower case (e.g., general).
+ALL CAPS words confuse the check for proper names (e.g., COOPER=Cooper, POTTER=Potter) that are job titles only when not capitalized.
+jobs.py now translates all caps words into an initial capital, assuming that all caps words are more often proper nouns than not.
+That would correctly catch (and not code) the notUpper list of common last names that match jobs (e.g., Potter)
+although it would miss actual jobs such as a potter if it had been written in all caps .
+And jobs.py incorrectly renders as proper names the notLower list of words that are not usually jobs titles, 
+but are jobs only when the initial letter is upper case (e.g., General).
   

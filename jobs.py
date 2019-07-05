@@ -124,7 +124,7 @@ print ('dontsing (jobtitles not singularized)= ' + str(type(dontsing)) + ' Nline
 #
 # words that change meaning when capitalized or lower case:
 #	someday these might be external files, easier to maintain
-notUpper= ['archer', 'baker', 'beller', 'boilermaker', 'bowman', 'brewer', 'butler', 'carman', 'carpenter', 'carney', 'carver', 'cook', 'cooper', 'cowboy', 'diver', 'draper', 'driver', 'dyer', 'fletcher', 'gilder', 'glazer', 'goldsmith', 'hammersmith', 'hooker', 'hooper', 'hunter', 'jackman', 'linderman', 'lumper', 'mailer', 'mason', 'miller', 'moulder', 'oiler', 'packer', 'pinker', 'pirate', 'pitman', 'porter', 'potter', 'presser', 'rich', 'roper', 'sander', 'sawyer', 'shearer', 'shepherd', 'shoemaker', 'silversmith', 'singer', 'skinner', 'springer', 'slater', 'smith', 'spanner', 'steeler', 'stockman', 'stoker', 'stringer', 'tanner', 'turner', 'wagoner', 'wasp', 'weaver', 'webber', 'wheeler', 'whistler', 'white' ]
+notUpper= ['archer', 'baker', 'barber', 'barker', 'beller', 'boilermaker', 'bowman', 'brewer', 'butler', 'carman', 'carpenter', 'carney', 'carver', 'cook', 'cooper', 'coopersmith', 'cowboy', 'diver', 'draper', 'driver', 'dyer', 'fletcher', 'frazer', 'gilder', 'glazer', 'goldsmith', 'hammersmith', 'hooker', 'hooper', 'houseman', 'hunter', 'jackman', 'knight', 'linderman', 'lumper', 'mailer', 'mariner', 'mason', 'miller', 'moulder', 'oiler', 'packer', 'pinker', 'pirate', 'pitman', 'porter', 'potter', 'presser', 'ranger', 'rich', 'road warrior', 'roper', 'sander', 'sawyer', 'sexton', 'shearer', 'shepherd', 'shoemaker', 'silversmith', 'singer', 'skinner', 'slater', 'smith', 'spanner', 'steeler', 'stockman', 'stoker', 'striker', 'stringer', 'tanner', 'tribune', 'turner', 'wagoner', 'warrior', 'wasp', 'weaver', 'webber', 'wheeler', 'whellwright', 'whistler', 'white' ]
 notLower= ['count', 'general', 'justice', 'major', 'marine', 'polish', 'pvt' ]
 # these are jobtitles when allcaps but something else if not all caps:
 #	IT DO were dropped because found so often in all-cap title meaning "it" not "information technology"
@@ -350,8 +350,8 @@ for file in textfiles:
 		# replace ', 's,  and "
 		line=line.replace('\"',' \" ')
 		line=line.replace("\'\'",' \" ')  # some files use '' for "
-		line=line.replace('\'',' \' ')
-		line=line.replace(' \' s ',' \'s ')
+		line=line.replace('\'',' \' ')		# apostrophes become separate word 
+		line=line.replace(' \' s ',' \'s ')	# except apostrophe s which is its own word
 		#
 		# initialize in order to create tri-grams, bigrams
 		wordnewU='X'
@@ -478,7 +478,7 @@ for file in textfiles:
 				# 
 				# census code <0 => word2ndlast is ambiguous but can be disambiguated based on capitalization:
 				if census<0:
-					census=-census
+					census=-census			# default code is the negative of what is stored
 					# separate entries for upper case / lower case titles in foundjobs:
 					#	default jobtitle in foundjobs is capitalized (title)
 					#word2ndlast= word2ndlast.title()
@@ -492,18 +492,18 @@ for file in textfiles:
 						if word2ndlastS.islower():
 							census= 9998
 						else:
-							#census=census
+							#census=census	
 							word2ndlast= word2ndlast.title()
 					elif word2ndlast in notUpper: # e.g., Potter, capitalized
 						if word2ndlastS.islower():
-							#census=census
+							#census=census	# (default code -- the negative of what is stored in jobs.json)
 							word2ndlast= word2ndlastS.lower()  # redundant, kept only for code symmetry
 						else:
 							census= 9998
 							word2ndlast= word2ndlast.title()  # change to capitalized
 					elif word2ndlast in allUpper:
 						if word2ndlastS.isupper():
-							#census=census
+							#census=census	# (default code -- the negative of what is stored in jobs.json)
 							word2ndlast= word2ndlast.upper()
 						else:
 							census= 9998
@@ -515,12 +515,19 @@ for file in textfiles:
 						else:
 							#census= 12
 							word2ndlast= word2ndlast.title()  # change to capitalized ("President")
-					elif census==30: # representative(s)=4840 / Representative=30
+					elif census==30: # representative(s)=3288 / Representative=30
 						if word2ndlastS.islower():
 							census=4840
 							#word2ndlast= word2ndlastS.lower()
 						else:
 							#census= 30
+							word2ndlast= word2ndlast.title()  # change to capitalized ("Representative")
+					elif census==35: # representative(s)=3288 / (Cabibnet) Secretary=35
+						if word2ndlastS.islower():
+							census=5700
+							#word2ndlast= word2ndlastS.lower()
+						else:
+							#census= 35
 							word2ndlast= word2ndlast.title()  # change to capitalized ("Representative")
 					elif census==33 and (word2ndlastU=="Queens" or word2ndlastU=="QUEENS"): # probably borough of Queens
 						census= 9998
