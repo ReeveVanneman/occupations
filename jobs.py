@@ -56,9 +56,12 @@
 #		ambiguities, more than one possible code, mostly  coded into 9998 : 
 #			band, crew, driver, Georgia, intern, officer, page, partner, team,
 #		ambiguities, coded into most common code::
+#			broker (4920= real estate broker, not 4820 investment broker )
 #			cast (2700= actors, not to cast aspersions etc.)
 #			collector (2400= archivists)
 #			critic (2005= experts, advisors, not journalist)
+#			dishwasher (16101, the appliance, not the restaurant worker, 4140; but "dish washer"= 4140)
+#			gardeners (4250= a landscape worker, not the home gardener)
 #			General (9800= military officer, not in general))
 #			Indian (13356= country; not Native American Indian)
 #			king (33= monarch; not chess piece or playing card)
@@ -66,12 +69,15 @@
 #			painter (2600= artist; not construction worker)
 #			queen (33= monarch; not chess piece or playing card or Queen Anne furniture)
 #			producer (2710= producers and directors; not a producer of x, coal producer)_
+#			sailor (9300= hired seaman, not a sailboat sailor; nor a US Navy sailor)
 #			scout (9812= military, rank ns: not to scout, not baseball scout)
+#			sitter (4600= baby sitter, child care worker is most common but also =4900, artists/photographer sitter, or chair sitter, fence sitter)
 #			stringer (2610= reporter, news stringer; not factory stringer)
 #		ambiguities, coded into less specific, overall code:
 #			director (3280= professional managerial, nec)
 #		ambiguities, coded into 3288= larger prof/mgr code that captures only one meaning
-#			aide, backer, owner, staff, staff member
+#			associate (3288= likely prof/mgr, not ..associates with..)
+#			aide, associate, backer, owner, staff, staff member
 #		some jobs only if the word is a noun: command, guide
 #		should some plurals be recognized as a separate code?  eg. spouses=couple spouse=individual
 #			and some plurals should not be coded: counts, royalties
@@ -124,7 +130,7 @@ print ('dontsing (jobtitles not singularized)= ' + str(type(dontsing)) + ' Nline
 #
 # words that change meaning when capitalized or lower case:
 #	someday these might be external files, easier to maintain
-notUpper= ['archer', 'baker', 'barber', 'barker', 'beller', 'boilermaker', 'bowman', 'brewer', 'butler', 'carman', 'carpenter', 'carney', 'carver', 'cook', 'cooper', 'coopersmith', 'cowboy', 'diver', 'draper', 'driver', 'dyer', 'fletcher', 'frazer', 'gilder', 'glazer', 'goldsmith', 'hammersmith', 'hooker', 'hooper', 'houseman', 'hunter', 'jackman', 'knight', 'linderman', 'lumper', 'mailer', 'mariner', 'mason', 'miller', 'moulder', 'oiler', 'packer', 'pinker', 'pirate', 'pitman', 'porter', 'potter', 'presser', 'ranger', 'rich', 'road warrior', 'roper', 'sander', 'sawyer', 'sexton', 'shearer', 'shepherd', 'shoemaker', 'silversmith', 'singer', 'skinner', 'slater', 'smith', 'spanner', 'steeler', 'stockman', 'stoker', 'striker', 'stringer', 'tanner', 'tribune', 'turner', 'wagoner', 'warrior', 'wasp', 'weaver', 'webber', 'wheeler', 'whellwright', 'whistler', 'white' ]
+notUpper= ['archer', 'associate', 'baker', 'barber', 'barker', 'beller', 'boilermaker', 'bowman', 'brewer', 'butler', 'carman', 'carpenter', 'carney', 'carver', 'celebrity', 'cook', 'cooper', 'coopersmith', 'courier', 'cowboy', 'craftsman', 'diver', 'draper', 'driver', 'dyer', 'fletcher', 'foreman', 'frazer', 'gilder', 'glazer', 'goldsmith', 'hammersmith', 'hooker', 'hooper', 'houseman', 'hunter', 'jackman', 'knight', 'linderman', 'lumper', 'mailer', 'mariner', 'mason', 'miller', 'moulder', 'oiler', 'packer', 'pinker', 'pirate', 'pitman', 'porter', 'potter', 'presser', 'ranger', 'rich', 'road warrior', 'roper', 'sander', 'sawyer', 'sexton', 'shearer', 'shepherd', 'shoemaker', 'silversmith', 'singer', 'skinner', 'slater', 'smith', 'spanner', 'steeler', 'stockman', 'stoker', 'striker', 'stringer', 'tanner', 'teller', 'tribune', 'turner', 'wagoner', 'warrior', 'wasp', 'waterman', 'weaver', 'webber', 'wheeler', 'whellwright', 'whistler', 'white' ]
 notLower= ['count', 'general', 'justice', 'major', 'marine', 'polish', 'pvt' ]
 # these are jobtitles when allcaps but something else if not all caps:
 #	IT DO were dropped because found so often in all-cap title meaning "it" not "information technology"
@@ -517,18 +523,18 @@ for file in textfiles:
 							word2ndlast= word2ndlast.title()  # change to capitalized ("President")
 					elif census==30: # representative(s)=3288 / Representative=30
 						if word2ndlastS.islower():
-							census=4840
+							census=3288
 							#word2ndlast= word2ndlastS.lower()
 						else:
 							#census= 30
 							word2ndlast= word2ndlast.title()  # change to capitalized ("Representative")
-					elif census==35: # representative(s)=3288 / (Cabibnet) Secretary=35
+					elif census==35: # secretary(s)=5700 / (Cabinet) Secretary=35
 						if word2ndlastS.islower():
 							census=5700
 							#word2ndlast= word2ndlastS.lower()
 						else:
 							#census= 35
-							word2ndlast= word2ndlast.title()  # change to capitalized ("Representative")
+							word2ndlast= word2ndlast.title()  # change to capitalized ("Secretary")
 					elif census==33 and (word2ndlastU=="Queens" or word2ndlastU=="QUEENS"): # probably borough of Queens
 						census= 9998
 						word2ndlast= "Queens"

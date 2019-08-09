@@ -1,11 +1,11 @@
 * an edit of occs2010.json for stata:
  label define occ2010 /// 
- 0 " End of Document 0 " /// 
+ 0 " End of Document 0" /// 
  10 "Chief executives 10" /// 
  12 "President 12" /// 
  13 "First Lady 13" /// 
  14 "Named President 14" /// 
- 15 "Chief executive, government (exc.President) 15" /// 
+ 15 "Chief executive, government (exc.Pres) 15" /// 
  20 "General managers 20" /// 
  25 "Owner manager 25" /// 
  26 "Capitalist, not managing 26" /// 
@@ -21,6 +21,7 @@
  100 "Administrative services managers 100" /// 
  110 "Computer managers 110" /// 
  120 "Financial managers 120" /// 
+ 125 "Investors 125" /// 
  135 "Compensation managers 135" /// 
  136 "Human resources managers 136" /// 
  137 "Training & development managers 137" /// 
@@ -111,7 +112,7 @@
  1560 "Surveying technicians 1560" /// 
  1600 "Agricultural & food scientists 1600" /// 
  1610 "Biological scientists 1610" /// 
- 1640 "Conservation scientists & foresters 1640" /// 
+ 1640 "Conservation scientists, foresters 1640" /// 
  1650 "Medical scientists 1650" /// 
  1660 "Life scientists, other 1660" /// 
  1700 "Astronomers & physicists 1700" /// 
@@ -154,7 +155,7 @@
  2160 "Misc legal support 2160" /// 
  2200 "Postsecondary teachers 2200" /// 
  2300 "Preschool & kindergarten teachers 2300" /// 
- 2310 "Elementary & middle school teachers 2310" /// 
+ 2310 "Elementary, middle school teachers 2310" /// 
  2320 "Secondary school teachers 2320" /// 
  2330 "Special education teachers 2330" /// 
  2340 "Other teachers 2340" /// 
@@ -260,7 +261,7 @@
  4020 "Cooks 4020" /// 
  4030 "Food preparation 4030" /// 
  4040 "Bartenders 4040" /// 
- 4050 "Combined food preparation & serving 4050" /// 
+ 4050 "Combined food prep & serving 4050" /// 
  4060 "Counter attendants 4060" /// 
  4061 "Counter waitress 4061" /// 
  4110 "Waiters 4110" /// 
@@ -308,7 +309,7 @@
  4820 "Financial services sales 4820" /// 
  4830 "Travel agents 4830" /// 
  4840 "Sales representatives, service 4840" /// 
- 4850 "Sales representatives, manufacturing 4850" /// 
+ 4850 "Sales representatives, manf 4850" /// 
  4900 "Models & product promoters 4900" /// 
  4920 "Real estate brokers 4920" /// 
  4930 "Sales engineers 4930" /// 
@@ -410,7 +411,7 @@
  6740 "Rail-track laying & maintenance 6740" /// 
  6750 "Septic tank & sewer servicers 6750" /// 
  6765 "Misc construction workers 6765" /// 
- 6800 "Drill operators, oil, gas, & mining 6800" /// 
+ 6800 "Drill operators, oil & mining 6800" /// 
  6820 "Earth drillers, exc oil & gas 6820" /// 
  6830 "Explosives 6830" /// 
  6840 "Mining machine 6840" /// 
@@ -426,7 +427,7 @@
  7050 "Electrical repair, transportation 7050" /// 
  7100 "Electrical repair, industrial 7100" /// 
  7110 "Electronic repair, motor vehicles 7110" /// 
- 7120 "Electronic home entertainment repair 7120" /// 
+ 7120 "Electronic repair, home entertntmt 7120" /// 
  7130 "Security system installers 7130" /// 
  7140 "Aircraft mechanics 7140" /// 
  7150 "Automotive body repair 7150" /// 
@@ -468,12 +469,12 @@
  7850 "Food cooking machine operators 7850" /// 
  7855 "Food processing, other 7855" /// 
  7900 "Computer control programmers 7900" /// 
- 7920 "Extruding machines, metal & plastic 7920" /// 
- 7930 "Forging machine, metal & plastic 7930" /// 
- 7940 "Rolling machines, metal & plastic 7940" /// 
- 7950 "Cutting & punching, metal & plastic 7950" /// 
- 7960 "Drilling machine, metal & plastic 7960" /// 
- 8000 "Grinding & polishing, metal & plastic 8000" /// 
+ 7920 "Extruding: metal & plastic 7920" /// 
+ 7930 "Forging machine: metal & plastic 7930" /// 
+ 7940 "Rolling machines: metal & plastic 7940" /// 
+ 7950 "Cutting punching: metal & plastic 7950" /// 
+ 7960 "Drilling machine: metal & plastic 7960" /// 
+ 8000 "Grinding polishing: metal, plastic 8000" /// 
  8010 "Lathes, metal & plastic 8010" /// 
  8020 "Milling machines, metal & plastic 8020" /// 
  8030 "Machinists 8030" /// 
@@ -560,7 +561,7 @@
  9350 "Parking lot attendants 9350" /// 
  9360 "Automotive service attendants 9360" /// 
  9410 "Transportation inspectors 9410" /// 
- 9415 "Transportation attendants, exc flight 9415" /// 
+ 9415 "Transportn attendants, exc flight 9415" /// 
  9420 "Other transportation workers 9420" /// 
  9500 "Conveyor operators 9500" /// 
  9510 "Crane operators 9510" /// 
@@ -577,16 +578,10 @@
  9740 "Truck & ship loaders 9740" /// 
  9750 "Material moving, other 9750" /// 
  9760 "Laborers, nec 9760" /// 
- 9780 "employee nec 9780" /// 
- 9781 "Working men 9781" /// 
- 9782 "Working women 9782" /// 
- 9783 "Working fathers 9783" /// 
- 9784 "Working mothers 9784" /// 
- 9785 "Working husbands 9785" /// 
- 9786 "Working wives 9786" /// 
- 9787 "Working parent 9787" /// 
- 9788 "Dual earner couple 9788" /// 
- 9789 "work 9789" /// 
+ 9780 "Employee nec 9780" /// 
+ 9781 "He works 9781" /// 
+ 9782 "She works 9782" /// 
+ 9789 "Work 9789" /// 
  9800 "Military officer 9800" /// 
  9805 "Rebel military officer 9805" /// 
  9810 "Enlisted military supervisors 9810" /// 
@@ -610,6 +605,15 @@
  9862 "al quaeda 9862" /// 
  9863 "Isis 9863" /// 
  9870 "terrorist attack 9870" /// 
+ 9960 "Working people 9960" /// 
+ 9961 "Working men 9961" /// 
+ 9962 "Working women 9962" /// 
+ 9963 "Working fathers 9963" /// 
+ 9964 "Working mothers 9964" /// 
+ 9965 "Working husbands 9965" /// 
+ 9966 "Working wives 9966" /// 
+ 9967 "Working parent 9967" /// 
+ 9968 "Working couple 9968" /// 
  9970 "Middle class category 9970" /// 
  9971 "Lower Middle class category 9971" /// 
  9972 "Working class category 9972" /// 
@@ -620,9 +624,11 @@
  9977 "Elite 9977" /// 
  9981 "Striker 9981" /// 
  9982 "Protester 9982" /// 
+ 9983 "Union member 9982" /// 
  9990 "Unemployed 9990" /// 
- 9992 "volunteer position 9992" /// 
- 9995 "not human 9995" /// 
+ 9992 "Volunteer position 9992" /// 
+ 9993 "Social club member 9993" /// 
+ 9994 "Amateur athlete 9994" /// 
  9997 "ambiguous: which occ 9997" /// 
  9998 "ambiguous: occ/not occ 9998" /// 
  9999 "not an occupation 9999" /// 
@@ -678,9 +684,12 @@
  10400 "people 10400" /// 
  10401 "men 10401" /// 
  10402 "women 10402" /// 
- 10403 "boys 10403" /// 
- 10404 "girls 10404" /// 
- 10405 "babies 10405" /// 
+ 10403 "men and women 10403" /// 
+ 10404 "boys 10404" /// 
+ 10405 "girls 10405" /// 
+ 10406 "boys and girls 10406" /// 
+ 10407 "teenagers 10407" /// 
+ 10408 "babies 10408" /// 
  10411 "World War II Generation 10411" /// 
  10412 "Silent Generation 10412" /// 
  10413 "Baby Boomer 10413" /// 

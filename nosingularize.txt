@@ -238,7 +238,6 @@ slice
 sorceress
 sous
 specimen
-sports
 ss
 ssds
 statistics
