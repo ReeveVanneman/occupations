@@ -39,6 +39,7 @@
 #
 # todo (maybe):
 #	optimize; python program was written to get the work done, not optimized
+#	use 4-word matches to job list?
 #	is there  a better program to singularize words than inflect.
 #		work around now identifies ~200  words that should not be singularized, e.g., boss, bus
 #			and changes the inflect default using the inflect routine defnoun
@@ -134,8 +135,7 @@ notUpper= ['archer', 'associate', 'baker', 'barber', 'barker', 'beller', 'boiler
 notLower= ['count', 'general', 'justice', 'major', 'marine', 'polish', 'pvt' ]
 # these are jobtitles when allcaps but something else if not all caps:
 #	IT DO were dropped because found so often in all-cap title meaning "it" not "information technology"
-allUpper= ['da', 'coo', 'st', 'us']
-#allUpper= ['DA', 'COO', 'ST', 'US']
+allUpper= ['da', 'coo', 'st', 'us', 'va']
 
 ####################################
 # readfile of occupation (& other) titles (mostly from US Census):
@@ -359,7 +359,8 @@ for file in textfiles:
 		line=line.replace('\'',' \' ')		# apostrophes become separate word 
 		line=line.replace(' \' s ',' \'s ')	# except apostrophe s which is its own word
 		#
-		# initialize in order to create tri-grams, bigrams
+		# initialize in order to create initial tri-grams, bigrams that won't match any job title
+		#	there must be a more efficient method of analyzaing the beginning of a line than this kludge
 		wordnewU='X'
 		wordlastU='X'
 		word2ndlastU='X'
@@ -494,25 +495,39 @@ for file in textfiles:
 						if word2ndlast not in allUpper: # for these special all uppercase jobs (DA etc.) keep as upper case
 						# otherwise translate to proper name as best guess:
 							word2ndlastS= word2ndlastS.title()
-					if word2ndlast in notLower: # e.g., general, lower case
+					if word2ndlast in notLower: # e.g., "general", "justice"  lower case
 						if word2ndlastS.islower():
-							census= 9998
+							if word2ndlastS=="justice":
+								census=17200
+							elif word2ndlastU=="justices":
+								census=1210
+							elif word2ndlastU=="generals":
+								census=9800
+							elif word2ndlastU=="majors":
+								census=9800
+							elif word2ndlastU=="marines":
+								census=9812
+							else:
+								census= 9996  # if not capitalized, then ambiguous, probably not an occ =9996
 						else:
 							#census=census	
 							word2ndlast= word2ndlast.title()
-					elif word2ndlast in notUpper: # e.g., Potter, capitalized
+					elif word2ndlast in notUpper: # e.g., "Potter", "Packer", "Rich" capitalized
 						if word2ndlastS.islower():
 							#census=census	# (default code -- the negative of what is stored in jobs.json)
 							word2ndlast= word2ndlastS.lower()  # redundant, kept only for code symmetry
+						elif word2ndlastU=="Rich" and iline==1:	# title
+							#census=census	# (default code -- the negative of what is stored in jobs.json)
+							word2ndlast= word2ndlastS.lower()  # probably not a name
 						else:
-							census= 9998
+							census= 9996  # if capitalized, then ambiguous, probably not an occ =9996
 							word2ndlast= word2ndlast.title()  # change to capitalized
-					elif word2ndlast in allUpper:
+					elif word2ndlast in allUpper:    # e.g., DA, US
 						if word2ndlastS.isupper():
 							#census=census	# (default code -- the negative of what is stored in jobs.json)
 							word2ndlast= word2ndlast.upper()
 						else:
-							census= 9998
+							census= 9996   # if not all upper case, then probably not an occ = 9996
 							#word2ndlast= word2ndlast.lower()
 					elif census==12:  # president=10 / President=12
 						if word2ndlastS.islower():
@@ -536,10 +551,10 @@ for file in textfiles:
 							#census= 35
 							word2ndlast= word2ndlast.title()  # change to capitalized ("Secretary")
 					elif census==33 and (word2ndlastU=="Queens" or word2ndlastU=="QUEENS"): # probably borough of Queens
-						census= 9998
+						census= 9996
 						word2ndlast= "Queens"
 					elif census==33 and (word2ndlastU=="Kings" or word2ndlastU=="KINGS"): # probably not multiple kings if capitalized
-						census= 9998
+						census= 9996
 						word2ndlast= "Kings"
 				# either jobtitle not ambiguous (census>0) or after disambiguation:
 				#	then check whether this single-word job has already been found for this file:
@@ -632,4 +647,6 @@ for code in sorted(Sumcensuscounts):
 	for job in sorted(Sumjobcounts):
 		if jobscensus[job]==code:
 			totalsf.write ("	" + str(Sumjobcounts[job]) + "	" + str(Sumjobplurals[job]) + "	" + str(Ntextsjob[job]) + "	" + str(jobscensus[job]) + "	" + job + "\n")
+
+totalsf.write ("\n# titles=" + str(Sumtitles) + "\n# files=" + str(len(textfiles)) + "\n# sentences=" + str(Sumsentences) + "\n# words=" + str(Sumwords) + "\n" )
 

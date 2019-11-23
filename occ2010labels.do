@@ -1,11 +1,11 @@
 * an edit of occs2010.json for stata:
  label define occ2010 /// 
- 0 " End of Document 0" /// 
+ 0 "End of Document 0" /// 
  10 "Chief executives 10" /// 
  12 "President 12" /// 
  13 "First Lady 13" /// 
  14 "Named President 14" /// 
- 15 "Chief executive, government (exc.Pres) 15" /// 
+ 15 "Chief executive, government (exc.President) 15" /// 
  20 "General managers 20" /// 
  25 "Owner manager 25" /// 
  26 "Capitalist, not managing 26" /// 
@@ -82,7 +82,7 @@
  1050 "Computer support specialists 1050" /// 
  1060 "Database administrators 1060" /// 
  1105 "Computer systems administrators 1105" /// 
- 1106 "Computer network architects 1106" /// 
+ 1106 "Computer network architects  1106" /// 
  1107 "Computer occupations, other 1107" /// 
  1200 "Actuaries 1200" /// 
  1210 "Mathematicians 1210" /// 
@@ -112,7 +112,7 @@
  1560 "Surveying technicians 1560" /// 
  1600 "Agricultural & food scientists 1600" /// 
  1610 "Biological scientists 1610" /// 
- 1640 "Conservation scientists, foresters 1640" /// 
+ 1640 "Conservation scientists & foresters 1640" /// 
  1650 "Medical scientists 1650" /// 
  1660 "Life scientists, other 1660" /// 
  1700 "Astronomers & physicists 1700" /// 
@@ -155,7 +155,7 @@
  2160 "Misc legal support 2160" /// 
  2200 "Postsecondary teachers 2200" /// 
  2300 "Preschool & kindergarten teachers 2300" /// 
- 2310 "Elementary, middle school teachers 2310" /// 
+ 2310 "Elementary & middle school teachers 2310" /// 
  2320 "Secondary school teachers 2320" /// 
  2330 "Special education teachers 2330" /// 
  2340 "Other teachers 2340" /// 
@@ -169,15 +169,16 @@
  2700 "Actors 2700" /// 
  2701 "Actresses 2701" /// 
  2710 "Producers & directors 2710" /// 
- 2720 "Athletes, coaches, umpires, nec 2720" /// 
- 2721 "Baseball player, coach, umpire 2721" /// 
- 2722 "Basketball player, coach, referee 2722" /// 
- 2723 "Football player, coach, referee 2723" /// 
- 2724 "Hockey player, coach, referee 2724" /// 
- 2725 "Soccer player, coach, referee 2725" /// 
+ 2720 "Athletes, coaches, umpires 2720" /// 
+ 2721 "Baseball player, coaches, umpires 2721" /// 
+ 2722 "Basketball player, coaches, referees 2722" /// 
+ 2723 "Football player, coaches, referees 2723" /// 
+ 2724 "Hockey player, coaches, referees 2724" /// 
+ 2725 "Soccer player, coaches, referees 2725" /// 
  2740 "Dancers & choreographers 2740" /// 
  2750 "Musicians, singers 2750" /// 
  2760 "Performers, other 2760" /// 
+ 2770 "Celebrities 2770" /// 
  2800 "Announcers 2800" /// 
  2810 "Journalists 2810" /// 
  2825 "Public relations specialists 2825" /// 
@@ -248,7 +249,9 @@
  3825 "Intelligence officers 3825" /// 
  3830 "Fish & game wardens 3830" /// 
  3840 "Parking enforcement 3840" /// 
- 3850 "Police & sheriff's patrol 3850" /// 
+ 3850 "Police & sheriffs patrol 3850" /// 
+ 3851 "Policeman 3851" /// 
+ 3852 "Policewoman 3852" /// 
  3860 "Transit & railroad police 3860" /// 
  3900 "Animal control 3900" /// 
  3910 "Private detectives 3910" /// 
@@ -261,7 +264,7 @@
  4020 "Cooks 4020" /// 
  4030 "Food preparation 4030" /// 
  4040 "Bartenders 4040" /// 
- 4050 "Combined food prep & serving 4050" /// 
+ 4050 "Combined food preparation & serving 4050" /// 
  4060 "Counter attendants 4060" /// 
  4061 "Counter waitress 4061" /// 
  4110 "Waiters 4110" /// 
@@ -309,7 +312,7 @@
  4820 "Financial services sales 4820" /// 
  4830 "Travel agents 4830" /// 
  4840 "Sales representatives, service 4840" /// 
- 4850 "Sales representatives, manf 4850" /// 
+ 4850 "Sales representatives, manufacturing 4850" /// 
  4900 "Models & product promoters 4900" /// 
  4920 "Real estate brokers 4920" /// 
  4930 "Sales engineers 4930" /// 
@@ -337,7 +340,7 @@
  5260 "File clerks 5260" /// 
  5300 "Hotel desk clerks 5300" /// 
  5310 "Interviewers, exc eligibility & loan 5310" /// 
- 5320 "Library assistans 5320" /// 
+ 5320 "Library assistants 5320" /// 
  5330 "Loan interviewers 5330" /// 
  5340 "New accounts clerks 5340" /// 
  5350 "Order clerks 5350" /// 
@@ -411,7 +414,7 @@
  6740 "Rail-track laying & maintenance 6740" /// 
  6750 "Septic tank & sewer servicers 6750" /// 
  6765 "Misc construction workers 6765" /// 
- 6800 "Drill operators, oil & mining 6800" /// 
+ 6800 "Drill operators, oil, gas, & mining 6800" /// 
  6820 "Earth drillers, exc oil & gas 6820" /// 
  6830 "Explosives 6830" /// 
  6840 "Mining machine 6840" /// 
@@ -427,8 +430,8 @@
  7050 "Electrical repair, transportation 7050" /// 
  7100 "Electrical repair, industrial 7100" /// 
  7110 "Electronic repair, motor vehicles 7110" /// 
- 7120 "Electronic repair, home entertntmt 7120" /// 
- 7130 "Security system installers 7130" /// 
+ 7120 "Electronic home entertainment repair 7120" /// 
+ 7130 "Security system  installers 7130" /// 
  7140 "Aircraft mechanics 7140" /// 
  7150 "Automotive body repair 7150" /// 
  7160 "Automotive glass installers 7160" /// 
@@ -454,7 +457,7 @@
  7550 "Mobile home installers 7550" /// 
  7560 "Riggers 7560" /// 
  7600 "Signal & switch repair 7600" /// 
- 7610 "Helpers, repair 7610" /// 
+ 7610 "Helpers, repair  7610" /// 
  7630 "Other repair 7630" /// 
  7700 "Superv: production 7700" /// 
  7710 "Aircraft assemblers 7710" /// 
@@ -469,19 +472,19 @@
  7850 "Food cooking machine operators 7850" /// 
  7855 "Food processing, other 7855" /// 
  7900 "Computer control programmers 7900" /// 
- 7920 "Extruding: metal & plastic 7920" /// 
- 7930 "Forging machine: metal & plastic 7930" /// 
- 7940 "Rolling machines: metal & plastic 7940" /// 
- 7950 "Cutting punching: metal & plastic 7950" /// 
- 7960 "Drilling machine: metal & plastic 7960" /// 
- 8000 "Grinding polishing: metal, plastic 8000" /// 
+ 7920 "Extruding machines, metal & plastic 7920" /// 
+ 7930 "Forging machine, metal & plastic 7930" /// 
+ 7940 "Rolling machines, metal & plastic 7940" /// 
+ 7950 "Cutting & punching, metal & plastic 7950" /// 
+ 7960 "Drilling machine, metal & plastic  7960" /// 
+ 8000 "Grinding & polishing, metal & plastic 8000" /// 
  8010 "Lathes, metal & plastic 8010" /// 
  8020 "Milling machines, metal & plastic 8020" /// 
  8030 "Machinists 8030" /// 
  8040 "Metal furnace operators 8040" /// 
  8060 "Patternmakers, metal & plastic 8060" /// 
  8100 "Molding machines, metal & plastic 8100" /// 
- 8120 "Multiple machine tools, metal & plastic 8120" /// 
+ 8120 "Multiple machine tools, metal & plastic  8120" /// 
  8130 "Tool & die makers 8130" /// 
  8140 "Welding 8140" /// 
  8150 "Heat treating, metal & plastic 8150" /// 
@@ -561,7 +564,7 @@
  9350 "Parking lot attendants 9350" /// 
  9360 "Automotive service attendants 9360" /// 
  9410 "Transportation inspectors 9410" /// 
- 9415 "Transportn attendants, exc flight 9415" /// 
+ 9415 "Transportation attendants, exc flight 9415" /// 
  9420 "Other transportation workers 9420" /// 
  9500 "Conveyor operators 9500" /// 
  9510 "Crane operators 9510" /// 
@@ -578,10 +581,7 @@
  9740 "Truck & ship loaders 9740" /// 
  9750 "Material moving, other 9750" /// 
  9760 "Laborers, nec 9760" /// 
- 9780 "Employee nec 9780" /// 
- 9781 "He works 9781" /// 
- 9782 "She works 9782" /// 
- 9789 "Work 9789" /// 
+ 9770 "employee nec 9770" /// 
  9800 "Military officer 9800" /// 
  9805 "Rebel military officer 9805" /// 
  9810 "Enlisted military supervisors 9810" /// 
@@ -589,7 +589,7 @@
  9812 "Military, rank ns 9812" /// 
  9813 "Rebel military, rank ns 9813" /// 
  9814 "Military, pre-modern 9814" /// 
- 9819 "Military as an institution 9819" /// 
+ 9816 "Military veteran 9816" /// 
  9850 "criminal /ns 9850" /// 
  9851 "drug dealer 9851" /// 
  9852 "embezzler 9852" /// 
@@ -602,465 +602,524 @@
  9859 "software hacker 9859" /// 
  9860 "terrorist 9860" /// 
  9861 "Islamic terrorist 9861" /// 
- 9862 "al quaeda 9862" /// 
+ 9862 "al qaeda 9862" /// 
  9863 "Isis 9863" /// 
  9870 "terrorist attack 9870" /// 
- 9960 "Working people 9960" /// 
- 9961 "Working men 9961" /// 
- 9962 "Working women 9962" /// 
- 9963 "Working fathers 9963" /// 
- 9964 "Working mothers 9964" /// 
- 9965 "Working husbands 9965" /// 
- 9966 "Working wives 9966" /// 
- 9967 "Working parent 9967" /// 
- 9968 "Working couple 9968" /// 
- 9970 "Middle class category 9970" /// 
- 9971 "Lower Middle class category 9971" /// 
- 9972 "Working class category 9972" /// 
- 9973 "Poor 9973" /// 
- 9974 "Homeless 9974" /// 
- 9975 "Slave 9975" /// 
- 9976 "Rich 9976" /// 
- 9977 "Elite 9977" /// 
- 9981 "Striker 9981" /// 
- 9982 "Protester 9982" /// 
- 9983 "Union member 9982" /// 
  9990 "Unemployed 9990" /// 
- 9992 "Volunteer position 9992" /// 
- 9993 "Social club member 9993" /// 
- 9994 "Amateur athlete 9994" /// 
+ 9996 "ambiguous: usually not occ 9996" /// 
  9997 "ambiguous: which occ 9997" /// 
  9998 "ambiguous: occ/not occ 9998" /// 
  9999 "not an occupation 9999" /// 
- 10300 "relative, nec 10300" /// 
- 10301 "widow 10301" /// 
- 10302 "divorced 10302" /// 
- 10303 "married 10303" /// 
- 10304 "unmarried 10304" /// 
- 10305 "lover 10305" /// 
- 10306 "boyfriend 10306" /// 
- 10307 "girlfriend 10307" /// 
- 10308 "fiancee 10308" /// 
- 10310 "spouse 10310" /// 
- 10311 "husband 10311" /// 
- 10312 "wife 10312" /// 
- 10320 "parent 10320" /// 
- 10321 "father 10321" /// 
- 10322 "mother 10322" /// 
- 10323 "single parent 10323" /// 
- 10324 "single father 10324" /// 
- 10325 "single mother 10325" /// 
- 10326 "in law 10326" /// 
- 10327 "father in law 10327" /// 
- 10328 "mother in law 10328" /// 
- 10330 "child 10330" /// 
- 10331 "son 10331" /// 
- 10332 "daughter 10332" /// 
- 10334 "nephew 10334" /// 
- 10335 "niece 10335" /// 
- 10337 "son in law 10337" /// 
- 10338 "daughter in law 10338" /// 
- 10340 "sibling 10340" /// 
- 10341 "brother 10341" /// 
- 10342 "sister 10342" /// 
- 10343 "cousin 10343" /// 
- 10347 "brother in law 10347" /// 
- 10348 "sister in law 10348" /// 
- 10350 "grandparent 10350" /// 
- 10351 "grandfather 10351" /// 
- 10352 "grandmother 10352" /// 
- 10355 "grandchild 10355" /// 
- 10356 "grandson 10356" /// 
- 10357 "granddaughter 10357" /// 
- 10361 "uncle 10361" /// 
- 10362 "aunt 10362" /// 
- 10371 "work family conflict 10371" /// 
- 10372 "work family policy 10372" /// 
- 10373 "work flexibility 10373" /// 
- 10374 "work parttime 10374" /// 
- 10380 "family 10380" /// 
- 10381 "household 10381" /// 
- 10382 "couple 10382" /// 
- 10400 "people 10400" /// 
- 10401 "men 10401" /// 
- 10402 "women 10402" /// 
- 10403 "men and women 10403" /// 
- 10404 "boys 10404" /// 
- 10405 "girls 10405" /// 
- 10406 "boys and girls 10406" /// 
- 10407 "teenagers 10407" /// 
- 10408 "babies 10408" /// 
- 10411 "World War II Generation 10411" /// 
- 10412 "Silent Generation 10412" /// 
- 10413 "Baby Boomer 10413" /// 
- 10414 "Gen X 10414" /// 
- 10415 "Millennials 10415" /// 
- 10416 "Gen Z 10416" /// 
- 10600 "mythical creature 10600" /// 
- 10601 "invented non-human character 10601" /// 
- 10602 "sorcerer 10602" /// 
- 10603 "witch 10603" /// 
- 10605 "god 10605" /// 
- 10606 "goddess 10606" /// 
- 10820 "caste 10820" /// 
- 10821 "Brahmin 10821" /// 
- 10822 "Forward castes 10822" /// 
- 10823 "OBC 10823" /// 
- 10824 "Dalit 10824" /// 
- 10825 "Adivasi, tribal 10825" /// 
- 10840 "Whites 10840" /// 
- 10841 "Blacks 10841" /// 
- 10842 "Latinos 10842" /// 
- 10843 "Asian Americans 10843" /// 
- 10844 "Native Americans 10844" /// 
- 10846 "minorities 10846" /// 
- 10847 "ethnics 10847" /// 
- 10848 "immigrants 10848" /// 
- 10849 "european 10849" /// 
- 10860 "student 10860" /// 
- 10861 "kindergartner 10861" /// 
- 10862 "grade school student 10862" /// 
- 10863 "intermediate school student 10863" /// 
- 10864 "high school student 10864" /// 
- 10865 "college student 10865" /// 
- 10866 "grad student 10866" /// 
- 10867 "art student 10867" /// 
- 11830 "atheists 11830" /// 
- 11831 "Christians 11831" /// 
- 11832 "Catholics 11832" /// 
- 11833 "Protestants 11833" /// 
- 11834 "Other Christian 11834" /// 
- 11835 "Jews 11835" /// 
- 11836 "Muslims 11836" /// 
- 11837 "Hindus 11837" /// 
- 11838 "Buddhists 11838" /// 
- 11839 "Other named religions 11839" /// 
- 12801 "homemaker 12801" /// 
- 12802 "housewife 12802" /// 
- 12803 "stay at home 12803" /// 
- 12805 "child care 12805" /// 
- 12806 "babysitting 12806" /// 
- 12807 "parenting 12807" /// 
- 12808 "breastfeeding 12808" /// 
- 12809 "school work 12809" /// 
- 12810 "housework: nec 12810" /// 
- 12811 "housework: cleaning 12811" /// 
- 12812 "housework: cooking 12812" /// 
- 12813 "housework: shopping 12813" /// 
- 12814 "housework: dishes 12814" /// 
- 12815 "housework: laundry 12815" /// 
- 12816 "housework: make the bed 12816" /// 
- 13004 "Afghanistan 13004" /// 
- 13008 "Albania 13008" /// 
- 13012 "Algeria 13012" /// 
- 13016 "American Samoa 13016" /// 
- 13020 "Andorra 13020" /// 
- 13024 "Angola 13024" /// 
- 13028 "Antigua and Barbuda 13028" /// 
- 13031 "Azerbaijan 13031" /// 
- 13032 "Argentina 13032" /// 
- 13036 "Australia 13036" /// 
- 13040 "Austria 13040" /// 
- 13044 "Bahamas 13044" /// 
- 13048 "Bahrain 13048" /// 
- 13050 "Bangladesh 13050" /// 
- 13051 "Armenia 13051" /// 
- 13052 "Barbados 13052" /// 
- 13056 "Belgium 13056" /// 
- 13058 "Belgium-Luxembourg 13058" /// 
- 13060 "Bermuda 13060" /// 
- 13064 "Bhutan 13064" /// 
- 13068 "Bolivia 13068" /// 
- 13070 "Bosnia and Herzegovina 13070" /// 
- 13072 "Botswana 13072" /// 
- 13076 "Brazil 13076" /// 
- 13084 "Belize 13084" /// 
- 13086 "British Indian Ocean Territories 13086" /// 
- 13090 "Solomon Islands 13090" /// 
- 13092 "British Virgin Islands 13092" /// 
- 13096 "Brunei 13096" /// 
- 13100 "Bulgaria 13100" /// 
- 13104 "Myanmar 13104" /// 
- 13108 "Burundi 13108" /// 
- 13112 "Belarus 13112" /// 
- 13116 "Cambodia 13116" /// 
- 13120 "Cameroon 13120" /// 
- 13124 "Canada 13124" /// 
- 13132 "Cape Verde 13132" /// 
- 13136 "Cayman Islands 13136" /// 
- 13140 "Central African Republic 13140" /// 
- 13144 "Sri Lanka 13144" /// 
- 13148 "Chad 13148" /// 
- 13152 "Chile 13152" /// 
- 13156 "China 13156" /// 
- 13158 "Taiwan 13158" /// 
- 13162 "Christmas Island 13162" /// 
- 13166 "Cocos 13166" /// 
- 13166 "Cocos (Keeling) Islands 13166" /// 
- 13170 "Colombia 13170" /// 
- 13174 "Comoros 13174" /// 
- 13178 "Republic of the Congo 13178" /// 
- 13179 "Congo, ambiguous 13179" /// 
- 13180 "Democratic Republic of the Congo 13180" /// 
- 13184 "Cook Island 13184" /// 
- 13188 "Costa Rica 13188" /// 
- 13191 "Croatia 13191" /// 
- 13192 "Cuba 13192" /// 
- 13196 "Cyprus 13196" /// 
- 13200 "Czechoslovakia 13200" /// 
- 13203 "Czech Republic 13203" /// 
- 13204 "Benin 13204" /// 
- 13208 "Denmark 13208" /// 
- 13212 "Dominica 13212" /// 
- 13213 "Dominican 13213" /// 
- 13214 "Dominican Republic 13214" /// 
- 13218 "Ecuador 13218" /// 
- 13222 "El Salvador 13222" /// 
- 13226 "Equatorial Guinea 13226" /// 
- 13230 "Ethiopia (includes Eritrea) 13230" /// 
- 13231 "Ethiopia 13231" /// 
- 13232 "Eritrea 13232" /// 
- 13233 "Estonia 13233" /// 
- 13234 "Faeroe Islands 13234" /// 
- 13238 "Falkland Islands 13238" /// 
- 13242 "Fiji 13242" /// 
- 13246 "Finland 13246" /// 
- 13250 "France 13250" /// 
- 13254 "French Guiana 13254" /// 
- 13258 "French Polynesia 13258" /// 
- 13262 "Djibouti 13262" /// 
- 13266 "Gabon 13266" /// 
- 13268 "Georgia 13268" /// 
- 13270 "The Gambia 13270" /// 
- 13274 "Gaza Strip 13274" /// 
- 13275 "Palestine 13275" /// 
- 13276 "German 13276" /// 
- 13277 "Federal Republic of Germany 13277" /// 
- 13278 "German Democratic Republic 13278" /// 
- 13288 "Ghana 13288" /// 
- 13292 "Gibraltar 13292" /// 
- 13296 "Gilbert Islands 13296" /// 
- 13296 "Kiribati 13296" /// 
- 13300 "Greece 13300" /// 
- 13304 "Greenland 13304" /// 
- 13308 "Grenada 13308" /// 
- 13312 "Guadeloupe 13312" /// 
- 13316 "Guam 13316" /// 
- 13320 "Guatemala 13320" /// 
- 13324 "Guinea 13324" /// 
- 13328 "Guyana 13328" /// 
- 13332 "Haiti 13332" /// 
- 13336 "Holy See 13336" /// 
- 13340 "Honduras 13340" /// 
- 13344 "Hong Kong 13344" /// 
- 13348 "Hungary 13348" /// 
- 13352 "Iceland 13352" /// 
- 13356 "India 13356" /// 
- 13360 "Indonesia 13360" /// 
- 13364 "Iran 13364" /// 
- 13368 "Iraq 13368" /// 
- 13372 "Ireland 13372" /// 
- 13376 "Israel 13376" /// 
- 13380 "Italy 13380" /// 
- 13384 "Cote d'Ivoire 13384" /// 
- 13388 "Jamaica 13388" /// 
- 13392 "Japan 13392" /// 
- 13398 "Kazakhstan 13398" /// 
- 13400 "Jordan 13400" /// 
- 13404 "Kenya 13404" /// 
- 13408 "Democratic Republic of Korea 13408" /// 
- 13410 "Republic of Korea 13410" /// 
- 13414 "Kuwait 13414" /// 
- 13417 "Kyrgyzstan 13417" /// 
- 13418 "Laos 13418" /// 
- 13422 "Lebanon 13422" /// 
- 13426 "Lesotho 13426" /// 
- 13428 "Latvia 13428" /// 
- 13430 "Liberia 13430" /// 
- 13434 "Libya 13434" /// 
- 13438 "Liechtenstein 13438" /// 
- 13440 "Lithuania 13440" /// 
- 13442 "Luxembourg 13442" /// 
- 13446 "Macau 13446" /// 
- 13450 "Madagascar 13450" /// 
- 13454 "Malawi 13454" /// 
- 13457 "Sarawak 13457" /// 
- 13458 "Malaysia 13458" /// 
- 13459 "Peninsular Malaysia 13459" /// 
- 13461 "Sabah 13461" /// 
- 13462 "Maldives 13462" /// 
- 13466 "Mali 13466" /// 
- 13470 "Malta 13470" /// 
- 13474 "Martinique 13474" /// 
- 13478 "Mauritania 13478" /// 
- 13480 "Mauritius 13480" /// 
- 13484 "Mexico 13484" /// 
- 13488 "Midway Island 13488" /// 
- 13492 "Monaco 13492" /// 
- 13496 "Mongolia 13496" /// 
- 13498 "Moldova 13498" /// 
- 13499 "Montenegro 13499" /// 
- 13500 "Montserrat 13500" /// 
- 13504 "Morocco 13504" /// 
- 13508 "Mozambique 13508" /// 
- 13512 "Oman 13512" /// 
- 13516 "Namibia 13516" /// 
- 13520 "Nauru 13520" /// 
- 13524 "Nepal 13524" /// 
- 13528 "Netherlands 13528" /// 
- 13530 "Netherlands Antilles 13530" /// 
- 13533 "Aruba 13533" /// 
- 13540 "New Caledonia 13540" /// 
- 13548 "Vanuatu 13548" /// 
- 13554 "New Zealand 13554" /// 
- 13558 "Nicaragua 13558" /// 
- 13562 "Niger 13562" /// 
- 13566 "Nigeria 13566" /// 
- 13566 "Nigerian 13566" /// 
- 13570 "Niue 13570" /// 
- 13574 "Norfolk Island 13574" /// 
- 13578 "Norway 13578" /// 
- 13580 "Northern Mariana Islands 13580" /// 
- 13583 "Federated States of Micronesia 13583" /// 
- 13584 "Marshall Islands 13584" /// 
- 13585 "Palau 13585" /// 
- 13586 "Pakistan 13586" /// 
- 13591 "Panama 13591" /// 
- 13592 "Panama Canal Zone 13592" /// 
- 13598 "Papua New Guinea 13598" /// 
- 13600 "Paraguay 13600" /// 
- 13604 "Peru 13604" /// 
- 13608 "Philippines 13608" /// 
- 13612 "Pitcairn Island 13612" /// 
- 13616 "Poland 13616" /// 
- 13620 "Portugal 13620" /// 
- 13624 "Guinea Bissau 13624" /// 
- 13626 "East Timor 13626" /// 
- 13630 "Puerto Rico 13630" /// 
- 13634 "Qatar 13634" /// 
- 13638 "Réunion 13638" /// 
- 13642 "Romania 13642" /// 
- 13643 "Russia 13643" /// 
- 13646 "Rwanda 13646" /// 
- 13647 "Ryukyu Islands 13647" /// 
- 13654 "Saint Helena 13654" /// 
- 13658 "Saint Kitts Nevis Anguilla 13658" /// 
- 13659 "Saint Kitts and Nevis 13659" /// 
- 13660 "Anguilla 13660" /// 
- 13662 "Saint Lucia 13662" /// 
- 13666 "Saint Pierre and Miquelon 13666" /// 
- 13670 "Saint Vincent and the Grenadines 13670" /// 
- 13674 "San Marino 13674" /// 
- 13678 "São Tomé and Príncipe 13678" /// 
- 13682 "Saudi Arabia 13682" /// 
- 13686 "Senegal 13686" /// 
- 13688 "Serbia 13688" /// 
- 13690 "Seychelles 13690" /// 
- 13694 "Sierra Leone 13694" /// 
- 13698 "Sikkim 13698" /// 
- 13702 "Singapore 13702" /// 
- 13703 "Slovak Republic 13703" /// 
- 13704 "Vietnam 13704" /// 
- 13705 "Slovenia 13705" /// 
- 13706 "Somalia 13706" /// 
- 13710 "South Africa 13710" /// 
- 13716 "Zimbabwe 13716" /// 
- 13717 "Rhodesia 13717" /// 
- 13720 "Democratic Republic of Yemen 13720" /// 
- 13724 "Spain 13724" /// 
- 13725 "Iberia 13725" /// 
- 13728 "South Sudan 13728" /// 
- 13732 "Western Sahara 13732" /// 
- 13736 "Sudan 13736" /// 
- 13740 "Suriname 13740" /// 
- 13744 "Svalbard and Jan Mayen Island 13744" /// 
- 13748 "Swaziland 13748" /// 
- 13752 "Sweden 13752" /// 
- 13756 "Switzerland 13756" /// 
- 13760 "Syria 13760" /// 
- 13762 "Tajikistan 13762" /// 
- 13764 "Thailand 13764" /// 
- 13768 "Togo 13768" /// 
- 13772 "Tokelau Islands 13772" /// 
- 13776 "Tonga 13776" /// 
- 13780 "Trinidad and Tobago 13780" /// 
- 13784 "United Arab Emirates 13784" /// 
- 13788 "Tunisia 13788" /// 
- 13792 "Turkey 13792" /// 
- 13795 "Turkmenistan 13795" /// 
- 13796 "Turks and Caicos Islands 13796" /// 
- 13798 "Tuvalu 13798" /// 
- 13800 "Uganda 13800" /// 
- 13804 "Ukraine 13804" /// 
- 13807 "North Macedonia 13807" /// 
- 13810 "Soviet Union 13810" /// 
- 13818 "Egypt 13818" /// 
- 13825 "Great Britain 13825" /// 
- 13826 "United Kingdom 13826" /// 
- 13827 "Wales 13827" /// 
- 13828 "Scotland 13828" /// 
- 13829 "Northern Ireland 13829" /// 
- 13834 "Tanzania 13834" /// 
- 13840 "United States of America 13840" /// 
- 13850 "US Virgin Islands 13850" /// 
- 13854 "Burkina Faso 13854" /// 
- 13858 "Uruguay 13858" /// 
- 13860 "Uzbekistan 13860" /// 
- 13862 "Venezuela 13862" /// 
- 13866 "South Vietnam 13866" /// 
- 13868 "North Vietnam 13868" /// 
- 13872 "Wake Island 13872" /// 
- 13876 "Wallis and Futuna Island 13876" /// 
- 13882 "Samoa 13882" /// 
- 13887 "Yemen 13887" /// 
- 13891 "Yugoslavia 13891" /// 
- 13894 "Zambia 13894" /// 
- 13910 "Europe 13910" /// 
- 13911 "Slavic 13911" /// 
- 13912 "Eastern Europe 13912" /// 
- 13913 "Central Europe 13913" /// 
- 13914 "Southern Europe 13914" /// 
- 13915 "Scandinavia 13915" /// 
- 13916 "Western Europe 13916" /// 
- 13917 "Northern Europe 13917" /// 
- 13918 "European Union 13918" /// 
- 13919 "Caucasas 13919" /// 
- 13920 "Asia 13920" /// 
- 13922 "East Asia 13922" /// 
- 13924 "South Asia 13924" /// 
- 13925 "Southeast Asia 13925" /// 
- 13926 "West Asia 13926" /// 
- 13927 "Middle East 13927" /// 
- 13928 "Arab 13928" /// 
- 13929 "Turkic 13929" /// 
- 13930 "Oceania 13930" /// 
- 13932 "Micronesia 13932" /// 
- 13933 "Melanesia 13933" /// 
- 13935 "Polynesia 13935" /// 
- 13937 "Australasia 13937" /// 
- 13940 "Africa 13940" /// 
- 13944 "North Africa 13944" /// 
- 13946 "Sub Saharan Africa 13946" /// 
- 13950 "South America 13950" /// 
- 13956 "Latin America 13956" /// 
- 13960 "Central America 13960" /// 
- 13965 "West Indies 13965" /// 
- 13966 "Caribbean 13966" /// 
- 13970 "North America 13970" /// 
- 15010 "sector: business 15010" /// 
- 15020 "sector: agriculture 15020" /// 
- 15030 "sector: mining 15030" /// 
- 15040 "sector: construction 15040" /// 
- 15050 "sector: manufacturing 15050" /// 
- 15060 "sector: transportation 15060" /// 
- 15070 "sector: communications 15070" /// 
- 15080 "sector: trade 15080" /// 
- 15100 "sector: finance 15100" /// 
- 15110 "sector: insurance 15110" /// 
- 15120 "sector: real estate 15120" /// 
- 15130 "sector: services 15130" /// 
- 15200 "government 15200" /// 
- 16101 "home appliance 16101" /// 
- 16102 "television 16102" /// 
- 16103 "computer 16103" /// 
- 16107 "toy 16107" , modify
+ 10010 "Rich 10010" /// 
+ 10012 "Elite 10012" /// 
+ 10020 "Middle class category 10020" /// 
+ 10022 "Lower Middle class category 10022" /// 
+ 10024 "Homeowners 10024" /// 
+ 10026 "Suburban 10026" /// 
+ 10030 "Working class category 10030" /// 
+ 10040 "Poor 10040" /// 
+ 10041 "Poor white 10041" /// 
+ 10042 "Poor black 10042" /// 
+ 10043 "Poor latinx 10043" /// 
+ 10047 "Homeless 10047" /// 
+ 10050 "Slave 10050" /// 
+ 10100 "People work 10100" /// 
+ 10120 "Men work 10120" /// 
+ 10140 "Women work 10140" /// 
+ 10170 "General work 10170" /// 
+ 10200 "Working people 10200" /// 
+ 10210 "Working men 10210" /// 
+ 10220 "Working women 10220" /// 
+ 10230 "Working fathers 10230" /// 
+ 10240 "Working mothers 10240" /// 
+ 10250 "Working husbands 10250" /// 
+ 10260 "Working wives 10260" /// 
+ 10270 "Working parent 10270" /// 
+ 10280 "Working couple 10280" /// 
+ 10310 "volunteer position 10310" /// 
+ 10320 "social club 10320" /// 
+ 10330 "amateur athlete 10330" /// 
+ 10340 "hobbyist 10340" /// 
+ 10350 "entertainment participant 10350" /// 
+ 10360 "recreational sportsperson 10360" /// 
+ 10400 "student 10400" /// 
+ 10410 "kindergartner 10410" /// 
+ 10420 "grade school student 10420" /// 
+ 10430 "intermediate school student 10430" /// 
+ 10440 "high school student 10440" /// 
+ 10450 "college student 10450" /// 
+ 10460 "grad student 10460" /// 
+ 10462 "art student 10462" /// 
+ 10510 "homemaker 10510" /// 
+ 10512 "housewife 10512" /// 
+ 10514 "stay at home 10514" /// 
+ 10520 "child care 10520" /// 
+ 10522 "babysitting 10522" /// 
+ 10530 "parenting 10530" /// 
+ 10540 "breastfeeding 10540" /// 
+ 10550 "school work 10550" /// 
+ 10560 "housework: nec 10560" /// 
+ 10561 "housework: cleaning 10561" /// 
+ 10562 "housework: cooking 10562" /// 
+ 10563 "housework: shopping 10563" /// 
+ 10564 "housework: dishes 10564" /// 
+ 10565 "housework: laundry 10565" /// 
+ 10566 "housework: make the bed 10566" /// 
+ 10610 "work family conflict 10610" /// 
+ 10620 "work family policy 10620" /// 
+ 10630 "work flexibility 10630" /// 
+ 10640 "work parttime 10640" /// 
+ 11000 "Union member 11000" /// 
+ 11002 "Union employee 11002" /// 
+ 11010 "Striker 11010" /// 
+ 11110 "Labor unions 11110" /// 
+ 11112 "their union 11112" /// 
+ 11120 "Named union 11120" /// 
+ 11600 "Nonprofit 11600" /// 
+ 11610 "Protester 11610" /// 
+ 12000 "Corporation 12000" /// 
+ 12010 "Named corporation 12010" /// 
+ 13000 "College, school 13000" /// 
+ 14000 "government 14000" /// 
+ 14100 "Department of Defense 14100" /// 
+ 14110 "Military as an institution 14110" /// 
+ 14120 "army 14120" /// 
+ 14130 "navy 14130" /// 
+ 14140 "marines 14140" /// 
+ 14150 "air force 14150" /// 
+ 14160 "National Guard 14160" /// 
+ 14200 "Department of Agriculture 14200" /// 
+ 14210 "Department of Commerce 14210" /// 
+ 14212 "Census Bureau 14212" /// 
+ 14220 "Department of Education 14220" /// 
+ 14230 "Department of Energy 14230" /// 
+ 14240 "Department of Health and Human Services 14240" /// 
+ 14250 "Department of Homeland Security 14250" /// 
+ 14252 "Coast Guard 14252" /// 
+ 14254 "ICE/ INS 14254" /// 
+ 14260 "Department of Housing and Urban Development 14260" /// 
+ 14270 "Department of the Interior 14270" /// 
+ 14280 "Department of Justice 14280" /// 
+ 14282 "FBI 14282" /// 
+ 14290 "Department of Labor 14290" /// 
+ 14300 "Department of State 14300" /// 
+ 14310 "Department of Transportation 14310" /// 
+ 14320 "Department of the Treasury 14320" /// 
+ 14330 "Veterans Affairs Department 14330" /// 
+ 14340 "Office of Management and Budget 14340" /// 
+ 14350 "Central Intelligence Agency 14350" /// 
+ 14360 "Environmental Protection Agency 14360" /// 
+ 14370 "Small Business Administration 14370" /// 
+ 14510 "sector: business 14510" /// 
+ 14520 "sector: agriculture 14520" /// 
+ 14530 "sector: mining 14530" /// 
+ 14540 "sector: construction 14540" /// 
+ 14550 "sector: manufacturing 14550" /// 
+ 14600 "sector: services 14600" /// 
+ 14610 "sector: transportation 14610" /// 
+ 14630 "sector: communications 14630" /// 
+ 14650 "sector: trade 14650" /// 
+ 14670 "sector: finance 14670" /// 
+ 14680 "sector: insurance 14680" /// 
+ 14690 "sector: real estate 14690" /// 
+ 15100 "minorities 15100" /// 
+ 15110 "Whites 15110" /// 
+ 15112 "european 15112" /// 
+ 15120 "Blacks 15120" /// 
+ 15130 "Latinos 15130" /// 
+ 15140 "Asian Americans 15140" /// 
+ 15150 "Native Americans 15150" /// 
+ 15160 "ethnics 15160" /// 
+ 15170 "immigrants 15170" /// 
+ 15200 "caste 15200" /// 
+ 15210 "Brahmin 15210" /// 
+ 15220 "Forward castes 15220" /// 
+ 15230 "OBC 15230" /// 
+ 15240 "Dalit 15240" /// 
+ 15250 "Adivasi, tribal 15250" /// 
+ 15300 "Christians 15300" /// 
+ 15310 "Catholics 15310" /// 
+ 15320 "Protestants 15320" /// 
+ 15330 "Other Christian 15330" /// 
+ 15400 "Muslims 15400" /// 
+ 15500 "Hindus 15500" /// 
+ 15520 "Buddhists 15520" /// 
+ 15540 "Jews 15540" /// 
+ 15550 "Other named religions 15550" /// 
+ 15590 "atheists 15590" /// 
+ 16000 "relative, nec 16000" /// 
+ 16010 "unmarried 16010" /// 
+ 16020 "married 16020" /// 
+ 16030 "divorced 16030" /// 
+ 16040 "widow 16040" /// 
+ 16052 "fiancee 16052" /// 
+ 16060 "lover 16060" /// 
+ 16062 "boyfriend 16062" /// 
+ 16064 "girlfriend 16064" /// 
+ 16070 "couple 16070" /// 
+ 16080 "family 16080" /// 
+ 16090 "friend 16090" /// 
+ 16092 "acquaintance 16092" /// 
+ 16085 "household 16085" /// 
+ 16100 "spouse 16100" /// 
+ 16102 "husband 16102" /// 
+ 16104 "wife 16104" /// 
+ 16110 "parent 16110" /// 
+ 16112 "father 16112" /// 
+ 16113 "single father 16113" /// 
+ 16114 "mother 16114" /// 
+ 16115 "single mother 16115" /// 
+ 16111 "single parent 16111" /// 
+ 16120 "in law 16120" /// 
+ 16122 "father in law 16122" /// 
+ 16124 "mother in law 16124" /// 
+ 16130 "child 16130" /// 
+ 16132 "son 16132" /// 
+ 16134 "daughter 16134" /// 
+ 16142 "nephew 16142" /// 
+ 16144 "niece 16144" /// 
+ 16152 "son in law 16152" /// 
+ 16154 "daughter in law 16154" /// 
+ 16160 "sibling 16160" /// 
+ 16162 "brother 16162" /// 
+ 16164 "sister 16164" /// 
+ 16170 "cousin 16170" /// 
+ 16172 "uncle 16172" /// 
+ 16174 "aunt 16174" /// 
+ 16182 "brother in law 16182" /// 
+ 16184 "sister in law 16184" /// 
+ 16190 "grandparent 16190" /// 
+ 16192 "grandfather 16192" /// 
+ 16194 "grandmother 16194" /// 
+ 16195 "grandchild 16195" /// 
+ 16196 "grandson 16196" /// 
+ 16198 "granddaughter 16198" /// 
+ 16200 "people 16200" /// 
+ 16210 "babies 16210" /// 
+ 16220 "boys and girls 16220" /// 
+ 16222 "boys 16222" /// 
+ 16224 "girls 16224" /// 
+ 16230 "teenagers 16230" /// 
+ 16240 "men and women 16240" /// 
+ 16242 "men 16242" /// 
+ 16244 "women 16244" /// 
+ 16254 "World War II Generation 16254" /// 
+ 16256 "Silent Generation 16256" /// 
+ 16258 "Baby Boomer 16258" /// 
+ 16260 "Gen X 16260" /// 
+ 16262 "Millennials 16262" /// 
+ 16264 "Gen Z 16264" /// 
+ 16810 "mythical creature 16810" /// 
+ 16820 "invented non-human character 16820" /// 
+ 16830 "sorcerer 16830" /// 
+ 16834 "witch 16834" /// 
+ 16840 "god 16840" /// 
+ 16844 "goddess 16844" /// 
+ 17000 "inequality 17000" /// 
+ 17002 "income inequality 17002" /// 
+ 17010 "racial inequality 17010" /// 
+ 17020 "gender inequality 17020" /// 
+ 17022 "Equal Rights Amendment 17022" /// 
+ 17100 "equal 17100" /// 
+ 17110 "equality of opportunity 17110" /// 
+ 17120 "civil rights 17120" /// 
+ 17200 "justice 17200" /// 
+ 17300 "liberty 17300" /// 
+ 18004 "Afghanistan 18004" /// 
+ 18008 "Albania 18008" /// 
+ 18012 "Algeria 18012" /// 
+ 18016 "American Samoa 18016" /// 
+ 18020 "Andorra 18020" /// 
+ 18024 "Angola 18024" /// 
+ 18028 "Antigua and Barbuda 18028" /// 
+ 18031 "Azerbaijan 18031" /// 
+ 18032 "Argentina 18032" /// 
+ 18036 "Australia 18036" /// 
+ 18040 "Austria 18040" /// 
+ 18044 "Bahamas 18044" /// 
+ 18048 "Bahrain 18048" /// 
+ 18050 "Bangladesh 18050" /// 
+ 18051 "Armenia 18051" /// 
+ 18052 "Barbados 18052" /// 
+ 18056 "Belgium 18056" /// 
+ 18058 "Belgium-Luxembourg 18058" /// 
+ 18060 "Bermuda 18060" /// 
+ 18064 "Bhutan 18064" /// 
+ 18068 "Bolivia 18068" /// 
+ 18070 "Bosnia and Herzegovina 18070" /// 
+ 18072 "Botswana 18072" /// 
+ 18076 "Brazil 18076" /// 
+ 18084 "Belize 18084" /// 
+ 18086 "British Indian Ocean Territories 18086" /// 
+ 18090 "Solomon Islands 18090" /// 
+ 18092 "British Virgin Islands 18092" /// 
+ 18096 "Brunei 18096" /// 
+ 18100 "Bulgaria 18100" /// 
+ 18104 "Myanmar 18104" /// 
+ 18108 "Burundi 18108" /// 
+ 18112 "Belarus 18112" /// 
+ 18116 "Cambodia 18116" /// 
+ 18120 "Cameroon 18120" /// 
+ 18124 "Canada 18124" /// 
+ 18132 "Cape Verde 18132" /// 
+ 18136 "Cayman Islands 18136" /// 
+ 18140 "Central African Republic 18140" /// 
+ 18144 "Sri Lanka 18144" /// 
+ 18148 "Chad 18148" /// 
+ 18152 "Chile 18152" /// 
+ 18156 "China 18156" /// 
+ 18158 "Taiwan 18158" /// 
+ 18162 "Christmas Island 18162" /// 
+ 18166 "Cocos (Keeling) Islands 18166" /// 
+ 18170 "Colombia 18170" /// 
+ 18174 "Comoros 18174" /// 
+ 18178 "Republic of the Congo 18178" /// 
+ 18179 "Congo, ambiguous 18179" /// 
+ 18180 "Democratic Republic of the Congo 18180" /// 
+ 18184 "Cook Island 18184" /// 
+ 18188 "Costa Rica 18188" /// 
+ 18191 "Croatia 18191" /// 
+ 18192 "Cuba 18192" /// 
+ 18196 "Cyprus 18196" /// 
+ 18200 "Czechoslovakia 18200" /// 
+ 18203 "Czech Republic 18203" /// 
+ 18204 "Benin 18204" /// 
+ 18208 "Denmark 18208" /// 
+ 18212 "Dominica 18212" /// 
+ 18213 "Dominican 18213" /// 
+ 18214 "Dominican Republic 18214" /// 
+ 18218 "Ecuador 18218" /// 
+ 18222 "El Salvador 18222" /// 
+ 18226 "Equatorial Guinea 18226" /// 
+ 18230 "Ethiopia (includes Eritrea) 18230" /// 
+ 18231 "Ethiopia 18231" /// 
+ 18232 "Eritrea 18232" /// 
+ 18233 "Estonia 18233" /// 
+ 18234 "Faeroe Islands 18234" /// 
+ 18238 "Falkland Islands 18238" /// 
+ 18242 "Fiji 18242" /// 
+ 18246 "Finland 18246" /// 
+ 18250 "France 18250" /// 
+ 18254 "French Guiana 18254" /// 
+ 18258 "French Polynesia 18258" /// 
+ 18262 "Djibouti 18262" /// 
+ 18266 "Gabon 18266" /// 
+ 18268 "Georgia 18268" /// 
+ 18270 "The Gambia 18270" /// 
+ 18274 "Gaza Strip 18274" /// 
+ 18275 "Palestine 18275" /// 
+ 18276 "German 18276" /// 
+ 18277 "Federal Republic of Germany 18277" /// 
+ 18278 "German Democratic Republic 18278" /// 
+ 18288 "Ghana 18288" /// 
+ 18292 "Gibraltar 18292" /// 
+ 18296 "Kiribati Gilbert Islands 18296" /// 
+ 18300 "Greece 18300" /// 
+ 18304 "Greenland 18304" /// 
+ 18308 "Grenada 18308" /// 
+ 18312 "Guadeloupe 18312" /// 
+ 18316 "Guam 18316" /// 
+ 18320 "Guatemala 18320" /// 
+ 18324 "Guinea 18324" /// 
+ 18328 "Guyana 18328" /// 
+ 18332 "Haiti 18332" /// 
+ 18336 "Holy See 18336" /// 
+ 18340 "Honduras 18340" /// 
+ 18344 "Hong Kong 18344" /// 
+ 18348 "Hungary 18348" /// 
+ 18352 "Iceland 18352" /// 
+ 18356 "India 18356" /// 
+ 18360 "Indonesia 18360" /// 
+ 18364 "Iran 18364" /// 
+ 18368 "Iraq 18368" /// 
+ 18372 "Ireland 18372" /// 
+ 18376 "Israel 18376" /// 
+ 18380 "Italy 18380" /// 
+ 18384 "Cote dIvoire 18384" /// 
+ 18388 "Jamaica 18388" /// 
+ 18392 "Japan 18392" /// 
+ 18398 "Kazakhstan 18398" /// 
+ 18400 "Jordan 18400" /// 
+ 18404 "Kenya 18404" /// 
+ 18408 "Democratic Republic of Korea 18408" /// 
+ 18410 "Republic of Korea 18410" /// 
+ 18414 "Kuwait 18414" /// 
+ 18417 "Kyrgyzstan 18417" /// 
+ 18418 "Laos 18418" /// 
+ 18422 "Lebanon 18422" /// 
+ 18426 "Lesotho 18426" /// 
+ 18428 "Latvia 18428" /// 
+ 18430 "Liberia 18430" /// 
+ 18434 "Libya 18434" /// 
+ 18438 "Liechtenstein 18438" /// 
+ 18440 "Lithuania 18440" /// 
+ 18442 "Luxembourg 18442" /// 
+ 18446 "Macau 18446" /// 
+ 18450 "Madagascar 18450" /// 
+ 18454 "Malawi 18454" /// 
+ 18457 "Sarawak 18457" /// 
+ 18458 "Malaysia 18458" /// 
+ 18459 "Peninsular Malaysia 18459" /// 
+ 18461 "Sabah 18461" /// 
+ 18462 "Maldives 18462" /// 
+ 18466 "Mali 18466" /// 
+ 18470 "Malta 18470" /// 
+ 18474 "Martinique 18474" /// 
+ 18478 "Mauritania 18478" /// 
+ 18480 "Mauritius 18480" /// 
+ 18484 "Mexico 18484" /// 
+ 18488 "Midway Island 18488" /// 
+ 18492 "Monaco 18492" /// 
+ 18496 "Mongolia 18496" /// 
+ 18498 "Moldova 18498" /// 
+ 18499 "Montenegro 18499" /// 
+ 18500 "Montserrat 18500" /// 
+ 18504 "Morocco 18504" /// 
+ 18508 "Mozambique 18508" /// 
+ 18512 "Oman 18512" /// 
+ 18516 "Namibia 18516" /// 
+ 18520 "Nauru 18520" /// 
+ 18524 "Nepal 18524" /// 
+ 18528 "Netherlands 18528" /// 
+ 18530 "Netherlands Antilles 18530" /// 
+ 18533 "Aruba 18533" /// 
+ 18540 "New Caledonia 18540" /// 
+ 18548 "Vanuatu 18548" /// 
+ 18554 "New Zealand 18554" /// 
+ 18558 "Nicaragua 18558" /// 
+ 18562 "Niger 18562" /// 
+ 18566 "Nigeria 18566" /// 
+ 18570 "Niue 18570" /// 
+ 18574 "Norfolk Island 18574" /// 
+ 18578 "Norway 18578" /// 
+ 18580 "Northern Mariana Islands 18580" /// 
+ 18583 "Federated States of Micronesia 18583" /// 
+ 18584 "Marshall Islands 18584" /// 
+ 18585 "Palau 18585" /// 
+ 18586 "Pakistan 18586" /// 
+ 18591 "Panama 18591" /// 
+ 18592 "Panama Canal Zone 18592" /// 
+ 18598 "Papua New Guinea 18598" /// 
+ 18600 "Paraguay 18600" /// 
+ 18604 "Peru 18604" /// 
+ 18608 "Philippines 18608" /// 
+ 18612 "Pitcairn Island 18612" /// 
+ 18616 "Poland 18616" /// 
+ 18620 "Portugal 18620" /// 
+ 18624 "Guinea Bissau 18624" /// 
+ 18626 "East Timor 18626" /// 
+ 18630 "Puerto Rico 18630" /// 
+ 18634 "Qatar 18634" /// 
+ 18638 "Reunion 18638" /// 
+ 18642 "Romania 18642" /// 
+ 18643 "Russia 18643" /// 
+ 18646 "Rwanda 18646" /// 
+ 18647 "Ryukyu Islands 18647" /// 
+ 18654 "Saint Helena 18654" /// 
+ 18658 "Saint Kitts Nevis Anguilla 18658" /// 
+ 18659 "Saint Kitts and Nevis 18659" /// 
+ 18660 "Anguilla 18660" /// 
+ 18662 "Saint Lucia 18662" /// 
+ 18666 "Saint Pierre and Miquelon 18666" /// 
+ 18670 "Saint Vincent and the Grenadines 18670" /// 
+ 18674 "San Marino 18674" /// 
+ 18678 "Sao Tome and Principe 18678" /// 
+ 18682 "Saudi Arabia 18682" /// 
+ 18686 "Senegal 18686" /// 
+ 18688 "Serbia 18688" /// 
+ 18690 "Seychelles 18690" /// 
+ 18694 "Sierra Leone 18694" /// 
+ 18698 "Sikkim 18698" /// 
+ 18702 "Singapore 18702" /// 
+ 18703 "Slovak Republic 18703" /// 
+ 18704 "Vietnam 18704" /// 
+ 18705 "Slovenia 18705" /// 
+ 18706 "Somalia 18706" /// 
+ 18710 "South Africa 18710" /// 
+ 18716 "Zimbabwe 18716" /// 
+ 18717 "Rhodesia 18717" /// 
+ 18720 "Democratic Republic of Yemen 18720" /// 
+ 18724 "Spain 18724" /// 
+ 18725 "Iberia 18725" /// 
+ 18728 "South Sudan 18728" /// 
+ 18732 "Western Sahara 18732" /// 
+ 18736 "Sudan 18736" /// 
+ 18740 "Suriname 18740" /// 
+ 18744 "Svalbard and Jan Mayen Island 18744" /// 
+ 18748 "Swaziland 18748" /// 
+ 18752 "Sweden 18752" /// 
+ 18756 "Switzerland 18756" /// 
+ 18760 "Syria 18760" /// 
+ 18762 "Tajikistan 18762" /// 
+ 18764 "Thailand 18764" /// 
+ 18768 "Togo 18768" /// 
+ 18772 "Tokelau Islands 18772" /// 
+ 18776 "Tonga 18776" /// 
+ 18780 "Trinidad and Tobago 18780" /// 
+ 18784 "United Arab Emirates 18784" /// 
+ 18788 "Tunisia 18788" /// 
+ 18792 "Turkey 18792" /// 
+ 18795 "Turkmenistan 18795" /// 
+ 18796 "Turks and Caicos Islands 18796" /// 
+ 18798 "Tuvalu 18798" /// 
+ 18800 "Uganda 18800" /// 
+ 18804 "Ukraine 18804" /// 
+ 18807 "North Macedonia 18807" /// 
+ 18810 "Soviet Union 18810" /// 
+ 18818 "Egypt 18818" /// 
+ 18825 "Great Britain 18825" /// 
+ 18826 "United Kingdom 18826" /// 
+ 18827 "Wales 18827" /// 
+ 18828 "Scotland 18828" /// 
+ 18829 "Northern Ireland 18829" /// 
+ 18834 "Tanzania 18834" /// 
+ 18840 "United States of America 18840" /// 
+ 18850 "US Virgin Islands 18850" /// 
+ 18854 "Burkina Faso 18854" /// 
+ 18858 "Uruguay 18858" /// 
+ 18860 "Uzbekistan 18860" /// 
+ 18862 "Venezuela 18862" /// 
+ 18866 "South Vietnam 18866" /// 
+ 18868 "North Vietnam 18868" /// 
+ 18872 "Wake Island 18872" /// 
+ 18876 "Wallis and Futuna Island 18876" /// 
+ 18882 "Samoa 18882" /// 
+ 18887 "Yemen 18887" /// 
+ 18891 "Yugoslavia 18891" /// 
+ 18894 "Zambia 18894" /// 
+ 18910 "Europe 18910" /// 
+ 18911 "Slavic 18911" /// 
+ 18912 "Eastern Europe 18912" /// 
+ 18913 "Central Europe 18913" /// 
+ 18914 "Southern Europe 18914" /// 
+ 18915 "Scandinavia 18915" /// 
+ 18916 "Western Europe 18916" /// 
+ 18917 "Northern Europe 18917" /// 
+ 18918 "European Union 18918" /// 
+ 18919 "Caucasas 18919" /// 
+ 18920 "Asia 18920" /// 
+ 18922 "East Asia 18922" /// 
+ 18924 "South Asia 18924" /// 
+ 18925 "Southeast Asia 18925" /// 
+ 18926 "West Asia 18926" /// 
+ 18927 "Middle East 18927" /// 
+ 18928 "Arab 18928" /// 
+ 18929 "Turkic 18929" /// 
+ 18930 "Oceania 18930" /// 
+ 18932 "Micronesia 18932" /// 
+ 18933 "Melanesia 18933" /// 
+ 18935 "Polynesia 18935" /// 
+ 18937 "Australasia 18937" /// 
+ 18940 "Africa 18940" /// 
+ 18944 "North Africa 18944" /// 
+ 18946 "Sub Saharan Africa 18946" /// 
+ 18950 "South America 18950" /// 
+ 18956 "Latin America 18956" /// 
+ 18960 "Central America 18960" /// 
+ 18965 "West Indies 18965" /// 
+ 18966 "Caribbean 18966" /// 
+ 18970 "North America 18970" /// 
+ 19010 "home appliance 19010" /// 
+ 19012 "television 19012" /// 
+ 19014 "computer 19014" /// 
+ 19016 "toy 19016", modify
