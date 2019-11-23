@@ -1,7 +1,8 @@
 # jobs.py: A Python Program to Code Occupations in Text Files
 
 ## version
-This is beta version 0.2.1  
+This is beta version 0.2.3  
+  renumbers non-Census occs to a more rational order.
   Adds disambiguation of capitalized/ non-capitalized titles (e.g., President, president)  
   The list of "jobtitles" (jobs.json) is constantly being updated and expanded so the last digit ("patches") will change often.
 
@@ -13,12 +14,12 @@ url: https://github.com/ReeveVanneman/occupations Version 0.2.1.
 jobs.py codes over 35,000 "jobtitles" (in jobs.json) into a 5-digit coding system (in occs2010.json) based mainly on the U.S. Census 2010 occupation codes.
 While most of the jobtitles and occupation codes reflect occupations,
 several "jobtitles" that are not employment Census jobs have been added with new (non-Census codes), e.g.,
-- military->9812
+- military->9800
 - criminal->9850
-- wife->10312
-- immigrants->10848
-- Muslims->11836
-- France->13250
+- immigrants->15170
+- Muslims->15400
+- wife->16104
+- France->18250
 These additions expand the codes to 5-digits.  
   
 Also, several Census codes are subdivided: e.g., 
