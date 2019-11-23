@@ -1,7 +1,7 @@
 # jobs.py: A Python Program to Code Occupations in Text Files
 
 ## version
-This is beta version 0.2.3  
+This is beta version 0.2.6  
   renumbers non-Census occs to a more rational order.
   Adds disambiguation of capitalized/ non-capitalized titles (e.g., President, president)  
   The list of "jobtitles" (jobs.json) is constantly being updated and expanded so the last digit ("patches") will change often.
