@@ -8,7 +8,7 @@ This is beta version 0.2.6
 
 ## suggested citation:
 Vanneman, Reeve. 2019.  "jobs.py: A Python Program to Code Occupations in Text Files." 
-url: https://github.com/ReeveVanneman/occupations Version 0.2.1.
+url: https://github.com/ReeveVanneman/occupations Version 0.2.6.
 
 ## jobs and occupations
 jobs.py codes over 35,000 "jobtitles" (in jobs.json) into a 5-digit coding system (in occs2010.json) based mainly on the U.S. Census 2010 occupation codes.
